@@ -10,6 +10,10 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
+The current live root is sequence 4, a pointer hub for independently signed
+Smash Remix, Hylian Modding, and SM64 Romhacks sister authorities. The sequence
+1 and 2 sections below document historical direct catalogs.
+
 ## Sequence 2 (2026-08-28)
 
 | Field | Value |
@@ -51,3 +55,40 @@ Original sites are **MAIN**. This GitHub repo and its Releases are **BACKUP**.
 | gamebanana-sm64 | [GameBanana SM64](https://gamebanana.com/games/5710) | BACKUP | Public API; filter to N64 patches |
 
 In-app testdata registries are fixtures only and must not be published here.
+
+## Backing up Romhacking.com registry metadata
+
+Run `node tools/capture-rhdc-registry.mjs` to follow every cursor from both the
+non-mature and mature partitions of the Romhacking.com v4 hacks endpoint and write
+`sources/rhdc-v4-registry-snapshot.json`. The snapshot preserves all returned
+hack and version metadata without applying maturity, approval, or privacy
+filters. It never requests patch `directHref` URLs or stores patch bytes.
+
+Run `node tools/generate-rhdc-registry.mjs` after capture to generate
+`sources/rhdc-bps-registry-v1.json`. The generated registry selects each hack's
+latest approved, non-archived direct BPS release. It preserves upstream output
+SHA-1 values while omitting patch size and SHA-256 when RHDC does not provide
+them. ZIP releases remain only in the raw snapshot because RHDC does not identify
+one archive member for safe extraction.
+
+Run `node tools/build-base-rom-catalog.mjs` to split that source by normalized
+base-ROM SHA-256 and generate content-addressed list and index objects under
+`sites/rhdc/catalog/`. RHDC currently yields one list for Super Mario 64 USA.
+Provider identity remains a sister-authority boundary; base ROM identity remains
+the list boundary, so different authorities may legitimately index the same base.
+Run `node tools/validate-base-rom-catalog.mjs sites/rhdc/catalog` to verify exact
+object hashes, unique index bases, and every list/index base-ROM relationship.
+These RHDC objects are staged but unsigned; historical signed objects are not
+modified, and activation requires a separate RHDC sister authority publication.
+
+Canonical selections are keyed first by sister authority and then by normalized
+base-ROM SHA-256 in `sources/canonical-picks-v1.json`. Resolved picks must
+reference an entry in the same generated list. Named choices that are not yet
+catalog entries remain under `pending` and are never emitted as dangling picks.
+Selection metadata may distinguish a release flavor, such as vanilla Smash
+Remix versus the separately released +EXTRA derivative; emitted pick metadata
+still matches the immutable list entry exactly.
+
+Use `node tools/curate-existing-index.mjs <index.json>` when adding picks to a
+historical list. It verifies the existing list pins and writes a new index without
+rewriting or duplicating the immutable list object.

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "authorities": {
+    "smashremix": {
+      "15592E79D3C5295CEF4371D4992F0BD25BEC2102FC29644C93E682F7EA99EF3D": {
+        "the-replacement": {
+          "entryId": "smashremix-2.0.1-ntsc",
+          "selection": "vanilla"
+        }
+      }
+    },
+    "rhdc": {
+      "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91": {
+        "the-sequel": "rhdc-660695d12f0650df5f8c3d71-1.1h2",
+        "the-dlc": "rhdc-655d0f251c26adfe7074dba8-sha1-c155a63dde03e2005acf9c71edf2d15f7fe9d341",
+        "the-replacement": "rhdc-5e209fb7ea2543645dc04264-1.02",
+        "the-experiment": "rhdc-67abd8d4c8f605fd953ba8f4-sha1-1e2678ab53eb67ad36c498f6138f827b5de009a1"
+      }
+    }
+  },
+  "pending": {
+    "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506": {
+      "the-sequel": {
+        "name": "Zelda 64: Dawn and Dusk",
+        "metadataUrl": "https://hylianmodding.com/mods/zelda64_dawn_and_dusk/mod.json"
+      },
+      "the-replacement": {
+        "name": "New Master Quest",
+        "metadataUrl": "https://hylianmodding.com/mods/new_master_quest/mod.json"
+      },
+      "the-experiment": {
+        "name": "Hero of Law",
+        "metadataUrl": "https://hylianmodding.com/mods/hero_of_law/mod.json"
+      },
+      "the-dlc": null
+    },
+    "15592E79D3C5295CEF4371D4992F0BD25BEC2102FC29644C93E682F7EA99EF3D": {
+      "the-experiment": {
+        "name": "Smash Remix +EXTRA",
+        "metadataUrl": "https://api.github.com/repos/joaorb64/smashremix-plus-extra/releases/latest"
+      },
+      "the-sequel": null,
+      "the-dlc": null
+    }
+  }
+}
