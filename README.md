@@ -10,6 +10,20 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
+## Sequence 2 (2026-08-28)
+
+| Field | Value |
+|---|---|
+| Authority | Bitcadia Authority |
+| authorityId | `ed25519:Df--2beY1D0DvraD-y2kGO5m3P6jC1DAOqUIhLkT6ZE` |
+| Issued | 2026-08-28T02:23:39Z |
+| Expires | 2036-08-25T02:23:39Z |
+| Sequence | 2 |
+| Entries | 31 (1 Smash Remix + 15 Hylian BPS + 15 SM64 BPS) |
+| Games | Super Smash Bros. USA, OoT USA, Majora's Mask USA, Super Mario 64 USA |
+
+Live index of original-site URLs only. Smash Remix 2.0.1 NTSC xdelta from [smashremix.net](https://smashremix.net/patcher/). 14 OoT + 1 MM BPS from [Hylian Modding](https://hylianmodding.com). 15 SM64 USA BPS from [Romhacking.com](https://romhacking.com) (6) and [SM64 Romhacks](https://sm64romhacks.com) (9, zip+archiveMember). Base ROMs identified only by No-Intro hashes.
+
 ## Sequence 1 (2026-08-28)
 
 | Field | Value |
@@ -27,10 +41,10 @@ Original sites are **MAIN**. This GitHub repo and its Releases are **BACKUP**.
 
 | id | name | role | notes |
 |---|---|---|---|
-| smash-remix | [Smash Remix](https://smashremix.net) | MAIN | Public xdelta index: `/patcher/patches/releases.json` |
-| sm64romhacks | [SM64 Romhacks](https://sm64romhacks.com) | MAIN | SM64 BPS zips; not yet in the signed catalog |
-| rhdc | [Romhacking.com](https://romhacking.com) | MAIN | SM64 BPS; per-hack API, no public list |
-| hylian-modding | [Hylian Modding](https://hylianmodding.com) | MAIN | OoT/MM; zip/bps/7z, no xdelta CDN |
+| smash-remix | [Smash Remix](https://smashremix.net) | MAIN | Public xdelta index: `/patcher/patches/releases.json`. In signed catalog. |
+| sm64romhacks | [SM64 Romhacks](https://sm64romhacks.com) | MAIN | SM64 BPS zips; 9 entries in signed catalog (zip+archiveMember). |
+| rhdc | [Romhacking.com](https://romhacking.com) | MAIN | SM64 BPS; 6 entries in signed catalog (direct BPS). |
+| hylian-modding | [Hylian Modding](https://hylianmodding.com) | MAIN | OoT/MM; 15 BPS in signed catalog (14 OoT USA, 1 MM USA). |
 | romhackplaza | [Romhack Plaza](https://romhackplaza.org) | MAIN | Mixed formats; JSON needs an API key |
 | rhdn | [ROMhacking.net](https://www.romhacking.net) | BACKUP | News; files parked |
 | romhack-ing | [Romhack.ing](https://romhack.ing) | BACKUP | Successor UI; consumer API not for public apps |

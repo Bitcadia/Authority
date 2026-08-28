@@ -1,0 +1,572 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DrSammyD/m64menu/main/schemas/mod-registry-v1.schema.json",
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-28T02:20:33Z",
+  "notice": "Live index of original-site BPS URLs from Hylian Modding. This catalog contains no ROM data. Patch files are not redistributed; clients fetch them from the publisher's original HTTPS URLs.",
+  "entries": [
+    {
+      "id": "hylian-zeldas_birthday",
+      "name": "Zelda's Birthday",
+      "version": "1.0",
+      "authors": [
+        "jsa"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/zelda's_birthday/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/zelda's_birthday/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/zelda%27s_birthday/downloads/Zeldas_Birthday_Hardware_1.0.bps",
+        "size": 22657709,
+        "sha256": "8E9AE178B3E6B4528AFBE3337867FAA0140509427DFB8B70C11E30D4C1BBDFE6",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "D718A135",
+        "patchCrc32": "FCCAFD31",
+        "allowRedirects": false
+      },
+      "compatibility": "complete",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-zelda_puzzling",
+      "name": "Zelda Puzzling",
+      "version": "1.1.2",
+      "authors": [
+        "DezZival"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/zelda_puzzling/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/zelda_puzzling/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/zelda_puzzling/downloads/1.1.2%20OOT%20PUZZLING.bps",
+        "size": 782840,
+        "sha256": "EF1682AB5C0ED6C57E68772F78B0947BB2BAC02080216AD2769D61842C586FC3",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "41B63094",
+        "patchCrc32": "DD4AE4E7",
+        "allowRedirects": false
+      },
+      "compatibility": "complete",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-pumkin_tower",
+      "name": "Pumkin Tower",
+      "version": "1.1.1",
+      "authors": [
+        "Chadlight",
+        "Corrhaid",
+        "Javarooster"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/pumkin_tower/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/pumkin_tower/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "USA",
+        "gameCode": "NZSE",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/pumkin_tower/downloads/PumkinPatch1.1.1.bps",
+        "size": 54342259,
+        "sha256": "0FEEF125339A4FFBCBE5310A23246C5D8009B57CD6AF89888456EC2C58966113",
+        "sourceCrc32": "B428D8A7",
+        "targetCrc32": "E2F04902",
+        "patchCrc32": "3A0BA8AE",
+        "allowRedirects": false
+      },
+      "compatibility": "complete",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-zelda_nightmare",
+      "name": "Zelda Nightmare",
+      "version": "1.0",
+      "authors": [
+        "Punk7890"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/zelda_nightmare/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/zelda_nightmare/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/zelda_nightmare/downloads/NIGHTMARE%20CONSOLE.bps",
+        "size": 23824090,
+        "sha256": "5F24C13E90F43C7FDCA81581DBDE3BEC04BB1ECA03BE8BF12621A71BAA8D7682",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "0CFEB6B5",
+        "patchCrc32": "3ED07C10",
+        "allowRedirects": false
+      },
+      "compatibility": "complete",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-the_journey_of_angtherum",
+      "name": "The Journey of Angtherum",
+      "version": "1.0",
+      "authors": [
+        "z64offline.jc"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/the_journey_of_angtherum/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/the_journey_of_angtherum/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/the_journey_of_angtherum/downloads/The%20Journey%20Of%20Angtherum%20USA.v1.0.bps",
+        "size": 23843576,
+        "sha256": "78134895C42BDC65B45D6A462F5A84F96E9EC66A1A4265693BABDAF8D50714CB",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "3711E713",
+        "patchCrc32": "CC6D53C7",
+        "allowRedirects": false
+      },
+      "compatibility": "demo",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-four_swords_arena_editon",
+      "name": "Four Swords Arena Editon",
+      "version": "1.0",
+      "authors": [
+        "Psi-Hate"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/four_swords_arena_editon/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/four_swords_arena_editon/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/four_swords_arena_editon/downloads/zelda64-four-swords-arena-edition-fixed.bps",
+        "size": 37879622,
+        "sha256": "11926CA25224DDD5FB779729CC19A8F5AE153C73633DC34434F9B07FCABC207A",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "92F15EED",
+        "patchCrc32": "08AB3C3D",
+        "allowRedirects": false
+      },
+      "compatibility": "complete",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-fate_of_the_bombiwa",
+      "name": "Fate of the Bombiwa",
+      "version": "1.0",
+      "authors": [
+        "DezZival"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/fate_of_the_bombiwa/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/fate_of_the_bombiwa/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/fate_of_the_bombiwa/downloads/TFOTB%20Patch.bps",
+        "size": 27340964,
+        "sha256": "8B8DFF6074649BEE42CA41E9874D9B3D4E67751E2428860189A8BAC67F07E958",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "AAA24BFA",
+        "patchCrc32": "44920F1F",
+        "allowRedirects": false
+      },
+      "compatibility": "complete",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-3rd_quest",
+      "name": "3rd Quest",
+      "version": "0.5.3",
+      "authors": [
+        "CDi-Fails",
+        "Evan20K",
+        "Ideka",
+        "Jhreamer",
+        "SanguinettiMods",
+        "Spire"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/3rd_quest/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/3rd_quest/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/3rd_quest/downloads/3rdQuest0.5.3.bps",
+        "size": 33350545,
+        "sha256": "47A8523BA164BEAE3E3E716613DAF54301B46CD79C0423C969DD3D8901052514",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "1B0938EB",
+        "patchCrc32": "56280528",
+        "allowRedirects": false
+      },
+      "compatibility": "demo",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-spider_mansion",
+      "name": "Spider Mansion",
+      "version": "1.0",
+      "authors": [
+        "Rankaisija"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/spider_mansion/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/spider_mansion/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/spider_mansion/downloads/Spider%20Mansion.bps",
+        "size": 17713297,
+        "sha256": "2CE272578F48E6DD25AA64959DD12D4A9874A66AD814EC45D5AC497C6B4BB7C1",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "97962551",
+        "patchCrc32": "1650E710",
+        "allowRedirects": false
+      },
+      "compatibility": "demo",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-sands_of_time",
+      "name": "Sands of Time",
+      "version": "1.22",
+      "authors": [
+        "Debuglog",
+        "Woon"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/sands_of_time/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/sands_of_time/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/sands_of_time/downloads/SoT1.22.bps",
+        "size": 38657165,
+        "sha256": "9DAABD8869045459F580B97DB6AFEEE4E07A69CF73107BD69D5463BD7F9F88CE",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "ED65FB94",
+        "patchCrc32": "DC3B6751",
+        "allowRedirects": false
+      },
+      "compatibility": "complete",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-mm_transforms_oot",
+      "name": "Majora's Mask Transformation Masks in Ocarina of Time",
+      "version": "1.0",
+      "authors": [
+        "aegiker"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/mm_transforms_oot/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/mm_transforms_oot/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/mm_transforms_oot/downloads/Transformation%20Masks%20in%20OoT%20v1.0.bps",
+        "size": 6727421,
+        "sha256": "36E1326FBA7947FF9965815B57F49BCFBDE239AA781C074AB8C8487D7B508078",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "B46D9376",
+        "patchCrc32": "DD84847D",
+        "allowRedirects": false
+      },
+      "compatibility": "complete",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-dark_hyrule_fantasy",
+      "name": "Dark Hyrule Fantasy",
+      "version": "1.0",
+      "authors": [
+        "E-gor",
+        "Spire"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/dark_hyrule_fantasy/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/dark_hyrule_fantasy/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/dark_hyrule_fantasy/downloads/DHF1_0_FIX.bps",
+        "size": 45944944,
+        "sha256": "18E7B13E342E980FE980925F55F05E8E7E33F4FE42C3882B11A086C33B285EB8",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "F0D6DAAF",
+        "patchCrc32": "E17B71CC",
+        "allowRedirects": false
+      },
+      "compatibility": "demo",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-shadows_of_eldoria",
+      "name": "Shadows of Eldoria",
+      "version": "1.0-demo",
+      "authors": [
+        "Stonee Bad Luck"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/shadows_of_eldoria/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/shadows_of_eldoria/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/shadows_of_eldoria/downloads/Shadows%20of%20Eldoria%20DEMO%20z64.bps",
+        "size": 10178467,
+        "sha256": "2EB99F8E8C731358BA028CAA2C7349334CDE1B4C14715EDC9C0B6D563E78749A",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "2F3C909A",
+        "patchCrc32": "5F3F68DF",
+        "allowRedirects": false
+      },
+      "compatibility": "demo",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-nimpize_adventure",
+      "name": "Nimpize Adventure",
+      "version": "1.0",
+      "authors": [
+        "Ostrealava02"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/nimpize_adventure/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/nimpize_adventure/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/nimpize_adventure/downloads/Nimpize%20Adventure.bps",
+        "size": 23552615,
+        "sha256": "1955C248496416C06D6CE7F18485CEA1E78AAF88A54F80957DFAA1F0D5C4343D",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "113F4FF9",
+        "patchCrc32": "D2118564",
+        "allowRedirects": false
+      },
+      "compatibility": "complete",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "hylian-crystal_clocks",
+      "name": "Crystal Clocks",
+      "version": "2.0",
+      "authors": [
+        "SuperZambezi"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/crystal_clocks/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/crystal_clocks/mod.json",
+        "retrievedAt": "2026-08-28T02:20:33Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://hylianmodding.com/mods/crystal_clocks/downloads/crystal-clocks-2.0.bps",
+        "size": 45417290,
+        "sha256": "384CDD9DE6FF5D23671070B6003658B26A24FD324D052082FDAE60039A0CA38E",
+        "sourceCrc32": "CD16C529",
+        "targetCrc32": "5E5FEEE9",
+        "patchCrc32": "3EE71294",
+        "allowRedirects": false
+      },
+      "compatibility": "complete",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    }
+  ]
+}
