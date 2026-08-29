@@ -10,10 +10,10 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
-The current publication candidate is sequence 6. It updates the RHDC per-base
+The current publication is sequence 6. It updates the RHDC per-base
 index with integrity-pinned original-site artwork while retaining the independently
 signed Smash Remix, Hylian Modding, and SM64 Romhacks sister authorities.
-Sequence 5 remains live until the signed manifest is merged and released.
+Sequence 5 remains available as an immutable historical publication.
 
 ## Sequence 6 (2026-08-29)
 
@@ -72,7 +72,7 @@ Original sites are **MAIN**. This GitHub repo and its Releases are **BACKUP**.
 |---|---|---|---|
 | smash-remix | [Smash Remix](https://smashremix.net) | MAIN | Public xdelta index: `/patcher/patches/releases.json`. In signed catalog. |
 | sm64romhacks | [SM64 Romhacks](https://sm64romhacks.com) | MAIN | SM64 BPS zips; 9 entries in signed catalog (zip+archiveMember). |
-| rhdc | [Romhacking.com](https://romhacking.com) | MAIN | SM64 BPS; 6 entries in signed catalog (direct BPS). |
+| rhdc | [Romhacking.com](https://romhacking.com) | MAIN | SM64 BPS; 1,526 entries in signed catalog (direct BPS). |
 | hylian-modding | [Hylian Modding](https://hylianmodding.com) | MAIN | OoT/MM; 15 BPS in signed catalog (14 OoT USA, 1 MM USA). |
 | romhackplaza | [Romhack Plaza](https://romhackplaza.org) | MAIN | Mixed formats; JSON needs an API key |
 | rhdn | [ROMhacking.net](https://www.romhacking.net) | BACKUP | News; files parked |
