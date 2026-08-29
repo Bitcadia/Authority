@@ -1,3 +1,5 @@
 catalog/*.json text eol=lf
 sites/*/catalog/*.json text eol=lf
 sources/*.json text eol=lf
+authority-manifest-*.json text eol=lf
+authority-payload-*.json text eol=lf
