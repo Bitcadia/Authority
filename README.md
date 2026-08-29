@@ -10,10 +10,20 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
-The current publication candidate is sequence 5. It adds the RHDC per-base index
-as a direct registry claim while retaining the independently signed Smash Remix,
-Hylian Modding, and SM64 Romhacks sister authorities. Sequence 4 remains live
-until the signed manifest is merged and released.
+The current publication candidate is sequence 6. It updates the RHDC per-base
+index with integrity-pinned original-site artwork while retaining the independently
+signed Smash Remix, Hylian Modding, and SM64 Romhacks sister authorities.
+Sequence 5 remains live until the signed manifest is merged and released.
+
+## Sequence 6 (2026-08-29)
+
+| Field | Value |
+|---|---|
+| Authority | Bitcadia Authority |
+| authorityId | `ed25519:Df--2beY1D0DvraD-y2kGO5m3P6jC1DAOqUIhLkT6ZE` |
+| Sequence | 6 |
+| Direct registry | RHDC, 1,526 Super Mario 64 USA BPS entries; 1,524 with pinned artwork |
+| Sister registries | Smash Remix, Hylian Modding, SM64 Romhacks |
 
 ## Sequence 5 (2026-08-28)
 
