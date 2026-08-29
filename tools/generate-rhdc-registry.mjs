@@ -5,7 +5,10 @@ import { resolve } from "node:path";
 
 const inputPath = resolve(process.argv[2] || "sources/rhdc-v4-registry-snapshot.json");
 const outputPath = resolve(process.argv[3] || "sources/rhdc-bps-registry-v1.json");
+const artworkPath = resolve(process.argv[4] || "sources/rhdc-artwork-pins-v1.json");
 const snapshot = JSON.parse(await readFile(inputPath, "utf8"));
+const artwork = JSON.parse(await readFile(artworkPath, "utf8"));
+if (artwork.sourceSnapshotCapturedAt !== snapshot.source.capturedAt) throw new Error("Artwork pins were generated from a different RHDC snapshot");
 const schema = "https://raw.githubusercontent.com/DrSammyD/m64menu/main/schemas/mod-registry-v1.schema.json";
 const base = {
   name: "Super Mario 64",
@@ -47,7 +50,7 @@ for (const hack of snapshot.results) {
   }
   const release = versionFrom(version.download.fileName, version.patchedSha1);
   const slug = encodeURIComponent(hack.urlTitle);
-  entries.push({
+  const entry = {
     id: `rhdc-${hack.hackId}-${release}`,
     name: hack.title.trim().replaceAll(",", ";"),
     version: release,
@@ -70,7 +73,9 @@ for (const hack of snapshot.results) {
       patchRedistributionAllowed: false,
       artworkRedistributionAllowed: false,
     },
-  });
+  };
+  if (artwork.pins[hack.hackId]) entry.artwork = artwork.pins[hack.hackId];
+  entries.push(entry);
 }
 
 const ids = new Set();
@@ -85,6 +90,7 @@ const registry = {
   notice: "Metadata-only backup of direct BPS releases indexed by Romhacking.com. Bitcadia does not redistribute patch or ROM bytes. Patch size and SHA-256 were not supplied by the upstream registry; BPS and output-ROM integrity checks still apply.",
   entries,
 };
+if (entries.filter((entry) => entry.artwork).length !== artwork.artworkCount) throw new Error("Artwork pin count does not match generated entries");
 const json = `${JSON.stringify(registry, null, 2)}\n`;
 const temporary = `${outputPath}.tmp`;
 await writeFile(temporary, json, { encoding: "utf8", flag: "w" });

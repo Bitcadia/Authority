@@ -79,12 +79,19 @@ non-mature and mature partitions of the Romhacking.com v4 hacks endpoint and wri
 hack and version metadata without applying maturity, approval, or privacy
 filters. It never requests patch `directHref` URLs or stores patch bytes.
 
-Run `node tools/generate-rhdc-registry.mjs` after capture to generate
+Run `node tools/pin-rhdc-artwork.mjs` after capture to fetch the first valid
+source screenshot for each generated direct-BPS entry and record its exact URL,
+size, SHA-256, and source page in `sources/rhdc-artwork-pins-v1.json`. Redirects,
+non-image bytes, and images larger than 8 MiB are rejected; unavailable entries
+remain listed under `skipped` and use the importer's generated artwork fallback.
+
+Run `node tools/generate-rhdc-registry.mjs` after pinning artwork to generate
 `sources/rhdc-bps-registry-v1.json`. The generated registry selects each hack's
 latest approved, non-archived direct BPS release. It preserves upstream output
 SHA-1 values while omitting patch size and SHA-256 when RHDC does not provide
-them. ZIP releases remain only in the raw snapshot because RHDC does not identify
-one archive member for safe extraction.
+them, and adds pinned original-site artwork when available. ZIP releases remain
+only in the raw snapshot because RHDC does not identify one archive member for
+safe extraction.
 
 Run `node tools/build-base-rom-catalog.mjs` to split that source by normalized
 base-ROM SHA-256 and generate content-addressed list and index objects under
