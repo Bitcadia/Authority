@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "sourceRegistryGeneratedAt": "2026-08-28T02:20:33Z",
+  "sourceRegistrySha256": "87F8F1724B33E608F817A8DDD5AEF74A40D6B76233F5FAF08BFB70ADDEA1723C",
+  "generatedAt": "2026-08-28T02:20:33Z",
+  "artworkCount": 11,
+  "skipped": [
+    {
+      "entryId": "hylian-crystal_clocks",
+      "name": "Crystal Clocks",
+      "error": "/mods/crystal_clocks/screenshots/VHhkwNW.jpg: WebP is not supported by the Bitcadia64 importer; https://www.youtube.com/watch?v=dJhRMBkyz8Q: Unsafe artwork locator: https://www.youtube.com/watch?v=dJhRMBkyz8Q; /mods/crystal_clocks/screenshots/XNwHBuS.jpg: WebP is not supported by the Bitcadia64 importer; /mods/crystal_clocks/screenshots/Jyg8Mg4.jpg: WebP is not supported by the Bitcadia64 importer; /mods/crystal_clocks/screenshots/cy5nNm1.jpg: WebP is not supported by the Bitcadia64 importer; /mods/crystal_clocks/screenshots/6KTOa01.jpg: WebP is not supported by the Bitcadia64 importer"
+    },
+    {
+      "entryId": "hylian-shadows_of_eldoria",
+      "name": "Shadows of Eldoria",
+      "error": "/mods/shadows_of_eldoria/screenshots/thumbnail.webp: WebP is not supported by the Bitcadia64 importer; https://www.youtube.com/watch?v=rYWtGcdsrcY: Unsafe artwork locator: https://www.youtube.com/watch?v=rYWtGcdsrcY; /mods/shadows_of_eldoria/screenshots/screenshot1.webp: WebP is not supported by the Bitcadia64 importer; /mods/shadows_of_eldoria/screenshots/screenshot2.webp: WebP is not supported by the Bitcadia64 importer"
+    },
+    {
+      "entryId": "hylian-the_journey_of_angtherum",
+      "name": "The Journey of Angtherum",
+      "error": "/mods/the_journey_of_angtherum/screenshots/thumbnail.jpg: WebP is not supported by the Bitcadia64 importer; https://www.youtube.com/watch?v=u8qx4KiPVSQ: Unsafe artwork locator: https://www.youtube.com/watch?v=u8qx4KiPVSQ; /mods/the_journey_of_angtherum/screenshots/screenshot_1.jpg: WebP is not supported by the Bitcadia64 importer; /mods/the_journey_of_angtherum/screenshots/screenshot_2.jpg: WebP is not supported by the Bitcadia64 importer; /mods/the_journey_of_angtherum/screenshots/screenshot_3.jpg: WebP is not supported by the Bitcadia64 importer; /mods/the_journey_of_angtherum/screenshots/screenshot_4.jpg: WebP is not supported by the Bitcadia64 importer; /mods/the_journey_of_angtherum/screenshots/screenshot_5.jpg: WebP is not supported by the Bitcadia64 importer"
+    },
+    {
+      "entryId": "hylian-zelda_puzzling",
+      "name": "Zelda Puzzling",
+      "error": "/mods/zelda_puzzling/screenshots/thumbnail.png: WebP is not supported by the Bitcadia64 importer; /mods/zelda_puzzling/screenshots/screenshot_0.png: WebP is not supported by the Bitcadia64 importer; /mods/zelda_puzzling/screenshots/screenshot_1.png: WebP is not supported by the Bitcadia64 importer"
+    }
+  ],
+  "pins": {
+    "hylian-3rd_quest": {
+      "url": "https://hylianmodding.com/mods/3rd_quest/screenshots/thumbnail.png",
+      "size": 27150,
+      "sha256": "05D76B7392921B7A0B96206414F9CEB77B44999661E48E54586FEAB7CA69BD80",
+      "sourcePage": "https://hylianmodding.com/mods/3rd_quest/",
+      "allowRedirects": false
+    },
+    "hylian-dark_hyrule_fantasy": {
+      "url": "https://hylianmodding.com/mods/dark_hyrule_fantasy/screenshots/thumbnail.jpg",
+      "size": 75661,
+      "sha256": "E4F8CB43FCDBD4CBC1B342C3BF9FA1139AFBD914E29E7FA382BE8CC2B7022ECB",
+      "sourcePage": "https://hylianmodding.com/mods/dark_hyrule_fantasy/",
+      "allowRedirects": false
+    },
+    "hylian-fate_of_the_bombiwa": {
+      "url": "https://hylianmodding.com/mods/fate_of_the_bombiwa/screenshots/thumbnail.png",
+      "size": 370350,
+      "sha256": "4C95F8A64919948843FAA62C05501EF76F60C051F33CBDE427A97212711A5BDF",
+      "sourcePage": "https://hylianmodding.com/mods/fate_of_the_bombiwa/",
+      "allowRedirects": false
+    },
+    "hylian-four_swords_arena_editon": {
+      "url": "https://hylianmodding.com/mods/four_swords_arena_editon/screenshots/thumbnail.jpg",
+      "size": 10425,
+      "sha256": "A1D1F4283B16E23A5F565C2C87008B05D81BD9BF002F1422C62DCBF055C2FAE9",
+      "sourcePage": "https://hylianmodding.com/mods/four_swords_arena_editon/",
+      "allowRedirects": false
+    },
+    "hylian-mm_transforms_oot": {
+      "url": "https://hylianmodding.com/mods/mm_transforms_oot/screenshots/thumbnail.png",
+      "size": 18938,
+      "sha256": "825ED825C832FDCE57106508556628441E598BDE381C5ACFF752231322FA237B",
+      "sourcePage": "https://hylianmodding.com/mods/mm_transforms_oot/",
+      "allowRedirects": false
+    },
+    "hylian-nimpize_adventure": {
+      "url": "https://hylianmodding.com/mods/nimpize_adventure/screenshots/thumbnail.png",
+      "size": 369684,
+      "sha256": "045F519A19A10FF73171F740FDDD0B9903499D2D63255470D383BA3CF50EA212",
+      "sourcePage": "https://hylianmodding.com/mods/nimpize_adventure/",
+      "allowRedirects": false
+    },
+    "hylian-pumkin_tower": {
+      "url": "https://hylianmodding.com/mods/pumkin_tower/screenshots/thumbnail.png",
+      "size": 598223,
+      "sha256": "20D2F31A3DE8FDF5214F8A67A801780121FB14C12EEF2616B3B26F008789970D",
+      "sourcePage": "https://hylianmodding.com/mods/pumkin_tower/",
+      "allowRedirects": false
+    },
+    "hylian-sands_of_time": {
+      "url": "https://hylianmodding.com/mods/sands_of_time/screenshots/thumbnail.jpg",
+      "size": 10185,
+      "sha256": "7A824D295A86B41B7FC2540AAB614514085448BAB31A1862C6945418E4DEE4BE",
+      "sourcePage": "https://hylianmodding.com/mods/sands_of_time/",
+      "allowRedirects": false
+    },
+    "hylian-spider_mansion": {
+      "url": "https://hylianmodding.com/mods/spider_mansion/screenshots/thumbnail.jpg",
+      "size": 6709,
+      "sha256": "70110E9F90EB1476E3E0B6A6734C3E11197CD1556E2BC1CC958C3F1AD448BF80",
+      "sourcePage": "https://hylianmodding.com/mods/spider_mansion/",
+      "allowRedirects": false
+    },
+    "hylian-zelda_nightmare": {
+      "url": "https://hylianmodding.com/mods/zelda_nightmare/screenshots/thumbnail.png",
+      "size": 367977,
+      "sha256": "3F9D3DC53A636DE178D9BEFA5BAA40B0A8A4E4E129A7573CCB1BD5910C784BEE",
+      "sourcePage": "https://hylianmodding.com/mods/zelda_nightmare/",
+      "allowRedirects": false
+    },
+    "hylian-zeldas_birthday": {
+      "url": "https://hylianmodding.com/mods/zelda's_birthday/screenshots/thumbnail.png",
+      "size": 356135,
+      "sha256": "9E5838F7C1665450E0F1CAE55443A3CC007D286E77359278788D905315C0500F",
+      "sourcePage": "https://hylianmodding.com/mods/zelda's_birthday/",
+      "allowRedirects": false
+    }
+  }
+}

@@ -103,6 +103,17 @@ them, and adds pinned original-site artwork when available. ZIP releases remain
 only in the raw snapshot because RHDC does not identify one archive member for
 safe extraction.
 
+Run `node tools/pin-hylian-artwork.mjs` to fetch each Hylian entry's
+`thumbnail_image` from its original `mod.json` and record the exact same-origin
+URL, size, SHA-256, and source page in
+`sources/hylian-artwork-pins-v1.json`. Then run
+`node tools/apply-hylian-artwork.mjs` to add those pins to the Hylian source
+registry before rebuilding `sites/hylian/catalog/`. Images remain on Hylian
+Modding and `artworkRedistributionAllowed` remains false. The generated objects
+are staged and unsigned: activation requires publishing a new signed Hylian
+authority sequence that pins the new index, followed by a new root Authority
+sequence that pins the Hylian manifest and registry.
+
 Run `node tools/build-base-rom-catalog.mjs` to split that source by normalized
 base-ROM SHA-256 and generate content-addressed list and index objects under
 `sites/rhdc/catalog/`. RHDC currently yields one list for Super Mario 64 USA.
