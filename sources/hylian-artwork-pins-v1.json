@@ -1,57 +1,23 @@
 {
   "schemaVersion": 1,
   "sourceRegistryGeneratedAt": "2026-08-31T02:40:58.513Z",
-  "sourceRegistrySha256": "EB9F4AB0DE3913A95850628142349186218B6B6324AE05536A86FF3FDCE1A4D6",
+  "sourceRegistrySha256": "582E0C5E512563AE38CA3BF7A08D632E01951D2527B34939F21F0D9F9A043935",
   "generatedAt": "2026-08-31T02:40:58.513Z",
-  "artworkCount": 16,
-  "skipped": [
-    {
-      "entryId": "hylian-crystal_clocks",
-      "name": "Crystal Clocks",
-      "error": "/mods/crystal_clocks/screenshots/VHhkwNW.jpg: WebP is not supported by the Bitcadia64 importer; https://www.youtube.com/watch?v=dJhRMBkyz8Q: Unsafe artwork locator: https://www.youtube.com/watch?v=dJhRMBkyz8Q; /mods/crystal_clocks/screenshots/XNwHBuS.jpg: WebP is not supported by the Bitcadia64 importer; /mods/crystal_clocks/screenshots/Jyg8Mg4.jpg: WebP is not supported by the Bitcadia64 importer; /mods/crystal_clocks/screenshots/cy5nNm1.jpg: WebP is not supported by the Bitcadia64 importer; /mods/crystal_clocks/screenshots/6KTOa01.jpg: WebP is not supported by the Bitcadia64 importer"
-    },
-    {
-      "entryId": "hylian-majoras_mask_master_quest",
-      "name": "Majora's Mask Master Quest",
-      "error": "/mods/majora's_mask_master_quest/screenshots/thumbnail.png: WebP is not supported by the Bitcadia64 importer; /mods/majora's_mask_master_quest/screenshots/screenshot_0.png: WebP is not supported by the Bitcadia64 importer"
-    },
-    {
-      "entryId": "hylian-new_master_quest",
-      "name": "New Master Quest",
-      "error": "/mods/new_master_quest/screenshots/thumbnail.png: WebP is not supported by the Bitcadia64 importer; /mods/new_master_quest/screenshots/screenshot_0.png: WebP is not supported by the Bitcadia64 importer; /mods/new_master_quest/screenshots/screenshot_1.png: WebP is not supported by the Bitcadia64 importer; /mods/new_master_quest/screenshots/screenshot_2.png: WebP is not supported by the Bitcadia64 importer"
-    },
-    {
-      "entryId": "hylian-shadows_of_eldoria",
-      "name": "Shadows of Eldoria",
-      "error": "/mods/shadows_of_eldoria/screenshots/thumbnail.webp: WebP is not supported by the Bitcadia64 importer; https://www.youtube.com/watch?v=rYWtGcdsrcY: Unsafe artwork locator: https://www.youtube.com/watch?v=rYWtGcdsrcY; /mods/shadows_of_eldoria/screenshots/screenshot1.webp: WebP is not supported by the Bitcadia64 importer; /mods/shadows_of_eldoria/screenshots/screenshot2.webp: WebP is not supported by the Bitcadia64 importer"
-    },
-    {
-      "entryId": "hylian-star_fox_64_survival",
-      "name": "Star Fox 64 Survival",
-      "error": "mods/star_fox_64_survival/screenshots/thumbnail.png: Unsafe artwork locator: https://hylianmodding.com/mods/star_fox_64_survival/mods/star_fox_64_survival/screenshots/thumbnail.png; https://www.youtube.com/watch?v=TzqfstBv71I: Unsafe artwork locator: https://www.youtube.com/watch?v=TzqfstBv71I; mods/star_fox_64_survival/screenshots/screenshot1.png: Unsafe artwork locator: https://hylianmodding.com/mods/star_fox_64_survival/mods/star_fox_64_survival/screenshots/screenshot1.png; mods/star_fox_64_survival/screenshots/screenshot2.png: Unsafe artwork locator: https://hylianmodding.com/mods/star_fox_64_survival/mods/star_fox_64_survival/screenshots/screenshot2.png"
-    },
-    {
-      "entryId": "hylian-the_journey_of_angtherum",
-      "name": "The Journey of Angtherum",
-      "error": "/mods/the_journey_of_angtherum/screenshots/thumbnail.jpg: WebP is not supported by the Bitcadia64 importer; https://www.youtube.com/watch?v=u8qx4KiPVSQ: Unsafe artwork locator: https://www.youtube.com/watch?v=u8qx4KiPVSQ; /mods/the_journey_of_angtherum/screenshots/screenshot_1.jpg: WebP is not supported by the Bitcadia64 importer; /mods/the_journey_of_angtherum/screenshots/screenshot_2.jpg: WebP is not supported by the Bitcadia64 importer; /mods/the_journey_of_angtherum/screenshots/screenshot_3.jpg: WebP is not supported by the Bitcadia64 importer; /mods/the_journey_of_angtherum/screenshots/screenshot_4.jpg: WebP is not supported by the Bitcadia64 importer; /mods/the_journey_of_angtherum/screenshots/screenshot_5.jpg: WebP is not supported by the Bitcadia64 importer"
-    },
-    {
-      "entryId": "hylian-zelda_puzzling",
-      "name": "Zelda Puzzling",
-      "error": "/mods/zelda_puzzling/screenshots/thumbnail.png: WebP is not supported by the Bitcadia64 importer; /mods/zelda_puzzling/screenshots/screenshot_0.png: WebP is not supported by the Bitcadia64 importer; /mods/zelda_puzzling/screenshots/screenshot_1.png: WebP is not supported by the Bitcadia64 importer"
-    },
-    {
-      "entryId": "hylian-zeldas_eternal_youth",
-      "name": "Zelda's Eternal Youth",
-      "error": "/mods/zelda's_eternal_youth/screenshots/thumbnail.png: WebP is not supported by the Bitcadia64 importer; /mods/zelda's_eternal_youth/screenshots/screenshot_0.png: WebP is not supported by the Bitcadia64 importer"
-    }
-  ],
+  "artworkCount": 25,
+  "skipped": [],
   "pins": {
     "hylian-3rd_quest": {
       "url": "https://hylianmodding.com/mods/3rd_quest/screenshots/thumbnail.png",
       "size": 27150,
       "sha256": "05D76B7392921B7A0B96206414F9CEB77B44999661E48E54586FEAB7CA69BD80",
       "sourcePage": "https://hylianmodding.com/mods/3rd_quest/",
+      "allowRedirects": false
+    },
+    "hylian-crystal_clocks": {
+      "url": "https://hylianmodding.com/mods/crystal_clocks/screenshots/VHhkwNW.jpg",
+      "size": 177632,
+      "sha256": "6CC51BA7ED90A01B2260310128206911E624EE821EA7E03ECAD0268D08047065",
+      "sourcePage": "https://hylianmodding.com/mods/crystal_clocks/",
       "allowRedirects": false
     },
     "hylian-dark_hyrule_fantasy": {
@@ -82,6 +48,13 @@
       "sourcePage": "https://hylianmodding.com/mods/four_swords_arena_editon/",
       "allowRedirects": false
     },
+    "hylian-hero_of_law": {
+      "url": "https://hylianmodding.com/mods/hero_of_law/screenshots/thumbnail.png",
+      "size": 85676,
+      "sha256": "95EA8EEFD02C38B6D3EA176798E39B2507AE9F7C1B53E1B534796D53B41A4AAA",
+      "sourcePage": "https://hylianmodding.com/mods/hero_of_law/",
+      "allowRedirects": false
+    },
     "hylian-majoras_mask_masked_quest": {
       "url": "https://hylianmodding.com/mods/majora's_mask_masked_quest/screenshots/thumbnail.jpg",
       "size": 90035,
@@ -89,11 +62,25 @@
       "sourcePage": "https://hylianmodding.com/mods/majora's_mask_masked_quest/",
       "allowRedirects": false
     },
+    "hylian-majoras_mask_master_quest": {
+      "url": "https://hylianmodding.com/mods/majora's_mask_master_quest/screenshots/thumbnail.png",
+      "size": 20354,
+      "sha256": "A9EC63524B002D265C95B9ABB02B6F745C47C00ED0B402E1AA0FF8E9F8DEC51B",
+      "sourcePage": "https://hylianmodding.com/mods/majora's_mask_master_quest/",
+      "allowRedirects": false
+    },
     "hylian-mm_transforms_oot": {
       "url": "https://hylianmodding.com/mods/mm_transforms_oot/screenshots/thumbnail.png",
       "size": 18938,
       "sha256": "825ED825C832FDCE57106508556628441E598BDE381C5ACFF752231322FA237B",
       "sourcePage": "https://hylianmodding.com/mods/mm_transforms_oot/",
+      "allowRedirects": false
+    },
+    "hylian-new_master_quest": {
+      "url": "https://hylianmodding.com/mods/new_master_quest/screenshots/thumbnail.png",
+      "size": 58272,
+      "sha256": "E3F17354F9B5945D913426C312EBC5B1990A37E0D63B30ECDA422738BCEC8D55",
+      "sourcePage": "https://hylianmodding.com/mods/new_master_quest/",
       "allowRedirects": false
     },
     "hylian-nimpize_adventure": {
@@ -117,11 +104,32 @@
       "sourcePage": "https://hylianmodding.com/mods/sands_of_time/",
       "allowRedirects": false
     },
+    "hylian-shadows_of_eldoria": {
+      "url": "https://hylianmodding.com/mods/shadows_of_eldoria/screenshots/thumbnail.webp",
+      "size": 38148,
+      "sha256": "F334E7DCDAAA4B9F89EEF6AFD9290478436ABEA35C63C74305707184C0E21E63",
+      "sourcePage": "https://hylianmodding.com/mods/shadows_of_eldoria/",
+      "allowRedirects": false
+    },
     "hylian-spider_mansion": {
       "url": "https://hylianmodding.com/mods/spider_mansion/screenshots/thumbnail.jpg",
       "size": 6709,
       "sha256": "70110E9F90EB1476E3E0B6A6734C3E11197CD1556E2BC1CC958C3F1AD448BF80",
       "sourcePage": "https://hylianmodding.com/mods/spider_mansion/",
+      "allowRedirects": false
+    },
+    "hylian-star_fox_64_survival": {
+      "url": "https://hylianmodding.com/mods/star_fox_64_survival/screenshots/thumbnail.png",
+      "size": 163210,
+      "sha256": "F572D44A7A00A336D090BEDDC968BDA4E6ADBFAFE09CBA94B56FAFB61E54E694",
+      "sourcePage": "https://hylianmodding.com/mods/star_fox_64_survival/",
+      "allowRedirects": false
+    },
+    "hylian-the_journey_of_angtherum": {
+      "url": "https://hylianmodding.com/mods/the_journey_of_angtherum/screenshots/thumbnail.jpg",
+      "size": 41802,
+      "sha256": "62F92D9B63FB328F3259FB4D47E712618F0360E1B313DC88836E444380AEF027",
+      "sourcePage": "https://hylianmodding.com/mods/the_journey_of_angtherum/",
       "allowRedirects": false
     },
     "hylian-the_missing_link": {
@@ -136,6 +144,13 @@
       "size": 367977,
       "sha256": "3F9D3DC53A636DE178D9BEFA5BAA40B0A8A4E4E129A7573CCB1BD5910C784BEE",
       "sourcePage": "https://hylianmodding.com/mods/zelda_nightmare/",
+      "allowRedirects": false
+    },
+    "hylian-zelda_puzzling": {
+      "url": "https://hylianmodding.com/mods/zelda_puzzling/screenshots/thumbnail.png",
+      "size": 96548,
+      "sha256": "12F9495A07D8A06530D8C850BD0FCE7C27516B21FCE20A78165440A14B60FFFF",
+      "sourcePage": "https://hylianmodding.com/mods/zelda_puzzling/",
       "allowRedirects": false
     },
     "hylian-zelda_revival": {
@@ -157,6 +172,13 @@
       "size": 356135,
       "sha256": "9E5838F7C1665450E0F1CAE55443A3CC007D286E77359278788D905315C0500F",
       "sourcePage": "https://hylianmodding.com/mods/zelda's_birthday/",
+      "allowRedirects": false
+    },
+    "hylian-zeldas_eternal_youth": {
+      "url": "https://hylianmodding.com/mods/zelda's_eternal_youth/screenshots/thumbnail.png",
+      "size": 56644,
+      "sha256": "31A766BD2D4D15AD3EEC17374BCC8C9736289F16B02397C6DFB5CD9F0E65B740",
+      "sourcePage": "https://hylianmodding.com/mods/zelda's_eternal_youth/",
       "allowRedirects": false
     }
   }
