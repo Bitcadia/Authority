@@ -10,11 +10,18 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
-The current publication candidate is sequence 12. It pins Hylian Modding
-authority sequence 6 and the 26-entry Hylian catalog. Majora's Mask now assigns
-Pumkin Tower to DLC, Majora's Mask Master Quest to Replacement, and Majora's
-Mask: Chaos Edition to Experiment. Sequence 11 remains live until this manifest
-is merged and released.
+The current publication candidate is sequence 13. It updates the RHDC catalog
+with pinned first-party artwork for Mario Builder 64 while retaining Hylian
+Modding authority sequence 6 and all sequence 12 canonical selections.
+
+## Sequence 13 (2026-08-31)
+
+| Field | Value |
+|---|---|
+| Authority | Bitcadia Authority |
+| Sequence | 13 |
+| Direct registry | RHDC, 1,526 Super Mario 64 USA BPS entries; 1,525 with pinned artwork |
+| Artwork update | Mario Builder 64 v1.1 release-video thumbnail from Arthurtilly |
 
 ## Sequence 12 (2026-08-31)
 
@@ -164,6 +171,9 @@ source screenshot for each generated direct-BPS entry and record its exact URL,
 size, SHA-256, and source page in `sources/rhdc-artwork-pins-v1.json`. Redirects,
 non-image bytes, and images larger than 8 MiB are rejected; unavailable entries
 remain listed under `skipped` and use the importer's generated artwork fallback.
+Mario Builder 64 uses the thumbnail from Arthurtilly's release video because its
+RHDC-hosted screenshots return HTTP 451. The fallback is accepted only while that
+exact video remains in the captured RHDC record, and its bytes remain hash-pinned.
 
 Run `node tools/generate-rhdc-registry.mjs` after pinning artwork to generate
 `sources/rhdc-bps-registry-v1.json`. The generated registry selects each hack's
