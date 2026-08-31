@@ -10,10 +10,22 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
-The current publication is sequence 8. It pins Hylian Modding
-authority sequence 2 and its integrity-pinned original-site artwork registry,
-while retaining the RHDC, Smash Remix, and SM64 Romhacks claims. The 25-entry
-Hylian expansion described below remains staged until a newer signed publication.
+The current publication candidate is sequence 9. It pins Hylian Modding
+authority sequence 3 and its expanded 25-entry registry, while retaining the
+RHDC, Smash Remix, and SM64 Romhacks claims. Sequence 8 remains live until this
+manifest is merged and released.
+
+## Sequence 9 (2026-08-31)
+
+| Field | Value |
+|---|---|
+| Authority | Bitcadia Authority |
+| authorityId | `ed25519:Df--2beY1D0DvraD-y2kGO5m3P6jC1DAOqUIhLkT6ZE` |
+| Sequence | 9 |
+| Hylian authority | Sequence 3, 25 publishable entries from 46 indexed records; 17 with pinned artwork |
+| Canonical OoT picks | Dawn and Dusk, New Master Quest, Hero of Law |
+| Direct registry | RHDC, 1,526 Super Mario 64 USA BPS entries; 1,524 with pinned artwork |
+| Other sister registries | Smash Remix, SM64 Romhacks |
 
 ## Sequence 8 (2026-08-31)
 
