@@ -10,10 +10,19 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
-The current publication candidate is sequence 10. It pins Hylian Modding
-authority sequence 4 and assigns The Missing Link to the OoT DLC canonical slot,
-while retaining the same immutable 25-entry Hylian lists and all other root
-claims. Sequence 9 remains live until this manifest is merged and released.
+The current publication candidate is sequence 11. It pins Hylian Modding
+authority sequence 5 and artwork for all 25 Hylian entries, including original
+WebP sources and the corrected Star Fox 64 Survival image path. Sequence 10
+remains live until this manifest is merged and released.
+
+## Sequence 11 (2026-08-31)
+
+| Field | Value |
+|---|---|
+| Authority | Bitcadia Authority |
+| Sequence | 11 |
+| Hylian authority | Sequence 5, 25 entries; all with pinned artwork |
+| Canonical OoT picks | Dawn and Dusk (Sequel), The Missing Link (DLC), New Master Quest (Replacement), Hero of Law (Experiment) |
 
 ## Sequence 10 (2026-08-31)
 
