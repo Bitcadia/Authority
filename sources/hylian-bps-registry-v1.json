@@ -327,6 +327,51 @@
       }
     },
     {
+      "id": "hylian-majoras_mask_chaos_edition",
+      "name": "Majora's Mask: Chaos Edition",
+      "version": "0.5.7",
+      "authors": [
+        "GabrielCNoble"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/majora's_mask_chaos_edition/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/majora's_mask_chaos_edition/mod.json",
+        "retrievedAt": "2026-08-31T02:40:58.513Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "USA",
+        "gameCode": "NZSE",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://github.com/GabrielCNoble/mm-chaos/releases/download/v0.5.7/Majoras_Mask_Chaos_Edition_v0.5.7.bps",
+        "size": 6063489,
+        "sha256": "F5E95E6290F9E594C60593794B92B9F45F5021B5C9E5A53F6CF7AE1B39BE6A3C",
+        "allowRedirects": true,
+        "sourceCrc32": "B428D8A7",
+        "targetCrc32": "3D2F6C2F",
+        "patchCrc32": "0048600F"
+      },
+      "output": {},
+      "compatibility": "complete",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://hylianmodding.com/mods/majora's_mask_chaos_edition/screenshots/thumbnail.png",
+        "size": 405759,
+        "sha256": "6D5A048FE0854921108CA864DF54AC28F1E1373347106406F5F867EE34F6EEB6",
+        "sourcePage": "https://hylianmodding.com/mods/majora's_mask_chaos_edition/",
+        "allowRedirects": false
+      }
+    },
+    {
       "id": "hylian-majoras_mask_masked_quest",
       "name": "Majora's Mask Masked Quest",
       "version": "2021-01-02",

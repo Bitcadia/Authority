@@ -23,6 +23,7 @@ const entryId = (id) => `hylian-${String(id).normalize("NFKC").replace(/[^A-Za-z
 const existingAuthors = new Map(existing.entries.map((entry) => [entry.id, entry.authors]));
 const normalizeAuthors = (authors) => [...new Set((authors || []).flatMap((author) => author.split(/\s*&\s*/)).map((author) => author.trim()).filter(Boolean))];
 const entries = [];
+let preservedCount = 0;
 for (const [id, pin] of Object.entries(pins.pins)) {
   const record = records.get(id);
   if (!record) throw new Error(`Artifact pin references missing metadata: ${id}`);
@@ -34,7 +35,7 @@ for (const [id, pin] of Object.entries(pins.pins)) {
     url: pin.url,
     size: pin.size,
     sha256: pin.sha256,
-    allowRedirects: false
+    allowRedirects: pin.allowRedirects === true
   };
   for (const field of ["archiveMember", "memberSize", "memberSha256", "sourceCrc32", "targetCrc32", "patchCrc32", "vcdiffProfile"]) {
     if (pin[field] !== undefined) patch[field] = pin[field];
@@ -56,8 +57,19 @@ for (const [id, pin] of Object.entries(pins.pins)) {
     rights: { patchRedistributionAllowed: false, artworkRedistributionAllowed: false }
   });
 }
+for (const [id, override] of Object.entries(overrides.overrides || {})) {
+  if (override.preserveExisting !== true) continue;
+  const generatedId = entryId(id);
+  if (entries.some((entry) => entry.id === generatedId)) continue;
+  const preserved = existing.entries.find((entry) => entry.id === generatedId);
+  if (!preserved) throw new Error(`Preserved entry is missing from the existing registry: ${generatedId}`);
+  const entry = structuredClone(preserved);
+  delete entry.artwork;
+  entries.push(entry);
+  preservedCount += 1;
+}
 entries.sort((left, right) => left.id.localeCompare(right.id));
-if (entries.length !== pins.pinCount) throw new Error("Generated entry count does not match artifact pins");
+if (entries.length !== pins.pinCount + preservedCount) throw new Error("Generated entry count does not match artifact pins and preserved entries");
 const registry = {
   $schema: "https://raw.githubusercontent.com/DrSammyD/m64menu/main/schemas/mod-registry-v1.schema.json",
   schemaVersion: 1,

@@ -176,9 +176,21 @@ const vcdiffProfile = (bytes, sourceSize) => {
   if (windows === 0 || targetPosition === 0) throw new Error("VCDIFF contains no output windows");
   return "rfc3284-default-code-table-no-secondary-compression";
 };
-const fetchArtifact = async (url, accountBytes) => {
-  const response = await fetch(url, { redirect: "manual", signal: AbortSignal.timeout(120000) });
-  if (!response.ok || response.redirected || response.url !== url.href) throw new Error(`HTTP ${response.status}`);
+const fetchArtifact = async (url, accountBytes, allowRedirects) => {
+  let currentUrl = url;
+  let response;
+  for (let redirectCount = 0; ; redirectCount++) {
+    response = await fetch(currentUrl, { redirect: "manual", signal: AbortSignal.timeout(120000) });
+    if (response.status < 300 || response.status >= 400) break;
+    if (!allowRedirects || redirectCount >= 4) throw new Error(`HTTP ${response.status}`);
+    const location = response.headers.get("location");
+    if (!location) throw new Error(`HTTP ${response.status} without Location`);
+    const nextUrl = new URL(location, currentUrl);
+    if (nextUrl.protocol !== "https:") throw new Error("Artifact redirect is not HTTPS");
+    await response.body?.cancel();
+    currentUrl = nextUrl;
+  }
+  if (!response.ok || response.redirected || response.url !== currentUrl.href) throw new Error(`HTTP ${response.status}`);
   const declaredHeader = response.headers.get("content-length");
   const declared = declaredHeader === null ? null : Number(declaredHeader);
   if (declared !== null && Number.isFinite(declared) && (declared < 1 || declared > maximumArtifactSize)) throw new Error(`Invalid content length ${declared}`);
@@ -278,8 +290,9 @@ for (const record of snapshot.records) {
     const extension = artifactUrl.pathname.split(".").pop().toLowerCase();
     if (!override?.artifactUrl && artifactUrl.origin !== metadataUrl.origin) throw new Error("External release page requires an explicit artifact override");
     if (!override?.artifactUrl && !["bps", "zip"].includes(extension)) throw new Error(`Unsupported artifact type: ${extension}`);
-    const artifact = await fetchArtifact(artifactUrl, accountArtifactBytes);
-    const common = { version: releaseVersion(metadata, metadataUrl, override), url: artifactUrl.href, size: artifact.length, sha256: sha256(artifact), allowRedirects: false };
+    const allowRedirects = override?.allowRedirects === true;
+    const artifact = await fetchArtifact(artifactUrl, accountArtifactBytes, allowRedirects);
+    const common = { version: releaseVersion(metadata, metadataUrl, override), url: artifactUrl.href, size: artifact.length, sha256: sha256(artifact), allowRedirects };
     if ((override?.format || extension) === "vcdiff") {
       const base = bases[override.baseCrc32];
       if (!base) throw new Error("VCDIFF override requires an explicit supported base CRC32");
