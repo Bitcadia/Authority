@@ -10,11 +10,25 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
-The current publication candidate is sequence 7. It updates the direct Hylian
-registry claim with integrity-pinned original-site artwork while retaining the
-RHDC registry and the independently signed Smash Remix, Hylian Modding, and SM64
-Romhacks authority identities. Sequence 6 remains live until this manifest is
-merged and released.
+The current publication candidate is sequence 8. It pins Hylian Modding
+authority sequence 2 and its integrity-pinned original-site artwork registry,
+while retaining the RHDC, Smash Remix, and SM64 Romhacks claims. Sequence 7
+remains live until this manifest is merged and released.
+
+## Sequence 8 (2026-08-31)
+
+| Field | Value |
+|---|---|
+| Authority | Bitcadia Authority |
+| authorityId | `ed25519:Df--2beY1D0DvraD-y2kGO5m3P6jC1DAOqUIhLkT6ZE` |
+| Sequence | 8 |
+| Hylian authority | Sequence 2, 15 BPS entries; 11 with pinned artwork |
+| Direct registry | RHDC, 1,526 Super Mario 64 USA BPS entries; 1,524 with pinned artwork |
+| Other sister registries | Smash Remix, SM64 Romhacks |
+
+The root claim uses the immutable Hylian sequence-2 backup. A future root
+publication can restore the Hylian Modding site as the primary locator after it
+serves a valid signed manifest instead of its current HTML response.
 
 ## Sequence 7 (2026-08-30)
 
@@ -27,9 +41,9 @@ merged and released.
 | Updated sister registry | Hylian Modding, 15 BPS entries; 11 with pinned artwork |
 | Other sister registries | Smash Remix, SM64 Romhacks |
 
-The Hylian identity pin now uses the immutable signed sequence-1 GitHub backup
-directly because the former primary URL returns an HTML site page instead of an
-Authority manifest.
+Sequence 7 directly attested the Hylian artwork registry while retaining Hylian
+sequence 1 as its identity pin. Sequence 8 supersedes it with the matching Hylian
+sequence-2 publication.
 
 ## Sequence 6 (2026-08-29)
 
@@ -126,9 +140,7 @@ URL, size, SHA-256, and source page in
 `node tools/apply-hylian-artwork.mjs` to add those pins to the Hylian source
 registry before rebuilding `sites/hylian/catalog/`. Images remain on Hylian
 Modding and `artworkRedistributionAllowed` remains false. The generated objects
-are staged until a new root Authority sequence directly pins the Hylian registry.
-The standalone Hylian authority may be republished separately; its signed identity
-pin and the root Authority's direct registry claim are independent assertions.
+are activated by Hylian authority sequence 2 and root Authority sequence 8.
 
 Run `node tools/build-base-rom-catalog.mjs` to split that source by normalized
 base-ROM SHA-256 and generate content-addressed list and index objects under
@@ -137,8 +149,8 @@ Provider identity remains a sister-authority boundary; base ROM identity remains
 the list boundary, so different authorities may legitimately index the same base.
 Run `node tools/validate-base-rom-catalog.mjs sites/rhdc/catalog` to verify exact
 object hashes, unique index bases, and every list/index base-ROM relationship.
-These RHDC objects are staged but unsigned; historical signed objects are not
-modified, and activation requires a separate RHDC sister authority publication.
+The RHDC objects are directly attested by the root Authority publication;
+historical signed objects remain immutable.
 
 Canonical selections are keyed first by sister authority and then by normalized
 base-ROM SHA-256 in `sources/canonical-picks-v1.json`. Resolved picks must
