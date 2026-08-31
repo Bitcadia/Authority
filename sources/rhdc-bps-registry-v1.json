@@ -37,6 +37,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://i.ytimg.com/vi/VTSP1ov2QYM/maxresdefault.jpg",
+        "size": 129169,
+        "sha256": "B1AE7429AECEEBCBFEB5DC80235DCE580DDBB4C68C7AAAAC07624149E316A5C9",
+        "allowRedirects": false,
+        "sourcePage": "https://www.youtube.com/watch?v=VTSP1ov2QYM"
       }
     },
     {

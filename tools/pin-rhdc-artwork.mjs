@@ -9,6 +9,13 @@ const outputPath = resolve(process.argv[3] || "sources/rhdc-artwork-pins-v1.json
 const snapshot = JSON.parse(await readFile(inputPath, "utf8"));
 const maximumArtworkSize = 8 * 1024 * 1024;
 const concurrency = 12;
+const publisherArtworkFallbacks = {
+  "66490950139c2f67916c660e": {
+    video: "https://www.youtube.com/embed/VTSP1ov2QYM",
+    url: "https://i.ytimg.com/vi/VTSP1ov2QYM/maxresdefault.jpg",
+    sourcePage: "https://www.youtube.com/watch?v=VTSP1ov2QYM",
+  },
+};
 
 const directBpsHacks = snapshot.results.filter((hack) => {
   const version = [...(hack.versions || [])].reverse().find((candidate) => candidate.approved && !candidate.archived);
@@ -22,9 +29,9 @@ const isImage = (bytes) =>
   bytes.subarray(0, 6).toString("ascii") === "GIF89a" ||
   bytes.subarray(0, 2).toString("ascii") === "BM";
 
-const fetchCandidate = async (href) => {
+const fetchCandidate = async (href, expectedOrigin = "https://api.romhacking.com", expectedPathPrefix = "/game/") => {
   const url = new URL(href, "https://api.romhacking.com/");
-  if (url.origin !== "https://api.romhacking.com" || !url.pathname.startsWith("/game/")) throw new Error(`Unsafe artwork locator: ${href}`);
+  if (url.origin !== expectedOrigin || !url.pathname.startsWith(expectedPathPrefix)) throw new Error(`Unsafe artwork locator: ${href}`);
   const response = await fetch(url, {
     redirect: "manual",
     headers: { accept: "image/png,image/jpeg,image/gif,image/bmp" },
@@ -63,6 +70,7 @@ const worker = async () => {
   while (cursor < directBpsHacks.length) {
     const hack = directBpsHacks[cursor++];
     let artwork = null;
+    let sourcePage = `https://romhacking.com/hack/${encodeURIComponent(hack.urlTitle)}`;
     const failures = [];
     for (const screenshot of hack.screenshots || []) {
       if (screenshot.secured) continue;
@@ -73,10 +81,20 @@ const worker = async () => {
         failures.push(`${screenshot.directHref}: ${error.message}`);
       }
     }
+    const fallback = publisherArtworkFallbacks[hack.hackId];
+    if (!artwork && fallback && (hack.videos || []).includes(fallback.video)) {
+      try {
+        const videoId = new URL(fallback.video).pathname.split("/").pop();
+        artwork = await fetchCandidate(fallback.url, "https://i.ytimg.com", `/vi/${videoId}/`);
+        sourcePage = fallback.sourcePage;
+      } catch (error) {
+        failures.push(`${fallback.url}: ${error.message}`);
+      }
+    }
     if (artwork) {
       pins[hack.hackId] = {
         ...artwork,
-        sourcePage: `https://romhacking.com/hack/${encodeURIComponent(hack.urlTitle)}`,
+        sourcePage,
       };
     } else {
       skipped.push({ hackId: hack.hackId, title: hack.title, failures });

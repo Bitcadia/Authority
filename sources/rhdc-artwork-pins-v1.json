@@ -2,23 +2,13 @@
   "schemaVersion": 1,
   "sourceSnapshotCapturedAt": "2026-08-28T18:26:27.007Z",
   "generatedAt": "2026-08-29T06:50:57.199Z",
-  "artworkCount": 1524,
+  "artworkCount": 1525,
   "skipped": [
     {
       "hackId": "6256ee03e3a439ffc1bb99ea",
       "title": "Green Star Revenge 4: Forgotten Tower Exploration",
       "failures": [
         "/game/Green-Star-Revenge-4--Forgotten-Tower-Exploration/GreenStarRevenge4.png: Unsupported image bytes"
-      ]
-    },
-    {
-      "hackId": "66490950139c2f67916c660e",
-      "title": "Mario Builder 64",
-      "failures": [
-        "/game/mario-builder-64/mb64_cover.png: HTTP 451",
-        "/game/mario-builder-64/promo1.png: HTTP 451",
-        "/game/mario-builder-64/promo2.png: HTTP 451",
-        "/game/mario-builder-64/promo3.png: HTTP 451"
       ]
     }
   ],
@@ -7750,6 +7740,13 @@
       "sha256": "D3A5AA1585D71DB69B3B102CCD279ADD08219867DD1A65FE1BFD0589DFB7960A",
       "allowRedirects": false,
       "sourcePage": "https://romhacking.com/hack/blender-blunders"
+    },
+    "66490950139c2f67916c660e": {
+      "url": "https://i.ytimg.com/vi/VTSP1ov2QYM/maxresdefault.jpg",
+      "size": 129169,
+      "sha256": "B1AE7429AECEEBCBFEB5DC80235DCE580DDBB4C68C7AAAAC07624149E316A5C9",
+      "allowRedirects": false,
+      "sourcePage": "https://www.youtube.com/watch?v=VTSP1ov2QYM"
     },
     "664ce13099a14405866c68c3": {
       "url": "https://api.romhacking.com/game/taic-but-good/taicgood.png",
