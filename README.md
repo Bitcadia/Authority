@@ -10,10 +10,26 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
-The current publication is sequence 6. It updates the RHDC per-base
-index with integrity-pinned original-site artwork while retaining the independently
-signed Smash Remix, Hylian Modding, and SM64 Romhacks sister authorities.
-Sequence 5 remains available as an immutable historical publication.
+The current publication candidate is sequence 7. It updates the direct Hylian
+registry claim with integrity-pinned original-site artwork while retaining the
+RHDC registry and the independently signed Smash Remix, Hylian Modding, and SM64
+Romhacks authority identities. Sequence 6 remains live until this manifest is
+merged and released.
+
+## Sequence 7 (2026-08-30)
+
+| Field | Value |
+|---|---|
+| Authority | Bitcadia Authority |
+| authorityId | `ed25519:Df--2beY1D0DvraD-y2kGO5m3P6jC1DAOqUIhLkT6ZE` |
+| Sequence | 7 |
+| Direct registry | RHDC, 1,526 Super Mario 64 USA BPS entries; 1,524 with pinned artwork |
+| Updated sister registry | Hylian Modding, 15 BPS entries; 11 with pinned artwork |
+| Other sister registries | Smash Remix, SM64 Romhacks |
+
+The Hylian identity pin now uses the immutable signed sequence-1 GitHub backup
+directly because the former primary URL returns an HTML site page instead of an
+Authority manifest.
 
 ## Sequence 6 (2026-08-29)
 
@@ -110,9 +126,9 @@ URL, size, SHA-256, and source page in
 `node tools/apply-hylian-artwork.mjs` to add those pins to the Hylian source
 registry before rebuilding `sites/hylian/catalog/`. Images remain on Hylian
 Modding and `artworkRedistributionAllowed` remains false. The generated objects
-are staged and unsigned: activation requires publishing a new signed Hylian
-authority sequence that pins the new index, followed by a new root Authority
-sequence that pins the Hylian manifest and registry.
+are staged until a new root Authority sequence directly pins the Hylian registry.
+The standalone Hylian authority may be republished separately; its signed identity
+pin and the root Authority's direct registry claim are independent assertions.
 
 Run `node tools/build-base-rom-catalog.mjs` to split that source by normalized
 base-ROM SHA-256 and generate content-addressed list and index objects under
