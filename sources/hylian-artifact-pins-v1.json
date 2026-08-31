@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "sourceCapturedAt": "2026-08-31T02:40:58.513Z",
+  "generatedAt": "2026-08-31T03:40:22.590Z",
+  "pinCount": 24,
+  "pendingCount": 22,
+  "pins": {
+    "3rd_quest": {
+      "version": "0.5.3",
+      "url": "https://hylianmodding.com/mods/3rd_quest/downloads/3rdQuest0.5.3.bps",
+      "size": 33350545,
+      "sha256": "47A8523BA164BEAE3E3E716613DAF54301B46CD79C0423C969DD3D8901052514",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "1B0938EB",
+      "patchCrc32": "56280528"
+    },
+    "crystal_clocks": {
+      "version": "2.0",
+      "url": "https://hylianmodding.com/mods/crystal_clocks/downloads/crystal-clocks-2.0.bps",
+      "size": 45417290,
+      "sha256": "384CDD9DE6FF5D23671070B6003658B26A24FD324D052082FDAE60039A0CA38E",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "5E5FEEE9",
+      "patchCrc32": "3EE71294"
+    },
+    "dark_hyrule_fantasy": {
+      "version": "1.0",
+      "url": "https://hylianmodding.com/mods/dark_hyrule_fantasy/downloads/DHF1_0_FIX.bps",
+      "size": 45944944,
+      "sha256": "18E7B13E342E980FE980925F55F05E8E7E33F4FE42C3882B11A086C33B285EB8",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "F0D6DAAF",
+      "patchCrc32": "E17B71CC"
+    },
+    "dungeon_rush": {
+      "version": "2.2",
+      "url": "https://hylianmodding.com/mods/dungeon_rush/downloads/LoZOoT-DungeonRush.zip",
+      "size": 516234,
+      "sha256": "6FF0496B80DB26849D2F11E6FEC42884D47D18A46ECCA6BDFC6AB7C09E5DBF65",
+      "allowRedirects": false,
+      "format": "bps",
+      "archiveMember": "Legend of Zelda, The - Ocarina of Time - Dungeon Rush (v2.2) (mzxrules).bps",
+      "memberSize": 779546,
+      "memberSha256": "CDC855B4FCE0EE06209C6C786D787AC2B8BBAD0C512A4C8BEDD8D3DA1F4EAC68",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "F32DBE8C",
+      "patchCrc32": "831681ED"
+    },
+    "fate_of_the_bombiwa": {
+      "version": "1.0",
+      "url": "https://hylianmodding.com/mods/fate_of_the_bombiwa/downloads/TFOTB%20Patch.bps",
+      "size": 27340964,
+      "sha256": "8B8DFF6074649BEE42CA41E9874D9B3D4E67751E2428860189A8BAC67F07E958",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "AAA24BFA",
+      "patchCrc32": "44920F1F"
+    },
+    "four_swords_arena_editon": {
+      "version": "1.0",
+      "url": "https://hylianmodding.com/mods/four_swords_arena_editon/downloads/zelda64-four-swords-arena-edition-fixed.bps",
+      "size": 37879622,
+      "sha256": "11926CA25224DDD5FB779729CC19A8F5AE153C73633DC34434F9B07FCABC207A",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "92F15EED",
+      "patchCrc32": "08AB3C3D"
+    },
+    "majora's_mask_masked_quest": {
+      "version": "2021-01-02",
+      "url": "https://hylianmodding.com/mods/majora's_mask_masked_quest/downloads/MajoraMQ.zip",
+      "size": 13838244,
+      "sha256": "49F0B2CD81FEA1ECCF04EF37AC0AB5685376491F44F62F2AF663078102307E88",
+      "allowRedirects": false,
+      "format": "bps",
+      "archiveMember": "MajoraP.bps",
+      "memberSize": 3119087,
+      "memberSha256": "811570287D2237113553E691E0624888AEDC2A7B84378EE9FD776E79AC554B9B",
+      "baseCrc32": "B428D8A7",
+      "sourceCrc32": "B428D8A7",
+      "targetCrc32": "5C60EB0C",
+      "patchCrc32": "F12F70A9"
+    },
+    "majora's_mask_master_quest": {
+      "version": "1.2",
+      "url": "https://hylianmodding.com/mods/majora's_mask_master_quest/downloads/LoZMM-MasterQuest.zip",
+      "size": 754057,
+      "sha256": "74F6350DB3969E203CF2753FC35AED07C5B6946FC5EB84B49DBF370E79611894",
+      "allowRedirects": false,
+      "format": "bps",
+      "archiveMember": "Legend of Zelda, The - Majora's Mask - Master Quest (v1.2) (DeathbBasket).bps",
+      "memberSize": 1164951,
+      "memberSha256": "DB9A2434247EB14C110A7ABDEC640216986EF273E49E0ACFA35C093FEEC139C6",
+      "baseCrc32": "B428D8A7",
+      "sourceCrc32": "B428D8A7",
+      "targetCrc32": "49EAC960",
+      "patchCrc32": "5C859DF4"
+    },
+    "mm_transforms_oot": {
+      "version": "1.0",
+      "url": "https://hylianmodding.com/mods/mm_transforms_oot/downloads/Transformation%20Masks%20in%20OoT%20v1.0.bps",
+      "size": 6727421,
+      "sha256": "36E1326FBA7947FF9965815B57F49BCFBDE239AA781C074AB8C8487D7B508078",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "B46D9376",
+      "patchCrc32": "DD84847D"
+    },
+    "new_master_quest": {
+      "version": "2.9",
+      "url": "https://hylianmodding.com/mods/new_master_quest/downloads/OoT%20-%20New%20Master%20Quest.zip",
+      "size": 12845762,
+      "sha256": "152F805D46CBE225A45591ECD0DBE553B39F4608880C875A4E1ABE479BA9083C",
+      "allowRedirects": false,
+      "format": "bps",
+      "archiveMember": "OoT New Master Quest v2.9 Normal Edition (ENG).bps",
+      "memberSize": 3110210,
+      "memberSha256": "13B9803A82C960892A549351E685A4F669B573337F2C8B9D3F83AF5E4BCC2CA6",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "D751C79D",
+      "patchCrc32": "D6475E63"
+    },
+    "nimpize_adventure": {
+      "version": "1.0",
+      "url": "https://hylianmodding.com/mods/nimpize_adventure/downloads/Nimpize%20Adventure.bps",
+      "size": 23552615,
+      "sha256": "1955C248496416C06D6CE7F18485CEA1E78AAF88A54F80957DFAA1F0D5C4343D",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "113F4FF9",
+      "patchCrc32": "D2118564"
+    },
+    "pumkin_tower": {
+      "version": "1.1.1",
+      "url": "https://hylianmodding.com/mods/pumkin_tower/downloads/PumkinPatch1.1.1.bps",
+      "size": 54342259,
+      "sha256": "0FEEF125339A4FFBCBE5310A23246C5D8009B57CD6AF89888456EC2C58966113",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "B428D8A7",
+      "sourceCrc32": "B428D8A7",
+      "targetCrc32": "E2F04902",
+      "patchCrc32": "3A0BA8AE"
+    },
+    "sands_of_time": {
+      "version": "1.22",
+      "url": "https://hylianmodding.com/mods/sands_of_time/downloads/SoT1.22.bps",
+      "size": 38657165,
+      "sha256": "9DAABD8869045459F580B97DB6AFEEE4E07A69CF73107BD69D5463BD7F9F88CE",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "ED65FB94",
+      "patchCrc32": "DC3B6751"
+    },
+    "shadows_of_eldoria": {
+      "version": "1.0-demo",
+      "url": "https://hylianmodding.com/mods/shadows_of_eldoria/downloads/Shadows%20of%20Eldoria%20DEMO%20z64.bps",
+      "size": 10178467,
+      "sha256": "2EB99F8E8C731358BA028CAA2C7349334CDE1B4C14715EDC9C0B6D563E78749A",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "2F3C909A",
+      "patchCrc32": "5F3F68DF"
+    },
+    "spider_mansion": {
+      "version": "1.0",
+      "url": "https://hylianmodding.com/mods/spider_mansion/downloads/Spider%20Mansion.bps",
+      "size": 17713297,
+      "sha256": "2CE272578F48E6DD25AA64959DD12D4A9874A66AD814EC45D5AC497C6B4BB7C1",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "97962551",
+      "patchCrc32": "1650E710"
+    },
+    "star_fox_64_survival": {
+      "version": "1.4",
+      "url": "https://hylianmodding.com/mods/star_fox_64_survival/downloads/StarFox64SurvivalV14.zip",
+      "size": 27254155,
+      "sha256": "F0972578A52FC5B344EC5BE36A86E5A4E5C15317772DE891E9A3516D2FF1205F",
+      "allowRedirects": false,
+      "format": "bps",
+      "archiveMember": "StarFox64SurvivalV14.bps",
+      "memberSize": 31704357,
+      "memberSha256": "9BB28C67A58FB438F25F9C5EC13DC140D9F02D40EC20C1EE64B5A6CB70DF0528",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "1290822E",
+      "patchCrc32": "BEFC045C"
+    },
+    "the_journey_of_angtherum": {
+      "version": "1.0",
+      "url": "https://hylianmodding.com/mods/the_journey_of_angtherum/downloads/The%20Journey%20Of%20Angtherum%20USA.v1.0.bps",
+      "size": 23843576,
+      "sha256": "78134895C42BDC65B45D6A462F5A84F96E9EC66A1A4265693BABDAF8D50714CB",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "3711E713",
+      "patchCrc32": "CC6D53C7"
+    },
+    "the_missing_link": {
+      "version": "2.0",
+      "url": "https://hylianmodding.com/mods/the_missing_link/downloads/tml_2_0.zip",
+      "size": 15929982,
+      "sha256": "B35F663C03B0FF04E8C068F3A8D66586000831CD624E451D26ADB18E4EF9754F",
+      "allowRedirects": false,
+      "format": "bps",
+      "archiveMember": "tml_z64_2_0_big_endian.bps",
+      "memberSize": 4674020,
+      "memberSha256": "AA42D03742E957B27D6BDCE2169674713DF27834273BF308E4C3B78693F3578A",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "59CD42A3",
+      "patchCrc32": "9931811E"
+    },
+    "zelda_nightmare": {
+      "version": "1.0",
+      "url": "https://hylianmodding.com/mods/zelda_nightmare/downloads/NIGHTMARE%20CONSOLE.bps",
+      "size": 23824090,
+      "sha256": "5F24C13E90F43C7FDCA81581DBDE3BEC04BB1ECA03BE8BF12621A71BAA8D7682",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "0CFEB6B5",
+      "patchCrc32": "3ED07C10"
+    },
+    "zelda_puzzling": {
+      "version": "1.1.2",
+      "url": "https://hylianmodding.com/mods/zelda_puzzling/downloads/1.1.2%20OOT%20PUZZLING.bps",
+      "size": 782840,
+      "sha256": "EF1682AB5C0ED6C57E68772F78B0947BB2BAC02080216AD2769D61842C586FC3",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "41B63094",
+      "patchCrc32": "DD4AE4E7"
+    },
+    "zelda_revival": {
+      "version": "1.1",
+      "url": "https://hylianmodding.com/mods/zelda_revival/downloads/zelda_revival.zip",
+      "size": 12463819,
+      "sha256": "290120EC484CE5B596D2895FA825EAF99B37C2C6553689960A0C0BDC66AB5ED8",
+      "allowRedirects": false,
+      "format": "bps",
+      "archiveMember": "Legend of Zelda, The - Majora's Mask - Zelda Revival (v1.1) (doncamilo).bps",
+      "memberSize": 13926783,
+      "memberSha256": "82547E53A60B17FF5DA758AF3C0FC3912ACB97AA67437ABEF9FBD4B440B2343B",
+      "baseCrc32": "B428D8A7",
+      "sourceCrc32": "B428D8A7",
+      "targetCrc32": "79045D46",
+      "patchCrc32": "99DAFA91"
+    },
+    "zelda's_birthday": {
+      "version": "1.0",
+      "url": "https://hylianmodding.com/mods/zelda's_birthday/downloads/Zeldas_Birthday_Hardware_1.0.bps",
+      "size": 22657709,
+      "sha256": "8E9AE178B3E6B4528AFBE3337867FAA0140509427DFB8B70C11E30D4C1BBDFE6",
+      "allowRedirects": false,
+      "format": "bps",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "D718A135",
+      "patchCrc32": "FCCAFD31"
+    },
+    "zelda's_eternal_youth": {
+      "version": "2015-11-02",
+      "url": "https://hylianmodding.com/mods/zelda's_eternal_youth/downloads/zelda's_eternal_youth.zip",
+      "size": 19853055,
+      "sha256": "A153F6309ACCC5B48C9B9F78CB12C36FFE58A08FF22A08F11D070435FDBC9FB0",
+      "allowRedirects": false,
+      "format": "bps",
+      "archiveMember": "Legend of Zelda, The - Ocarina of Time - Zelda's Eternal Youth (Demo) (Airikitascave).bps",
+      "memberSize": 23030977,
+      "memberSha256": "0AF23A9C0B422F3DB406466109C1FE0DB90DA67B4A78220EAD54A8821BB1FFAE",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "B816FB77",
+      "patchCrc32": "57D9D0FC"
+    },
+    "zelda64_dawn_and_dusk": {
+      "version": "2",
+      "url": "https://hylianmodding.com/mods/zelda64_dawn_and_dusk/downloads/Zelda64DawnDusk_v2_ROM_Patches.zip",
+      "size": 6953959,
+      "sha256": "DB56A868467B9F8F912A3704991F7791FF3A556ED0FE3A00CD3EEF2EE8AD4D56",
+      "allowRedirects": false,
+      "format": "bps",
+      "archiveMember": "DawnDusk_v2_U_1.0.bps",
+      "memberSize": 1370831,
+      "memberSha256": "59C31FE6B7FD2695C2955DC6CA2DA9F7AFFBBEA34740823289B1609E034F8AAF",
+      "baseCrc32": "CD16C529",
+      "sourceCrc32": "CD16C529",
+      "targetCrc32": "1116754C",
+      "patchCrc32": "BD922254"
+    }
+  },
+  "pending": [
+    {
+      "id": "abandoned_archives",
+      "name": "Abandoned Archives",
+      "downloadLink": "/mods/abandoned_archives/downloads/OoT ST AA Latest.7z",
+      "reason": "Unsupported artifact type: 7z"
+    },
+    {
+      "id": "child_quest",
+      "name": "Child Quest",
+      "downloadLink": "/mods/child_quest/downloads/LoZOoT-ChildQuest.zip",
+      "reason": "ZIP has 4 supported BPS members; an exact override is required"
+    },
+    {
+      "id": "demon's_quest",
+      "name": "Demon's Quest",
+      "downloadLink": "https://github.com/thinedave/ocarina-demonsquest/releases/",
+      "reason": "External release page requires an explicit artifact override"
+    },
+    {
+      "id": "eagle_dungeon",
+      "name": "Eagle Dungeon",
+      "downloadLink": "/mods/eagle_dungeon/downloads/EagleDungeonBPS.bps",
+      "reason": "Invalid BPS sizes"
+    },
+    {
+      "id": "hero_of_hyrule",
+      "name": "Hero of Hyrule",
+      "downloadLink": "/mods/hero_of_hyrule/downloads/HoH_Demo_v1.rar",
+      "reason": "Unsupported artifact type: rar"
+    },
+    {
+      "id": "hero_of_law",
+      "name": "Hero of Law",
+      "downloadLink": "https://newerteam.com/en/hol/index.html",
+      "reason": "Checksummed VCDIFF requires decoded-output verification"
+    },
+    {
+      "id": "hylian_modding_oot_decomp_actor_pack",
+      "name": "Hylian Modding OoT Decomp Actor Pack",
+      "downloadLink": "/mods/hylian_modding_oot_decomp_actor_pack/downloads/hm-actor-pack-main.zip",
+      "reason": "ZIP has 0 supported BPS members; an exact override is required"
+    },
+    {
+      "id": "indigo_chapter_2",
+      "name": "Indigo: Chapter 2",
+      "downloadLink": "https://github.com/krm01/oot-indigo-mod/releases",
+      "reason": "External release page requires an explicit artifact override"
+    },
+    {
+      "id": "majora's_mask_chaos_edition",
+      "name": "Majora's Mask: Chaos Edition",
+      "downloadLink": "https://github.com/GabrielCNoble/mm-chaos/releases",
+      "reason": "External release page requires an explicit artifact override"
+    },
+    {
+      "id": "master_of_time_revisited",
+      "name": "Master of Time Revisited",
+      "downloadLink": "/mods/master_of_time_revisited/downloads/Master of Time Revisited v1.4.2.7z",
+      "reason": "Unsupported artifact type: 7z"
+    },
+    {
+      "id": "minidungeon",
+      "name": "Mini Dungeon",
+      "downloadLink": "/mods/minidungeon/downloads/minidungeon.ppf",
+      "reason": "Unsupported artifact type: ppf"
+    },
+    {
+      "id": "ocarina_of_time_gold_quest",
+      "name": "Ocarina of Time Gold Quest",
+      "downloadLink": "/mods/ocarina_of_time_gold_quest/downloads/Gold Quest Rev2 Patch.zip",
+      "reason": "ZIP has 0 supported BPS members; an exact override is required"
+    },
+    {
+      "id": "oot_chaos_mod",
+      "name": "OoT: Chaos Mod",
+      "downloadLink": "/mods/oot_chaos_mod/downloads/OoT Chaos Release 1.0.zip",
+      "reason": "ZIP has 0 supported BPS members; an exact override is required"
+    },
+    {
+      "id": "outset_island",
+      "name": "Outset Island",
+      "downloadLink": "/mods/outset_island/downloads/Outset Island.rar",
+      "reason": "Unsupported artifact type: rar"
+    },
+    {
+      "id": "silent_hill_in_ocarina_of_time",
+      "name": "Silent Hill in Ocarina of Time",
+      "downloadLink": "/mods/silent_hill_in_ocarina_of_time/downloads/SH_V7.bps",
+      "reason": "Invalid BPS sizes"
+    },
+    {
+      "id": "spaceworld_97_experience",
+      "name": "Spaceworld 97 Experience",
+      "downloadLink": "/mods/spaceworld_97_experience/downloads/sw97_r2.7z",
+      "reason": "Unsupported artifact type: 7z"
+    },
+    {
+      "id": "the_helix_blade",
+      "name": "The Helix Blade",
+      "downloadLink": "/mods/the_helix_blade/downloads/The Helix Blade Demo.rar",
+      "reason": "Unsupported artifact type: rar"
+    },
+    {
+      "id": "time_lost",
+      "name": "Time Lost",
+      "downloadLink": "/mods/time_lost/downloads/Legend of Zelda - Time Lost.zip",
+      "reason": "Invalid BPS sizes"
+    },
+    {
+      "id": "ultimate_trial",
+      "name": "Ultimate Trial",
+      "downloadLink": "https://github.com/RichieUltimate/ultimate-trial/releases/",
+      "reason": "External release page requires an explicit artifact override"
+    },
+    {
+      "id": "voyager_of_time",
+      "name": "Voyager of Time",
+      "downloadLink": "/mods/voyager_of_time/downloads/Voyager of Time.zip",
+      "reason": "ZIP has 0 supported BPS members; an exact override is required"
+    },
+    {
+      "id": "zelda_64_temple_96",
+      "name": "Zelda 64 Temple 96",
+      "downloadLink": "/mods/zelda_64_temple_96/downloads/Zelda 64 Temple 96.rar",
+      "reason": "Unsupported artifact type: rar"
+    },
+    {
+      "id": "zelda_sacred_armor_project_izou",
+      "name": "Zelda Sacred Armor Project Izou",
+      "downloadLink": "/mods/zelda_sacred_armor_project_izou/downloads/Izou_Zelda_Patch_One.zip",
+      "reason": "ZIP has 0 supported BPS members; an exact override is required"
+    }
+  ]
+}

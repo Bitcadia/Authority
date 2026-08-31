@@ -6,7 +6,9 @@ import { resolve } from "node:path";
 
 const inputPath = resolve(process.argv[2] || "sources/hylian-bps-registry-v1.json");
 const outputPath = resolve(process.argv[3] || "sources/hylian-artwork-pins-v1.json");
+const artifactsPath = resolve(process.argv[4] || "sources/hylian-artifact-pins-v1.json");
 const source = JSON.parse(await readFile(inputPath, "utf8"));
+const artifacts = JSON.parse(await readFile(artifactsPath, "utf8"));
 const maximumArtworkSize = 8 * 1024 * 1024;
 const maximumMetadataSize = 1024 * 1024;
 const concurrency = 6;
@@ -24,7 +26,7 @@ const isImage = (bytes) =>
   bytes.subarray(0, 6).toString("ascii") === "GIF89a" ||
   bytes.subarray(0, 2).toString("ascii") === "BM";
 
-const fetchBytes = async (url) => {
+const fetchBytes = async (url, accountBytes) => {
   const response = await fetch(url, {
     redirect: "manual",
     headers: { accept: "image/png,image/jpeg,image/gif,image/bmp" },
@@ -39,6 +41,7 @@ const fetchBytes = async (url) => {
   while (true) {
     const { done, value } = await reader.read();
     if (done) break;
+    accountBytes(value.length);
     size += value.length;
     if (size > maximumArtworkSize) {
       await reader.cancel();
@@ -76,6 +79,16 @@ const readBoundedJson = async (response) => {
 
 const pins = {};
 const skipped = [];
+if (source.entries.length > 1000) throw new Error("Hylian artwork audit exceeds 1000 entries");
+let totalArtworkBytes = 0;
+let cumulativeLimitReached = false;
+const accountArtworkBytes = (length) => {
+  totalArtworkBytes += length;
+  if (totalArtworkBytes > 1024 * 1024 * 1024) {
+    cumulativeLimitReached = true;
+    throw new Error("Hylian artwork audit exceeds 1 GiB");
+  }
+};
 let cursor = 0;
 const worker = async () => {
   while (cursor < source.entries.length) {
@@ -90,9 +103,9 @@ const worker = async () => {
       const metadata = await readBoundedJson(response);
       const normalizedId = String(metadata.id || "").normalize("NFKC").replace(/[^A-Za-z0-9_]+/g, "");
       if (`hylian-${normalizedId}` !== entry.id || metadata.name !== entry.name || typeof metadata.thumbnail_image !== "string") throw new Error("Metadata identity or thumbnail is invalid");
-      const patchUrl = new URL(metadata.download_link, metadataUrl);
       const registryPatchUrl = new URL(entry.patch.url);
-      if (patchUrl.origin !== registryPatchUrl.origin || decodeURIComponent(patchUrl.pathname) !== decodeURIComponent(registryPatchUrl.pathname)) throw new Error("Metadata patch URL does not match registry entry");
+      const artifact = artifacts.pins[metadata.id];
+      if (!artifact || registryPatchUrl.href !== artifact.url) throw new Error("Registry patch URL does not match audited artifact pin");
       const modRoot = new URL("./", metadataUrl);
       const failures = [];
       let artworkUrl = null;
@@ -101,11 +114,12 @@ const worker = async () => {
         try {
           const url = new URL(candidate, metadataUrl);
           if (url.origin !== metadataUrl.origin || !url.pathname.startsWith(`${modRoot.pathname}screenshots/`)) throw new Error(`Unsafe artwork locator: ${url.href}`);
-          const fetched = await fetchBytes(url);
+          const fetched = await fetchBytes(url, accountArtworkBytes);
           artworkUrl = url;
           bytes = fetched;
           break;
         } catch (error) {
+          if (cumulativeLimitReached) throw error;
           failures.push(`${candidate}: ${error.message}`);
         }
       }
@@ -118,6 +132,7 @@ const worker = async () => {
         allowRedirects: false,
       };
     } catch (error) {
+      if (cumulativeLimitReached) throw error;
       skipped.push({ entryId: entry.id, name: entry.name, error: error.message });
     }
   }
