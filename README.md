@@ -10,10 +10,20 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
-The current publication candidate is sequence 11. It pins Hylian Modding
-authority sequence 5 and artwork for all 25 Hylian entries, including original
-WebP sources and the corrected Star Fox 64 Survival image path. Sequence 10
-remains live until this manifest is merged and released.
+The current publication candidate is sequence 12. It pins Hylian Modding
+authority sequence 6 and the 26-entry Hylian catalog. Majora's Mask now assigns
+Pumkin Tower to DLC, Majora's Mask Master Quest to Replacement, and Majora's
+Mask: Chaos Edition to Experiment. Sequence 11 remains live until this manifest
+is merged and released.
+
+## Sequence 12 (2026-08-31)
+
+| Field | Value |
+|---|---|
+| Authority | Bitcadia Authority |
+| Sequence | 12 |
+| Hylian authority | Sequence 6, 26 entries; all with pinned artwork |
+| Canonical MM picks | Pumkin Tower (DLC), Majora's Mask Master Quest (Replacement), Majora's Mask: Chaos Edition (Experiment) |
 
 ## Sequence 11 (2026-08-31)
 
