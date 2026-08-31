@@ -90,6 +90,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://hylianmodding.com/mods/crystal_clocks/screenshots/VHhkwNW.jpg",
+        "size": 177632,
+        "sha256": "6CC51BA7ED90A01B2260310128206911E624EE821EA7E03ECAD0268D08047065",
+        "sourcePage": "https://hylianmodding.com/mods/crystal_clocks/",
+        "allowRedirects": false
       }
     },
     {
@@ -277,6 +284,49 @@
       }
     },
     {
+      "id": "hylian-hero_of_law",
+      "name": "Hero of Law",
+      "version": "1.21",
+      "authors": [
+        "Newer Team"
+      ],
+      "projectUrl": "https://hylianmodding.com/mods/hero_of_law/",
+      "source": {
+        "provider": "hylianmodding.com",
+        "metadataUrl": "https://hylianmodding.com/mods/hero_of_law/mod.json",
+        "retrievedAt": "2026-08-31T02:40:58.513Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://newerteam.com/hol/patches/CZLE_1.0.xdelta",
+        "size": 5009414,
+        "sha256": "4D6F91F56D63DFC47D33F4B25823F7DB6C21F4D7CC8A0D4D77E59C0348D4EEC3",
+        "allowRedirects": false,
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {},
+      "compatibility": "complete",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://hylianmodding.com/mods/hero_of_law/screenshots/thumbnail.png",
+        "size": 85676,
+        "sha256": "95EA8EEFD02C38B6D3EA176798E39B2507AE9F7C1B53E1B534796D53B41A4AAA",
+        "sourcePage": "https://hylianmodding.com/mods/hero_of_law/",
+        "allowRedirects": false
+      }
+    },
+    {
       "id": "hylian-majoras_mask_masked_quest",
       "name": "Majora's Mask Masked Quest",
       "version": "2021-01-02",
@@ -363,6 +413,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://hylianmodding.com/mods/majora's_mask_master_quest/screenshots/thumbnail.png",
+        "size": 20354,
+        "sha256": "A9EC63524B002D265C95B9ABB02B6F745C47C00ED0B402E1AA0FF8E9F8DEC51B",
+        "sourcePage": "https://hylianmodding.com/mods/majora's_mask_master_quest/",
+        "allowRedirects": false
       }
     },
     {
@@ -449,6 +506,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://hylianmodding.com/mods/new_master_quest/screenshots/thumbnail.png",
+        "size": 58272,
+        "sha256": "E3F17354F9B5945D913426C312EBC5B1990A37E0D63B30ECDA422738BCEC8D55",
+        "sourcePage": "https://hylianmodding.com/mods/new_master_quest/",
+        "allowRedirects": false
       }
     },
     {
@@ -625,6 +689,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://hylianmodding.com/mods/shadows_of_eldoria/screenshots/thumbnail.webp",
+        "size": 38148,
+        "sha256": "F334E7DCDAAA4B9F89EEF6AFD9290478436ABEA35C63C74305707184C0E21E63",
+        "sourcePage": "https://hylianmodding.com/mods/shadows_of_eldoria/",
+        "allowRedirects": false
       }
     },
     {
@@ -712,6 +783,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://hylianmodding.com/mods/star_fox_64_survival/screenshots/thumbnail.png",
+        "size": 163210,
+        "sha256": "F572D44A7A00A336D090BEDDC968BDA4E6ADBFAFE09CBA94B56FAFB61E54E694",
+        "sourcePage": "https://hylianmodding.com/mods/star_fox_64_survival/",
+        "allowRedirects": false
       }
     },
     {
@@ -750,6 +828,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://hylianmodding.com/mods/the_journey_of_angtherum/screenshots/thumbnail.jpg",
+        "size": 41802,
+        "sha256": "62F92D9B63FB328F3259FB4D47E712618F0360E1B313DC88836E444380AEF027",
+        "sourcePage": "https://hylianmodding.com/mods/the_journey_of_angtherum/",
+        "allowRedirects": false
       }
     },
     {
@@ -883,6 +968,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://hylianmodding.com/mods/zelda_puzzling/screenshots/thumbnail.png",
+        "size": 96548,
+        "sha256": "12F9495A07D8A06530D8C850BD0FCE7C27516B21FCE20A78165440A14B60FFFF",
+        "sourcePage": "https://hylianmodding.com/mods/zelda_puzzling/",
+        "allowRedirects": false
       }
     },
     {
@@ -1068,6 +1160,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://hylianmodding.com/mods/zelda's_eternal_youth/screenshots/thumbnail.png",
+        "size": 56644,
+        "sha256": "31A766BD2D4D15AD3EEC17374BCC8C9736289F16B02397C6DFB5CD9F0E65B740",
+        "sourcePage": "https://hylianmodding.com/mods/zelda's_eternal_youth/",
+        "allowRedirects": false
       }
     }
   ]

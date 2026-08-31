@@ -24,7 +24,8 @@ const isImage = (bytes) =>
   (bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff) ||
   bytes.subarray(0, 6).toString("ascii") === "GIF87a" ||
   bytes.subarray(0, 6).toString("ascii") === "GIF89a" ||
-  bytes.subarray(0, 2).toString("ascii") === "BM";
+  bytes.subarray(0, 2).toString("ascii") === "BM" ||
+  (bytes.subarray(0, 4).toString("ascii") === "RIFF" && bytes.subarray(8, 12).toString("ascii") === "WEBP");
 
 const fetchBytes = async (url, accountBytes) => {
   const response = await fetch(url, {
@@ -50,9 +51,6 @@ const fetchBytes = async (url, accountBytes) => {
     chunks.push(value);
   }
   const bytes = Buffer.concat(chunks, size);
-  if (bytes.length >= 12 && bytes.subarray(0, 4).toString("ascii") === "RIFF" && bytes.subarray(8, 12).toString("ascii") === "WEBP") {
-    throw new Error("WebP is not supported by the Bitcadia64 importer");
-  }
   if (bytes.length === 0 || !isImage(bytes)) throw new Error("Unsupported image bytes");
   return bytes;
 };
@@ -112,7 +110,7 @@ const worker = async () => {
       let bytes = null;
       for (const candidate of [metadata.thumbnail_image, ...(metadata.screenshots || [])]) {
         try {
-          const url = new URL(candidate, metadataUrl);
+          const url = candidate.startsWith("mods/") ? new URL(`/${candidate}`, metadataUrl.origin) : new URL(candidate, metadataUrl);
           if (url.origin !== metadataUrl.origin || !url.pathname.startsWith(`${modRoot.pathname}screenshots/`)) throw new Error(`Unsafe artwork locator: ${url.href}`);
           const fetched = await fetchBytes(url, accountArtworkBytes);
           artworkUrl = url;
