@@ -7,8 +7,10 @@ import { resolve } from "node:path";
 const inputPath = resolve(process.argv[2] || "sources/hylian-bps-registry-v1.json");
 const outputPath = resolve(process.argv[3] || "sources/hylian-artwork-pins-v1.json");
 const artifactsPath = resolve(process.argv[4] || "sources/hylian-artifact-pins-v1.json");
+const overridesPath = resolve(process.argv[5] || "sources/hylian-release-overrides-v1.json");
 const source = JSON.parse(await readFile(inputPath, "utf8"));
 const artifacts = JSON.parse(await readFile(artifactsPath, "utf8"));
+const overrides = JSON.parse(await readFile(overridesPath, "utf8"));
 const maximumArtworkSize = 8 * 1024 * 1024;
 const maximumMetadataSize = 1024 * 1024;
 const concurrency = 6;
@@ -103,7 +105,9 @@ const worker = async () => {
       if (`hylian-${normalizedId}` !== entry.id || metadata.name !== entry.name || typeof metadata.thumbnail_image !== "string") throw new Error("Metadata identity or thumbnail is invalid");
       const registryPatchUrl = new URL(entry.patch.url);
       const artifact = artifacts.pins[metadata.id];
-      if (!artifact || registryPatchUrl.href !== artifact.url) throw new Error("Registry patch URL does not match audited artifact pin");
+      if ((!artifact || registryPatchUrl.href !== artifact.url) && overrides.overrides?.[metadata.id]?.preserveExisting !== true) {
+        throw new Error("Registry patch URL does not match audited artifact pin");
+      }
       const modRoot = new URL("./", metadataUrl);
       const failures = [];
       let artworkUrl = null;

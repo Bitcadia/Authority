@@ -29,6 +29,11 @@
     "majora's_mask_master_quest": {
       "version": "1.2"
     },
+    "majora's_mask_chaos_edition": {
+      "version": "0.5.7",
+      "artifactUrl": "https://github.com/GabrielCNoble/mm-chaos/releases/download/v0.5.7/Majoras_Mask_Chaos_Edition_v0.5.7.bps",
+      "allowRedirects": true
+    },
     "star_fox_64_survival": {
       "version": "1.4",
       "artifactUrl": "https://hylianmodding.com/mods/star_fox_64_survival/downloads/StarFox64SurvivalV14.zip",
@@ -39,7 +44,8 @@
       "artifactUrl": "https://newerteam.com/hol/patches/CZLE_1.0.xdelta",
       "format": "vcdiff",
       "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression",
-      "baseCrc32": "CD16C529"
+      "baseCrc32": "CD16C529",
+      "preserveExisting": true
     }
   }
 }

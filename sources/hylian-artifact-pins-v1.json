@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "sourceCapturedAt": "2026-08-31T02:40:58.513Z",
-  "generatedAt": "2026-08-31T03:40:22.590Z",
-  "pinCount": 24,
-  "pendingCount": 22,
+  "generatedAt": "2026-08-31T16:59:24.060Z",
+  "pinCount": 25,
+  "pendingCount": 21,
   "pins": {
     "3rd_quest": {
       "version": "0.5.3",
@@ -79,6 +79,18 @@
       "sourceCrc32": "CD16C529",
       "targetCrc32": "92F15EED",
       "patchCrc32": "08AB3C3D"
+    },
+    "majora's_mask_chaos_edition": {
+      "version": "0.5.7",
+      "url": "https://github.com/GabrielCNoble/mm-chaos/releases/download/v0.5.7/Majoras_Mask_Chaos_Edition_v0.5.7.bps",
+      "size": 6063489,
+      "sha256": "F5E95E6290F9E594C60593794B92B9F45F5021B5C9E5A53F6CF7AE1B39BE6A3C",
+      "allowRedirects": true,
+      "format": "bps",
+      "baseCrc32": "B428D8A7",
+      "sourceCrc32": "B428D8A7",
+      "targetCrc32": "3D2F6C2F",
+      "patchCrc32": "0048600F"
     },
     "majora's_mask_masked_quest": {
       "version": "2021-01-02",
@@ -368,12 +380,6 @@
       "id": "indigo_chapter_2",
       "name": "Indigo: Chapter 2",
       "downloadLink": "https://github.com/krm01/oot-indigo-mod/releases",
-      "reason": "External release page requires an explicit artifact override"
-    },
-    {
-      "id": "majora's_mask_chaos_edition",
-      "name": "Majora's Mask: Chaos Edition",
-      "downloadLink": "https://github.com/GabrielCNoble/mm-chaos/releases",
       "reason": "External release page requires an explicit artifact override"
     },
     {

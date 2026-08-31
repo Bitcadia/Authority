@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "sourceRegistryGeneratedAt": "2026-08-31T02:40:58.513Z",
-  "sourceRegistrySha256": "582E0C5E512563AE38CA3BF7A08D632E01951D2527B34939F21F0D9F9A043935",
+  "sourceRegistrySha256": "B290F92404E60976ACE1AA9621AE771FE0D64F602CF3D782B634177A849BBA01",
   "generatedAt": "2026-08-31T02:40:58.513Z",
-  "artworkCount": 25,
+  "artworkCount": 26,
   "skipped": [],
   "pins": {
     "hylian-3rd_quest": {
@@ -53,6 +53,13 @@
       "size": 85676,
       "sha256": "95EA8EEFD02C38B6D3EA176798E39B2507AE9F7C1B53E1B534796D53B41A4AAA",
       "sourcePage": "https://hylianmodding.com/mods/hero_of_law/",
+      "allowRedirects": false
+    },
+    "hylian-majoras_mask_chaos_edition": {
+      "url": "https://hylianmodding.com/mods/majora's_mask_chaos_edition/screenshots/thumbnail.png",
+      "size": 405759,
+      "sha256": "6D5A048FE0854921108CA864DF54AC28F1E1373347106406F5F867EE34F6EEB6",
+      "sourcePage": "https://hylianmodding.com/mods/majora's_mask_chaos_edition/",
       "allowRedirects": false
     },
     "hylian-majoras_mask_masked_quest": {

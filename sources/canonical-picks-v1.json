@@ -23,6 +23,11 @@
         "the-dlc": "hylian-the_missing_link",
         "the-replacement": "hylian-new_master_quest",
         "the-experiment": "hylian-hero_of_law"
+      },
+      "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B": {
+        "the-dlc": "hylian-pumkin_tower",
+        "the-replacement": "hylian-majoras_mask_master_quest",
+        "the-experiment": "hylian-majoras_mask_chaos_edition"
       }
     }
   },
