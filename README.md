@@ -10,10 +10,10 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
-The current publication candidate is sequence 8. It pins Hylian Modding
+The current publication is sequence 8. It pins Hylian Modding
 authority sequence 2 and its integrity-pinned original-site artwork registry,
-while retaining the RHDC, Smash Remix, and SM64 Romhacks claims. Sequence 7
-remains live until this manifest is merged and released.
+while retaining the RHDC, Smash Remix, and SM64 Romhacks claims. The 25-entry
+Hylian expansion described below remains staged until a newer signed publication.
 
 ## Sequence 8 (2026-08-31)
 
@@ -103,7 +103,7 @@ Original sites are **MAIN**. This GitHub repo and its Releases are **BACKUP**.
 | smash-remix | [Smash Remix](https://smashremix.net) | MAIN | Public xdelta index: `/patcher/patches/releases.json`. In signed catalog. |
 | sm64romhacks | [SM64 Romhacks](https://sm64romhacks.com) | MAIN | SM64 BPS zips; 9 entries in signed catalog (zip+archiveMember). |
 | rhdc | [Romhacking.com](https://romhacking.com) | MAIN | SM64 BPS; 1,526 entries in signed catalog (direct BPS). |
-| hylian-modding | [Hylian Modding](https://hylianmodding.com) | MAIN | OoT/MM; 15 BPS in signed catalog (14 OoT USA, 1 MM USA). |
+| hylian-modding | [Hylian Modding](https://hylianmodding.com) | MAIN | OoT/MM; current signed publication has 15 entries, with a 25-entry expansion staged. |
 | romhackplaza | [Romhack Plaza](https://romhackplaza.org) | MAIN | Mixed formats; JSON needs an API key |
 | rhdn | [ROMhacking.net](https://www.romhacking.net) | BACKUP | News; files parked |
 | romhack-ing | [Romhack.ing](https://romhack.ing) | BACKUP | Successor UI; consumer API not for public apps |
@@ -140,7 +140,18 @@ URL, size, SHA-256, and source page in
 `node tools/apply-hylian-artwork.mjs` to add those pins to the Hylian source
 registry before rebuilding `sites/hylian/catalog/`. Images remain on Hylian
 Modding and `artworkRedistributionAllowed` remains false. The generated objects
-are activated by Hylian authority sequence 2 and root Authority sequence 8.
+are currently activated by Hylian authority sequence 2 and root Authority
+sequence 8. Expanded generated objects remain staged until newer signed
+Hylian and root Authority sequences pin their content-addressed index.
+
+Run `node tools/capture-hylian-registry.mjs` to capture the complete current
+inventory from `https://hylianmodding.com/mods/index.json` and each listed
+`mod.json`. Run `node tools/audit-hylian-artifacts.mjs` to pin direct BPS files,
+safe ZIPs with one exact supported BPS member, and explicit publisher overrides.
+The audit records unsupported, ambiguous, or wrong-base releases under `pending`
+instead of guessing. `node tools/generate-hylian-registry.mjs` then builds the
+publishable source registry from those exact artifact pins before artwork and
+content-addressed catalog generation.
 
 Run `node tools/build-base-rom-catalog.mjs` to split that source by normalized
 base-ROM SHA-256 and generate content-addressed list and index objects under

@@ -1,0 +1,1281 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "provider": "hylianmodding.com",
+    "indexUrl": "https://hylianmodding.com/mods/index.json",
+    "capturedAt": "2026-08-31T02:40:58.513Z",
+    "artifactDownloadsPerformed": false
+  },
+  "modCount": 46,
+  "records": [
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/zelda64_dawn_and_dusk/mod.json",
+      "metadata": {
+        "name": "Zelda 64: Dawn and Dusk",
+        "id": "zelda64_dawn_and_dusk",
+        "authors": [
+          "Captain Seedy-Eye",
+          "LuigiBlood",
+          "PK-LOVE",
+          "BWXIX"
+        ],
+        "description": "Zelda 64 - Dawn & Dusk is an expansion disk for The Legend of Zelda - Ocarina of Time, created to demonstrate the game's 64DD support. Make your way from the peaceful forests and rivers of the Dawnside to the harrowing chasms and caves of the Duskside in a grand quest to defeat evil! Developed by Captain Seedy-Eye and ported to 64DD by LuigiBlood, this mod is not a recreation of Ura Zelda or Zelda Gaiden, but rather a fanmade disk expansion featuring a short new adventure to play through.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/zelda64_dawn_and_dusk/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "/mods/zelda64_dawn_and_dusk/screenshots/screenshot_0.jpg",
+          "/mods/zelda64_dawn_and_dusk/screenshots/screenshot_1.jpg",
+          "/mods/zelda64_dawn_and_dusk/screenshots/screenshot_2.jpg",
+          "/mods/zelda64_dawn_and_dusk/screenshots/screenshot_3.jpg",
+          "/mods/zelda64_dawn_and_dusk/screenshots/screenshot_4.jpg",
+          "/mods/zelda64_dawn_and_dusk/screenshots/screenshot_5.jpg"
+        ],
+        "download_link": "/mods/zelda64_dawn_and_dusk/downloads/Zelda64DawnDusk_v2_ROM_Patches.zip",
+        "last_updated": "2023-10-14",
+        "timestamp": "1697285062857",
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/indigo_chapter_2/mod.json",
+      "metadata": {
+        "name": "Indigo: Chapter 2",
+        "id": "indigo_chapter_2",
+        "authors": [
+          "aegiker",
+          " CDi-Fails",
+          " Fig",
+          " hiisuya",
+          " kentonm",
+          " Nitro Carwash",
+          " Ostrealava02",
+          " shreedow",
+          " Tharo",
+          " TheEggoEffect"
+        ],
+        "description": "Indigo is an in-progress mod for Ocarina of Time that aims to be a full game replacement, with new items, enemies, bosses, maps, and story.  Play as the Hero of Time following the events of Majora's Mask in the child timeline! The story is set 27 years after the events of MM. There are currently two public demos. If you want to play Chapter 1, there is a link to it on the releases page. It's not as polished or fleshed out as Chapter 2, but there's still some unique content there for those interested!",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/indigo_chapter_2/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/indigo_chapter_2/screenshots/screenshot_0.png",
+          "/mods/indigo_chapter_2/screenshots/screenshot_1.png",
+          "/mods/indigo_chapter_2/screenshots/screenshot_2.png"
+        ],
+        "download_link": "https://github.com/krm01/oot-indigo-mod/releases",
+        "last_updated": "2023-11-15",
+        "timestamp": "1697754485356",
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/the_missing_link/mod.json",
+      "metadata": {
+        "name": "The Missing Link",
+        "id": "the_missing_link",
+        "authors": [
+          "Kaze",
+          " CDi-Fails",
+          " Zel"
+        ],
+        "description": "This mini-adventure is set in between Ocarina of Time and Majora’s Mask. It follows Link on his quest to find Navi, his fairy companion from the first N64 Zelda game.  However, this search for a missing friend quickly turns into an urgent rescue mission to find all of Kokiri Forest's lost fairies. If Link doesn’t find them soon, the entire world will be at risk. Enjoy new environments, graphics, music, and a new dungeon with a brand new item!",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/the_missing_link/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "/mods/the_missing_link/screenshots/screenshot_0.png",
+          "/mods/the_missing_link/screenshots/screenshot_1.png",
+          "/mods/the_missing_link/screenshots/screenshot_2.png",
+          "/mods/the_missing_link/screenshots/screenshot_3.jpg"
+        ],
+        "download_link": "/mods/the_missing_link/downloads/tml_2_0.zip",
+        "last_updated": "2023-11-08",
+        "timestamp": 0,
+        "is_update": true,
+        "changelog": [
+          {
+            "date": "2021-07-30",
+            "content": "Version 2.0 released\nNew title screen design, and fixed a bug in the original game where the letterbox does not function on the title screen\nMade some changes to make translations etc. easier to create and recompress"
+          }
+        ]
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/spaceworld_97_experience/mod.json",
+      "metadata": {
+        "name": "Spaceworld 97 Experience",
+        "id": "spaceworld_97_experience",
+        "authors": [
+          "Zel",
+          " Fig",
+          " Aegiker",
+          " MrCheeze",
+          " ZeeRoX",
+          " Porcino",
+          " Tharo",
+          " Xiartic",
+          " CDi-Fails",
+          " GlitterBerri",
+          " Lurondor",
+          " louist103",
+          " Rankaisija",
+          " MelonSpeedruns"
+        ],
+        "description": "This project aims to be a mostly accurate representation of the Nintendo Spaceworld 1997 demo of The Legend of Zelda: Ocarina of Time. Since this project aims to restore an experience that was originally a demo, it cannot be completed from start-to-finish like the final game. Instead, three gameplay “tours” featured in the original Spaceworld 1997 demo are available to choose from, each showcasing various unique flavors of gameplay.\n\n[The original repository with more info can be found here.](https://github.com/z64proto/sw97)",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/spaceworld_97_experience/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/spaceworld_97_experience/screenshots/screenshot_0.png",
+          "/mods/spaceworld_97_experience/screenshots/screenshot_1.png",
+          "/mods/spaceworld_97_experience/screenshots/screenshot_2.png",
+          "/mods/spaceworld_97_experience/screenshots/screenshot_3.png"
+        ],
+        "download_link": "/mods/spaceworld_97_experience/downloads/sw97_r2.7z",
+        "last_updated": "2023-11-15",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": [
+          {
+            "date": "2022-05-15",
+            "content": "Add feature that allows you to move the cursor on the world map in the pause menu\n    Add the beta skybox textures, and make the skybox always render a full cube, without the bottom missing\n    Update the prerender for outside the Temple of Time\n    Update the prerender for the Market\n    Added short tower variant of the stationary flamethrower for the Fire Temple\n    Added Navi hint target for Fire Temple hammer pillars, and use beta model\n    Switch between regular recoil and lower pitched wall recoil sfx when hitting colliders, and use lower pitched recoil sound for walls\n    Improve animation for unused sword pull animation when Link holds the shield\n    Make lightning in the intro cutscene behave the same way as in Spaceworld\n\n    Fix issue with low pitched heart sound\n    Fix issue with Jabu Jabu exit in Lake Hylia\n    Fix issue with the spin attack that allowed you to use a magic item and crash the game\n    Fix issue that caused Navi to change color in no-clip mode\n    Fix issue that caused the player to take damage after no-clip\n    Fix various issues with the hat physics in some scenarios\n    Fix issue with the Kokiri NPC that let you get around it when it is blocking the door to a house\n    Fix issue that caused the race Poe to dissapear\n    Fix issue with putting away the sword with the Hylian Shield\n    Fix incorrect medallion textures in pause menu\n    Fix turning midair after a walk slash\n    Fix various standalone shield issues\n    Text improvements\n    Fix pausing lag and/or crashing on emulators\n    Fix issue that sometimes made the game's audio mute itself in Hyrule Field\n    Changed Deku Baba behavior to make them vulnerable again after being hit by them or deflecting their attacks\n    Changed standalone shield collider to be only active when Link is not moving\n    Fixed crash from attacking the slime enemy with the bow\n    Fixed message display glitch that sometimes occured after collecting a full heart container\n    Fixed interpolation issue for longer backjump animation\n    Fixed missing waterbox in the Water Temple"
+          }
+        ]
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/oot_chaos_mod/mod.json",
+      "metadata": {
+        "name": "OoT: Chaos Mod",
+        "id": "oot_chaos_mod",
+        "authors": [
+          "Aegiker"
+        ],
+        "description": "It's OoT except chaos! 80 effects (for now) to spice up an OoT playthrough. Features customization options and different starting points to make your playthrough how you want!  Also supports twitch chat integration.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/oot_chaos_mod/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/oot_chaos_mod/screenshots/screenshot_0.png",
+          "/mods/oot_chaos_mod/screenshots/screenshot_1.png",
+          "/mods/oot_chaos_mod/screenshots/screenshot_2.png",
+          "/mods/oot_chaos_mod/screenshots/screenshot_3.png",
+          "/mods/oot_chaos_mod/screenshots/screenshot_4.png",
+          "/mods/oot_chaos_mod/screenshots/screenshot_5.png"
+        ],
+        "download_link": "/mods/oot_chaos_mod/downloads/OoT Chaos Release 1.0.zip",
+        "last_updated": "2023-11-09",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/hylian_modding_oot_decomp_actor_pack/mod.json",
+      "metadata": {
+        "name": "Hylian Modding OoT Decomp Actor Pack",
+        "id": "hylian_modding_oot_decomp_actor_pack",
+        "authors": [
+          "CDi-Fails",
+          " kentonm",
+          " hiisuya",
+          " ZeeRoX",
+          " Aegiker"
+        ],
+        "description": "This is a custom actor pack intended for use with the [Ocarina of Time decompilation project by ZeldaRET.](https://github.com/zeldaret/oot)\n\nIn this pack, you'll find the following custom actors:\n- Scalable, rotatable fans\n- Floor spikes with various modes\n- Hammer pegs\n- Red/blue platforms\n- Configurable ladders\n- Metal crates\n- Configurable floating platforms\n- Wall pull switch\n- Rat enemy\n- Pols Voice enemy\n- Wizzrobe enemy\n- Zol enemy\n\nYou can find notes for each of these actor inside their C source files located at src/overlays/actors/hm_pack/.\n[For setup instructions, please visit the official GitHub repository.](https://github.com/hylian-modding/hm-actor-pack#setting-up)",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/hylian_modding_oot_decomp_actor_pack/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/hylian_modding_oot_decomp_actor_pack/screenshots/screenshot_0.png",
+          "/mods/hylian_modding_oot_decomp_actor_pack/screenshots/screenshot_1.png",
+          "/mods/hylian_modding_oot_decomp_actor_pack/screenshots/screenshot_2.png",
+          "/mods/hylian_modding_oot_decomp_actor_pack/screenshots/screenshot_3.png",
+          "/mods/hylian_modding_oot_decomp_actor_pack/screenshots/screenshot_4.png",
+          "/mods/hylian_modding_oot_decomp_actor_pack/screenshots/screenshot_5.png"
+        ],
+        "download_link": "/mods/hylian_modding_oot_decomp_actor_pack/downloads/hm-actor-pack-main.zip",
+        "last_updated": "2023-11-15",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/nimpize_adventure/mod.json",
+      "metadata": {
+        "name": "Nimpize Adventure",
+        "id": "nimpize_adventure",
+        "authors": [
+          "Ostrealava02"
+        ],
+        "description": "Nimpize Adventure is an overview of whats possible on Ocarina of Time.\n\nNimpize Adventure is an Ocarina of Time Romhack released on 21st November 2018 for the 20th anniversary of Ocarina of Time.\n\nIt offers a new journey to Link, while mixing custom and regular content.\n\nThe game is pretty difficult overall, it is intended to be beaten without glitches.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/nimpize_adventure/screenshots/thumbnail.png",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=sotmg3OiVfI"
+        ],
+        "download_link": "/mods/nimpize_adventure/downloads/Nimpize Adventure.bps",
+        "last_updated": "2021-3-16",
+        "timestamp": 0,
+        "is_update": true,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/ultimate_trial/mod.json",
+      "metadata": {
+        "name": "Ultimate Trial",
+        "id": "ultimate_trial",
+        "authors": [
+          "Richie",
+          " Syeo",
+          " ZeeRoX",
+          " hiisuya",
+          " Zeraphyr",
+          " Aegiker",
+          " Woon",
+          " ShuggyTheBuggy"
+        ],
+        "description": "Deep inside the Lost Woods lies a mysterious Stronghold, inhabited by lost travellers. As Link enters this place, he is greeted by Shiba, the protector of the fortress. He places the task of conquering the 3 Trials upon Link. He needs to meet new people and explore each corner of the Stronghold to be prepared, but will he be able to conquer them all and eventually reach the Ultimate Trial ?",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/ultimate_trial/screenshots/thumbnail.png",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=3t1mvYpJWn4&ab_channel=Richie",
+          "/mods/ultimate_trial/screenshots/screenshot_1.png",
+          "/mods/ultimate_trial/screenshots/screenshot_2.png",
+          "/mods/ultimate_trial/screenshots/screenshot_3.png",
+          "/mods/ultimate_trial/screenshots/screenshot_4.png"
+        ],
+        "download_link": "https://github.com/RichieUltimate/ultimate-trial/releases/",
+        "last_updated": "2024-05-27",
+        "timestamp": 0,
+        "is_update": true,
+        "changelog": [
+          {
+            "date": "2024-05-25",
+            "content": "Version 1.0 :\n\nRelease of the game!"
+          }
+        ]
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/crystal_clocks/mod.json",
+      "metadata": {
+        "name": "Crystal Clocks",
+        "id": "crystal_clocks",
+        "authors": [
+          "SuperZambezi"
+        ],
+        "description": "It’s a beautiful night, and you’re headed off to stargaze with Saria and Mido. Surely, the path to get there is simple!\n\nTake aim with the Dragshot, a modified slingshot with a creeping twist. Complete 11 different puzzle rooms as you manage platform switches and crystal activation sequences. Puzzles are primarily time-based, so being able to maintain patience and tolerate precise aiming is key. Estimated completion time is one hour.\n\nLooking for an extra challenge? Scattered around the level are four optional Pieces of Hearts. Stay alert for a special hint system that will help you find them all. Although custom music was originally planned and arranged, I was not able to get it working for this release.\n\nThis mod was originally submitted as an entry for Hylian Modding’s first competition. This update adds additional puzzles, new collectibles, new rooms like an ending room, a visual overhaul, various bug fixes, and several quality of life changes.\n\nTrailer theme: https://youtu.be/wbVXBJPg1nI ",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Complete",
+        "thumbnail_image": "/mods/crystal_clocks/screenshots/VHhkwNW.jpg",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=dJhRMBkyz8Q",
+          "/mods/crystal_clocks/screenshots/XNwHBuS.jpg",
+          "/mods/crystal_clocks/screenshots/Jyg8Mg4.jpg",
+          "/mods/crystal_clocks/screenshots/cy5nNm1.jpg",
+          "/mods/crystal_clocks/screenshots/6KTOa01.jpg"
+        ],
+        "download_link": "/mods/crystal_clocks/downloads/crystal-clocks-2.0.bps",
+        "last_updated": "2024-07-24",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/time_lost/mod.json",
+      "metadata": {
+        "name": "Time Lost",
+        "id": "time_lost",
+        "authors": [
+          "Stonee Bad Luck"
+        ],
+        "description": "A sequel to The Legend of Zelda – Master of Time, that takes place 4 years after the events of Abello. Link finds himself on yet another adventure after settling down in a new country called Finlay, where he discovers the worship of Majora to the mystery of Jabu milk and much more.\n\nCurrent Patch Version 1.02. Tested and Working on Retroarch Emulator (Mupen Core), Wii VC, Dolphin Emulator, Project 64 3.0.1",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/time_lost/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=SsU3uC68dBc",
+          "/mods/time_lost/screenshots/image.png",
+          "/mods/time_lost/screenshots/image2.png",
+          "/mods/time_lost/screenshots/image4.png"
+        ],
+        "download_link": "/mods/time_lost/downloads/Legend of Zelda - Time Lost.zip",
+        "last_updated": "2025-01-04",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/four_swords_arena_editon/mod.json",
+      "metadata": {
+        "name": "Four Swords Arena Editon",
+        "id": "four_swords_arena_editon",
+        "authors": [
+          "Psi-Hate"
+        ],
+        "description": "This mod allows you to play by yourself or up to 4 players as you play through a few small dungeons in a 2D-perspective.\n\nPatches against OoT 1.0 USA .z64",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/four_swords_arena_editon/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "https://youtu.be/FDdjPfhYrBM?si=_v6Sh5fR4_wbfNFy"
+        ],
+        "download_link": "/mods/four_swords_arena_editon/downloads/zelda64-four-swords-arena-edition-fixed.bps",
+        "last_updated": "2016-6-01",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/fate_of_the_bombiwa/mod.json",
+      "metadata": {
+        "name": "Fate of the Bombiwa",
+        "id": "fate_of_the_bombiwa",
+        "authors": [
+          "DezZival"
+        ],
+        "description": "This is the story of a young adventurer who waanted to become legendary. After sailing acound the open sea looking for a quest, he found a town inhabited by the Bombiwa Tribe. Although, this town was in a very dire situation. He was told by the king that a few town members, includind his daughter, had gone missing. being excited for a chance to make a name for himself, he took on this task. Now, the fate of the Bombiwa, is in his hands...",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/fate_of_the_bombiwa/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/fate_of_the_bombiwa/screenshots/screenshot1.png",
+          "/mods/fate_of_the_bombiwa/screenshots/screenshot2.png",
+          "/mods/fate_of_the_bombiwa/screenshots/screenshot3.png",
+          "/mods/fate_of_the_bombiwa/screenshots/screenshot4.png"
+        ],
+        "download_link": "/mods/fate_of_the_bombiwa/downloads/TFOTB Patch.bps",
+        "last_updated": "2020-1-01",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/eagle_dungeon/mod.json",
+      "metadata": {
+        "name": "Eagle Dungeon",
+        "id": "eagle_dungeon",
+        "authors": [
+          "Anthus"
+        ],
+        "description": "This is more of a short tech demo than anything, and not something I’d make into a full mod. I enjoyed the process for the most part, but there are some limits of OoT’s engine that make this kind of thing not that great in some regards. OoT was also never really meant for fully top down areas. The biggest limit was the amount of cameras per scene used for room to room. I do not know if, or how this can be expanded or changed. Before you play, keep this in mind:\n\nThis is mostly finished, and currently only works with MQ Debug, BUT there is no boss. I’d like to support 1.0, but dunno how yet.\n\n-Other than that, it is effectively finished. -If you die, save and reset, cause you might get death crash. -I had to use flame circles since iron bar doors permanently mess up the camera. -If you exit the boss’ room you will get a weird camera glitch, but it doesn’t effect anything and reverts quickly. Once finished, you won’t be able to leave the boss room anyway so it won’t matter. -The hack is basically done/ over once you get to the boss room (no boss yet).",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/eagle_dungeon/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "/mods/eagle_dungeon/screenshots/thumbnail.jpg"
+        ],
+        "download_link": "/mods/eagle_dungeon/downloads/EagleDungeonBPS.bps",
+        "last_updated": "2020-1-01",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/dungeon_rush/mod.json",
+      "metadata": {
+        "name": "Dungeon Rush",
+        "id": "dungeon_rush",
+        "authors": [
+          "mzxrules"
+        ],
+        "description": "The mod focuses exclusively on dungeons, without the need to explore the outside world. The main goal is to complete the dungeons as quickly as possible, making it a popular choice among players who enjoy speedrunning.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/dungeon_rush/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/dungeon_rush/screenshots/thumbnail.png"
+        ],
+        "download_link": "/mods/dungeon_rush/downloads/LoZOoT-DungeonRush.zip",
+        "last_updated": "2021-1-01",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/demon's_quest/mod.json",
+      "metadata": {
+        "name": "Demon's Quest",
+        "id": "demon's_quest",
+        "authors": [
+          "thinedave and Aegiker"
+        ],
+        "description": "Ocarina of Time: Demon's Quest is a gameplay mod that aims to make the game more challenging to the experienced player.\n\nFeatures include:\n\nNew enemy attacks\n\nTrial of Courage: A Savage Labyrinth-esque gauntlet of enemies required to obtain Double Defense.\n\nRPG style leveling: Strength, intelligence, endurance, and luck will bolster your stats in combat.\n\nHero Mode: Challenge yourself in this mode where damage is tripled and drained heart containers can no longer be recovered. Ever. Try not to lose them all.\n\nShield Durability: Consider dodging. Shields can be re-bought at a shop.\n\nPerfect Block: Don't want to lose stamina? Don't want to lose durability? Don't want to take damage? Now you can have it all.\n\nStamina: Every combat action you take drains stamina. No longer can you mindlessly swing your sword about and win.\n\nLife Drain: Upon death, a heart container is drained from your life. Consult the Great Fairies for aid.\n\nDouble Damage: Those Deku Babas aren't playing anymore.\n\nPotions: Drinking a potion no longer pauses the game.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/demon's_quest/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/demon's_quest/screenshots/thumbnail.png"
+        ],
+        "download_link": "https://github.com/thinedave/ocarina-demonsquest/releases/",
+        "last_updated": "2025-5-01",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/dark_hyrule_fantasy/mod.json",
+      "metadata": {
+        "name": "Dark Hyrule Fantasy",
+        "id": "dark_hyrule_fantasy",
+        "authors": [
+          "E-gor & Spire"
+        ],
+        "description": "Dark Hyrule Fantasy (DHF) is a ROM-hack modification of The Legend of Zelda: Ocarina of Time, a creative game development effort launched by E-Gor and Spire in October 2017. Stemming from the inspiration and remnants of Project Third Quest's original worldbuilding, DHF aims to be a full Ocarina of Time conversion mod, introducing a new world, a new story, new characters, and modifications of most elements from the original Nintendo 64 classic. Our hope is to deliver a new 'Zelda 64' experience built within the framework of our beloved predecessor.\n\nThe world of DHF is an interpretation of Hyrule like never seen before. Deriving from countless sources in and out of the Zelda universe, we aim to represent both classic and foreign concepts in an amalgamation of imagination. We have worked through many world layouts and concepts in order to land where we presently are, and we will show content when it is ready to be shared. There is much work before us, so please be patient, and enjoy the fruits of our labor thus far!\n\nWith Peace, Love, and Artistry, E-Gor and Spire\n\nCancelled and moving to Godot engine",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/dark_hyrule_fantasy/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "/mods/dark_hyrule_fantasy/screenshots/screenshot1.png",
+          "/mods/dark_hyrule_fantasy/screenshots/screenshot2.png",
+          "/mods/dark_hyrule_fantasy/screenshots/screenshot3.png"
+        ],
+        "download_link": "/mods/dark_hyrule_fantasy/downloads/DHF1_0_FIX.bps",
+        "last_updated": "2017-12-04",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/child_quest/mod.json",
+      "metadata": {
+        "name": "Child Quest",
+        "id": "child_quest",
+        "authors": [
+          "Admentus",
+          "GhostlyDark"
+        ],
+        "description": "Experience the story of Ocarina of Time without ever reaching adulthood. All items are usuable and every collectable can be acquired. Riding Epona, doing both trading quests, pulling the Master Sword...Hidden surprises included!",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/child_quest/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/child_quest/screenshots/screenshot1.png",
+          "/mods/child_quest/screenshots/screenshot2.png",
+          "/mods/child_quest/screenshots/screenshot3.png"
+        ],
+        "download_link": "/mods/child_quest/downloads/LoZOoT-ChildQuest.zip",
+        "last_updated": "2023-1-01",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/3rd_quest/mod.json",
+      "metadata": {
+        "name": "3rd Quest",
+        "id": "3rd_quest",
+        "authors": [
+          "CDi-Fails",
+          " Evan20K",
+          " Ideka",
+          " Jhreamer",
+          " SanguinettiMods",
+          " Spire"
+        ],
+        "description": "The Legend of Zelda: 3rd Quest (actually just called Project 3rd Quest) was a rom hack project of  The Legend of Zelda: Ocarina of Time.\n\nIt was an attempt to make a sort of sequel of Zelda Ocarina of Time and Majora's Mask, with new maps, dungeons and story.\n\nProject 3rd Quest is an ongoing WIP OoT mod. Its goal is to modify and add lots of content (such as a new storyline, an entirely new overworld, new dungeons, new characters and even new items!) to the engine of Ocarina of Time. More trailers and even more screenshots are planned to be released soon, so stay tuned!",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/3rd_quest/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/3rd_quest/screenshots/screenshot1.png",
+          "/mods/3rd_quest/screenshots/screenshot2.png",
+          "/mods/3rd_quest/screenshots/screenshot3.png"
+        ],
+        "download_link": "/mods/3rd_quest/downloads/3rdQuest0.5.3.bps",
+        "last_updated": "2015-1-01",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/majora's_mask_chaos_edition/mod.json",
+      "metadata": {
+        "name": "Majora's Mask: Chaos Edition",
+        "id": "majora's_mask_chaos_edition",
+        "authors": [
+          "GabrielCNoble"
+        ],
+        "description": "It's Majora's Mask, but the game gets in your way. Inspired by OoT: Chaos Mod, it brings some of its effects in and adds a bunch of unique ones.",
+        "category": "mod",
+        "supported_games": "MM",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/majora's_mask_chaos_edition/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/majora's_mask_chaos_edition/screenshots/screenshot_1.png",
+          "/mods/majora's_mask_chaos_edition/screenshots/screenshot_2.png"
+        ],
+        "download_link": "https://github.com/GabrielCNoble/mm-chaos/releases",
+        "last_updated": "2025-9-18",
+        "timestamp": 0,
+        "is_update": true,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/zelda_revival/mod.json",
+      "metadata": {
+        "name": "Zelda Revival",
+        "id": "zelda_revival",
+        "authors": [
+          "Don Camilo"
+        ],
+        "description": "A Majora's Mask romhack with a small world to explore, where link is revive from the dead for a ugly old man.",
+        "category": "mod",
+        "supported_games": "MM",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/zelda_revival/screenshots/thumbnail.png",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=NOx3vP5GL54",
+          "/mods/zelda_revival/screenshots/screenshot_1.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbFEZi7mpu5Opnu17W1ZZsxvhXZtUHKmJGGA&s",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm6380VvnS2eiQeaBnZSQU_6LOCzhd6cnbkg&s",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqf-Fh39nygDj-LQmNtq0uJCQ-38f6hnowTA&s",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa-CR6j5e1YtfW_vYmKGVS5FKl-YxWiSg_GQ&s"
+        ],
+        "download_link": "/mods/zelda_revival/downloads/zelda_revival.zip",
+        "last_updated": "2023-11-18",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/pumkin_tower/mod.json",
+      "metadata": {
+        "name": "Pumkin Tower",
+        "id": "pumkin_tower",
+        "authors": [
+          "Chadlight",
+          "Corrhaid",
+          "Javarooster"
+        ],
+        "description": "Navigate through a challenging tower with five floors of different terrain with lots of new and returning enemies, and make use of Link’s transformations with level design to complement their abilities. Prepare to feed the Hungry Pumkins and make use of all the clues found throughout the tower to make it out alive!\n\nMade in only 2 months for a Hylian Modding romhacking competition, this hack includes a large amount of Majora items, custom enemies, boss fights, items, and soundtrack. Comes with jokes!\n\nKnown compatibility: Retroarch, PJ64, Mupen\n\nDoes work on console if you are into that kind of thing…",
+        "category": "mod",
+        "supported_games": "MM",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/pumkin_tower/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/pumkin_tower/screenshots/screenshot_0.png",
+          "/mods/pumkin_tower/screenshots/screenshot_1.png",
+          "/mods/pumkin_tower/screenshots/screenshot_2.png",
+          "/mods/pumkin_tower/screenshots/screenshot_3.png"
+        ],
+        "download_link": "/mods/pumkin_tower/downloads/PumkinPatch1.1.1.bps",
+        "last_updated": "2024-7-30",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/sands_of_time/mod.json",
+      "metadata": {
+        "name": "Sands of Time",
+        "id": "sands_of_time",
+        "authors": [
+          "Debuglog & Woon"
+        ],
+        "description": "After defeating the Hero of Time and eliminating all who opposed him, Ganon took hold over Hyrule as its new tyrannical ruler. Abusing the power of the Triforce, he turned the land into an almost desolate wasteland.\n\nDespite his divine position as the Demon King, possessing all 3 pieces of the Triforce and the 6 Medallions, he was still a slave to his own mortality. On that fateful, long awaited day, Ganon died of old age. The Dark Age was over.\n\nOverturning the old reign of terror, survivors built their own rule in the ruin. Some of them started new lives, some seek the fortune Ganon left behind...\n\nIn the secluded Steel Town, a young adventurer, risking his life and dreaming of success, sets out on his path.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/sands_of_time/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "/mods/sands_of_time/screenshots/screenshot_0.jpg",
+          "/mods/sands_of_time/screenshots/screenshot_1.jpg",
+          "/mods/sands_of_time/screenshots/screenshot_2.jpg",
+          "/mods/sands_of_time/screenshots/screenshot_3.jpg",
+          "/mods/sands_of_time/screenshots/screenshot_4.png",
+          "/mods/sands_of_time/screenshots/screenshot_5.jpg"
+        ],
+        "download_link": "/mods/sands_of_time/downloads/SoT1.22.bps",
+        "last_updated": "2024-11-23",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/master_of_time_revisited/mod.json",
+      "metadata": {
+        "name": "Master of Time Revisited",
+        "id": "master_of_time_revisited",
+        "authors": [
+          "Don Camilo & Syeo"
+        ],
+        "description": "After saving both Hyrule and Termina, Link found himself without a quest. He journeyed long and far without knowing what to do. He thought a lot about the time manipulation he had done and asked himself if he was the real hero or if he was just a victim of these stories.\n\nThe more his obsession of time had grown, the more it felt that time was slowing down… Until it froze completely, condemning his journey to an endless day… Just before passing out from exhaustion, Link finally found a new country…\n\nMaster of Time is a new story in a completely new world, Abello, where Link must restore the flow of time. Abello is a big and dangerous world, but Link can count on the help of Nite the fairy.\n\nAround 20 hours of gameplay in various areas and dungeons with custom cutscenes, songs and much more. Good luck finding all 100 skulltula tokens and 20 hearts!\n\nA modification of Master of Time with a new inventory screen/overworld map,and some texture changes to overworld,items,medallions and enemies. As well as an new model of Link.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/master_of_time_revisited/screenshots/thumbnail.png",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=NdTIjpgfGb4",
+          "/mods/master_of_time_revisited/screenshots/screenshot_1.png",
+          "/mods/master_of_time_revisited/screenshots/screenshot_2.png",
+          "/mods/master_of_time_revisited/screenshots/screenshot_3.png",
+          "/mods/master_of_time_revisited/screenshots/screenshot_4.png"
+        ],
+        "download_link": "/mods/master_of_time_revisited/downloads/Master of Time Revisited v1.4.2.7z",
+        "last_updated": "2025-5-14",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/hero_of_law/mod.json",
+      "metadata": {
+        "name": "Hero of Law",
+        "id": "hero_of_law",
+        "authors": [
+          "Newer Team"
+        ],
+        "description": "Hero of Law is a crossover mod for The Legend of Zelda: Ocarina of Time that puts Link into the shoes of a defence attorney!",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/hero_of_law/screenshots/thumbnail.png",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=VOdY_7dKNSU",
+          "/mods/hero_of_law/screenshots/screenshot_1.png",
+          "/mods/hero_of_law/screenshots/screenshot_2.png",
+          "/mods/hero_of_law/screenshots/screenshot_3.png",
+          "/mods/hero_of_law/screenshots/screenshot_4.png",
+          "/mods/hero_of_law/screenshots/screenshot_5.png"
+        ],
+        "download_link": "https://newerteam.com/en/hol/index.html",
+        "last_updated": "2025-5-28",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/spider_mansion/mod.json",
+      "metadata": {
+        "name": "Spider Mansion",
+        "id": "spider_mansion",
+        "authors": [
+          "Rankaisija"
+        ],
+        "description": "Spider Mansion is a demo version of the now cancelled ''Sunken Tower'' romhack.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/spider_mansion/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "/mods/spider_mansion/screenshots/screenshot1.webp",
+          "/mods/spider_mansion/screenshots/screenshot1.webp"
+        ],
+        "download_link": "/mods/spider_mansion/downloads/Spider Mansion.bps",
+        "last_updated": "2019-9-08",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/zelda's_birthday/mod.json",
+      "metadata": {
+        "name": "Zelda's Birthday",
+        "id": "zelda's_birthday",
+        "authors": [
+          "jsa"
+        ],
+        "description": "It features all new actor arrangements, all new text and story line, 3 totally redesigned dungeons, an optional side quest, endings, and hidden goodies.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/zelda's_birthday/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/zelda's_birthday/screenshots/screenshot_0.png"
+        ],
+        "download_link": "/mods/zelda's_birthday/downloads/Zeldas_Birthday_Hardware_1.0.bps",
+        "last_updated": "2008-12-30",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/zelda_nightmare/mod.json",
+      "metadata": {
+        "name": "Zelda Nightmare",
+        "id": "zelda_nightmare",
+        "authors": [
+          "Punk7890"
+        ],
+        "description": "A new challenge awaits in the land of Hyrule. Nothing is as it seems. Items are placed in different locations and the whole world feels much darker. Can you overcome all the new dangers?",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/zelda_nightmare/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/zelda_nightmare/screenshots/screenshot_0.png",
+          "/mods/zelda_nightmare/screenshots/screenshot_1.png",
+          "/mods/zelda_nightmare/screenshots/screenshot_2.png"
+        ],
+        "download_link": "/mods/zelda_nightmare/downloads/NIGHTMARE CONSOLE.bps",
+        "last_updated": "2008-01-01",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/zelda's_eternal_youth/mod.json",
+      "metadata": {
+        "name": "Zelda's Eternal Youth",
+        "id": "zelda's_eternal_youth",
+        "authors": [
+          "Airikitascave"
+        ],
+        "description": "The land of Hyrule has changed, and the inhabitants of the land seek a new golden goose: eternal life. The hero sleeps restlessly after Navi disappeared, desperately wanting her companionship once more. Things take a strange turn, and old land is changed. Reality or not, the Kokiri have left, and are aging with the Hylians, grown old from the death of the Deku Tree, and rapidly so. Zelda, Link, and the Kokiri are brought to a new land with the inbalance of Hyrule so unstable, Link's world can no longer maintain itself. There are many forces to be explained, but none of which are solely responsible for the collapse of the old land. The hero sets off into a new world, without choice, as if forced to, into a merged world of lands both known or unknown to the hero. Lands and creatures of old and new.\n\nZelda wants no more than to find eternal youth for the Kokiri and herself, for everyone is aging rapidly in the new world. The forces of time are against them. With a new quest for Link, the insanity slowly drives our hero into desperation to seek out the this impossible task, while at the same time searching for Navi. Reality slips from our hero, and no longer is the world as it should be, or as it seems. Not even the hero knows this path, and aimlessly searches for any clues that will help. Without a solution, everyone ages rapidly. The curse, the hero's sanity, and the world are all intertwined. Things deep within the hero's psyche will become reality within a world merged between realms of unknowns.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/zelda's_eternal_youth/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/zelda's_eternal_youth/screenshots/screenshot_0.png"
+        ],
+        "download_link": "/mods/zelda's_eternal_youth/downloads/zelda's_eternal_youth.zip",
+        "last_updated": "2015-11-02",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/voyager_of_time/mod.json",
+      "metadata": {
+        "name": "Voyager of Time",
+        "id": "voyager_of_time",
+        "authors": [
+          "Brynna Giadrosich"
+        ],
+        "description": "Voyager of Time takes place after Majora’s Mask, but it is not a direct sequel. Link has come back to the Kokiri Forest to try and find peace after his last adventure. It is implied that he has had a third adventure in Termina but with the fairy Tael instead of Tatl. The younger brother of the feisty Tatl is a bit more subdued, but also more brave than what we’ve seen in Majora’s Mask. He can hold his own and he and Link have grown to be great friends.\n\nThe game starts out with Link having nightmares of his past adventures. The Deku Tree Sprout, descendant of the Great Deku Tree has summoned Link because he has sensed great evil growing lately. Link is sent on a quest to help out with the growing problems in Hyrule.\n\nAlong the way, you find that the Door of Time has been broken again by the evil villain, Ganondorf, and you must find a way to stop his rampage once more. There’s some twists and turns along the way, as Link’s items are spread out in an unfamiliar way. Link also has to face some major problems that hit a little too close to home.\n\nThe game features heavy time travel as well as side stories that highlight the problems with time traveling in general. Many places are transformed over the period of seven years that Ganondorf was in rule, and Link has to deal with the problems of his closest friends. On top of that, there may be another problem Link doesn’t realize until it’s too late…\n\nUpdated Environments\n\nThe overworld is changed quite a lot from the original Ocarina of Time. There is an attempt to make each village and section of the map seem more lively and have more character than ever before. NPCs are useful to talk to, and they give hints to the world around you. There are small stories they tell you, and even new sidequests you can accept.\n\nThe biggest change is the difference between the child and adult sections. The child sections are meant to feel more innocent and alive, and the adult sections are meant to showcase the utter destruction of Ganondorf. This is not to be intentionally dark, but just to show a realistic change that would happen over seven years.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/voyager_of_time/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/voyager_of_time/screenshots/screenshot_0.png",
+          "/mods/voyager_of_time/screenshots/screenshot_1.png",
+          "/mods/voyager_of_time/screenshots/screenshot_2.png"
+        ],
+        "download_link": "/mods/voyager_of_time/downloads/Voyager of Time.zip",
+        "last_updated": "2013-1-01",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/majora's_mask_masked_quest/mod.json",
+      "metadata": {
+        "name": "Majora's Mask Masked Quest",
+        "id": "majora's_mask_masked_quest",
+        "authors": [
+          "Garo-Mastah"
+        ],
+        "description": "This is the second phase of my ultimate version of the game with so many changes in the gameplay, altering many known places like; the pirate fortress, the moon, etc.\n\nFeatures:\n\nSome dungeons modified.\nA new map which replace the Lottery Shop named, “Town Museum”.\nLink and his forms have each individual colors.\nDifficulty increased.\nSun´s song restored.\nThe infamous Moon trial are not optional anymore, with some mask required, perfect for speedruns.\nThe 3 MASKS are required for advance to the next trial to gets into the Final room (Majora), the moon field also requires 2 important items in the game To climb towards where is the Majora masked moon child to accept the final challenge of the game, and talking about of moon children, 10 masks are mandatory for gives to the moon children that reminds me the Ganon trials in the Ganon´s Castle in OOT.\nBeta enemies are back.\nFew Sub Bosses are more harder to fight.\nSome aesthetic changes in stages so do remember to its 3DS counterpart.\nSome text are changed and are added for the items, songs and swords.\nThe transformation masks have special elemental powers in some attacks (ex. Goron Spikes have the ability to burn some enemies and the Fierce Deity Link is capable of kill enemies with his Sword Beam).\nThe Scarecrow´s song, the powder keg and the Elegy are useful.\nLink and his all forms can do manual jump, in 2 different modes, forward and stand jump,\nThe shield crouch stab is disabled.\nFD Link have the Adult Link´s size and can open lifting dungeon doors, and can be usable anywhere with no restrictions of any type, he finally can use regular items & weapons, but he can´t use the hookshot, bow and magic arrows.\nGoron Link have the walking speed to match with MM3D´s Goron Link walking speed.\nThe hookshot range is lightly extended.\nZora Link´s double cutters´ range is extended for long throw the fins.\nNew Prizes from Romani cows and the rupee wallets.\nThe normal wallet has a new digit.\nAnd new gossip stone hints.\nD-PAD can now be used to access all three transformation masks and the ocarina, allowing a total of seven items to be accessible at all times. Note that this means that the map is no longer possible to toggle off.\nWhen using the bow, magic arrows can be cycled in a similar fashion to Wind Waker’s magic arrows by setting one and pressing the C buttons + R\nnew custom enemies add some unique feels and challenging battles and with new obstacles.\nSome enemies´ desc. are restored.",
+        "category": "mod",
+        "supported_games": "MM",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/majora's_mask_masked_quest/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "/mods/majora's_mask_masked_quest/screenshots/screenshot_0.jpg"
+        ],
+        "download_link": "/mods/majora's_mask_masked_quest/downloads/MajoraMQ.zip",
+        "last_updated": "2021-01-02",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/majora's_mask_master_quest/mod.json",
+      "metadata": {
+        "name": "Majora's Mask Master Quest",
+        "id": "majora's_mask_master_quest",
+        "authors": [
+          "DeathBasket"
+        ],
+        "description": "This mod was made by Deathbasket and it's very similar to Ocarina of Time's Master Quest. However, it goes a step beyond that and modifies more than just the dungeons. However, there are no custom maps. And don't expect it to be easy! It's not.",
+        "category": "mod",
+        "supported_games": "MM",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/majora's_mask_master_quest/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/majora's_mask_master_quest/screenshots/screenshot_0.png"
+        ],
+        "download_link": "/mods/majora's_mask_master_quest/downloads/LoZMM-MasterQuest.zip",
+        "last_updated": "2016-3-28",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/zelda_sacred_armor_project_izou/mod.json",
+      "metadata": {
+        "name": "Zelda Sacred Armor Project Izou",
+        "id": "zelda_sacred_armor_project_izou",
+        "authors": [
+          "Zeldaboy14",
+          " Flotonic",
+          " Saguinetti/CrookedPoe",
+          " Aria Hiro",
+          " airikitascave",
+          " Ganondork123"
+        ],
+        "description": "Zelda Sacred Armor: Project Izou is a ROM hack created by Team Izou.\n\nThe demo contains up to the first dungeon, however the project is cancelled to this day.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/zelda_sacred_armor_project_izou/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "/mods/zelda_sacred_armor_project_izou/screenshots/screenshot_0.jpg",
+          "/mods/zelda_sacred_armor_project_izou/screenshots/screenshot_1.jpg",
+          "/mods/zelda_sacred_armor_project_izou/screenshots/screenshot_2.jpg",
+          "/mods/zelda_sacred_armor_project_izou/screenshots/screenshot_3.jpg",
+          "/mods/zelda_sacred_armor_project_izou/screenshots/screenshot_4.jpg",
+          "/mods/zelda_sacred_armor_project_izou/screenshots/screenshot_5.jpg"
+        ],
+        "download_link": "/mods/zelda_sacred_armor_project_izou/downloads/Izou_Zelda_Patch_One.zip",
+        "last_updated": "2013-12-08",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/zelda_puzzling/mod.json",
+      "metadata": {
+        "name": "Zelda Puzzling",
+        "id": "zelda_puzzling",
+        "authors": [
+          "DezZival"
+        ],
+        "description": "Traverse through six challenging trials in this mod made by DezZival! Made for Ocarina of Time 1.0, you are tasked with solving a variety of puzzles that will surely stump you. Will you triumph through these challenges, or will you become too puzzled to continue on?",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/zelda_puzzling/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/zelda_puzzling/screenshots/screenshot_0.png",
+          "/mods/zelda_puzzling/screenshots/screenshot_1.png"
+        ],
+        "download_link": "/mods/zelda_puzzling/downloads/1.1.2 OOT PUZZLING.bps",
+        "last_updated": "2019-9-02",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/the_helix_blade/mod.json",
+      "metadata": {
+        "name": "The Helix Blade",
+        "id": "the_helix_blade",
+        "authors": [
+          "Corrhaid"
+        ],
+        "description": "This is a hack about how a Terminian Link became the Fierce Diety.\nUse a 1.0 US .z64 rom to patch.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/the_helix_blade/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=k3_VXmb7bb0",
+          "/mods/the_helix_blade/screenshots/screenshot_1.jpg"
+        ],
+        "download_link": "/mods/the_helix_blade/downloads/The Helix Blade Demo.rar",
+        "last_updated": "2021-11-02",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/the_journey_of_angtherum/mod.json",
+      "metadata": {
+        "name": "The Journey of Angtherum",
+        "id": "the_journey_of_angtherum",
+        "authors": [
+          "z64offline.jc"
+        ],
+        "description": "A hack made by z64offline.jc, still in development",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/the_journey_of_angtherum/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=u8qx4KiPVSQ",
+          "/mods/the_journey_of_angtherum/screenshots/screenshot_1.jpg",
+          "/mods/the_journey_of_angtherum/screenshots/screenshot_2.jpg",
+          "/mods/the_journey_of_angtherum/screenshots/screenshot_3.jpg",
+          "/mods/the_journey_of_angtherum/screenshots/screenshot_4.jpg",
+          "/mods/the_journey_of_angtherum/screenshots/screenshot_5.jpg"
+        ],
+        "download_link": "/mods/the_journey_of_angtherum/downloads/The Journey Of Angtherum USA.v1.0.bps",
+        "last_updated": "2023-12-31",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/star_fox_64_survival/mod.json",
+      "metadata": {
+        "name": "Star Fox 64 Survival",
+        "id": "star_fox_64_survival",
+        "authors": [
+          "Zel & Kaze"
+        ],
+        "description": "A brand new Ocarina of Time ROM hack in a new setting: You play as Fox, where your Arwing has crash landed on an unknown planet. Do you have what it takes to survive?",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "mods/star_fox_64_survival/screenshots/thumbnail.png",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=TzqfstBv71I",
+          "mods/star_fox_64_survival/screenshots/screenshot1.png",
+          "mods/star_fox_64_survival/screenshots/screenshot2.png"
+        ],
+        "download_link": "mods/star_fox_64_survival/downloads/StarFox64SurvivalV14.zip",
+        "last_updated": "2020-11-28",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/silent_hill_in_ocarina_of_time/mod.json",
+      "metadata": {
+        "name": "Silent Hill in Ocarina of Time",
+        "id": "silent_hill_in_ocarina_of_time",
+        "authors": [
+          "Akuma Kira"
+        ],
+        "description": "Silent Hill in Ocarina of Time is a ROM hack created by Akuma Kira.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/silent_hill_in_ocarina_of_time/screenshots/thumbnail.webp",
+        "screenshots": [
+          "/mods/silent_hill_in_ocarina_of_time/screenshots/screensho1.webp",
+          "/mods/silent_hill_in_ocarina_of_time/screenshots/screensho2.webp",
+          "/mods/silent_hill_in_ocarina_of_time/screenshots/screensho3.webp"
+        ],
+        "download_link": "/mods/silent_hill_in_ocarina_of_time/downloads/SH_V7.bps",
+        "last_updated": "2022-9-24",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/shadows_of_eldoria/mod.json",
+      "metadata": {
+        "name": "Shadows of Eldoria",
+        "id": "shadows_of_eldoria",
+        "authors": [
+          "Stonee Bad Luck"
+        ],
+        "description": "Shadows of Eldoria is a ROM hack created by Stonee Bad Luck.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/shadows_of_eldoria/screenshots/thumbnail.webp",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=rYWtGcdsrcY",
+          "/mods/shadows_of_eldoria/screenshots/screenshot1.webp",
+          "/mods/shadows_of_eldoria/screenshots/screenshot2.webp"
+        ],
+        "download_link": "/mods/shadows_of_eldoria/downloads/Shadows of Eldoria DEMO z64.bps",
+        "last_updated": "2024-9-28",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/hero_of_hyrule/mod.json",
+      "metadata": {
+        "name": "Hero of Hyrule",
+        "id": "hero_of_hyrule",
+        "authors": [
+          "ShakemBeckford"
+        ],
+        "description": "Hero of Hyrule is a ROM hack created by ShakemBeckford.\n\n",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/hero_of_hyrule/screenshots/screenshot1.png",
+        "screenshots": [
+          "/mods/hero_of_hyrule/screenshots/screenshot1.png"
+        ],
+        "download_link": "/mods/hero_of_hyrule/downloads/HoH_Demo_v1.rar",
+        "last_updated": "2015-4-3",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/minidungeon/mod.json",
+      "metadata": {
+        "name": "Mini Dungeon",
+        "id": "minidungeon",
+        "authors": [
+          "JeDDyDee"
+        ],
+        "description": "JeDDyDee: \"So this is my attempt at a map with transition actors. It's really more of a test (first time I've created a multi-room map/used transition actors) then anything so don't expect the puzzles to pose much difficulty. The dungeon is built for adult Link. The map replaces Room 117.\" \n\nPatches over ZELOOTMA.Z64",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Complete",
+        "thumbnail_image": "/mods/minidungeon/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/minidungeon/screenshots/thumbnail.png"
+        ],
+        "download_link": "/mods/minidungeon/downloads/minidungeon.ppf",
+        "last_updated": "2018-12-08",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/zelda_64_temple_96/mod.json",
+      "metadata": {
+        "name": "Zelda 64 Temple 96",
+        "id": "zelda_64_temple_96",
+        "authors": [
+          "N64man098"
+        ],
+        "description": "A project that aims to remake the Zelda 64 Alpha into a full game experience.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/zelda_64_temple_96/screenshots/thumbnail.webp",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=Ja-neQaiycs"
+        ],
+        "download_link": "/mods/zelda_64_temple_96/downloads/Zelda 64 Temple 96.rar",
+        "last_updated": "2023-8-11",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/new_master_quest/mod.json",
+      "metadata": {
+        "name": "New Master Quest",
+        "id": "new_master_quest",
+        "authors": [
+          "Euler"
+        ],
+        "description": "The storyline remains the same, but all dungeons have been changed. In short, it is “New Master Quest”. There are basically no changes to the map except for the dungeons, no graphical changes, and no text changes. Enjoy as pure MQ alternative.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/new_master_quest/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/new_master_quest/screenshots/screenshot_0.png",
+          "/mods/new_master_quest/screenshots/screenshot_1.png",
+          "/mods/new_master_quest/screenshots/screenshot_2.png"
+        ],
+        "download_link": "/mods/new_master_quest/downloads/OoT - New Master Quest.zip",
+        "last_updated": "2025-4-01",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/ocarina_of_time_gold_quest/mod.json",
+      "metadata": {
+        "name": "Ocarina of Time Gold Quest",
+        "id": "ocarina_of_time_gold_quest",
+        "authors": [
+          "AndiiSyn"
+        ],
+        "description": "Ocarina of Time - Gold Quest is a ROM hack created by AndiiSyn.\n\nGold Quest is like an expanded Master Quest. Different dungeon & overworld layouts plus many other little gameplay changes.\n\nDesigned with the more experienced OOT player in mind & for those who like to complete 100% of the game. Like Master Quest, it’s the same story, although there are some text changes & cutscenes have generally been made shorter. Text speed has been increased. Dungeon Maps have all been updated for new chest locations with fast chest openings. The intro has been removed (you start in Link’s house).\n\nTested on N64 with an Everdrive. Requires 8mb expansion.\n\nPatches supplied for 1.0 & 1.2 ROMs.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/ocarina_of_time_gold_quest/screenshots/thumnail.webp",
+        "screenshots": [
+          "/mods/ocarina_of_time_gold_quest/screenshots/screenshot_0.jpg",
+          "/mods/ocarina_of_time_gold_quest/screenshots/screenshot_1.jpg",
+          "/mods/ocarina_of_time_gold_quest/screenshots/screenshot_2.jpg",
+          "/mods/ocarina_of_time_gold_quest/screenshots/screenshot_3.jpg"
+        ],
+        "download_link": "/mods/ocarina_of_time_gold_quest/downloads/Gold Quest Rev2 Patch.zip",
+        "last_updated": "2022-10-09",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/outset_island/mod.json",
+      "metadata": {
+        "name": "Outset Island",
+        "id": "outset_island",
+        "authors": [
+          "Mark Kurko"
+        ],
+        "description": "Mark Kurko - \"This is a Tech demo I made importing the Outset island model used in my Mod BK The Bear Waker, into OOT engine.\"",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/outset_island/screenshots/thumbnail.png",
+        "screenshots": [
+          "https://www.youtube.com/watch?v=06w-EaZvJWc",
+          "/mods/outset_island/screenshots/screenshot1.png",
+          "/mods/outset_island/screenshots/screenshot2.png",
+          "/mods/outset_island/screenshots/screenshot3.png"
+        ],
+        "download_link": "/mods/outset_island/downloads/Outset Island.rar",
+        "last_updated": "2020-10-28",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/abandoned_archives/mod.json",
+      "metadata": {
+        "name": "Abandoned Archives",
+        "id": "abandoned_archives",
+        "authors": [
+          "Rankaisija"
+        ],
+        "description": "Abandoned Archives is an unfinished ROM hack created by Rankaisija including a boss fight.",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "Demo",
+        "thumbnail_image": "/mods/abandoned_archives/screenshots/thumbnail.jpg",
+        "screenshots": [
+          "/mods/abandoned_archives/screenshots/screenshot1.jpg"
+        ],
+        "download_link": "/mods/abandoned_archives/downloads/OoT ST AA Latest.7z",
+        "last_updated": "2019-6-24",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    },
+    {
+      "metadataUrl": "https://hylianmodding.com/mods/mm_transforms_oot/mod.json",
+      "metadata": {
+        "name": "Majora's Mask Transformation Masks in Ocarina of Time",
+        "id": "mm_transforms_oot",
+        "authors": [
+          "aegiker"
+        ],
+        "description": "Patch to Ocarina of Time v1.0 (U)\nPlease report any bugs you find to me in my [Discord server](https://discord.com/invite/mSN9e5sKfq) and stay tuned for updates!\n",
+        "category": "mod",
+        "supported_games": "OoT",
+        "compatibility": "",
+        "completion_status": "complete",
+        "thumbnail_image": "/mods/mm_transforms_oot/screenshots/thumbnail.png",
+        "screenshots": [
+          "/mods/mm_transforms_oot/screenshots/screenshot0.png",
+          "/mods/mm_transforms_oot/screenshots/screenshot1.png",
+          "/mods/mm_transforms_oot/screenshots/screenshot2.png",
+          "/mods/mm_transforms_oot/screenshots/screenshot3.png"
+        ],
+        "download_link": "/mods/mm_transforms_oot/downloads/Transformation Masks in OoT v1.0.bps",
+        "last_updated": "2026-1-01",
+        "timestamp": 0,
+        "is_update": false,
+        "changelog": []
+      }
+    }
+  ]
+}
