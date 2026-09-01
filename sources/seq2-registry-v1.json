@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/DrSammyD/m64menu/main/schemas/mod-registry-v1.schema.json",
+  "$schema": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-v1.schema.json",
   "schemaVersion": 1,
   "generatedAt": "2026-08-28T02:23:17Z",
   "notice": "Live index of original-site URLs for Smash Remix, Hylian Modding, and Super Mario 64 hacks. This catalog contains no ROM data. Patch files are not redistributed; clients fetch them from the publisher's original HTTPS URLs.",

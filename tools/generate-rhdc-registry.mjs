@@ -9,7 +9,7 @@ const artworkPath = resolve(process.argv[4] || "sources/rhdc-artwork-pins-v1.jso
 const snapshot = JSON.parse(await readFile(inputPath, "utf8"));
 const artwork = JSON.parse(await readFile(artworkPath, "utf8"));
 if (artwork.sourceSnapshotCapturedAt !== snapshot.source.capturedAt) throw new Error("Artwork pins were generated from a different RHDC snapshot");
-const schema = "https://raw.githubusercontent.com/DrSammyD/m64menu/main/schemas/mod-registry-v1.schema.json";
+const schema = "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-v1.schema.json";
 const base = {
   name: "Super Mario 64",
   variant: "USA",

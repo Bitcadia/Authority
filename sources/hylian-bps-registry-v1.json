@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/DrSammyD/m64menu/main/schemas/mod-registry-v1.schema.json",
+  "$schema": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-v1.schema.json",
   "schemaVersion": 1,
   "generatedAt": "2026-08-31T02:40:58.513Z",
   "notice": "Live index of original-site patch URLs from Hylian Modding and named publishers. This catalog contains no ROM data. Patch files are not redistributed; clients fetch exact pinned artifacts from their original HTTPS URLs.",

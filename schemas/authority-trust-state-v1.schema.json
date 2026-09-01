@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/authority-trust-state-v1.schema.json",
+  "title": "bitcadia64 local authority trust state",
+  "description": "Local-only user decisions and accepted snapshots. This document is never gossiped.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "gossipers", "registries"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "gossipers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["authorityId", "manifestUrl", "acceptedSequence", "acceptedManifestSha256", "acceptedRegistrySha256"],
+        "properties": {
+          "authorityId": { "type": "string", "pattern": "^ed25519:[A-Za-z0-9_-]{42}[AEIMQUYcgkosw048]$" },
+          "manifestUrl": { "type": "string", "pattern": "^https://(?![0-9.]+/)(?![^/]*\\.[Ll][Oo][Cc][Aa][Ll]/)(?=[^/]*\\.)(?:(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\\.)+(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?/[^#\\\\\\r\\n\\t]+$" },
+          "acceptedRegistryUrl": { "type": "string", "pattern": "^https://(?![0-9.]+/)(?![^/]*\\.[Ll][Oo][Cc][Aa][Ll]/)(?=[^/]*\\.)(?:(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\\.)+(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?/[^#\\\\\\r\\n\\t]+$" },
+          "acceptedSequence": { "type": "integer", "minimum": 1, "maximum": 9007199254740991 },
+          "acceptedManifestSha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "acceptedRegistrySha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+        }
+      }
+    },
+    "registries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["registryUrl", "trust", "acceptedRegistrySha256", "registryHistory", "attestedBy"],
+        "properties": {
+          "registryUrl": { "type": "string", "pattern": "^https://(?![0-9.]+/)(?![^/]*\\.[Ll][Oo][Cc][Aa][Ll]/)(?=[^/]*\\.)(?:(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\\.)+(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?/[^#\\\\\\r\\n\\t]+$" },
+          "trust": { "enum": ["untrusted", "trusted", "blocked"] },
+          "acceptedRegistrySha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "registryHistory": {
+            "type": "array", "maxItems": 16, "uniqueItems": true,
+            "items": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+          },
+          "attestedBy": {
+            "type": "array", "minItems": 1, "maxItems": 32, "uniqueItems": true,
+            "items": { "type": "string", "pattern": "^ed25519:[A-Za-z0-9_-]{42}[AEIMQUYcgkosw048]$" }
+          }
+        }
+      }
+    }
+  }
+}

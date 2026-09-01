@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-v1.schema.json",
+  "title": "bitcadia64 external mod registry",
+  "description": "Curated metadata for verified BPS and VCDIFF/xdelta patches. Registries contain no base ROM data.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "schemaVersion", "generatedAt", "notice", "entries"],
+  "properties": {
+    "$schema": {
+      "const": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-v1.schema.json"
+    },
+    "schemaVersion": { "const": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "notice": { "type": "string", "minLength": 1 },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 100000,
+      "items": { "$ref": "#/$defs/entry" }
+    },
+    "continuation": {
+      "$ref": "#/$defs/continuation",
+      "description": "Omit this property on the final page; explicit null is invalid."
+    }
+  },
+  "$defs": {
+    "httpsUrl": {
+      "type": "string",
+      "pattern": "^https://(?![0-9.]+/)(?![^/]*\\.[Ll][Oo][Cc][Aa][Ll]/)(?=[^/]*\\.)(?:(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\\.)+(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?/[^#\\\\\\r\\n\\t]+$"
+    },
+    "hex8": { "type": "string", "pattern": "^[0-9A-Fa-f]{8}$" },
+    "hex40": { "type": "string", "pattern": "^[0-9A-Fa-f]{40}$" },
+    "hex64": { "type": "string", "pattern": "^[0-9A-Fa-f]{64}$" },
+    "continuation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["documentType", "url", "sha256", "size", "entryCount", "allowRedirects"],
+      "properties": {
+        "documentType": { "const": "mod-registry-v1" },
+        "url": { "$ref": "#/$defs/httpsUrl" },
+        "sha256": { "$ref": "#/$defs/hex64" },
+        "size": { "type": "integer", "minimum": 1, "maximum": 8388608 },
+        "entryCount": { "type": "integer", "minimum": 1, "maximum": 100000 },
+        "allowRedirects": { "const": false }
+      }
+    },
+    "component": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*[A-Za-z0-9]$|^[A-Za-z0-9]$"
+    },
+    "entryId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 96,
+      "pattern": "^[A-Za-z0-9._-]+$"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "metadataUrl", "retrievedAt"],
+      "properties": {
+        "provider": { "type": "string", "minLength": 1 },
+        "metadataUrl": { "$ref": "#/$defs/httpsUrl" },
+        "retrievedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "base": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "variant", "normalizedCrc32", "normalizedSha256"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "variant": { "type": "string", "minLength": 1 },
+        "gameCode": { "type": "string", "minLength": 1, "maxLength": 8 },
+        "normalizedCrc32": { "$ref": "#/$defs/hex8" },
+        "normalizedSha256": { "$ref": "#/$defs/hex64" }
+      }
+    },
+    "patch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["format", "url", "allowRedirects"],
+      "properties": {
+        "format": {
+          "enum": ["bps", "vcdiff"],
+          "description": "Use vcdiff for .xdelta and .vcdiff files."
+        },
+        "url": { "$ref": "#/$defs/httpsUrl" },
+        "size": { "type": "integer", "minimum": 1, "maximum": 100663296 },
+        "sha256": { "$ref": "#/$defs/hex64" },
+        "archiveMember": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?!.*\\.\\.)(?!.*\\\\).+$"
+        },
+        "memberSize": { "type": "integer", "minimum": 1, "maximum": 100663296 },
+        "memberSha256": { "$ref": "#/$defs/hex64" },
+        "sourceCrc32": { "$ref": "#/$defs/hex8" },
+        "targetCrc32": { "$ref": "#/$defs/hex8" },
+        "patchCrc32": { "$ref": "#/$defs/hex8" },
+        "vcdiffProfile": {
+          "const": "rfc3284-default-code-table-no-secondary-compression",
+          "description": "RFC 3284 default code table, no secondary compression, no custom code table."
+        },
+        "allowRedirects": { "type": "boolean" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "allowRedirects": { "const": true } }, "required": ["allowRedirects"] },
+          "then": { "required": ["sha256"] }
+        },
+        {
+          "if": { "required": ["archiveMember"] },
+          "then": { "required": ["memberSize", "memberSha256"] }
+        },
+        {
+          "if": { "properties": { "format": { "const": "vcdiff" } }, "required": ["format"] },
+          "then": { "required": ["vcdiffProfile"] },
+          "else": { "not": { "required": ["vcdiffProfile"] } }
+        }
+      ]
+    },
+    "output": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sha1": { "$ref": "#/$defs/hex40" }
+      }
+    },
+    "artwork": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "size", "sha256", "sourcePage", "allowRedirects"],
+      "properties": {
+        "url": { "$ref": "#/$defs/httpsUrl" },
+        "size": { "type": "integer", "minimum": 1, "maximum": 8388608 },
+        "sha256": { "$ref": "#/$defs/hex64" },
+        "sourcePage": { "$ref": "#/$defs/httpsUrl" },
+        "allowRedirects": { "const": false }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["patchRedistributionAllowed", "artworkRedistributionAllowed"],
+      "properties": {
+        "patchRedistributionAllowed": { "type": "boolean" },
+        "artworkRedistributionAllowed": { "type": "boolean" }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "name", "version", "authors", "projectUrl", "source",
+        "base", "patch", "compatibility", "rights"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/entryId" },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[^,\\r\\n]+$"
+        },
+        "version": { "$ref": "#/$defs/component" },
+        "authors": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "projectUrl": { "$ref": "#/$defs/httpsUrl" },
+        "source": { "$ref": "#/$defs/source" },
+        "base": { "$ref": "#/$defs/base" },
+        "patch": { "$ref": "#/$defs/patch" },
+        "output": { "$ref": "#/$defs/output" },
+        "compatibility": { "type": "string", "minLength": 1 },
+        "saveType": {
+          "enum": [
+            "none", "eeprom4k", "eeprom16k", "sram", "srambanked",
+            "sram128k", "flashram", "flashram-pkst2"
+          ]
+        },
+        "artwork": { "$ref": "#/$defs/artwork" },
+        "rights": { "$ref": "#/$defs/rights" }
+      }
+    }
+  }
+}
