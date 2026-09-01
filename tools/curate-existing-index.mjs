@@ -30,8 +30,7 @@ for (const game of index.games || []) {
     const entryId = typeof selection === "string" ? selection : selection.entryId;
     const entry = list.entries.find((candidate) => candidate.id === entryId);
     if (!entry) throw new Error(`Canonical pick ${category} references missing entry ${entryId}`);
-    const pick = { category, entryId: entry.id, name: entry.name, version: entry.version };
-    if (entry.output?.sha1) pick.outputSha1 = entry.output.sha1;
+    const pick = { category, entryId: entry.id, name: entry.name, version: entry.version, outputSha256: entry.output.sha256 };
     game.picks.push(pick);
   }
 }

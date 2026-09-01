@@ -1,0 +1,640 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry.schema.json",
+  "generatedAt": "2026-08-28T02:18:47Z",
+  "notice": "Live index of original-site BPS patch URLs for Super Mario 64 (USA). This catalog contains no ROM data. Patch files are not redistributed; clients fetch them from the publisher's original HTTPS URLs with allowRedirects false. Every listed patch and produced ROM is pinned by SHA-256.",
+  "entries": [
+    {
+      "id": "rhdc-sm64-the-green-stars-3.4",
+      "name": "SM64 The Green Stars",
+      "version": "3.4",
+      "authors": [
+        "Kampel125",
+        "Kaze"
+      ],
+      "projectUrl": "https://romhacking.com/hack/sm64-the-green-stars",
+      "source": {
+        "provider": "rhdc",
+        "metadataUrl": "https://api.romhacking.com/v3/hacks/hack/sm64-the-green-stars",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://api.romhacking.com/game/sm64-the-green-stars/SM64%20The%20Green%20Stars%20v3.4.bps",
+        "size": 9461567,
+        "sha256": "E99EAAABE8F31EEE548EFD071807FD6B2D1B38418338ECB295B133E7B2448AE4",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "D5B5980C",
+        "patchCrc32": "6E90F311",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "6936194133FB308CCDE775AE834C7815EC753889A62789BC22A9CD4FF5B92BF3"
+      }
+    },
+    {
+      "id": "rhdc-super-mario-star-road-1.02",
+      "name": "Super Mario Star Road",
+      "version": "1.02",
+      "authors": [
+        "Skelux",
+        "aglab2",
+        "Pyro Jay",
+        "Dackage"
+      ],
+      "projectUrl": "https://romhacking.com/hack/super-mario-star-road",
+      "source": {
+        "provider": "rhdc",
+        "metadataUrl": "https://api.romhacking.com/v3/hacks/hack/super-mario-star-road",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://api.romhacking.com/game/super-mario-star-road/Super%20Mario%20Star%20Road%20(Classic%20N64%20Port)%20(v1.02).bps",
+        "size": 7899347,
+        "sha256": "404B476CDF3247F559B23FB6ECB82D39B10A16EC22CD89E20979C421AF688FB4",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "4EF38665",
+        "patchCrc32": "440EA05A",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "02C761750E58A412B6B65E083D108384A98EAA75B80F1E35F19130A0E7AF7523"
+      }
+    },
+    {
+      "id": "rhdc-kaizo-mario-64-1.0",
+      "name": "Kaizo Mario 64",
+      "version": "1.0",
+      "authors": [
+        "OmegaEdge29"
+      ],
+      "projectUrl": "https://romhacking.com/hack/kaizo-mario-64",
+      "source": {
+        "provider": "rhdc",
+        "metadataUrl": "https://api.romhacking.com/v3/hacks/hack/kaizo-mario-64",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://api.romhacking.com/game/kaizo-mario-64/Kaizo%20Mario%2064.bps",
+        "size": 3100523,
+        "sha256": "6861ED8090D03B71BB012D9BCB837E8F86E4B49139672927A9637965DA9A28A2",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "40AA1A2E",
+        "patchCrc32": "74260944",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "D8CDD2B7CC91241DFE1F542E4564AD1D8DCBCA8FED37814EAFE9C96454CE2C22"
+      }
+    },
+    {
+      "id": "rhdc-super-mario-rainbow-road-2.0.4",
+      "name": "Super Mario Rainbow Road",
+      "version": "2.0.4",
+      "authors": [
+        "Skilllux",
+        "FrostyZako"
+      ],
+      "projectUrl": "https://romhacking.com/hack/super-mario-rainbow-road",
+      "source": {
+        "provider": "rhdc",
+        "metadataUrl": "https://api.romhacking.com/v3/hacks/hack/super-mario-rainbow-road",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://api.romhacking.com/game/super-mario-rainbow-road/Super%20Mario%20Rainbow%20Road%20v2.0.4.bps",
+        "size": 4133987,
+        "sha256": "488DD387BD57F7EFF9BEA0BAA3833C533B237D91725F7720BF9DFFD543E9179D",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "2130FF34",
+        "patchCrc32": "190C4A9C",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "7C9C742A19DDB0145131B95D963FC2B6B93F1D3F2ECDB519873CDE069BC4A6D4"
+      }
+    },
+    {
+      "id": "rhdc-super-mario-74-1.12-hotfix-3",
+      "name": "Super Mario 74",
+      "version": "1.12-hotfix-3",
+      "authors": [
+        "Lugmillord"
+      ],
+      "projectUrl": "https://romhacking.com/hack/super-mario-74",
+      "source": {
+        "provider": "rhdc",
+        "metadataUrl": "https://api.romhacking.com/v3/hacks/hack/super-mario-74",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://api.romhacking.com/game/super-mario-74/Super%20Mario%2074%20v1.12%20(Hotfix%203).bps",
+        "size": 5339151,
+        "sha256": "F52DAC73D237BC97EBE3904EE66D596FC72E7CB2C53CC7840D5C5A872ADCB9D0",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "C8147B89",
+        "patchCrc32": "AA822061",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "7C5D98392C0963D68627CCE3B25BF57D7EC68FA4B51BB164A73BE58BFB438FF4"
+      }
+    },
+    {
+      "id": "rhdc-serene-fusion-1.3.3",
+      "name": "Serene Fusion",
+      "version": "1.3.3",
+      "authors": [
+        "aglab2",
+        "Alkamyst",
+        "Arthurtilly",
+        "axollyon",
+        "BroDute",
+        "DNVIC",
+        "Dorrieal",
+        "LinCrash",
+        "Mushie64",
+        "Reonu",
+        "rovertronic",
+        "Scut",
+        "sm64pie",
+        "thecozies",
+        "TheGael95",
+        "usernamesarespiders",
+        "ZenonX"
+      ],
+      "projectUrl": "https://romhacking.com/hack/Serene-Fusion",
+      "source": {
+        "provider": "rhdc",
+        "metadataUrl": "https://api.romhacking.com/v3/hacks/hack/serene-fusion",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://api.romhacking.com/game/Serene-Fusion/pjsf-1.3.3.bps",
+        "size": 11752577,
+        "sha256": "9104DAF12E04DD68942E3980D85E3C5E6787D2B7A749BE9733EF76B8EBA477A7",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "20ABCFD4",
+        "patchCrc32": "DECA21A6",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "BBC245E2B5CA732FC1F9DC520D6F58712ED5B97F699BCB69903616F31E3B15FA"
+      }
+    },
+    {
+      "id": "sm64romhacks-sm64-last-impact-1.2",
+      "name": "SM64 Last Impact",
+      "version": "1.2",
+      "authors": [
+        "Kaze"
+      ],
+      "projectUrl": "https://sm64romhacks.com/hacks/sm64-last-impact/",
+      "source": {
+        "provider": "sm64romhacks.com",
+        "metadataUrl": "https://sm64romhacks.com/hacks/sm64-last-impact/",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://www.sm64romhacks.com/storage/patch/SM64%20Last%20Impact%201.2.zip",
+        "size": 12217920,
+        "sha256": "A05AD806C409BD3E36791E54547570FE0493F93634D8CA209BE1E75E16F39A65",
+        "archiveMember": "SM64 Last Impact V1.2.bps",
+        "memberSize": 14534661,
+        "memberSha256": "CF05C50C05B3F37DEDCE817D9A21B4E2686C9BE3A4DCF36433C7E14C866B27FB",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "0C693CED",
+        "patchCrc32": "D18F76DC",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "8214AB28DBC7E6C6014B2188828B987DE043C57D6BEACDCDE18A4B50FDA0853A"
+      }
+    },
+    {
+      "id": "sm64romhacks-sm64-decades-later-1.1",
+      "name": "SM64 Decades Later",
+      "version": "1.1",
+      "authors": [
+        "BroDute"
+      ],
+      "projectUrl": "https://sm64romhacks.com/hacks/sm64-decades-later/",
+      "source": {
+        "provider": "sm64romhacks.com",
+        "metadataUrl": "https://sm64romhacks.com/hacks/sm64-decades-later/",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://www.sm64romhacks.com/storage/patch/SM64%20-%20Decades%20Later%20V1.1.zip",
+        "size": 11820885,
+        "sha256": "B8BC13DC17E9924A8673ACE152B496E415030B4231E376C6D7FBFAD35A9FB559",
+        "archiveMember": "SM64 - Decades Later v1.1.bps",
+        "memberSize": 14342748,
+        "memberSha256": "1A5608FEF4B62E4095054317784EA58B1896F1547128E5A8A7AC18488D55339F",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "73C6025A",
+        "patchCrc32": "A90C86AB",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "B8E004022312A42F37FFDB718F7D672F4F05B3085C2FA02A4422DB2118EE7A4E"
+      }
+    },
+    {
+      "id": "sm64romhacks-super-mario-64-land-1.1",
+      "name": "Super Mario 64 Land",
+      "version": "1.1",
+      "authors": [
+        "Kaze"
+      ],
+      "projectUrl": "https://sm64romhacks.com/hacks/super-mario-64-land/",
+      "source": {
+        "provider": "sm64romhacks.com",
+        "metadataUrl": "https://sm64romhacks.com/hacks/super-mario-64-land/",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://www.sm64romhacks.com/storage/patch/Super%20Mario%2064%20Land%20v1.1.zip",
+        "size": 22209292,
+        "sha256": "F8AC31D0D117B2A1C040302F2EC7EB21575E0EFE9DD7EDE60E9E3B30CA2E6FF6",
+        "archiveMember": "Super Mario 64 Land.bps",
+        "memberSize": 24921902,
+        "memberSha256": "F7BF2B209DC778C2E5684F871BEDFD77F5BA540E4097BE12230ACD41ECCC70A3",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "017DF96E",
+        "patchCrc32": "6B5147EC",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "416D569C041679F2EB66255A9B76768F04CD25D5236BCEBA43F972956DDE2B36"
+      }
+    },
+    {
+      "id": "sm64romhacks-another-mario-adventure-1.11",
+      "name": "Another Mario Adventure",
+      "version": "1.11",
+      "authors": [
+        "aglab2"
+      ],
+      "projectUrl": "https://sm64romhacks.com/hacks/another-mario-adventure/",
+      "source": {
+        "provider": "sm64romhacks.com",
+        "metadataUrl": "https://sm64romhacks.com/hacks/another-mario-adventure/",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://www.sm64romhacks.com/storage/patch/AMA1.11-bps.zip",
+        "size": 9107787,
+        "sha256": "DC119ED81CC87F3430D7C6A71E60D04B3EABC692AD1D8919C1EBAABEEB6BE030",
+        "archiveMember": "HH.bps",
+        "memberSize": 10622963,
+        "memberSha256": "589740AC57009BCB6E49A6522C934210880B1E5A3CDC0497D8E1C18D8B410D66",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "2E8E399A",
+        "patchCrc32": "4B1F8C6D",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "BF4A691B2E957C42A2B3B3A4A2D7F572D50FDB34FFFA91E0E9090A57AD7C1F97"
+      }
+    },
+    {
+      "id": "sm64romhacks-sm64-beyond-the-cursed-mirror-1.3",
+      "name": "SM64 Beyond the Cursed Mirror",
+      "version": "1.3",
+      "authors": [
+        "Rovert"
+      ],
+      "projectUrl": "https://sm64romhacks.com/hacks/sm64-beyond-the-cursed-mirror/",
+      "source": {
+        "provider": "sm64romhacks.com",
+        "metadataUrl": "https://sm64romhacks.com/hacks/sm64-beyond-the-cursed-mirror/",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://www.sm64romhacks.com/storage/patch/BTCM_1.3.zip",
+        "size": 16597350,
+        "sha256": "464AEE6728F09C553F34033D6E5933C308643603A932B4671392A7C3754820A2",
+        "archiveMember": "BTCM_1.3.bps",
+        "memberSize": 17783068,
+        "memberSha256": "79A08C2B0058302D8B180E15800CB79563F270462172704E7CCF2971797BBD55",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "CD310349",
+        "patchCrc32": "693E2AFB",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "0341DFD526960B6967E9F547474ED3A90FDE3ED38E63F8A4E9D8D797B9BFF35A"
+      }
+    },
+    {
+      "id": "sm64romhacks-super-mario-integration-of-fragments-1.3.5",
+      "name": "Super Mario Integration of Fragments",
+      "version": "1.3.5",
+      "authors": [
+        "various"
+      ],
+      "projectUrl": "https://sm64romhacks.com/hacks/super-mario-integration-of-fragments/",
+      "source": {
+        "provider": "sm64romhacks.com",
+        "metadataUrl": "https://sm64romhacks.com/hacks/super-mario-integration-of-fragments/",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://www.sm64romhacks.com/storage/patch/Super%20Mario%20Integration%20of%20Fragments%20ver1.3.5.zip",
+        "size": 18965101,
+        "sha256": "88C30A0D0C64A610294E40821546BEF48488EAF7BFEE46D9B7334CFD989EBB5C",
+        "archiveMember": "Super_Mario_Integration_of_Fragments_ver1.3.5.bps",
+        "memberSize": 21379751,
+        "memberSha256": "A6DCAAD8725D090D28D494A928E24EDFFBB5BAB76ED63A744500BA83F3B537A8",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "F08DD95C",
+        "patchCrc32": "F92303EA",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "334EEEDA8B524A4508729B470F03505066BE690BFD98343EF61AFEAAD3F48295"
+      }
+    },
+    {
+      "id": "sm64romhacks-shotgun-mario-64-1.0.5",
+      "name": "Shotgun Mario 64",
+      "version": "1.0.5",
+      "authors": [
+        "Dorrieal"
+      ],
+      "projectUrl": "https://sm64romhacks.com/hacks/shotgun-mario-64/",
+      "source": {
+        "provider": "sm64romhacks.com",
+        "metadataUrl": "https://sm64romhacks.com/hacks/shotgun-mario-64/",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://www.sm64romhacks.com/storage/patch/rYV9Iw3C8tdhjk4A4dSn19w6sG3aeKAYGpg2Lhoo.zip",
+        "size": 3381263,
+        "sha256": "EF58B3EE075C2D08F6A790D7C9BC88F38968E8A1DEDF2E1DE21BAC818CAB92FD",
+        "archiveMember": "Shotgun Mario 64 - v1.0.5.bps",
+        "memberSize": 3491549,
+        "memberSha256": "309AC6D0F73E315A10A6FCA5567C9CAABB6CC3BDCB8E75D95DD40F3E5A88F7FB",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "C7E2BF06",
+        "patchCrc32": "A6C1E06D",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "329B58CD3B59D2D8515403E7B6D12FE9D2F1E16B8B9AA3B7C190ADF8AA3500C4"
+      }
+    },
+    {
+      "id": "sm64romhacks-super-mario-74-extreme-edition-english",
+      "name": "Super Mario 74 Extreme Edition",
+      "version": "english",
+      "authors": [
+        "Lugmillord"
+      ],
+      "projectUrl": "https://sm64romhacks.com/hacks/super-mario-74-extreme-edition/",
+      "source": {
+        "provider": "sm64romhacks.com",
+        "metadataUrl": "https://sm64romhacks.com/hacks/super-mario-74-extreme-edition/",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://www.sm64romhacks.com/storage/patch/Super%20Mario%2074%20-%20Extreme%20Edition%20English%20SM64%20Hack%20by%20Lugmillord.zip",
+        "size": 5085709,
+        "sha256": "835D65D92B7996AD6EE1010AD1C81B508F469841BD67AA57C3FEB6D75E311F0B",
+        "archiveMember": "Super Mario 74 - Extreme Edition (English) (SM64 Hack by Lugmillord).bps",
+        "memberSize": 6035399,
+        "memberSha256": "F88A57912271AC7A41E91017D87BCAA893E65A7C634752FEDF028443228068A5",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "354EFD0C",
+        "patchCrc32": "A2028C60",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "29DBFEA72C83B016A6FFDD3279CAB60202720F7CF436A3E3DBDC5D08A29A4FB2"
+      }
+    },
+    {
+      "id": "sm64romhacks-king-boos-revenge-x-1.9",
+      "name": "King Boo's Revenge X",
+      "version": "1.9",
+      "authors": [
+        "thebloody7"
+      ],
+      "projectUrl": "https://sm64romhacks.com/hacks/king-boos-revenge-x/",
+      "source": {
+        "provider": "sm64romhacks.com",
+        "metadataUrl": "https://sm64romhacks.com/hacks/king-boos-revenge-x/",
+        "retrievedAt": "2026-08-28T02:18:47Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://www.sm64romhacks.com/storage/patch/KBR%20X%20(v1.9).zip",
+        "size": 10736687,
+        "sha256": "F3E81D4A19FF97634CF4FCB62852B638AEB62C21CD5FF889FE02ECD40C008F80",
+        "archiveMember": "KBR X (v1.9).bps",
+        "memberSize": 13652943,
+        "memberSha256": "66BF607593F3FA4817DED2D81FEC605B5D092C9013B5D8439DC56E416D5B6B24",
+        "sourceCrc32": "3CE60709",
+        "targetCrc32": "E99AD7E4",
+        "patchCrc32": "3EF0376D",
+        "allowRedirects": false
+      },
+      "compatibility": "unverified",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "output": {
+        "sha256": "ACD2329C8ECDC4E310BB6411FD90C98D49AAE082619D3E1E5F53E5F3A9FB4BC7"
+      }
+    }
+  ]
+}

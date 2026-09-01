@@ -1,0 +1,175 @@
+{
+  "identities": {
+    "rhdc-sm64-the-green-stars-3.4": {
+      "url": "https://api.romhacking.com/game/sm64-the-green-stars/SM64%20The%20Green%20Stars%20v3.4.bps",
+      "outputSha256": "6936194133FB308CCDE775AE834C7815EC753889A62789BC22A9CD4FF5B92BF3"
+    },
+    "rhdc-super-mario-star-road-1.02": {
+      "url": "https://api.romhacking.com/game/super-mario-star-road/Super%20Mario%20Star%20Road%20(Classic%20N64%20Port)%20(v1.02).bps",
+      "outputSha256": "02C761750E58A412B6B65E083D108384A98EAA75B80F1E35F19130A0E7AF7523"
+    },
+    "rhdc-kaizo-mario-64-1.0": {
+      "url": "https://api.romhacking.com/game/kaizo-mario-64/Kaizo%20Mario%2064.bps",
+      "outputSha256": "D8CDD2B7CC91241DFE1F542E4564AD1D8DCBCA8FED37814EAFE9C96454CE2C22"
+    },
+    "rhdc-super-mario-rainbow-road-2.0.4": {
+      "url": "https://api.romhacking.com/game/super-mario-rainbow-road/Super%20Mario%20Rainbow%20Road%20v2.0.4.bps",
+      "outputSha256": "7C9C742A19DDB0145131B95D963FC2B6B93F1D3F2ECDB519873CDE069BC4A6D4"
+    },
+    "rhdc-super-mario-74-1.12-hotfix-3": {
+      "url": "https://api.romhacking.com/game/super-mario-74/Super%20Mario%2074%20v1.12%20(Hotfix%203).bps",
+      "outputSha256": "7C5D98392C0963D68627CCE3B25BF57D7EC68FA4B51BB164A73BE58BFB438FF4"
+    },
+    "rhdc-serene-fusion-1.3.3": {
+      "url": "https://api.romhacking.com/game/Serene-Fusion/pjsf-1.3.3.bps",
+      "outputSha256": "BBC245E2B5CA732FC1F9DC520D6F58712ED5B97F699BCB69903616F31E3B15FA"
+    },
+    "sm64romhacks-sm64-last-impact-1.2": {
+      "url": "https://www.sm64romhacks.com/storage/patch/SM64%20Last%20Impact%201.2.zip",
+      "outputSha256": "8214AB28DBC7E6C6014B2188828B987DE043C57D6BEACDCDE18A4B50FDA0853A"
+    },
+    "sm64romhacks-sm64-decades-later-1.1": {
+      "url": "https://www.sm64romhacks.com/storage/patch/SM64%20-%20Decades%20Later%20V1.1.zip",
+      "outputSha256": "B8E004022312A42F37FFDB718F7D672F4F05B3085C2FA02A4422DB2118EE7A4E"
+    },
+    "sm64romhacks-super-mario-64-land-1.1": {
+      "url": "https://www.sm64romhacks.com/storage/patch/Super%20Mario%2064%20Land%20v1.1.zip",
+      "outputSha256": "416D569C041679F2EB66255A9B76768F04CD25D5236BCEBA43F972956DDE2B36"
+    },
+    "sm64romhacks-another-mario-adventure-1.11": {
+      "url": "https://www.sm64romhacks.com/storage/patch/AMA1.11-bps.zip",
+      "outputSha256": "BF4A691B2E957C42A2B3B3A4A2D7F572D50FDB34FFFA91E0E9090A57AD7C1F97"
+    },
+    "sm64romhacks-sm64-beyond-the-cursed-mirror-1.3": {
+      "url": "https://www.sm64romhacks.com/storage/patch/BTCM_1.3.zip",
+      "outputSha256": "0341DFD526960B6967E9F547474ED3A90FDE3ED38E63F8A4E9D8D797B9BFF35A"
+    },
+    "sm64romhacks-super-mario-integration-of-fragments-1.3.5": {
+      "url": "https://www.sm64romhacks.com/storage/patch/Super%20Mario%20Integration%20of%20Fragments%20ver1.3.5.zip",
+      "outputSha256": "334EEEDA8B524A4508729B470F03505066BE690BFD98343EF61AFEAAD3F48295"
+    },
+    "sm64romhacks-shotgun-mario-64-1.0.5": {
+      "url": "https://www.sm64romhacks.com/storage/patch/rYV9Iw3C8tdhjk4A4dSn19w6sG3aeKAYGpg2Lhoo.zip",
+      "outputSha256": "329B58CD3B59D2D8515403E7B6D12FE9D2F1E16B8B9AA3B7C190ADF8AA3500C4"
+    },
+    "sm64romhacks-super-mario-74-extreme-edition-english": {
+      "url": "https://www.sm64romhacks.com/storage/patch/Super%20Mario%2074%20-%20Extreme%20Edition%20English%20SM64%20Hack%20by%20Lugmillord.zip",
+      "outputSha256": "29DBFEA72C83B016A6FFDD3279CAB60202720F7CF436A3E3DBDC5D08A29A4FB2"
+    },
+    "sm64romhacks-king-boos-revenge-x-1.9": {
+      "url": "https://www.sm64romhacks.com/storage/patch/KBR%20X%20(v1.9).zip",
+      "outputSha256": "ACD2329C8ECDC4E310BB6411FD90C98D49AAE082619D3E1E5F53E5F3A9FB4BC7"
+    },
+    "smashremix-2.0.1-ntsc": {
+      "url": "https://smashremix.net/patcher/patches/releases/smashremix2.0.1.xdelta",
+      "outputSha256": "7EFEC9E0983656BB0219A23C511CD1505A5F84D524E50AD4284DC1C7EB4D1403"
+    },
+    "hylian-zeldas_birthday": {
+      "url": "https://hylianmodding.com/mods/zelda%27s_birthday/downloads/Zeldas_Birthday_Hardware_1.0.bps",
+      "outputSha256": "FCBA6C9F7058F02ADCDDC73098F6DF7EA6F8922A82669457271394911EF169CE"
+    },
+    "hylian-zelda_puzzling": {
+      "url": "https://hylianmodding.com/mods/zelda_puzzling/downloads/1.1.2%20OOT%20PUZZLING.bps",
+      "outputSha256": "C58C54BE7D064E96E9CD0BCA86023B153B144206FCA392259237B14FD01FE4A6"
+    },
+    "hylian-pumkin_tower": {
+      "url": "https://hylianmodding.com/mods/pumkin_tower/downloads/PumkinPatch1.1.1.bps",
+      "outputSha256": "31FD5B46A8F615D6C445DC1D4BBBE76B898FD5EC9DE44FBA7CFF246561DD0EDA"
+    },
+    "hylian-zelda_nightmare": {
+      "url": "https://hylianmodding.com/mods/zelda_nightmare/downloads/NIGHTMARE%20CONSOLE.bps",
+      "outputSha256": "744DDC54A7A4CA845253EEE720CEA02A5DB710A417EA6E08EC7FD1AC1F2CCBC8"
+    },
+    "hylian-the_journey_of_angtherum": {
+      "url": "https://hylianmodding.com/mods/the_journey_of_angtherum/downloads/The%20Journey%20Of%20Angtherum%20USA.v1.0.bps",
+      "outputSha256": "3C39B552D9D91E8E09B83CA62AAFE09E7B873040BD08FF0EBDFCFF20675CBC12"
+    },
+    "hylian-four_swords_arena_editon": {
+      "url": "https://hylianmodding.com/mods/four_swords_arena_editon/downloads/zelda64-four-swords-arena-edition-fixed.bps",
+      "outputSha256": "98D2E8CC2AFB7D474B751B6F9543B676924E5BE0569B5A1919AA35537630ACC3"
+    },
+    "hylian-fate_of_the_bombiwa": {
+      "url": "https://hylianmodding.com/mods/fate_of_the_bombiwa/downloads/TFOTB%20Patch.bps",
+      "outputSha256": "8BECBFF2F80CF64679BCDC072156511853CBD317A711A2E1AEAFB9BA1A9C886A"
+    },
+    "hylian-3rd_quest": {
+      "url": "https://hylianmodding.com/mods/3rd_quest/downloads/3rdQuest0.5.3.bps",
+      "outputSha256": "91C216588443A2F4EC0CD2AA24A7FE897BD32B19D08A7F1D23E8ACC7C66E8E8A"
+    },
+    "hylian-spider_mansion": {
+      "url": "https://hylianmodding.com/mods/spider_mansion/downloads/Spider%20Mansion.bps",
+      "outputSha256": "1629D07926D4FC6B4D3FAC78A43D16AB099470F5B73AC7B45E5C85C11CFAE31D"
+    },
+    "hylian-sands_of_time": {
+      "url": "https://hylianmodding.com/mods/sands_of_time/downloads/SoT1.22.bps",
+      "outputSha256": "BAAC5DB8E4E8ED304FD3C7E23D4D42CD6782F489925AA88E76EC5F3AEB97847A"
+    },
+    "hylian-mm_transforms_oot": {
+      "url": "https://hylianmodding.com/mods/mm_transforms_oot/downloads/Transformation%20Masks%20in%20OoT%20v1.0.bps",
+      "outputSha256": "D23FEB958781F9E065C5E045270F1E15C29AD01D212963047091C6F46B807BE3"
+    },
+    "hylian-dark_hyrule_fantasy": {
+      "url": "https://hylianmodding.com/mods/dark_hyrule_fantasy/downloads/DHF1_0_FIX.bps",
+      "outputSha256": "1BCF585657F0F4679A6B4BBA95F3A3A668D2599CB55CFE5F33941C403EB9ABE3"
+    },
+    "hylian-shadows_of_eldoria": {
+      "url": "https://hylianmodding.com/mods/shadows_of_eldoria/downloads/Shadows%20of%20Eldoria%20DEMO%20z64.bps",
+      "outputSha256": "9D4DADA4D7A079D3ADBFD2D2E0AAB987D6FB80385EAC2C5ECB68D6B7677B1091"
+    },
+    "hylian-nimpize_adventure": {
+      "url": "https://hylianmodding.com/mods/nimpize_adventure/downloads/Nimpize%20Adventure.bps",
+      "outputSha256": "D6FA5F180C92E9825639C8CBA9F13DAD241EEE91AEC468578558D6344203860B"
+    },
+    "hylian-crystal_clocks": {
+      "url": "https://hylianmodding.com/mods/crystal_clocks/downloads/crystal-clocks-2.0.bps",
+      "outputSha256": "0859C6CE26E59E3E9784284F4932B21F725A398B24044449E1A23520B53B358E"
+    },
+    "hylian-dungeon_rush": {
+      "url": "https://hylianmodding.com/mods/dungeon_rush/downloads/LoZOoT-DungeonRush.zip",
+      "outputSha256": "647D19733A54AD6FFCF4A363D3E9552186E42114A52339DB9886B16D87336059"
+    },
+    "hylian-hero_of_law": {
+      "url": "https://newerteam.com/hol/patches/CZLE_1.0.xdelta",
+      "outputSha256": "0B0FCE979631B1A6B62468E5E96CC90E06D028DD11F5083EA5A76CA5D5A4C0FB"
+    },
+    "hylian-majoras_mask_chaos_edition": {
+      "url": "https://github.com/GabrielCNoble/mm-chaos/releases/download/v0.5.7/Majoras_Mask_Chaos_Edition_v0.5.7.bps",
+      "outputSha256": "13818E0E6FDEDC16AC52640CE267D91C7CF898E07AB1C032964994E26F524CD3"
+    },
+    "hylian-majoras_mask_masked_quest": {
+      "url": "https://hylianmodding.com/mods/majora's_mask_masked_quest/downloads/MajoraMQ.zip",
+      "outputSha256": "E893EC6084706CDB6A6553E614CF10B5DCBFE5C04F68EF3C8D683F25FDF0779E"
+    },
+    "hylian-majoras_mask_master_quest": {
+      "url": "https://hylianmodding.com/mods/majora's_mask_master_quest/downloads/LoZMM-MasterQuest.zip",
+      "outputSha256": "AEC8138B1FB92B1C73CCCB87C106E14111CF09C30A6BE4C7B2B2EF1A06877D5C"
+    },
+    "hylian-new_master_quest": {
+      "url": "https://hylianmodding.com/mods/new_master_quest/downloads/OoT%20-%20New%20Master%20Quest.zip",
+      "outputSha256": "AD2FEA0F12D3B8E2311FC6D94BB48437957382F82B543DA2D10A99C5AD4E77E7"
+    },
+    "hylian-star_fox_64_survival": {
+      "url": "https://hylianmodding.com/mods/star_fox_64_survival/downloads/StarFox64SurvivalV14.zip",
+      "outputSha256": "507B5062AE27771B89BA93F7B3AC403DB8805DAAA2595DF21B47D320AE36ACA8"
+    },
+    "hylian-the_missing_link": {
+      "url": "https://hylianmodding.com/mods/the_missing_link/downloads/tml_2_0.zip",
+      "outputSha256": "579D6CFE3D681CC52EF5E5056EAAC9FAA69B019D547012346E2CC79F989EC75A"
+    },
+    "hylian-zelda_revival": {
+      "url": "https://hylianmodding.com/mods/zelda_revival/downloads/zelda_revival.zip",
+      "outputSha256": "A5AE207248B3B3191F3F63A45AC21A4274503CDA1109786A935E5F5FEC853728"
+    },
+    "hylian-zelda64_dawn_and_dusk": {
+      "url": "https://hylianmodding.com/mods/zelda64_dawn_and_dusk/downloads/Zelda64DawnDusk_v2_ROM_Patches.zip",
+      "outputSha256": "41DAACAD3D2EA3ED316323645A8B8D62FF261AD16A581C3F482833408290B2D9"
+    },
+    "hylian-zeldas_eternal_youth": {
+      "url": "https://hylianmodding.com/mods/zelda's_eternal_youth/downloads/zelda's_eternal_youth.zip",
+      "outputSha256": "8D7A2B3546D6BE91899F7FAB2F4C167962CD6C7D608998260091A3BE544758D3"
+    }
+  },
+  "failures": {},
+  "completed": 42,
+  "failed": 0
+}

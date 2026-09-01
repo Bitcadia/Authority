@@ -4,12 +4,14 @@ import { readFile, rename, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const inputPath = resolve(process.argv[2] || "sources/rhdc-v4-registry-snapshot.json");
-const outputPath = resolve(process.argv[3] || "sources/rhdc-bps-registry-v1.json");
+const outputPath = resolve(process.argv[3] || "sources/rhdc-registry.json");
 const artworkPath = resolve(process.argv[4] || "sources/rhdc-artwork-pins-v1.json");
+const identitiesPath = resolve(process.argv[5] || "sources/rhdc-artifact-identities.json");
 const snapshot = JSON.parse(await readFile(inputPath, "utf8"));
 const artwork = JSON.parse(await readFile(artworkPath, "utf8"));
+const identities = JSON.parse(await readFile(identitiesPath, "utf8")).identities;
 if (artwork.sourceSnapshotCapturedAt !== snapshot.source.capturedAt) throw new Error("Artwork pins were generated from a different RHDC snapshot");
-const schema = "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-v1.schema.json";
+const schema = "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry.schema.json";
 const base = {
   name: "Super Mario 64",
   variant: "USA",
@@ -65,15 +67,23 @@ for (const hack of snapshot.results) {
     patch: {
       format: "bps",
       url: patchUrl.href,
+      size: 0,
+      sha256: "",
       allowRedirects: false,
     },
-    output: { sha1: version.patchedSha1.toUpperCase() },
+    output: { sha256: "" },
     compatibility: compatibilityFrom(version.consoleCompatibility),
     rights: {
       patchRedistributionAllowed: false,
       artworkRedistributionAllowed: false,
     },
   };
+  const identity = identities[entry.id];
+  if (!identity) continue;
+  if (identity.url !== entry.patch.url) throw new Error(`Artifact identity URL changed for ${entry.id}`);
+  entry.patch.size = identity.patchSize;
+  entry.patch.sha256 = identity.patchSha256;
+  entry.output.sha256 = identity.outputSha256;
   if (artwork.pins[hack.hackId]) entry.artwork = artwork.pins[hack.hackId];
   entries.push(entry);
 }
@@ -85,12 +95,15 @@ for (const entry of entries) {
 }
 const registry = {
   $schema: schema,
-  schemaVersion: 1,
   generatedAt: snapshot.source.capturedAt,
-  notice: "Metadata-only backup of direct BPS releases indexed by Romhacking.com. Bitcadia does not redistribute patch or ROM bytes. Patch size and SHA-256 were not supplied by the upstream registry; BPS and output-ROM integrity checks still apply.",
+  notice: "Metadata-only backup of verified direct BPS releases indexed by Romhacking.com. Bitcadia does not redistribute patch or ROM bytes. Every listed patch and produced ROM is pinned by SHA-256.",
   entries,
 };
-if (entries.filter((entry) => entry.artwork).length !== artwork.artworkCount) throw new Error("Artwork pin count does not match generated entries");
+const retainedArtworkCount = Object.keys(identities).filter((id) => {
+  const hackId = entries.find((entry) => entry.id === id)?.id.split("-")[1];
+  return hackId && artwork.pins[hackId];
+}).length;
+if (entries.filter((entry) => entry.artwork).length !== retainedArtworkCount) throw new Error("Artwork pin count does not match retained verified entries");
 const json = `${JSON.stringify(registry, null, 2)}\n`;
 const temporary = `${outputPath}.tmp`;
 await writeFile(temporary, json, { encoding: "utf8", flag: "w" });

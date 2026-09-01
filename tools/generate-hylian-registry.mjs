@@ -5,12 +5,14 @@ import { resolve } from "node:path";
 
 const snapshotPath = resolve(process.argv[2] || "sources/hylian-registry-snapshot-v1.json");
 const pinsPath = resolve(process.argv[3] || "sources/hylian-artifact-pins-v1.json");
-const outputPath = resolve(process.argv[4] || "sources/hylian-bps-registry-v1.json");
+const outputPath = resolve(process.argv[4] || "sources/hylian-registry.json");
 const existingPath = resolve(process.argv[5] || outputPath);
-const overridesPath = resolve(process.argv[6] || "sources/hylian-release-overrides-v1.json");
+const identitiesPath = resolve(process.argv[6] || "sources/pinned-output-identities.json");
+const overridesPath = resolve(process.argv[7] || "sources/hylian-release-overrides-v1.json");
 const snapshot = JSON.parse(await readFile(snapshotPath, "utf8"));
 const pins = JSON.parse(await readFile(pinsPath, "utf8"));
 const existing = JSON.parse(await readFile(existingPath, "utf8"));
+const identities = JSON.parse(await readFile(identitiesPath, "utf8")).identities;
 const overrides = JSON.parse(await readFile(overridesPath, "utf8"));
 if (pins.sourceCapturedAt !== snapshot.source.capturedAt) throw new Error("Artifact pins were generated from a different Hylian snapshot");
 
@@ -51,7 +53,7 @@ for (const [id, pin] of Object.entries(pins.pins)) {
     source: { provider: "hylianmodding.com", metadataUrl: record.metadataUrl, retrievedAt: snapshot.source.capturedAt },
     base,
     patch,
-    output: {},
+    output: { sha256: identities[generatedId]?.outputSha256 || "" },
     compatibility: String(metadata.completion_status || "unverified").toLowerCase(),
     saveType: "sram",
     rights: { patchRedistributionAllowed: false, artworkRedistributionAllowed: false }
@@ -70,9 +72,9 @@ for (const [id, override] of Object.entries(overrides.overrides || {})) {
 }
 entries.sort((left, right) => left.id.localeCompare(right.id));
 if (entries.length !== pins.pinCount + preservedCount) throw new Error("Generated entry count does not match artifact pins and preserved entries");
+for (const entry of entries) if (!entry.output?.sha256 || !/^[0-9A-F]{64}$/i.test(entry.output.sha256)) throw new Error(`Missing produced-ROM identity for ${entry.id}`);
 const registry = {
-  $schema: "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-v1.schema.json",
-  schemaVersion: 1,
+  $schema: "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry.schema.json",
   generatedAt: snapshot.source.capturedAt,
   notice: "Live index of original-site patch URLs from Hylian Modding and named publishers. This catalog contains no ROM data. Patch files are not redistributed; clients fetch exact pinned artifacts from their original HTTPS URLs.",
   entries
