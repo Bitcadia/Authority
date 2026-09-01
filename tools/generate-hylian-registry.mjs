@@ -71,7 +71,7 @@ for (const [id, override] of Object.entries(overrides.overrides || {})) {
 entries.sort((left, right) => left.id.localeCompare(right.id));
 if (entries.length !== pins.pinCount + preservedCount) throw new Error("Generated entry count does not match artifact pins and preserved entries");
 const registry = {
-  $schema: "https://raw.githubusercontent.com/DrSammyD/m64menu/main/schemas/mod-registry-v1.schema.json",
+  $schema: "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-v1.schema.json",
   schemaVersion: 1,
   generatedAt: snapshot.source.capturedAt,
   notice: "Live index of original-site patch URLs from Hylian Modding and named publishers. This catalog contains no ROM data. Patch files are not redistributed; clients fetch exact pinned artifacts from their original HTTPS URLs.",

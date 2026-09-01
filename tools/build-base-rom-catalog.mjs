@@ -11,7 +11,7 @@ const picksPath = resolve(process.argv[5] || "sources/canonical-picks-v1.json");
 const authorityId = process.argv[6] || basename(dirname(outputDirectory));
 const source = JSON.parse(await readFile(sourcePath, "utf8"));
 const curation = JSON.parse(await readFile(picksPath, "utf8"));
-const indexSchema = "https://raw.githubusercontent.com/DrSammyD/m64menu/main/schemas/mod-registry-index-v1.schema.json";
+const indexSchema = "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index-v1.schema.json";
 const canonicalCategories = new Set(["the-sequel", "the-dlc", "the-replacement", "the-experiment"]);
 const groups = new Map();
 

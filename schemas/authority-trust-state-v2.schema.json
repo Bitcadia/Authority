@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/authority-trust-state-v2.schema.json",
+  "title": "bitcadia64 local authority trust state v2",
+  "description": "Local-only user decisions and accepted snapshots, including pointer-only authorities. This document is never gossiped.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "gossipers", "registries"],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "gossipers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["authorityId", "manifestUrl", "trust", "acceptedSequence", "acceptedManifestSha256"],
+        "properties": {
+          "authorityId": { "$ref": "#/$defs/authorityId" },
+          "manifestUrl": { "$ref": "#/$defs/directHttpsUrl" },
+          "trust": { "$ref": "#/$defs/trust" },
+          "acceptedRegistryUrl": { "$ref": "#/$defs/directHttpsUrl" },
+          "acceptedSequence": { "type": "integer", "minimum": 1, "maximum": 9007199254740991 },
+          "acceptedManifestSha256": { "$ref": "#/$defs/sha256" },
+          "acceptedRegistrySha256": { "$ref": "#/$defs/sha256" }
+        },
+        "dependentRequired": {
+          "acceptedRegistryUrl": ["acceptedRegistrySha256"],
+          "acceptedRegistrySha256": ["acceptedRegistryUrl"]
+        }
+      }
+    },
+    "registries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["registryUrl", "trust", "acceptedRegistrySha256", "registryHistory", "attestedBy"],
+        "properties": {
+          "registryUrl": { "$ref": "#/$defs/directHttpsUrl" },
+          "trust": { "$ref": "#/$defs/trust" },
+          "acceptedRegistrySha256": { "$ref": "#/$defs/sha256" },
+          "registryHistory": {
+            "type": "array", "maxItems": 16, "uniqueItems": true,
+            "items": { "$ref": "#/$defs/sha256" }
+          },
+          "attestedBy": {
+            "type": "array", "minItems": 1, "maxItems": 32, "uniqueItems": true,
+            "items": { "$ref": "#/$defs/authorityId" }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "authorityId": { "type": "string", "pattern": "^ed25519:[A-Za-z0-9_-]{42}[AEIMQUYcgkosw048]$" },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "trust": { "enum": ["untrusted", "trusted", "blocked"] },
+    "directHttpsUrl": { "type": "string", "pattern": "^https://(?![0-9.]+/)(?![^/]*\\.[Ll][Oo][Cc][Aa][Ll]/)(?=[^/]*\\.)(?:(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\\.)+(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?/[^#\\\\\\r\\n\\t]+$" }
+  }
+}

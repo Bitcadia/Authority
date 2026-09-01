@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/DrSammyD/m64menu/main/schemas/mod-registry-v1.schema.json",
+  "$schema": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-v1.schema.json",
   "schemaVersion": 1,
   "generatedAt": "2026-08-28T18:26:27.007Z",
   "notice": "Metadata-only backup of direct BPS releases indexed by Romhacking.com. Bitcadia does not redistribute patch or ROM bytes. Patch size and SHA-256 were not supplied by the upstream registry; BPS and output-ROM integrity checks still apply.",

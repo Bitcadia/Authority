@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/authority-manifest-v2.schema.json",
+  "title": "bitcadia64 signed authority manifest v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "payload", "signature"],
+  "properties": {
+    "$schema": { "const": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/authority-manifest-v2.schema.json" },
+    "payload": { "type": "string", "minLength": 2, "maxLength": 87382, "pattern": "^(?:[A-Za-z0-9_-]{4})*(?:[A-Za-z0-9_-][AQgw]|[A-Za-z0-9_-]{2}[AEIMQUYcgkosw048])?$" },
+    "signature": {
+      "type": "object", "additionalProperties": false, "required": ["algorithm", "authorityId", "value"],
+      "properties": {
+        "algorithm": { "const": "ed25519" },
+        "authorityId": { "type": "string", "pattern": "^ed25519:[A-Za-z0-9_-]{42}[AEIMQUYcgkosw048]$" },
+        "value": { "type": "string", "pattern": "^[A-Za-z0-9_-]{85}[AQgw]$" }
+      }
+    }
+  }
+}

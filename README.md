@@ -10,9 +10,24 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
-The current publication candidate is sequence 13. It updates the RHDC catalog
-with pinned first-party artwork for Mario Builder 64 while retaining Hylian
-Modding authority sequence 6 and all sequence 12 canonical selections.
+The active protocol namespace is `bitcadia64`. Its first publication resets all
+root and sister sequences to 1 because manifests signed under earlier pre-release
+domains are intentionally incompatible. Active schemas are hosted under
+[`schemas/`](schemas/), and signatures use
+`bitcadia64-authority-manifest-v2\0`.
+
+## Bitcadia64 sequence 1 (2026-08-31)
+
+| Field | Value |
+|---|---|
+| Root Authority | Sequence 1 |
+| Sister Authorities | Smash Remix 1, Hylian Modding 1, SM64 Romhacks 1 |
+| Catalog | 1,568 entries from four sources |
+| Signature domain | `bitcadia64-authority-manifest-v2\0` |
+
+Legacy pre-release sequence 13 added pinned first-party artwork for Mario
+Builder 64. Bitcadia64 sequence 1 retains that catalog content and all canonical
+selections while replacing its protocol namespace.
 
 ## Sequence 13 (2026-08-31)
 
