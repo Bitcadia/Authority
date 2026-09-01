@@ -10,6 +10,17 @@ Do **not** point the importer at GitHub `releases/latest/download`. Those URLs 3
 
 Catalog objects live under [`catalog/`](catalog/).
 
+## Strict artifact identities (2026-09-01)
+
+Sequence 2 uses one pre-release registry contract with no registry version
+discriminator. Every listed patch has an exact byte size and SHA-256, and every
+produced ROM has a SHA-256. Curated picks bind that produced-ROM hash. The RHDC
+audit verified 1,513 of 1,526 entries against a local normalized SM64 base ROM;
+13 unavailable, malformed, wrong-base, or output-mismatched entries were
+excluded. All 42 unique releases from Hylian Modding, SM64 Romhacks, and Smash
+Remix were verified with the same client BPS/VCDIFF decoders. ROM and patch bytes
+are not stored in this repository.
+
 The active protocol namespace is `bitcadia64`. Its first publication resets all
 root and sister sequences to 1 because manifests signed under earlier pre-release
 domains are intentionally incompatible. Active schemas are hosted under

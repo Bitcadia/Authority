@@ -1,16 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-v1.schema.json",
+  "$id": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry.schema.json",
   "title": "bitcadia64 external mod registry",
   "description": "Curated metadata for verified BPS and VCDIFF/xdelta patches. Registries contain no base ROM data.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["$schema", "schemaVersion", "generatedAt", "notice", "entries"],
+  "required": ["$schema", "generatedAt", "notice", "entries"],
   "properties": {
     "$schema": {
-      "const": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-v1.schema.json"
+      "const": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry.schema.json"
     },
-    "schemaVersion": { "const": 1 },
     "generatedAt": { "type": "string", "format": "date-time" },
     "notice": { "type": "string", "minLength": 1 },
     "entries": {
@@ -30,14 +29,13 @@
       "pattern": "^https://(?![0-9.]+/)(?![^/]*\\.[Ll][Oo][Cc][Aa][Ll]/)(?=[^/]*\\.)(?:(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\\.)+(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?/[^#\\\\\\r\\n\\t]+$"
     },
     "hex8": { "type": "string", "pattern": "^[0-9A-Fa-f]{8}$" },
-    "hex40": { "type": "string", "pattern": "^[0-9A-Fa-f]{40}$" },
     "hex64": { "type": "string", "pattern": "^[0-9A-Fa-f]{64}$" },
     "continuation": {
       "type": "object",
       "additionalProperties": false,
       "required": ["documentType", "url", "sha256", "size", "entryCount", "allowRedirects"],
       "properties": {
-        "documentType": { "const": "mod-registry-v1" },
+        "documentType": { "const": "mod-registry" },
         "url": { "$ref": "#/$defs/httpsUrl" },
         "sha256": { "$ref": "#/$defs/hex64" },
         "size": { "type": "integer", "minimum": 1, "maximum": 8388608 },
@@ -82,7 +80,7 @@
     "patch": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["format", "url", "allowRedirects"],
+      "required": ["format", "url", "size", "sha256", "allowRedirects"],
       "properties": {
         "format": {
           "enum": ["bps", "vcdiff"],
@@ -109,10 +107,6 @@
       },
       "allOf": [
         {
-          "if": { "properties": { "allowRedirects": { "const": true } }, "required": ["allowRedirects"] },
-          "then": { "required": ["sha256"] }
-        },
-        {
           "if": { "required": ["archiveMember"] },
           "then": { "required": ["memberSize", "memberSha256"] }
         },
@@ -126,8 +120,9 @@
     "output": {
       "type": "object",
       "additionalProperties": false,
+      "required": ["sha256"],
       "properties": {
-        "sha1": { "$ref": "#/$defs/hex40" }
+        "sha256": { "$ref": "#/$defs/hex64" }
       }
     },
     "artwork": {
@@ -156,7 +151,7 @@
       "additionalProperties": false,
       "required": [
         "id", "name", "version", "authors", "projectUrl", "source",
-        "base", "patch", "compatibility", "rights"
+        "base", "patch", "output", "compatibility", "rights"
       ],
       "properties": {
         "id": { "$ref": "#/$defs/entryId" },

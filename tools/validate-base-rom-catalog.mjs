@@ -56,7 +56,7 @@ for (const [name, document] of documents) {
       const entry = list.value.entries.find((candidate) => candidate.id === pick.entryId);
       if (!entry) throw new Error(`Index ${name} pick references missing entry ${pick.entryId}`);
       if (entry.name !== pick.name || entry.version !== pick.version) throw new Error(`Index ${name} pick metadata does not match ${pick.entryId}`);
-      if (pick.outputSha1 && entry.output?.sha1?.toUpperCase() !== pick.outputSha1.toUpperCase()) {
+      if (!pick.outputSha256 || entry.output?.sha256?.toUpperCase() !== pick.outputSha256.toUpperCase()) {
         throw new Error(`Index ${name} pick output does not match ${pick.entryId}`);
       }
     }

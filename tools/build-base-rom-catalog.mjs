@@ -4,14 +4,14 @@ import { createHash } from "node:crypto";
 import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import { basename, dirname, resolve } from "node:path";
 
-const sourcePath = resolve(process.argv[2] || "sources/rhdc-bps-registry-v1.json");
+const sourcePath = resolve(process.argv[2] || "sources/rhdc-registry.json");
 const outputDirectory = resolve(process.argv[3] || "sites/rhdc/catalog");
 const publicBaseUrl = process.argv[4] || "https://raw.githubusercontent.com/Bitcadia/Authority/main/sites/rhdc/catalog/";
 const picksPath = resolve(process.argv[5] || "sources/canonical-picks-v1.json");
 const authorityId = process.argv[6] || basename(dirname(outputDirectory));
 const source = JSON.parse(await readFile(sourcePath, "utf8"));
 const curation = JSON.parse(await readFile(picksPath, "utf8"));
-const indexSchema = "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index-v1.schema.json";
+const indexSchema = "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index.schema.json";
 const canonicalCategories = new Set(["the-sequel", "the-dlc", "the-replacement", "the-experiment"]);
 const groups = new Map();
 
@@ -41,7 +41,6 @@ const games = [];
 for (const group of groups.values()) {
   const list = {
     $schema: source.$schema,
-    schemaVersion: source.schemaVersion,
     generatedAt: source.generatedAt,
     notice: source.notice,
     entries: group.entries,
@@ -55,14 +54,13 @@ for (const group of groups.values()) {
     const entryId = typeof configured === "string" ? configured : configured.entryId;
     const entry = group.entries.find((candidate) => candidate.id === entryId);
     if (!entry) throw new Error(`Canonical pick ${category} references missing entry ${entryId}`);
-    const pick = { category, entryId: entry.id, name: entry.name, version: entry.version };
-    if (entry.output?.sha1) pick.outputSha1 = entry.output.sha1;
+    const pick = { category, entryId: entry.id, name: entry.name, version: entry.version, outputSha256: entry.output.sha256 };
     picks.push(pick);
   }
   games.push({
     base: group.base,
     list: {
-      documentType: "mod-registry-v1",
+      documentType: "mod-registry",
       url: new URL(`${digest}.json`, publicBaseUrl).href,
       sha256: digest,
       size: bytes.length,
@@ -76,7 +74,6 @@ for (const group of groups.values()) {
 games.sort((left, right) => left.base.normalizedSha256.localeCompare(right.base.normalizedSha256));
 const index = {
   $schema: indexSchema,
-  schemaVersion: 1,
   generatedAt: source.generatedAt,
   notice: source.notice,
   categoryDefinitions: [],

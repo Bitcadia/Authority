@@ -12,10 +12,10 @@ Original sites are the patch locators. This repo signs an index; it does not hos
 
 | id | name | homepage | listing | format notes |
 |---|---|---|---|---|
-| smash-remix | Smash Remix | https://smashremix.net | https://smashremix.net/patcher/patches/releases.json | **xdelta**, public JSON, NTSC in signed catalog (seq 1+2). |
-| sm64romhacks | SM64 Romhacks | https://sm64romhacks.com | https://sm64romhacks.com/api/v1/hacks | BPS in ZIP; 9 USA entries in signed catalog (seq 2). |
-| rhdc | Romhacking.com | https://romhacking.com | https://api.romhacking.com/v4/hacks | SM64 BPS; metadata backup and separate per-base sister catalog staged. Historical seq 2 contains 6 entries. |
-| hylian-modding | Hylian Modding | https://hylianmodding.com | https://hylianmodding.com/mods | OoT/MM. 15 BPS in signed catalog (14 OoT USA, 1 MM USA Pumkin Tower). |
+| smash-remix | Smash Remix | https://smashremix.net | https://smashremix.net/patcher/patches/releases.json | **xdelta**, public JSON, NTSC in signed catalog. |
+| sm64romhacks | SM64 Romhacks | https://sm64romhacks.com | https://sm64romhacks.com/api/v1/hacks | BPS in ZIP; 15 verified USA entries in signed catalog. |
+| rhdc | Romhacking.com | https://romhacking.com | https://api.romhacking.com/v4/hacks | SM64 BPS; 1,513 patch and output identities verified for the signed catalog. |
+| hylian-modding | Hylian Modding | https://hylianmodding.com | https://hylianmodding.com/mods | OoT/MM; 26 verified BPS/VCDIFF entries in signed catalog. |
 | romhackplaza | Romhack Plaza | https://romhackplaza.org | https://romhackplaza.org/database | Mixed xdelta/BPS; JSON needs API key. |
 
 ## BACKUP / TITLE
@@ -29,4 +29,4 @@ Original sites are the patch locators. This repo signs an index; it does not hos
 
 ## Not production
 
-In-repo `tools/library-importer/src/testdata/registry-v1.json` is a fixture only. Do not publish it.
+In-repo importer test registries are fixtures only. Do not publish them.

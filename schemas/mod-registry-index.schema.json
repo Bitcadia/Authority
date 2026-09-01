@@ -1,14 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index-v1.schema.json",
+  "$id": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index.schema.json",
   "title": "bitcadia64 per-base-game registry index",
   "description": "Content-addressed list of per-base-game mod lists and curated category picks.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["$schema", "schemaVersion", "generatedAt", "notice", "categoryDefinitions", "games"],
+  "required": ["$schema", "generatedAt", "notice", "categoryDefinitions", "games"],
   "properties": {
-    "$schema": { "const": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index-v1.schema.json" },
-    "schemaVersion": { "const": 1 },
+    "$schema": { "const": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index.schema.json" },
     "generatedAt": { "type": "string", "format": "date-time" },
     "notice": { "type": "string", "minLength": 1 },
     "categoryDefinitions": {
@@ -27,7 +26,6 @@
   },
   "$defs": {
     "hex8": { "type": "string", "pattern": "^[0-9A-Fa-f]{8}$" },
-    "hex40": { "type": "string", "pattern": "^[0-9A-Fa-f]{40}$" },
     "hex64": { "type": "string", "pattern": "^[0-9A-Fa-f]{64}$" },
     "httpsUrl": { "type": "string", "pattern": "^https://(?![0-9.]+/)(?![^/]*\\.[Ll][Oo][Cc][Aa][Ll]/)(?=[^/]*\\.)(?:(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\\.)+(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?/[^#\\\\\\r\\n\\t]+$" },
     "categoryId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "maxLength": 64 },
@@ -46,7 +44,7 @@
       "type": "object", "additionalProperties": false,
       "required": ["documentType", "url", "sha256", "size", "entryCount", "allowRedirects"],
       "properties": {
-        "documentType": { "const": "mod-registry-v1" },
+        "documentType": { "const": "mod-registry" },
         "url": { "$ref": "#/$defs/httpsUrl" },
         "sha256": { "$ref": "#/$defs/hex64" },
         "size": { "type": "integer", "minimum": 1, "maximum": 8388608 },
@@ -58,7 +56,7 @@
       "type": "object", "additionalProperties": false,
       "required": ["documentType", "url", "sha256", "size", "gameCount", "allowRedirects"],
       "properties": {
-        "documentType": { "const": "mod-registry-index-v1" },
+        "documentType": { "const": "mod-registry-index" },
         "url": { "$ref": "#/$defs/httpsUrl" },
         "sha256": { "$ref": "#/$defs/hex64" },
         "size": { "type": "integer", "minimum": 1, "maximum": 8388608 },
@@ -77,13 +75,13 @@
     },
     "pick": {
       "type": "object", "additionalProperties": false,
-      "required": ["category", "entryId", "name", "version"],
+      "required": ["category", "entryId", "name", "version", "outputSha256"],
       "properties": {
         "category": { "$ref": "#/$defs/categoryId" },
         "entryId": { "type": "string", "pattern": "^[A-Za-z0-9._-]+$", "maxLength": 96 },
         "name": { "type": "string", "minLength": 1, "maxLength": 128 },
         "version": { "type": "string", "minLength": 1, "maxLength": 64, "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9._-]*[A-Za-z0-9])?$" },
-        "outputSha1": { "$ref": "#/$defs/hex40" }
+        "outputSha256": { "$ref": "#/$defs/hex64" }
       }
     },
     "game": {
