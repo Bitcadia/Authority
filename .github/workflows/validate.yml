@@ -33,6 +33,7 @@ jobs:
         with:
           node-version: 22
       - run: node --test test/*.test.mjs
+      - run: python3 test/devops-hook.test.py
       - run: node tools/validate-coverage-audit.mjs
       - run: node tools/validate-strict-publication.mjs
       - run: node tools/build-publication.mjs . dist

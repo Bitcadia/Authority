@@ -1,0 +1,39 @@
+# Installed in the private AuthoritySigning DevOps repo. No PR or CI triggers.
+trigger: none
+pr: none
+
+pool:
+  name: AuthoritySigning
+
+jobs:
+  - job: Sign
+    timeoutInMinutes: 20
+    workspace:
+      clean: all
+    steps:
+      - checkout: none
+      - task: AzureKeyVault@2
+        inputs:
+          azureSubscription: Authority-Publishing-KeyVault
+          KeyVaultName: Publishing
+          SecretsFilter: authority-root-pem,authority-hylian-pem,authority-sm64-pem,authority-smashremix-pem
+          RunAsPreJob: false
+      - bash: node /opt/authority/tools/devops-sign.mjs
+        displayName: Validate GitHub artifact and sign with Key Vault PEMs
+        env:
+          GITHUB_RUN_ID: $(githubRunId)
+          GITHUB_COMMIT: $(githubCommit)
+          GITHUB_ARTIFACT_ID: $(githubArtifactId)
+          ARTIFACT_SHA256: $(artifactSha256)
+          ARTIFACT_DOWNLOAD_URL: $(artifactDownloadUrl)
+          ROOT_PEM: $(authority-root-pem)
+          HYLIAN_PEM: $(authority-hylian-pem)
+          SM64_PEM: $(authority-sm64-pem)
+          SMASHREMIX_PEM: $(authority-smashremix-pem)
+      - task: PublishBuildArtifacts@1
+        inputs:
+          PathtoPublish: $(Agent.TempDirectory)/signed-publication
+          ArtifactName: signed-publication
+      - bash: rm -rf -- "$AGENT_TEMPDIRECTORY/signed-publication" "$AGENT_TEMPDIRECTORY/unsigned.zip"
+        condition: always()
+        displayName: Clean publication workspace

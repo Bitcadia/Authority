@@ -1,0 +1,26 @@
+services:
+  authority-devops-signer:
+    build:
+      context: ./source
+      dockerfile: deploy/omcadia/Dockerfile.devops
+    image: authority-devops-signer:5.278.0
+    container_name: authority-devops-signer
+    restart: unless-stopped
+    secrets: [registration_token]
+    volumes:
+      - devops-agent:/agent
+      - ./state:/state
+    read_only: true
+    tmpfs:
+      - /tmp:size=1g,exec,mode=1777
+      - /home/signer:size=64m,uid=1001,gid=1001
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 2g
+    pids_limit: 256
+    stop_grace_period: 60s
+secrets:
+  registration_token:
+    file: ./devops-registration-token
+volumes:
+  devops-agent:

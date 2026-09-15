@@ -3,8 +3,12 @@
 !deploy/omcadia/
 !deploy/omcadia/Dockerfile
 !deploy/omcadia/init.sh
+!deploy/omcadia/Dockerfile.devops
+!deploy/omcadia/init-devops.sh
 !tools/
 !tools/sign-publication.mjs
 !tools/validate-publication.mjs
+!tools/devops-sign.mjs
+!tools/devops-hook.py
 !sources/
 !sources/publication.json

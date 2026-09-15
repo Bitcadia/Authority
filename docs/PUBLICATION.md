@@ -39,14 +39,14 @@ keys; production keys are not available to PR jobs.
 Pages is configured for Actions at `https://bitcadia.github.io/Authority/`.
 The root locator will be `https://bitcadia.github.io/Authority/authority-manifest.json`.
 
-1. Configure the restricted omcadia runner and environment as described in
-   `deploy/omcadia/README.md`. Keys remain on omcadia.
-2. Install the four existing private keys on omcadia. The signer checks each key
-   against the public identity installed in its image. No keys enter GitHub.
+1. Configure the dedicated DevOps signing pipeline as described in
+   `deploy/omcadia/DEVOPS.md`.
+2. Store the four PEM secrets in Publishing Key Vault. The DevOps workload
+   identity reads only those secrets; signing checks pinned public identities.
 3. Review `sources/publication.json`. For each new publication, increase sequence,
    set dates, and set previous hashes to SHA-256 of the last deployed payload bytes.
-4. Run **Publish Authority** from `main`. Hosted CI builds unsigned JSON; omcadia
-   validates and signs it using a local tool and persistent sequence state.
+4. Run **Publish Authority** from `main`. Hosted CI builds unsigned JSON and
+   triggers DevOps. Omcadia validates and signs it using Key Vault PEMs and persistent sequence state.
    Hosted CI verifies the returned signatures and deploys the artifact to Pages.
 5. Verify the public URLs return JSON directly with HTTP 200, then validate the
    downloaded signed publication before migrating clients.
