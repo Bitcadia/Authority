@@ -31,29 +31,25 @@ jobs:
 
   sign:
     needs: build
-    runs-on:
-      group: authority-signing
-      labels: authority-signing
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: read
+      actions: read
     environment: authority-signing
     steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: authority-unsigned-${{ github.sha }}
-          path: ${{ runner.temp }}/authority-${{ github.run_id }}-${{ github.run_attempt }}
-      - name: Sign using installed policy and local keys
+      - uses: actions/checkout@v4
+      - name: Trigger DevOps signing and retrieve signed artifact
         env:
-          ARTIFACT: ${{ runner.temp }}/authority-${{ github.run_id }}-${{ github.run_attempt }}
-        run: node /opt/authority/tools/sign-publication.mjs "$ARTIFACT"
+          GH_TOKEN: ${{ github.token }}
+          AZURE_DEVOPS_SIGNING_TOKEN: ${{ secrets.AZURE_DEVOPS_SIGNING_TOKEN }}
+          AZURE_DEVOPS_SIGNING_PIPELINE: ${{ vars.AZURE_DEVOPS_SIGNING_PIPELINE }}
+        run: python3 tools/devops-hook.py
       - uses: actions/upload-artifact@v4
         with:
           name: authority-signed-${{ github.sha }}
-          path: ${{ runner.temp }}/authority-${{ github.run_id }}-${{ github.run_attempt }}
+          path: dist/
           if-no-files-found: error
-      - name: Clean job artifacts
-        if: always()
-        env:
-          ARTIFACT: ${{ runner.temp }}/authority-${{ github.run_id }}-${{ github.run_attempt }}
-        run: rm -rf -- "$ARTIFACT"
 
   verify:
     needs: sign
