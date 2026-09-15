@@ -3,7 +3,9 @@ import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const root = resolve(process.argv[2] || ".");
-const audit = JSON.parse(await readFile(resolve(root, "sources/n64-coverage-audit-v1.json")));
+const auditPath = process.argv[3] || "sources/n64-coverage-audit-v1.json";
+if (process.argv.length > 4) throw Error("usage: node tools/validate-coverage-audit.mjs [ROOT] [AUDIT_PATH]");
+const audit = JSON.parse(await readFile(resolve(root, auditPath)));
 if (audit.schemaVersion !== 1 || audit.purpose !== "coverage-audit") throw Error("invalid coverage audit identity");
 if (!Array.isArray(audit.requiredProjects) || !Array.isArray(audit.priorityFamilies) || !Array.isArray(audit.activeSignedSources)) throw Error("invalid coverage audit arrays");
 const projects = new Set();
