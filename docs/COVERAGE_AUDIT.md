@@ -10,6 +10,23 @@ Run validator from Authority repository root:
 node tools/validate-coverage-audit.mjs
 ```
 
+Run unit tests with `node --test test/validate-coverage-audit.test.mjs`.
+Tests reject removal of each of the nine artifact requirements and malformed
+requirement lists. The validator checks planning metadata, not artifact bytes.
+
+## Pull request CI
+
+Add the `run-ci` PR label to approve validation for the current head. As in the
+former Bitcadia64 GitHub workflow, approval requires the explicit label event.
+After pushing another commit, remove and re-add `run-ci`. Other PR events fail
+the approval check and skip validation. Manual workflow dispatch also runs checks.
+
+The workflow runs unit tests, coverage validation, and strict publication
+validation with Node.js 22. Its aggregate check is named `CI`; branch protection
+can require that check.
+
+## Consumer invocation
+
 The validator also accepts an explicit root and audit path for consumers that vendor
 the file and tool:
 

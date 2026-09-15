@@ -1,15 +1,31 @@
 name: Validate Authority
 
 on:
+  workflow_dispatch:
   pull_request:
     types: [opened, synchronize, reopened, labeled]
 
 permissions:
   contents: read
 
+concurrency:
+  group: validate-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
+  approval:
+    name: CI approval
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require run-ci label event
+        if: github.event_name == 'pull_request' && !(github.event.action == 'labeled' && github.event.label.name == 'run-ci')
+        run: |
+          echo "Remove and re-add the run-ci label to approve this PR head."
+          exit 1
+
   validate:
-    if: contains(github.event.pull_request.labels.*.name, 'ci')
+    if: github.event_name != 'pull_request' || (github.event.action == 'labeled' && github.event.label.name == 'run-ci')
+    needs: approval
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,3 +35,17 @@ jobs:
       - run: node --test test/validate-coverage-audit.test.mjs
       - run: node tools/validate-coverage-audit.mjs
       - run: node tools/validate-strict-publication.mjs
+
+  required:
+    name: CI
+    if: always()
+    needs: [approval, validate]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify approved validation
+        env:
+          APPROVAL_RESULT: ${{ needs.approval.result }}
+          VALIDATE_RESULT: ${{ needs.validate.result }}
+        run: |
+          test "$APPROVAL_RESULT" = success
+          test "$VALIDATE_RESULT" = success
