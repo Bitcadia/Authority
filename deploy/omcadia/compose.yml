@@ -1,0 +1,34 @@
+services:
+  authority-signer:
+    build:
+      context: ../..
+      dockerfile: deploy/omcadia/Dockerfile
+    image: authority-signer:2.337.0
+    container_name: authority-signer
+    restart: "no"
+    environment:
+      RUNNER_URL: ${RUNNER_URL:?Set organization URL after configuring restricted runner group}
+      RUNNER_GROUP: ${RUNNER_GROUP:?Set trusted-workflow restricted runner group}
+      RUNNER_NAME: omcadia-authority-signing
+    secrets:
+      - registration_token
+    volumes:
+      - runner-state:/home/runner
+      - ./state:/state
+      - ./keys:/keys:ro
+    read_only: true
+    tmpfs:
+      - /tmp:size=1g,exec,mode=1777
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 256
+    mem_limit: 2g
+    cpus: 2
+    stop_grace_period: 60s
+
+secrets:
+  registration_token:
+    file: ./registration-token
+
+volumes:
+  runner-state:

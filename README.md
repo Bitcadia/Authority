@@ -240,7 +240,7 @@ The RHDC objects are directly attested by the root Authority publication;
 historical signed objects remain immutable.
 
 Canonical selections are keyed first by sister authority and then by normalized
-base-ROM SHA-256 in `sources/canonical-picks-v1.json`. Resolved picks must
+base-ROM SHA-256 in `sources/canonical-picks.json`. Resolved picks must
 reference an entry in the same generated list. Named choices that are not yet
 catalog entries remain under `pending` and are never emitted as dangling picks.
 Selection metadata may distinguish a release flavor, such as vanilla Smash
