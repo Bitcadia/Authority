@@ -1,0 +1,87 @@
+name: Publish Authority
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: authority-pages-publication
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test test/*.test.mjs
+      - run: node tools/validate-coverage-audit.mjs
+      - run: node tools/build-publication.mjs . dist
+      - run: node tools/validate-publication.mjs . dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: authority-unsigned-${{ github.sha }}
+          path: dist/
+          if-no-files-found: error
+
+  sign:
+    needs: build
+    runs-on:
+      group: authority-signing
+      labels: authority-signing
+    environment: authority-signing
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: authority-unsigned-${{ github.sha }}
+          path: ${{ runner.temp }}/authority-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Sign using installed policy and local keys
+        env:
+          ARTIFACT: ${{ runner.temp }}/authority-${{ github.run_id }}-${{ github.run_attempt }}
+        run: node /opt/authority/tools/sign-publication.mjs "$ARTIFACT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: authority-signed-${{ github.sha }}
+          path: ${{ runner.temp }}/authority-${{ github.run_id }}-${{ github.run_attempt }}
+          if-no-files-found: error
+      - name: Clean job artifacts
+        if: always()
+        env:
+          ARTIFACT: ${{ runner.temp }}/authority-${{ github.run_id }}-${{ github.run_attempt }}
+        run: rm -rf -- "$ARTIFACT"
+
+  verify:
+    needs: sign
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/download-artifact@v4
+        with:
+          name: authority-signed-${{ github.sha }}
+          path: dist/
+      - run: node tools/validate-publication.mjs . dist --require-signed
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
+
+  deploy:
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy signed publication
+        id: deployment
+        uses: actions/deploy-pages@v4

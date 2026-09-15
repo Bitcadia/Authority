@@ -7,7 +7,7 @@ import { basename, dirname, resolve } from "node:path";
 const sourcePath = resolve(process.argv[2] || "sources/rhdc-registry.json");
 const outputDirectory = resolve(process.argv[3] || "sites/rhdc/catalog");
 const publicBaseUrl = process.argv[4] || "https://raw.githubusercontent.com/Bitcadia/Authority/main/sites/rhdc/catalog/";
-const picksPath = resolve(process.argv[5] || "sources/canonical-picks-v1.json");
+const picksPath = resolve(process.argv[5] || "sources/canonical-picks.json");
 const authorityId = process.argv[6] || basename(dirname(outputDirectory));
 const source = JSON.parse(await readFile(sourcePath, "utf8"));
 const curation = JSON.parse(await readFile(picksPath, "utf8"));
@@ -82,7 +82,7 @@ const index = {
 const indexBytes = serialized(index);
 const indexDigest = hash(indexBytes);
 await writeAtomic(resolve(outputDirectory, `${indexDigest}.json`), indexBytes);
-console.error(JSON.stringify({
+console.log(JSON.stringify({
   index: `${indexDigest}.json`,
   sha256: indexDigest,
   size: indexBytes.length,

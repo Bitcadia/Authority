@@ -5,7 +5,7 @@ import { readFile, rename, writeFile } from "node:fs/promises";
 import { basename, dirname, resolve } from "node:path";
 
 const indexPath = resolve(process.argv[2]);
-const picksPath = resolve(process.argv[3] || "sources/canonical-picks-v1.json");
+const picksPath = resolve(process.argv[3] || "sources/canonical-picks.json");
 const authorityId = process.argv[4] || basename(dirname(dirname(indexPath)));
 if (!process.argv[2]) throw new Error("Usage: node tools/curate-existing-index.mjs <index.json> [picks.json]");
 

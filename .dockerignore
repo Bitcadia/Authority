@@ -1,0 +1,10 @@
+**
+!deploy/
+!deploy/omcadia/
+!deploy/omcadia/Dockerfile
+!deploy/omcadia/init.sh
+!tools/
+!tools/sign-publication.mjs
+!tools/validate-publication.mjs
+!sources/
+!sources/publication.json
