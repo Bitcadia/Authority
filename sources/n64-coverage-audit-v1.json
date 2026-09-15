@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "purpose": "coverage-audit",
+  "notice": "Planning inventory only. Entries do not authorize downloads, publications, or trust. Add a project to signed catalogs only after exact source, base, patch, output, rights, and reproducibility checks.",
+  "lastAuditedAt": "2026-09-15",
+  "requiredProjects": [
+    {
+      "name": "GoldenEye X",
+      "baseGames": ["GoldenEye 007"],
+      "status": "pending-source-audit",
+      "reason": "No verified original-site patch artifact, base identity, output hash, and redistribution boundary recorded in current signed Authority publication."
+    },
+    {
+      "name": "Goldfinger 64",
+      "baseGames": ["GoldenEye 007"],
+      "status": "pending-source-audit",
+      "reason": "Project identity must be distinguished from GoldenEye X before artifact and rights audit."
+    },
+    {
+      "name": "Smash Remix",
+      "baseGames": ["Super Smash Bros."],
+      "status": "active",
+      "reason": "Current signed Smash Remix sister catalog contains one verified entry; audit current release coverage separately."
+    },
+    {
+      "name": "Doom 64 projects",
+      "baseGames": ["Doom 64"],
+      "status": "pending-source-audit",
+      "reason": "Audit Doom 64 EX/Absolution and other N64-compatible projects separately; do not merge PC source ports or unrelated Doom releases."
+    }
+  ],
+  "priorityFamilies": [
+    "The Legend of Zelda: Ocarina of Time",
+    "The Legend of Zelda: Majora's Mask",
+    "Super Mario 64",
+    "Mario Kart 64",
+    "F-Zero X",
+    "Star Fox 64",
+    "Banjo-Kazooie",
+    "Perfect Dark",
+    "Pokemon Stadium",
+    "Pokemon Snap",
+    "Kirby 64"
+  ],
+  "activeSignedSources": [
+    { "id": "rhdc", "name": "Romhacking.com", "status": "active", "scope": "Super Mario 64 USA" },
+    { "id": "smashremix", "name": "Smash Remix", "status": "active", "scope": "Super Smash Bros. USA" },
+    { "id": "hylian-modding", "name": "Hylian Modding", "status": "active", "scope": "Ocarina of Time USA and Majora's Mask USA" },
+    { "id": "sm64romhacks", "name": "SM64 Romhacks", "status": "active", "scope": "Super Mario 64 USA" }
+  ],
+  "requiredArtifactFields": [
+    "originalSourceUrl",
+    "projectUrl",
+    "baseRomIdentity",
+    "patchFormat",
+    "patchSize",
+    "patchSha256",
+    "outputSha256",
+    "rights",
+    "reproducibilityResult"
+  ]
+}
