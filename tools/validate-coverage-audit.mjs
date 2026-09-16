@@ -36,7 +36,7 @@ export function validateCoverageAudit(audit) {
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   if (process.argv.length > 4) throw Error("usage: node tools/validate-coverage-audit.mjs [ROOT] [AUDIT_PATH]");
   const root = resolve(process.argv[2] || ".");
-  const auditPath = process.argv[3] || "sources/n64-coverage-audit-v1.json";
+  const auditPath = process.argv[3] || "sources/n64-coverage-audit.json";
   const audit = JSON.parse(await readFile(resolve(root, auditPath)));
   const result = validateCoverageAudit(audit);
   console.log(`Coverage audit valid: ${result.projectCount} required projects, ${result.sourceCount} active signed sources, ${result.familyCount} priority families`);

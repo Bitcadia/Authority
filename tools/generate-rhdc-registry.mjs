@@ -3,9 +3,9 @@
 import { readFile, rename, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-const inputPath = resolve(process.argv[2] || "sources/rhdc-v4-registry-snapshot.json");
+const inputPath = resolve(process.argv[2] || "scratch/rhdc-registry-snapshot.json");
 const outputPath = resolve(process.argv[3] || "sources/rhdc-registry.json");
-const artworkPath = resolve(process.argv[4] || "sources/rhdc-artwork-pins-v1.json");
+const artworkPath = resolve(process.argv[4] || "sources/rhdc-artwork-pins.json");
 const identitiesPath = resolve(process.argv[5] || "sources/rhdc-artifact-identities.json");
 const snapshot = JSON.parse(await readFile(inputPath, "utf8"));
 const artwork = JSON.parse(await readFile(artworkPath, "utf8"));
