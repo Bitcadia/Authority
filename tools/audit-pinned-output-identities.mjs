@@ -79,7 +79,7 @@ const run = (argv) => new Promise((accept, reject) => {
 
 const entries = [];
 for (const name of await readdir(sourceDirectory)) {
-  if (!name.endsWith("registry-v1.json")) continue;
+  if (!["hylian-registry.json", "sm64-registry.json", "smashremix-registry.json"].includes(name)) continue;
   const document = JSON.parse(await readFile(join(sourceDirectory, name), "utf8"));
   for (const entry of document.entries || []) if (entry.patch?.sha256) entries.push(entry);
 }

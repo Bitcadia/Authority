@@ -4,7 +4,7 @@ import { createHash } from "node:crypto";
 import { readFile, rename, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-const registryPath = resolve(process.argv[2] || "sources/rhdc-bps-registry-v1.json");
+const registryPath = resolve(process.argv[2] || "sources/rhdc-registry.json");
 const basePath = resolve(process.argv[3] || "Super Mario 64 (USA).z64");
 const outputPath = resolve(process.argv[4] || "sources/rhdc-artifact-identities.json");
 const concurrency = Math.max(1, Math.min(8, Number(process.argv[5] || 4)));

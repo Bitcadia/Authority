@@ -4,10 +4,10 @@ import { createHash } from "node:crypto";
 import { readFile, rename, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-const inputPath = resolve(process.argv[2] || "sources/hylian-bps-registry-v1.json");
-const outputPath = resolve(process.argv[3] || "sources/hylian-artwork-pins-v1.json");
-const artifactsPath = resolve(process.argv[4] || "sources/hylian-artifact-pins-v1.json");
-const overridesPath = resolve(process.argv[5] || "sources/hylian-release-overrides-v1.json");
+const inputPath = resolve(process.argv[2] || "sources/hylian-registry.json");
+const outputPath = resolve(process.argv[3] || "sources/hylian-artwork-pins.json");
+const artifactsPath = resolve(process.argv[4] || "sources/hylian-artifact-pins.json");
+const overridesPath = resolve(process.argv[5] || "sources/hylian-release-overrides.json");
 const source = JSON.parse(await readFile(inputPath, "utf8"));
 const artifacts = JSON.parse(await readFile(artifactsPath, "utf8"));
 const overrides = JSON.parse(await readFile(overridesPath, "utf8"));

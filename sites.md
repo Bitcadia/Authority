@@ -4,8 +4,8 @@ Original sites are the patch locators. This repo signs an index; it does not hos
 
 ## Default gossiper locator (no redirects)
 
-- Manifest: `https://raw.githubusercontent.com/Bitcadia/Authority/main/authority-manifest-v2.json`
-- Catalog objects: `https://raw.githubusercontent.com/Bitcadia/Authority/main/catalog/`
+- Manifest: `https://bitcadia.github.io/Authority/authority-manifest.json`
+- Catalog objects: generated under `https://bitcadia.github.io/Authority/sites/<provider>/catalog/`
 - GitHub Release copies of the same files are backups only. `releases/latest/download` 302s and the importer rejects redirects.
 
 ## MAIN (ingest when machine-readable patches exist)

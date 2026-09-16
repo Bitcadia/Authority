@@ -3,7 +3,7 @@
 import { rename, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-const outputPath = resolve(process.argv[2] || "sources/hylian-registry-snapshot-v1.json");
+const outputPath = resolve(process.argv[2] || "scratch/hylian-registry-snapshot.json");
 const indexUrl = new URL("https://hylianmodding.com/mods/index.json");
 const indexResponse = await fetch(indexUrl, { redirect: "manual", signal: AbortSignal.timeout(30000) });
 if (!indexResponse.ok || indexResponse.redirected || indexResponse.url !== indexUrl.href) throw new Error(`Index fetch failed: HTTP ${indexResponse.status}`);

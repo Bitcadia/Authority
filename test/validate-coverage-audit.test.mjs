@@ -4,7 +4,7 @@ import { readFile } from "node:fs/promises";
 import { spawnSync } from "node:child_process";
 import { validateCoverageAudit } from "../tools/validate-coverage-audit.mjs";
 
-const audit = JSON.parse(await readFile(new URL("../sources/n64-coverage-audit-v1.json", import.meta.url)));
+const audit = JSON.parse(await readFile(new URL("../sources/n64-coverage-audit.json", import.meta.url)));
 
 test("accepts coverage planning audit", () => {
   assert.deepEqual(validateCoverageAudit(audit), { projectCount: 4, sourceCount: 4, familyCount: 11 });

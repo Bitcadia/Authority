@@ -28,8 +28,8 @@ Use a new output directory for each build. The builder refuses to overwrite an
 existing directory. All inputs, including issue and expiry dates, are fixed in
 source, so repeated builds produce the same bytes.
 
-Applying `run-ci` to a PR runs the tests, validates the existing signed publication,
-builds a preview, validates its JSON references, and uploads `authority-preview-*`.
+Applying `run-ci` to a PR runs the tests, builds a preview, validates its JSON
+references, and uploads `authority-preview-*`.
 Preview artifacts contain catalogs and unsigned payloads. They are not trusted
 publications. Unit tests exercise signing and signature rejection with temporary
 keys; production keys are not available to PR jobs.
@@ -64,6 +64,7 @@ Bitcadia64 clients. The transition therefore needs two releases:
    outside Git. Retain any historical objects still needed by supported clients
    on the publication host, rather than in the source tree.
 
-Until Pages is signed and verified, the old live JSON remains in Git. GitHub
-Actions artifacts expire and are not the player download endpoint; Pages serves
-the deployed publication independently of artifact retention.
+Pages sequence 3 has passed live signature/hash verification. This cleanup removes
+the old live JSON from Git and depends on the Bitcadia64 Pages migration (DevOps
+PR #469). Merge after the updated client is deployed. GitHub Actions artifacts
+expire; Pages serves the deployed publication independently of artifact retention.

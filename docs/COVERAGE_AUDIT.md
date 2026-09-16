@@ -1,6 +1,6 @@
 # N64 coverage audit
 
-`sources/n64-coverage-audit-v1.json` is planning data. It does not authorize
+`sources/n64-coverage-audit.json` is planning data. It does not authorize
 downloads, catalog activation, trust, or redistribution. It records known signed
 Authority source coverage and projects that still need artifact review.
 
@@ -21,7 +21,7 @@ former Bitcadia64 GitHub workflow, approval requires the explicit label event.
 After pushing another commit, remove and re-add `run-ci`. Other PR events fail
 the approval check and skip validation. Manual workflow dispatch also runs checks.
 
-The workflow runs unit tests, coverage validation, and strict publication
+The workflow runs unit tests, coverage validation, and generated publication
 validation with Node.js 22. Its aggregate check is named `CI`; branch protection
 can require that check.
 
@@ -31,7 +31,7 @@ The validator also accepts an explicit root and audit path for consumers that ve
 the file and tool:
 
 ```console
-node tools/validate-coverage-audit.mjs /path/to/worktree sources/n64-coverage-audit-v1.json
+node tools/validate-coverage-audit.mjs /path/to/worktree sources/n64-coverage-audit.json
 ```
 
 It requires unique project/source IDs, explicit status/reason fields, active signed

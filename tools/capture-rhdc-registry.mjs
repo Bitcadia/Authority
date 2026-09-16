@@ -4,7 +4,7 @@ import { mkdir, rename, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 
 const apiOrigin = "https://api.romhacking.com";
-const outputPath = resolve(process.argv[2] || "sources/rhdc-v4-registry-snapshot.json");
+const outputPath = resolve(process.argv[2] || "scratch/rhdc-registry-snapshot.json");
 const pageSize = 100;
 const delayMs = 500;
 const maximumPages = 1000;

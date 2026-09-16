@@ -3,12 +3,12 @@
 import { readFile, rename, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-const snapshotPath = resolve(process.argv[2] || "sources/hylian-registry-snapshot-v1.json");
-const pinsPath = resolve(process.argv[3] || "sources/hylian-artifact-pins-v1.json");
+const snapshotPath = resolve(process.argv[2] || "scratch/hylian-registry-snapshot.json");
+const pinsPath = resolve(process.argv[3] || "sources/hylian-artifact-pins.json");
 const outputPath = resolve(process.argv[4] || "sources/hylian-registry.json");
 const existingPath = resolve(process.argv[5] || outputPath);
 const identitiesPath = resolve(process.argv[6] || "sources/pinned-output-identities.json");
-const overridesPath = resolve(process.argv[7] || "sources/hylian-release-overrides-v1.json");
+const overridesPath = resolve(process.argv[7] || "sources/hylian-release-overrides.json");
 const snapshot = JSON.parse(await readFile(snapshotPath, "utf8"));
 const pins = JSON.parse(await readFile(pinsPath, "utf8"));
 const existing = JSON.parse(await readFile(existingPath, "utf8"));

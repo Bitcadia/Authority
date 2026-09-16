@@ -4,8 +4,8 @@ import { createHash } from "node:crypto";
 import { readFile, rename, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-const inputPath = resolve(process.argv[2] || "sources/hylian-bps-registry-v1.json");
-const artworkPath = resolve(process.argv[3] || "sources/hylian-artwork-pins-v1.json");
+const inputPath = resolve(process.argv[2] || "sources/hylian-registry.json");
+const artworkPath = resolve(process.argv[3] || "sources/hylian-artwork-pins.json");
 const outputPath = resolve(process.argv[4] || inputPath);
 const source = JSON.parse(await readFile(inputPath, "utf8"));
 const artwork = JSON.parse(await readFile(artworkPath, "utf8"));
