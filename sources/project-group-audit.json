@@ -1,0 +1,293 @@
+{
+  "notice": "Same-game normalized project-name audit; edition-review items remain separate until curated.",
+  "projects": [
+    {
+      "game": "Super Mario 64",
+      "name": "Serene Fusion",
+      "status": "curated",
+      "entries": [
+        "rhdc-6342676617316e22c431f6f9-1.3.3",
+        "rhdc-serene-fusion-1.3.3"
+      ],
+      "projectIds": [
+        "project-da406e7b5226fcc2"
+      ]
+    },
+    {
+      "game": "Super Mario 64",
+      "name": "SM64: Decades Later",
+      "status": "curated",
+      "entries": [
+        "rhdc-660695d12f0650df5f8c3d71-1.1h2",
+        "sm64romhacks-sm64-decades-later-1.1"
+      ],
+      "projectIds": [
+        "project-f45cb1d180d70955"
+      ]
+    },
+    {
+      "game": "Super Mario 64",
+      "name": "SM64: Beyond the Cursed Mirror",
+      "status": "curated",
+      "entries": [
+        "rhdc-6466ea92e952a72a24c2aa53-1.3.1",
+        "sm64romhacks-sm64-beyond-the-cursed-mirror-1.3"
+      ],
+      "projectIds": [
+        "project-e8d1616d754cb8e7"
+      ]
+    },
+    {
+      "game": "Super Mario 64",
+      "name": "Super Mario Star Road",
+      "status": "curated",
+      "entries": [
+        "rhdc-5e209fb7ea2543645dc04264-1.02",
+        "rhdc-super-mario-star-road-1.02",
+        "plaza-3190-882129c697cf",
+        "plaza-3190-2f666bb6070b",
+        "plaza-3190-5de8da06abb1",
+        "plaza-3190-dbb54d14198a",
+        "plaza-3190-bb8e6e65066c",
+        "plaza-3190-ee01eeb04473"
+      ],
+      "projectIds": [
+        "star-road",
+        "star-road-deluxe",
+        "star-road-console",
+        "star-road-light",
+        "star-road-multiplayer"
+      ]
+    },
+    {
+      "game": "Super Mario 64",
+      "name": "SM64 The Green Stars",
+      "status": "curated",
+      "entries": [
+        "rhdc-5e209f90ea2543645dc04071-3.4",
+        "rhdc-sm64-the-green-stars-3.4"
+      ],
+      "projectIds": [
+        "project-f02cc3c22d8e8164"
+      ]
+    },
+    {
+      "game": "Super Mario 64",
+      "name": "Kaizo Mario 64",
+      "status": "curated",
+      "entries": [
+        "rhdc-5e209f50ea2543645dc03ebf-sha1-3a352b203ebda06a3559a273d13ebbbb133d71a4",
+        "rhdc-kaizo-mario-64-1.0"
+      ],
+      "projectIds": [
+        "project-ac9eb5fb8fd641fd"
+      ]
+    },
+    {
+      "game": "Super Mario 64",
+      "name": "Better SM64 Non-Stop",
+      "status": "curated",
+      "entries": [
+        "rhdc-6314bc8312841ee6b57cf0c1-sha1-3199334c5f973af34b6d94d58f9fbe5efa5f4461",
+        "rhdn-hacks-5429-5c5f76a7de43"
+      ],
+      "projectIds": [
+        "project-18d6d36aa5564271"
+      ]
+    },
+    {
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "name": "Nimpize Adventure",
+      "status": "curated",
+      "entries": [
+        "hylian-nimpize_adventure",
+        "rhdn-hacks-5810-7d0defb31ec7"
+      ],
+      "projectIds": [
+        "project-1062c071da0287a7"
+      ]
+    },
+    {
+      "game": "The Legend of Zelda: Majora's Mask",
+      "name": "Pumkin Tower",
+      "status": "curated",
+      "entries": [
+        "hylian-pumkin_tower",
+        "plaza-2508-2d4d96be8f39"
+      ],
+      "projectIds": [
+        "project-e00906560a6bc1a0"
+      ]
+    },
+    {
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "name": "Star Fox 64 Survival",
+      "status": "curated",
+      "entries": [
+        "hylian-star_fox_64_survival",
+        "rhdn-hacks-5566-727dd8515ddd"
+      ],
+      "projectIds": [
+        "project-1ef64e47b148fe93"
+      ]
+    },
+    {
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "name": "Zelda 64: Dawn and Dusk",
+      "status": "curated",
+      "entries": [
+        "hylian-zelda64_dawn_and_dusk",
+        "rhdn-hacks-5816-beee8813fc94",
+        "rhdn-hacks-5816-96dad672227b",
+        "rhdn-hacks-5816-b2c53feafe04"
+      ],
+      "projectIds": [
+        "zelda64-dawn-and-dusk"
+      ]
+    },
+    {
+      "game": "Super Mario 64",
+      "name": "SM64 Last Impact",
+      "status": "curated",
+      "entries": [
+        "sm64romhacks-sm64-last-impact-1.2",
+        "rhdn-hacks-5964-55ce6c298141"
+      ],
+      "projectIds": [
+        "project-9c681fe1c3572b2c"
+      ]
+    },
+    {
+      "game": "Super Smash Bros.",
+      "name": "Smash Remix",
+      "status": "curated",
+      "entries": [
+        "smashremix-2.0.1-ntsc",
+        "plaza-2323-b4b24fdc4c6e"
+      ],
+      "projectIds": [
+        "project-c5a7a677579fb721"
+      ]
+    },
+    {
+      "game": "Super Mario 64",
+      "name": "Super Mario 64 Multiplayer",
+      "status": "curated",
+      "entries": [
+        "plaza-3192-30f6c999e5a9",
+        "plaza-3192-6d4318d4d709"
+      ],
+      "projectIds": [
+        "sm64-multiplayer-dynamic",
+        "sm64-multiplayer-classic"
+      ]
+    },
+    {
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "name": "The Legend Of Zelda: Ocarina Of Time Redux",
+      "status": "curated",
+      "entries": [
+        "plaza-2122-3689fd825633",
+        "plaza-2122-96147957f1d1"
+      ],
+      "projectIds": [
+        "master-quest-redux",
+        "oot-redux"
+      ]
+    },
+    {
+      "game": "GoldenEye 007",
+      "name": "GoldenEye 007 - Mord's Custom Multiplayer Weapon Set",
+      "status": "curated",
+      "entries": [
+        "rhdn-hacks-4467-3081be6a4420",
+        "rhdn-hacks-4467-1a2151c084fa",
+        "rhdn-hacks-4467-340cffa5e978",
+        "rhdn-hacks-4467-f307407aaa99"
+      ],
+      "projectIds": [
+        "goldeneye-mord-weapons-x",
+        "goldeneye-mord-weapons"
+      ]
+    },
+    {
+      "game": "GoldenEye 007",
+      "name": "GoldenEye Unlock Everything",
+      "status": "curated",
+      "entries": [
+        "rhdn-hacks-5541-68c90703aaba",
+        "rhdn-hacks-5541-0bf66869f216"
+      ],
+      "projectIds": [
+        "goldeneye-unlock-all",
+        "goldeneye-unlock-light"
+      ]
+    },
+    {
+      "game": "Mario Kart 64",
+      "name": "Hooting HUD",
+      "status": "curated",
+      "entries": [
+        "rhdn-hacks-6148-99d02d014eef",
+        "rhdn-hacks-6148-1adfda0d98d7",
+        "rhdn-hacks-6148-9362c08c5498",
+        "rhdn-hacks-6148-5070abd2d4d6"
+      ],
+      "projectIds": [
+        "hooting-hud-1",
+        "hooting-hud-2",
+        "hooting-hud-3",
+        "hooting-hud-4"
+      ]
+    },
+    {
+      "game": "Super Mario 64",
+      "name": "Low Poly Promo Models",
+      "status": "curated",
+      "entries": [
+        "rhdn-hacks-5671-fee055f94e46",
+        "rhdn-hacks-5671-1b7b8419f4e5"
+      ],
+      "projectIds": [
+        "low-poly-luigi",
+        "low-poly-mario"
+      ]
+    },
+    {
+      "game": "The Legend of Zelda: Majora's Mask",
+      "name": "Majora's Mask Redux",
+      "status": "curated",
+      "entries": [
+        "rhdn-hacks-5122-6000c3875a9e",
+        "rhdn-hacks-5122-cb445ba58fdc",
+        "rhdn-hacks-5122-8289b0e886b1",
+        "rhdn-hacks-5122-667934702d2d",
+        "rhdn-hacks-5122-db1b97ad8ca6"
+      ],
+      "projectIds": [
+        "mm-redux",
+        "mm-redux-dpad-left",
+        "mm-redux-dpad-right"
+      ]
+    },
+    {
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "name": "Ocarina of Time Redux",
+      "status": "curated",
+      "entries": [
+        "rhdn-hacks-5138-34176f88df6f",
+        "rhdn-hacks-5138-b265bfe7408c",
+        "rhdn-hacks-5138-ed37c137759a",
+        "rhdn-hacks-5138-f5c234090b40",
+        "rhdn-hacks-5138-974fa98ee2dc",
+        "rhdn-hacks-5138-252b85b6639e"
+      ],
+      "projectIds": [
+        "master-quest-redux",
+        "oot-redux",
+        "oot-redux-2x-text",
+        "oot-redux-3x-text"
+      ]
+    }
+  ]
+}
