@@ -23,7 +23,7 @@ test("generated publications preserve entries, pins, signatures and reproducibil
   await writeFile(join(root, "sources/publication.json"), JSON.stringify(config));
   const output = join(root, "output");
   await buildPublication({ root, output, keyDirectory: keys });
-  assert.deepEqual(await validatePublication(root, output, { requireSigned: true }), { entries: 1599, signed: true });
+  assert.deepEqual(await validatePublication(root, output, { requireSigned: true }), { entries: 1613, signed: true });
   const second = join(root, "second");
   await buildPublication({ root, output: second, keyDirectory: keys });
   assert.deepEqual(await readFile(join(output, "authority-manifest.json")), await readFile(join(second, "authority-manifest.json")));
@@ -35,7 +35,7 @@ test("generated publications preserve entries, pins, signatures and reproducibil
   await assert.rejects(validatePublication(root, output, { requireSigned: true }), /signature/);
   const unsigned = join(root, "unsigned");
   await buildPublication({ root, output: unsigned });
-  assert.equal((await validatePublication(root, unsigned)).entries, 1599);
+  assert.equal((await validatePublication(root, unsigned)).entries, 1613);
   await assert.rejects(validatePublication(root, unsigned, { requireSigned: true }), /Signed publication required/);
   const state = join(root, "state");
   await mkdir(state);
