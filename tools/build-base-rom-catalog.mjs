@@ -10,12 +10,33 @@ const publicBaseUrl = process.argv[4] || "https://raw.githubusercontent.com/Bitc
 const picksPath = resolve(process.argv[5] || "sources/canonical-picks.json");
 const authorityId = process.argv[6] || basename(dirname(outputDirectory));
 const source = JSON.parse(await readFile(sourcePath, "utf8"));
+const outputSizes = JSON.parse(await readFile(new URL("../sources/output-sizes.json", import.meta.url)));
+const exclusions = JSON.parse(await readFile(new URL("../sources/publication-exclusions.json", import.meta.url)));
 const curation = JSON.parse(await readFile(picksPath, "utf8"));
 const indexSchema = "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index.schema.json";
 const canonicalCategories = new Set(["the-sequel", "the-dlc", "the-replacement", "the-experiment"]);
+const canonical = value => Array.isArray(value) ? value.map(canonical) : value && typeof value === "object"
+  ? Object.fromEntries(Object.keys(value).sort().map(key => [key, canonical(value[key])])) : value;
+const digestEntry = value => createHash("sha256").update(JSON.stringify(canonical(value))).digest("hex");
 const groups = new Map();
 
-for (const entry of source.entries || []) {
+for (const original of source.entries || []) {
+  if (exclusions[original.id]) continue;
+  const entry = structuredClone(original);
+  entry.base.normalizedSha256 = entry.base.normalizedSha256.toLowerCase();
+  for (const key of ["sha256", "memberSha256"]) if (entry.patch[key]) entry.patch[key] = entry.patch[key].toLowerCase();
+  entry.output.sha256 = entry.output.sha256.toLowerCase();
+  if (!entry.output.size) {
+    const evidence = outputSizes[entry.id];
+    if (!evidence || evidence.patchSha256.toLowerCase() !== entry.patch.sha256) throw Error(`Missing output-size evidence: ${entry.id}`);
+    entry.output.size = evidence.size;
+  }
+  if (!entry.saveType && entry.base.name === "Super Mario 64") entry.saveType = "eeprom4k";
+  if (!Number.isSafeInteger(entry.output.size) || entry.output.size < 1) throw Error(`Missing output size: ${entry.id}`);
+  if (entry.artwork) entry.artwork.sha256 = entry.artwork.sha256.toLowerCase();
+  entry.recipe = { type: "apply-rom-patch", input: { type: "base-rom" } };
+  delete entry.entrySha256;
+  entry.entrySha256 = digestEntry(entry);
   const key = entry.base?.normalizedSha256?.toUpperCase();
   if (!/^[0-9A-F]{64}$/.test(key || "")) throw new Error(`Invalid base SHA-256 for ${entry.id}`);
   const existing = groups.get(key);
@@ -41,6 +62,8 @@ const games = [];
 for (const group of groups.values()) {
   const list = {
     $schema: source.$schema,
+    schemaVersion: 2,
+    listId: `${authorityId}-${group.base.normalizedSha256.slice(0, 16)}`,
     generatedAt: source.generatedAt,
     notice: source.notice,
     entries: group.entries,
@@ -54,7 +77,7 @@ for (const group of groups.values()) {
     const entryId = typeof configured === "string" ? configured : configured.entryId;
     const entry = group.entries.find((candidate) => candidate.id === entryId);
     if (!entry) throw new Error(`Canonical pick ${category} references missing entry ${entryId}`);
-    const pick = { category, entryId: entry.id, name: entry.name, version: entry.version, outputSha256: entry.output.sha256 };
+    const pick = { category, entryId: entry.id, entrySha256: entry.entrySha256, name: entry.name, version: entry.version, outputSha256: entry.output.sha256 };
     picks.push(pick);
   }
   games.push({
@@ -67,13 +90,14 @@ for (const group of groups.values()) {
       entryCount: group.entries.length,
       allowRedirects: false,
     },
-    picks,
+    targets: [{ target: { type: "base-rom", normalizedSha256: group.base.normalizedSha256 }, picks }],
   });
 }
 
 games.sort((left, right) => left.base.normalizedSha256.localeCompare(right.base.normalizedSha256));
 const index = {
   $schema: indexSchema,
+  schemaVersion: 2,
   generatedAt: source.generatedAt,
   notice: source.notice,
   categoryDefinitions: [],

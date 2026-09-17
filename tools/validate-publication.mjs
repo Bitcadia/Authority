@@ -5,6 +5,8 @@ import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const sha = bytes => createHash("sha256").update(bytes).digest("hex");
+const canonical = value => Array.isArray(value) ? value.map(canonical) : value && typeof value === "object"
+  ? Object.fromEntries(Object.keys(value).sort().map(key => [key, canonical(value[key])])) : value;
 export async function validatePublication(root, output, { requireSigned = false } = {}) {
   const config = JSON.parse(await readFile(resolve(root, "sources/publication.json")));
   const metadata = JSON.parse(await readFile(resolve(output, "publication-build.json")));
@@ -39,13 +41,17 @@ export async function validatePublication(root, output, { requireSigned = false 
       const list = JSON.parse(listBytes);
       if (game.list.documentType !== "mod-registry" || game.list.allowRedirects !== false || sha(listBytes) !== game.list.sha256 || listBytes.length !== game.list.size || list.entries.length !== game.list.entryCount) throw Error("Invalid list pin");
       for (const entry of list.entries) {
+        const { entrySha256, ...content } = entry;
+        if (entrySha256 !== sha(Buffer.from(JSON.stringify(canonical(content))))) throw Error("Entry digest mismatch");
+        if (!Number.isSafeInteger(entry.output?.size) || entry.output.size < 1 || entry.recipe?.type !== "apply-rom-patch" || entry.recipe?.input?.type !== "base-rom") throw Error("Invalid output/recipe");
         if (!Number.isSafeInteger(entry.patch?.size) || entry.patch.size < 1 || !/^[a-f0-9]{64}$/i.test(entry.patch.sha256) || !/^[a-f0-9]{64}$/i.test(entry.output?.sha256)) throw Error("Incomplete artifact identity");
         if (entry.base.normalizedSha256 !== game.base.normalizedSha256) throw Error("Base mismatch");
         entries++;
       }
-      for (const pick of game.picks) {
+      if (index.schemaVersion !== 2 || list.schemaVersion !== 2) throw Error("Unsupported registry schema");
+      for (const pick of game.targets.flatMap(target => target.picks)) {
         const entry = list.entries.find(value => value.id === pick.entryId);
-        if (!entry || entry.output.sha256.toLowerCase() !== pick.outputSha256.toLowerCase()) throw Error("Invalid curated pick");
+        if (!entry || entry.entrySha256 !== pick.entrySha256 || entry.output.sha256.toLowerCase() !== pick.outputSha256.toLowerCase()) throw Error("Invalid curated pick");
       }
     }
     const expectedPeers = authority === config.authorities[0] ? config.authorities.slice(1) : [];

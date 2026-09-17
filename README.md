@@ -7,9 +7,13 @@ sources. This repository distributes neither ROM dumps nor patch bytes.
 
 https://bitcadia.github.io/Authority/authority-manifest.json
 
-The endpoint returns JSON directly. Bitcadia64 rejects redirects. Sequence 3
-contains 1,555 verified entries across RHDC, Hylian Modding, SM64 Romhacks, and
-Smash Remix. Authority identity and signature domain remain unchanged.
+The endpoint returns JSON directly. Bitcadia64 rejects redirects. Sequence 4
+contains 1,568 entries across RHDC, Hylian Modding, SM64 Romhacks, Smash Remix,
+and Romhack Plaza. Authority identity and signature domain remain unchanged.
+
+Plaza adds 21 reproducibly applied variants from 14 projects. Eight legacy RHDC
+entries are excluded for unavailable downloads or output sizes beyond the current
+client limit. See [Plaza audit](docs/PLAZA.md).
 
 ## Editable JSON
 

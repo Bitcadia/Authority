@@ -2,17 +2,18 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index.schema.json",
   "title": "bitcadia64 per-base-game registry index",
-  "description": "Content-addressed list of per-base-game mod lists and curated category picks.",
+  "description": "Content-addressed v2 lists and recursive Authority-curated target groups.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["$schema", "generatedAt", "notice", "categoryDefinitions", "games"],
+  "required": ["$schema", "schemaVersion", "generatedAt", "notice", "categoryDefinitions", "games"],
   "properties": {
     "$schema": { "const": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index.schema.json" },
+    "schemaVersion": { "const": 2 },
     "generatedAt": { "type": "string", "format": "date-time" },
     "notice": { "type": "string", "minLength": 1 },
     "categoryDefinitions": {
       "type": "array", "maxItems": 64,
-      "description": "Authority-defined categories extending the four canonical categories.",
+      "description": "Authority-scoped categories extending the four canonical categories.",
       "items": { "$ref": "#/$defs/categoryDefinition" }
     },
     "games": {
@@ -25,10 +26,12 @@
     }
   },
   "$defs": {
-    "hex8": { "type": "string", "pattern": "^[0-9A-Fa-f]{8}$" },
-    "hex64": { "type": "string", "pattern": "^[0-9A-Fa-f]{64}$" },
+    "upperHex8": { "type": "string", "pattern": "^[0-9A-F]{8}$" },
+    "lowerHex64": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
     "httpsUrl": { "type": "string", "pattern": "^https://(?![0-9.]+/)(?![^/]*\\.[Ll][Oo][Cc][Aa][Ll]/)(?=[^/]*\\.)(?:(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\\.)+(?!0[xX])[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?/[^#\\\\\\r\\n\\t]+$" },
     "categoryId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "maxLength": 64 },
+    "entryId": { "type": "string", "pattern": "^[A-Za-z0-9._-]+$", "maxLength": 96 },
+    "component": { "type": "string", "minLength": 1, "maxLength": 64, "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9._-]*[A-Za-z0-9])?$" },
     "base": {
       "type": "object", "additionalProperties": false,
       "required": ["name", "variant", "normalizedCrc32", "normalizedSha256"],
@@ -36,8 +39,8 @@
         "name": { "type": "string", "minLength": 1 },
         "variant": { "type": "string", "minLength": 1 },
         "gameCode": { "type": "string", "minLength": 1, "maxLength": 8 },
-        "normalizedCrc32": { "$ref": "#/$defs/hex8" },
-        "normalizedSha256": { "$ref": "#/$defs/hex64" }
+        "normalizedCrc32": { "$ref": "#/$defs/upperHex8" },
+        "normalizedSha256": { "$ref": "#/$defs/lowerHex64" }
       }
     },
     "listReference": {
@@ -46,7 +49,7 @@
       "properties": {
         "documentType": { "const": "mod-registry" },
         "url": { "$ref": "#/$defs/httpsUrl" },
-        "sha256": { "$ref": "#/$defs/hex64" },
+        "sha256": { "$ref": "#/$defs/lowerHex64" },
         "size": { "type": "integer", "minimum": 1, "maximum": 8388608 },
         "entryCount": { "type": "integer", "minimum": 1, "maximum": 100000 },
         "allowRedirects": { "const": false }
@@ -58,7 +61,7 @@
       "properties": {
         "documentType": { "const": "mod-registry-index" },
         "url": { "$ref": "#/$defs/httpsUrl" },
-        "sha256": { "$ref": "#/$defs/hex64" },
+        "sha256": { "$ref": "#/$defs/lowerHex64" },
         "size": { "type": "integer", "minimum": 1, "maximum": 8388608 },
         "gameCount": { "type": "integer", "minimum": 1, "maximum": 10000 },
         "allowRedirects": { "const": false }
@@ -73,27 +76,88 @@
         "description": { "type": "string", "minLength": 1, "maxLength": 512 }
       }
     },
+    "targetEntry": {
+      "type": "object", "additionalProperties": false,
+      "required": ["entryId", "entrySha256", "outputSha256"],
+      "properties": {
+        "entryId": { "$ref": "#/$defs/entryId" },
+        "entrySha256": { "$ref": "#/$defs/lowerHex64" },
+        "outputSha256": { "$ref": "#/$defs/lowerHex64" }
+      }
+    },
+    "baseTarget": {
+      "type": "object", "additionalProperties": false,
+      "required": ["type", "normalizedSha256"],
+      "properties": {
+        "type": { "const": "base-rom" },
+        "normalizedSha256": { "$ref": "#/$defs/lowerHex64" }
+      }
+    },
+    "derivedTarget": {
+      "type": "object", "additionalProperties": false,
+      "required": ["type", "entry"],
+      "properties": {
+        "type": { "const": "entry-output-rom" },
+        "entry": { "$ref": "#/$defs/targetEntry" }
+      }
+    },
     "pick": {
       "type": "object", "additionalProperties": false,
-      "required": ["category", "entryId", "name", "version", "outputSha256"],
+      "required": ["category", "entryId", "entrySha256", "name", "version", "outputSha256"],
       "properties": {
         "category": { "$ref": "#/$defs/categoryId" },
-        "entryId": { "type": "string", "pattern": "^[A-Za-z0-9._-]+$", "maxLength": 96 },
+        "entryId": { "$ref": "#/$defs/entryId" },
+        "entrySha256": { "$ref": "#/$defs/lowerHex64" },
         "name": { "type": "string", "minLength": 1, "maxLength": 128 },
-        "version": { "type": "string", "minLength": 1, "maxLength": 64, "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9._-]*[A-Za-z0-9])?$" },
-        "outputSha256": { "$ref": "#/$defs/hex64" }
+        "version": { "$ref": "#/$defs/component" },
+        "outputSha256": { "$ref": "#/$defs/lowerHex64" },
+        "tournamentResult": { "$ref": "#/$defs/tournamentResult" }
       }
+    },
+    "tournamentResult": {
+      "type": "object", "additionalProperties": false,
+      "required": ["tournamentId", "resultId", "headEventSha256", "versionId"],
+      "properties": {
+        "tournamentId": { "type": "string", "pattern": "^tournament:[A-Za-z0-9_-]{16,128}$" },
+        "resultId": { "type": "string", "pattern": "^result:[A-Za-z0-9_-]{16,128}$" },
+        "headEventSha256": { "$ref": "#/$defs/lowerHex64" },
+        "versionId": { "type": "string", "pattern": "^version:[A-Za-z0-9_-]{16,128}$" }
+      }
+    },
+    "baseTargetGroup": {
+      "type": "object", "additionalProperties": false,
+      "required": ["target", "picks"],
+      "properties": {
+        "target": { "$ref": "#/$defs/baseTarget" },
+        "picks": { "type": "array", "maxItems": 1000, "items": { "$ref": "#/$defs/pick" } }
+      }
+    },
+    "derivedTargetGroup": {
+      "type": "object", "additionalProperties": false,
+      "required": ["target", "picks"],
+      "properties": {
+        "target": { "$ref": "#/$defs/derivedTarget" },
+        "picks": { "type": "array", "minItems": 1, "maxItems": 1000, "items": { "$ref": "#/$defs/pick" } }
+      }
+    },
+    "targetGroup": {
+      "oneOf": [
+        { "$ref": "#/$defs/baseTargetGroup" },
+        { "$ref": "#/$defs/derivedTargetGroup" }
+      ]
     },
     "game": {
       "type": "object", "additionalProperties": false,
-      "required": ["base", "list", "picks"],
+      "required": ["base", "list", "targets"],
       "properties": {
         "base": { "$ref": "#/$defs/base" },
         "list": { "$ref": "#/$defs/listReference" },
-        "picks": {
-          "type": "array", "maxItems": 1000,
-          "description": "At most one entry for each canonical category. Authority-defined categories may feature multiple distinct entries.",
-          "items": { "$ref": "#/$defs/pick" }
+        "targets": {
+          "type": "array", "minItems": 1, "maxItems": 1000,
+          "items": { "$ref": "#/$defs/targetGroup" },
+          "contains": { "$ref": "#/$defs/baseTargetGroup" },
+          "minContains": 1,
+          "maxContains": 1
         }
       }
     }

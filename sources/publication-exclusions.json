@@ -1,0 +1,10 @@
+{
+  "rhdc-69e826aae2db69999036e7c9-sha1-10687b165ad5406dc46a2954a2f54199fdd99916": "Original patch URL returns HTTP 404; output size unavailable for client schema v2.",
+  "rhdc-69909ff9147566152036d97b-sha1-4f7a318f03451d10d4c113ae9ea53650a8d4a966": "Original patch URL returns HTTP 404; output size unavailable for client schema v2.",
+  "rhdc-6150ce351a4b5263dfebff62-0.2": "Declared output 100663296 bytes exceeds client 78 MiB limit.",
+  "rhdc-69c291f3b32140337736e1c0-sha1-081aceac2faedc9ccc9be29e26ef2ee3c93e5b66": "Declared output 83886080 bytes exceeds client 78 MiB limit.",
+  "rhdc-6a3331c7989414ac36ca6073-1.03": "Declared output 83886080 bytes exceeds client 78 MiB limit.",
+  "rhdc-64ed1c012c0a4b007b90a049-sha1-d5edb0df457d3d45f3bfc46d60191ded7256d29f": "Declared output 83886080 bytes exceeds client 78 MiB limit.",
+  "rhdc-6982b004dfac22ad8836d78a-1.0.2": "Declared output 100663296 bytes exceeds client 78 MiB limit.",
+  "rhdc-66b55044a00e0204034b3ec3-1.0.2": "Declared output 100663296 bytes exceeds client 78 MiB limit."
+}

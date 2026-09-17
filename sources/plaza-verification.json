@@ -1,0 +1,1251 @@
+{
+  "verified": [
+    {
+      "sourceId": "plaza-3910",
+      "name": "Super Billschannel 64",
+      "version": "BillV0.2",
+      "authors": [
+        "M4ximumCheese"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-billschannel-64-nintendo-64",
+      "filename": "BisexualWokeBill.bps",
+      "fileId": "974bf792-1123-44f9-ae7d-4ed39be6ffd2",
+      "member": null,
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=BisexualWokeBill.bps&filepath=romhacks%2F974bf792-1123-44f9-ae7d-4ed39be6ffd2",
+        "size": 2987630,
+        "sha256": "BE3E8633AFFBF2AC5926D10F26E42098AC2864DDCDA6E9525DBF7167C5FEF384",
+        "allowRedirects": false
+      },
+      "output": {
+        "size": 67108864,
+        "sha256": "8BFA4C6959A290DE1600EC255B405909399F2694DEF4B13924B59C2F6C248796"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3838",
+      "name": "Ultimate Trial",
+      "version": "1.2.3",
+      "authors": [
+        "Richie",
+        "Syeo",
+        "ZeeRoX",
+        "aegiker",
+        "hiisuya",
+        "Zeraphyr",
+        "Woon",
+        "ShuggyTheBuggy"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/ultimate-trial-nintendo-64",
+      "filename": "Ultimate Trial 1.2.3.zip",
+      "fileId": "07acd169-e93b-4f32-a149-16dd39a3a066",
+      "member": "only for emulators and n64/ultimate_trial_v1.2.3_n64.bps",
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "Legend of Zelda, The - Ocarina of Time (USA).z64",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Ultimate+Trial+1.2.3.zip&filepath=romhacks%2F07acd169-e93b-4f32-a149-16dd39a3a066",
+        "size": 25571371,
+        "sha256": "642D0EAB2FA697DFD96BDB4CEF46DC73DD713CDC29DD5C49D2A3A1795C90BDE1",
+        "allowRedirects": false,
+        "archiveMember": "only for emulators and n64/ultimate_trial_v1.2.3_n64.bps",
+        "memberSize": 30917075,
+        "memberSha256": "CD15868E2700F821A8F3342651D40B995F9A9C48B6DAD5F55025032CC86FB526"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "7802EB8F7DB348B1E3AB8623BDDC35F803354CAC3A7AC453F63100E1E3F3E142"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3192",
+      "name": "Super Mario 64 Multiplayer",
+      "version": "1.4.2",
+      "authors": [
+        "Skelux",
+        "Team Cornersoft"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-mario-64-multiplayer-nintendo-64",
+      "filename": "SM64 Multiplayer (v1.4.2) (Dynamic).zip",
+      "fileId": "be13f2c9-5b12-4a29-9885-a134f6e26db4",
+      "member": "SM64 Multiplayer (v1.4.2) dynamic/SM64 Multiplayer Dynamic 1.4.2.bps",
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=SM64+Multiplayer+%28v1.4.2%29+%28Dynamic%29.zip&filepath=romhacks%2Fbe13f2c9-5b12-4a29-9885-a134f6e26db4",
+        "size": 2885301,
+        "sha256": "3A40E2CBA2C58D87CA21988C83A8764011A667AB4A3084FB32C7015F9ED13BE6",
+        "allowRedirects": false,
+        "archiveMember": "SM64 Multiplayer (v1.4.2) dynamic/SM64 Multiplayer Dynamic 1.4.2.bps",
+        "memberSize": 3359552,
+        "memberSha256": "D88F8FFF55102EEAE6B27B760B5F161B638AB28EF2D3644CE487D79BA264589D"
+      },
+      "output": {
+        "size": 67108864,
+        "sha256": "5DF79268B7BE95A8C789D773342A1FACF995CFE5FB49A89C058312394ADC310E"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3192",
+      "name": "Super Mario 64 Multiplayer",
+      "version": "1.4.2",
+      "authors": [
+        "Skelux",
+        "Team Cornersoft"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-mario-64-multiplayer-nintendo-64",
+      "filename": "SM64 Multiplayer (v1.4).zip",
+      "fileId": "fcd4490f-4d7c-47f3-8019-7edad33adcd4",
+      "member": "SM64 Multiplayer (v1.4)/SM64 Multiplayer 1.4.bps",
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=SM64+Multiplayer+%28v1.4%29.zip&filepath=romhacks%2Ffcd4490f-4d7c-47f3-8019-7edad33adcd4",
+        "size": 190096,
+        "sha256": "8439659ABA8177E7C1A03C74BF36BB6B852110953763D4DE2C793CAD273B60FB",
+        "allowRedirects": false,
+        "archiveMember": "SM64 Multiplayer (v1.4)/SM64 Multiplayer 1.4.bps",
+        "memberSize": 196435,
+        "memberSha256": "A43FC45F9105CF20D98ADA8845F1DA5C75AE8FE0595A6FF3ABD17032CE167157"
+      },
+      "output": {
+        "size": 16777216,
+        "sha256": "78C679A081375DC6C9F11BFFA1809FFB7DAD77EF9D6199516421CFD443FF6AC9"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3190",
+      "name": "Super Mario Star Road",
+      "version": "All",
+      "authors": [
+        "Skelux",
+        "Kaze Emanuar"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-mario-star-road-nintendo-64",
+      "filename": "Super Mario Star Road (Deluxe).zip",
+      "fileId": "0162cef3-5007-44cd-9a3a-519dc69f55ab",
+      "member": "Super Mario Star Road - Deluxe Edition (SM64 Hack by Skelux).bps",
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Super+Mario+Star+Road+%28Deluxe%29.zip&filepath=romhacks%2F0162cef3-5007-44cd-9a3a-519dc69f55ab",
+        "size": 5672884,
+        "sha256": "20F57E82B9417C982F107C8728F3EFDF01EF151DB4D1222B8F6D69E23ED1E14E",
+        "allowRedirects": false,
+        "archiveMember": "Super Mario Star Road - Deluxe Edition (SM64 Hack by Skelux).bps",
+        "memberSize": 6784101,
+        "memberSha256": "74B3D44C65BF26EA78E613BAC03F5D4B2E1C67103340BCED9432004F7A0F70A3"
+      },
+      "output": {
+        "size": 50331648,
+        "sha256": "4DEB887F2EB8404D29DC284E4F099E08BD4CA9DFD107CCB92EFC6BF237CACA26"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3190",
+      "name": "Super Mario Star Road",
+      "version": "All",
+      "authors": [
+        "Skelux",
+        "Kaze Emanuar"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-mario-star-road-nintendo-64",
+      "filename": "Super Mario Star Road (Optimized for N64).zip",
+      "fileId": "bda80a67-4d3b-43fe-9aa8-39e6f8b45457",
+      "member": "Super Mario Star Road N64.bps",
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Super+Mario+Star+Road+%28Optimized+for+N64%29.zip&filepath=romhacks%2Fbda80a67-4d3b-43fe-9aa8-39e6f8b45457",
+        "size": 5065364,
+        "sha256": "008D565626925DAF1F382C4348B85C2D58C5D4002D73A55EF95B73D3D0E8E64F",
+        "allowRedirects": false,
+        "archiveMember": "Super Mario Star Road N64.bps",
+        "memberSize": 6111381,
+        "memberSha256": "B0982249D11AF18129622FB873879FE32302ECBCDBC8FACD92857A7847A81570"
+      },
+      "output": {
+        "size": 47185920,
+        "sha256": "A1C76F6B13D414387676ABCD7B713C160E3687D525B36281DC5A5F952174FAA1"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3190",
+      "name": "Super Mario Star Road",
+      "version": "All",
+      "authors": [
+        "Skelux",
+        "Kaze Emanuar"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-mario-star-road-nintendo-64",
+      "filename": "Super Mario Star Road (v1.01).zip",
+      "fileId": "21606ca7-6ee9-48e0-a15f-cbe90d72b1af",
+      "member": "Super Mario Star Road 1.01.bps",
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Super+Mario+Star+Road+%28v1.01%29.zip&filepath=romhacks%2F21606ca7-6ee9-48e0-a15f-cbe90d72b1af",
+        "size": 5559945,
+        "sha256": "A83464817901CFCAE1877C7845D6616418B696A8B6A011F08EDC8950188DCBEC",
+        "allowRedirects": false,
+        "archiveMember": "Super Mario Star Road 1.01.bps",
+        "memberSize": 6671490,
+        "memberSha256": "C1965D46FE8076CD6A869B02E5C01CBD0FEFBC2F3E849E3A3240A2003AC12ACF"
+      },
+      "output": {
+        "size": 50331648,
+        "sha256": "E7796F8CE1024B5500FF0C489C644FECC861A831FD85CEE443156393ACE34727"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3190",
+      "name": "Super Mario Star Road",
+      "version": "All",
+      "authors": [
+        "Skelux",
+        "Kaze Emanuar"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-mario-star-road-nintendo-64",
+      "filename": "Super Mario Star Road Final - Deluxe Edition.bps",
+      "fileId": "0ac9a531-48ad-41f3-9f28-1eb20c2359ca",
+      "member": null,
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Super+Mario+Star+Road+Final+-+Deluxe+Edition.bps&filepath=romhacks%2F0ac9a531-48ad-41f3-9f28-1eb20c2359ca",
+        "size": 6788133,
+        "sha256": "4BF3BC71D9B6D54998B254CFDA3930B8DC9E12C4EA8CC33E2A08ED1132C671D2",
+        "allowRedirects": false
+      },
+      "output": {
+        "size": 50331648,
+        "sha256": "B3D247175E841821BC11EDCFDC3913EF3AE2281C1DCCC7B91721D4796E5B38C5"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3190",
+      "name": "Super Mario Star Road",
+      "version": "All",
+      "authors": [
+        "Skelux",
+        "Kaze Emanuar"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-mario-star-road-nintendo-64",
+      "filename": "Super Mario Star Road Light Edition (v0.1).zip",
+      "fileId": "355764d1-9be5-46b2-916f-2c62132f6670",
+      "member": "Super Mario Star Road - Light Edition (v0.1) (SM64 Hack by Skelux).bps",
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Super+Mario+Star+Road+Light+Edition+%28v0.1%29.zip&filepath=romhacks%2F355764d1-9be5-46b2-916f-2c62132f6670",
+        "size": 5559138,
+        "sha256": "9970E5DD4627085C495876C9F73115BCC28DD96C148539F0537F0F1DF0282141",
+        "allowRedirects": false,
+        "archiveMember": "Super Mario Star Road - Light Edition (v0.1) (SM64 Hack by Skelux).bps",
+        "memberSize": 6672173,
+        "memberSha256": "33D385B72830AB1848BC3604D822806BD612C4217D671B0E8A98831ACAD6FCD1"
+      },
+      "output": {
+        "size": 50331648,
+        "sha256": "9E594CD4333EBF9F99BEA700AD2F96A3BEC28B421BA173B3089938D4C72A2290"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3190",
+      "name": "Super Mario Star Road",
+      "version": "All",
+      "authors": [
+        "Skelux",
+        "Kaze Emanuar"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-mario-star-road-nintendo-64",
+      "filename": "Super Mario Star Road Multiplayer (v1.2.1).zip",
+      "fileId": "cf0376a2-ba81-458b-9050-3f2005c42436",
+      "member": "SMSR Multiplayer 1.2.1.bps",
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Super+Mario+Star+Road+Multiplayer+%28v1.2.1%29.zip&filepath=romhacks%2Fcf0376a2-ba81-458b-9050-3f2005c42436",
+        "size": 5670216,
+        "sha256": "A3F9DBA3639E3447306306B64DCD23E18518279094D406BDBA5EA8336439D87D",
+        "allowRedirects": false,
+        "archiveMember": "SMSR Multiplayer 1.2.1.bps",
+        "memberSize": 6813483,
+        "memberSha256": "E4299E9C864FEE966D4C7C1F33F646910BC43BD012AD8FBCE5BF76A72D6254BA"
+      },
+      "output": {
+        "size": 50331648,
+        "sha256": "9DA1F226F775100FF6441A04F30D85B0315168B5FC1FB695BF33458344C36B8C"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3087",
+      "name": "Christmas Mario 64 Multiplayer",
+      "version": "1",
+      "authors": [
+        "T-Bone"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/christmas-mario-64-multiplayer-nintendo-64",
+      "filename": "Christmas 64 Multiplayer.zip",
+      "fileId": "cd6e7887-33fc-42eb-a70a-02bd0d9f7598",
+      "member": "Christmas 64 Multiplayer.bps",
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Christmas+64+Multiplayer.zip&filepath=romhacks%2Fcd6e7887-33fc-42eb-a70a-02bd0d9f7598",
+        "size": 2683574,
+        "sha256": "C99BE2F98FE7A45C8190D74FBD30DCE3EE608307490FAFEF12F1E91F23770F35",
+        "allowRedirects": false,
+        "archiveMember": "Christmas 64 Multiplayer.bps",
+        "memberSize": 3138442,
+        "memberSha256": "4716CCD2E742B76653F3F9883541A9B3047E3180200DC6905EF835EDA729CB5A"
+      },
+      "output": {
+        "size": 50331648,
+        "sha256": "C6EC2D1C6E7E9E1AC686F3F6117B3634DC30E4EB7E9D0031311433735F911EDF"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3086",
+      "name": "Christmas Mario 64 (for Bloopers)",
+      "version": "1",
+      "authors": [
+        "T-Bone"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/christmas-mario-64-for-bloopers-nintendo-64",
+      "filename": "Christmas 64 Singleplayer.zip",
+      "fileId": "8d595bb4-eac9-4cb1-8792-032bcd06cdb3",
+      "member": "Christmas 64 Singleplayer.bps",
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Christmas+64+Singleplayer.zip&filepath=romhacks%2F8d595bb4-eac9-4cb1-8792-032bcd06cdb3",
+        "size": 2655400,
+        "sha256": "5D883EF231D6406C63EB8CEF3689FC81B2623A5230924406DF2354292E2E666F",
+        "allowRedirects": false,
+        "archiveMember": "Christmas 64 Singleplayer.bps",
+        "memberSize": 3104766,
+        "memberSha256": "F9201D14A1794B102A6697C1AA74DF3ACEE18AE524A325F1ED297CE813EFFA8C"
+      },
+      "output": {
+        "size": 50331648,
+        "sha256": "597F512743458F5AB1B403279E403E3CDCCC81A440B402C5AE2C7FCD83641C5B"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3080",
+      "name": "SM64 Multiplayer but Player 2 Is SMG3",
+      "version": "1",
+      "authors": [
+        "T-Bone"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/sm64-multiplayer-but-player-2-is-smg3-nintendo-64",
+      "filename": "SM64 Multiplayer ft SMG3.bps",
+      "fileId": "6ef0488f-dbc1-4467-8f99-7583be3f5485",
+      "member": null,
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=SM64+Multiplayer+ft+SMG3.bps&filepath=romhacks%2F6ef0488f-dbc1-4467-8f99-7583be3f5485",
+        "size": 3403611,
+        "sha256": "338B96D0C2EE869642E52B1EE878BB2D6DD20AD3FF0C0C6A1CAA2D9D6C50C1CA",
+        "allowRedirects": false
+      },
+      "output": {
+        "size": 67108864,
+        "sha256": "F408C3BB52E7CBE1C52D24A3761D86FB05B775AA372E987F84BC541ACB5AFF92"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3079",
+      "name": "SM64 Multiplayer but Player 2 Is SMG4",
+      "version": "1",
+      "authors": [
+        "T-Bone"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/sm64-multiplayer-but-player-2-is-smg4-nintendo-64",
+      "filename": "SM64 Multiplayer ft SMG4.bps",
+      "fileId": "41113a4a-b281-42fd-8f95-70881a58600b",
+      "member": null,
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "Super Mario 64 (USA).z64",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=SM64+Multiplayer+ft+SMG4.bps&filepath=romhacks%2F41113a4a-b281-42fd-8f95-70881a58600b",
+        "size": 3401234,
+        "sha256": "5BB3302B359D9E132CCB88ED9E7A025F646E5A7E14724D75F1FD63DE3840D665",
+        "allowRedirects": false
+      },
+      "output": {
+        "size": 67108864,
+        "sha256": "9399300568C6F1F7800FCB2B661CCA1A0F9201CC47C4FDDDC4CFCDCE90B3C3B1"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-3014",
+      "name": "The Legend of Zelda - Sands of Time",
+      "version": "1.22",
+      "authors": [
+        "Debug log &amp; Woon"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-sands-of-time-nintendo-64",
+      "filename": "The Legend of Zelda - Sands of Time.zip",
+      "fileId": "9b271833-9846-4b1f-8e80-11bf0f22f239",
+      "member": "The Legend of Zelda - Sands of Time/SoT1.22.bps",
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "Legend of Zelda, The - Ocarina of Time (USA).z64",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=The+Legend+of+Zelda+-+Sands+of+Time.zip&filepath=romhacks%2F9b271833-9846-4b1f-8e80-11bf0f22f239",
+        "size": 33279615,
+        "sha256": "CC578A95D67F4E710508691E616985669B0F8CAE6B48AA1F1717F9553B1FB2F1",
+        "allowRedirects": false,
+        "archiveMember": "The Legend of Zelda - Sands of Time/SoT1.22.bps",
+        "memberSize": 38657165,
+        "memberSha256": "9DAABD8869045459F580B97DB6AFEEE4E07A69CF73107BD69D5463BD7F9F88CE"
+      },
+      "output": {
+        "size": 40493056,
+        "sha256": "BAAC5DB8E4E8ED304FD3C7E23D4D42CD6782F489925AA88E76EC5F3AEB97847A"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2645",
+      "name": "The Legend of Zelda - Time Lost",
+      "version": "1.02",
+      "authors": [
+        "Stonee Bad Luck"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-time-lost-nintendo-64",
+      "filename": "Legend of Zelda - Time Lost.zip",
+      "fileId": "c7d8134f-0282-424f-b705-a48ff48707e8",
+      "member": "Legend of Zelda - Time Lost/Time Lost N64 1.02.bps",
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "Legend of Zelda, The - Ocarina of Time (USA).z64",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Legend+of+Zelda+-+Time+Lost.zip&filepath=romhacks%2Fc7d8134f-0282-424f-b705-a48ff48707e8",
+        "size": 73077451,
+        "sha256": "C1E7A307AE01328074BE9990EA227045479EF44DDA7CF011381A219432D2BD00",
+        "allowRedirects": false,
+        "archiveMember": "Legend of Zelda - Time Lost/Time Lost N64 1.02.bps",
+        "memberSize": 22439817,
+        "memberSha256": "DD11F5DBE91FB59B609D19CD8D18DA1E3DD3F135AD1A8C25F86ADABD0FCEC146"
+      },
+      "output": {
+        "size": 39514112,
+        "sha256": "C70F98E262CEB3FDE7C1A8220CAB74D58E06DEC387ED3A411B82A1928BF33597"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2508",
+      "name": "Pumkin Tower",
+      "version": "1.1.1",
+      "authors": [
+        "Chadlite"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/pumkin-tower-nintendo-64",
+      "filename": "PumkinPatch1.1.1.bps",
+      "fileId": "b54ca07c-1316-4dfb-84e4-e4a15b44a7e9",
+      "member": null,
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=PumkinPatch1.1.1.bps&filepath=romhacks%2Fb54ca07c-1316-4dfb-84e4-e4a15b44a7e9",
+        "size": 54342259,
+        "sha256": "0FEEF125339A4FFBCBE5310A23246C5D8009B57CD6AF89888456EC2C58966113",
+        "allowRedirects": false
+      },
+      "output": {
+        "size": 67108864,
+        "sha256": "31FD5B46A8F615D6C445DC1D4BBBE76B898FD5EC9DE44FBA7CFF246561DD0EDA"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2323",
+      "name": "Smash Remix",
+      "version": "1.5.0",
+      "authors": [
+        "The_Smashfather",
+        "Fray",
+        "MarioReincarnate",
+        "Cyjorg",
+        "halofactory",
+        "Sope!",
+        "Pringles",
+        "Subdrag",
+        "Honey",
+        "goombapatrol",
+        "CMM1215",
+        "CEnnis91"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/smash-remix-nintendo-64",
+      "filename": "smashremix1.5.0.zip",
+      "fileId": "504fd15b-4be7-4e01-af01-859e9d14ffb4",
+      "member": "smashremix1.5.0/patches/smashremix1.5.0.xdelta",
+      "base": {
+        "name": "Super Smash Bros.",
+        "variant": "Super Smash Bros. (USA).z64",
+        "normalizedCrc32": "EB97929E",
+        "normalizedSha256": "15592E79D3C5295CEF4371D4992F0BD25BEC2102FC29644C93E682F7EA99EF3D"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=smashremix1.5.0.zip&filepath=romhacks%2F504fd15b-4be7-4e01-af01-859e9d14ffb4",
+        "size": 28470217,
+        "sha256": "49EF21BE34CA53F28C95CF6F6F2C9ACC93A8D5FF7ABA05AFFE773617F1AE911F",
+        "allowRedirects": false,
+        "archiveMember": "smashremix1.5.0/patches/smashremix1.5.0.xdelta",
+        "memberSize": 29305872,
+        "memberSha256": "25D948D88C138438D4A3F727325DA9450C1D22CE1AC418FB1E1A83FF723B6F71",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 65536000,
+        "sha256": "1DFD93240B4AE9E222E58E2D0DCC92D5AC9F29A6DA12922224309B7254B0B887"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2123",
+      "name": "The Legend Of Zelda: Majora's Mask Redux",
+      "version": "2.0",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-majoras-mask-redux-nintendo-64",
+      "filename": "Majora's Mask Redux.zip",
+      "fileId": "0184ac35-a263-4b65-89a2-3941439145be",
+      "member": "Majora's Mask Redux.bps",
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Majora%27s+Mask+Redux.zip&filepath=romhacks%2F0184ac35-a263-4b65-89a2-3941439145be",
+        "size": 1883602,
+        "sha256": "DBB25D0413FD3F8BFE0E3BAC3622D692E3EA8D161740F34112673FFD5366BC45",
+        "allowRedirects": false,
+        "archiveMember": "Majora's Mask Redux.bps",
+        "memberSize": 748141,
+        "memberSha256": "A0FCAF1086A60EA8E70A260449A1E36100A401E559D8F24D0B6DDC9D02D7C128"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "DF2DB16007517E2AF00346F462390EEA8D125AC796DA0093C6ED3C34CB394D4F"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2123",
+      "name": "The Legend Of Zelda: Majora's Mask Redux",
+      "version": "2.0",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-majoras-mask-redux-nintendo-64",
+      "filename": "Majora's Mask Redux.zip",
+      "fileId": "0184ac35-a263-4b65-89a2-3941439145be",
+      "member": "Old/v1.1.1/Majora's Mask REDUX - DpadLeft.bps",
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Majora%27s+Mask+Redux.zip&filepath=romhacks%2F0184ac35-a263-4b65-89a2-3941439145be",
+        "size": 1883602,
+        "sha256": "DBB25D0413FD3F8BFE0E3BAC3622D692E3EA8D161740F34112673FFD5366BC45",
+        "allowRedirects": false,
+        "archiveMember": "Old/v1.1.1/Majora's Mask REDUX - DpadLeft.bps",
+        "memberSize": 527984,
+        "memberSha256": "7F6D7B3D737D0D734F8FA99A2EF61509381498D3E2D3A02B048667DD21900A93"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "58F4135D297B30B4D71DFF1A24400BAD0ED1FCD942E733BC3346B019CEEB9184"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2123",
+      "name": "The Legend Of Zelda: Majora's Mask Redux",
+      "version": "2.0",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-majoras-mask-redux-nintendo-64",
+      "filename": "Majora's Mask Redux.zip",
+      "fileId": "0184ac35-a263-4b65-89a2-3941439145be",
+      "member": "Old/v1.1.1/Majora's Mask REDUX - DpadRight.bps",
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Majora%27s+Mask+Redux.zip&filepath=romhacks%2F0184ac35-a263-4b65-89a2-3941439145be",
+        "size": 1883602,
+        "sha256": "DBB25D0413FD3F8BFE0E3BAC3622D692E3EA8D161740F34112673FFD5366BC45",
+        "allowRedirects": false,
+        "archiveMember": "Old/v1.1.1/Majora's Mask REDUX - DpadRight.bps",
+        "memberSize": 527984,
+        "memberSha256": "CDDFDB871AFF3A42A71B40D3AF1AB80BC302D28D637E046AB6983A989D61DF71"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "46C3D72B2A7F4058DFC96A01036ADC4530755081EDF8495085B4C5F4BD1220C2"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2123",
+      "name": "The Legend Of Zelda: Majora's Mask Redux",
+      "version": "2.0",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-majoras-mask-redux-nintendo-64",
+      "filename": "Majora's Mask Redux.zip",
+      "fileId": "0184ac35-a263-4b65-89a2-3941439145be",
+      "member": "Old/v1.1/Majora's Mask REDUX - DpadLeft.bps",
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Majora%27s+Mask+Redux.zip&filepath=romhacks%2F0184ac35-a263-4b65-89a2-3941439145be",
+        "size": 1883602,
+        "sha256": "DBB25D0413FD3F8BFE0E3BAC3622D692E3EA8D161740F34112673FFD5366BC45",
+        "allowRedirects": false,
+        "archiveMember": "Old/v1.1/Majora's Mask REDUX - DpadLeft.bps",
+        "memberSize": 533131,
+        "memberSha256": "9EECE5A75FCE3D809D7B5424079FC4E4EEA76B8BD3AABD503DC4CD485F9EC509"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "85AE62AA660A4D4C18B0533EC9AFCCC1F4A812235D16B1F3248CEE60F09929D6"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2123",
+      "name": "The Legend Of Zelda: Majora's Mask Redux",
+      "version": "2.0",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-majoras-mask-redux-nintendo-64",
+      "filename": "Majora's Mask Redux.zip",
+      "fileId": "0184ac35-a263-4b65-89a2-3941439145be",
+      "member": "Old/v1.1/Majora's Mask REDUX - DpadRight.bps",
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Majora%27s+Mask+Redux.zip&filepath=romhacks%2F0184ac35-a263-4b65-89a2-3941439145be",
+        "size": 1883602,
+        "sha256": "DBB25D0413FD3F8BFE0E3BAC3622D692E3EA8D161740F34112673FFD5366BC45",
+        "allowRedirects": false,
+        "archiveMember": "Old/v1.1/Majora's Mask REDUX - DpadRight.bps",
+        "memberSize": 533131,
+        "memberSha256": "857CB2D75BE2D51D741285F9AB1A9F48C7C85F1C9925E2D9F8B6A3FF331FC219"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "2A6FD39BD0215C6B121BAAAF203B22EFE3E8134923EC76BB1ACC46DD63A7FF7A"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2122",
+      "name": "The Legend Of Zelda: Ocarina Of Time Redux",
+      "version": "2.2",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-ocarina-of-time-redux-nintendo-64",
+      "filename": "Ocarina of Time Redux.zip",
+      "fileId": "28585087-27d5-45c1-84e2-218c2ad7d291",
+      "member": "Master Quest Redux.bps",
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "Unknown",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Ocarina+of+Time+Redux.zip&filepath=romhacks%2F28585087-27d5-45c1-84e2-218c2ad7d291",
+        "size": 4876674,
+        "sha256": "46A76E5D0A9A681AE1BB743A7E8229B20154F06BB2653B779D96C804E042E211",
+        "allowRedirects": false,
+        "archiveMember": "Master Quest Redux.bps",
+        "memberSize": 2231435,
+        "memberSha256": "E4A5711C8EFAF9C813CD8004E3E5404B9F42B4CD8F3091AD63D3F8044A431C42"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "2674F02F089C952D078337B8DA503AD00993F01B8F1D18E1BF1B0F3385E92A5B"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2122",
+      "name": "The Legend Of Zelda: Ocarina Of Time Redux",
+      "version": "2.2",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-ocarina-of-time-redux-nintendo-64",
+      "filename": "Ocarina of Time Redux.zip",
+      "fileId": "28585087-27d5-45c1-84e2-218c2ad7d291",
+      "member": "Ocarina of Time Redux.bps",
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "Unknown",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Ocarina+of+Time+Redux.zip&filepath=romhacks%2F28585087-27d5-45c1-84e2-218c2ad7d291",
+        "size": 4876674,
+        "sha256": "46A76E5D0A9A681AE1BB743A7E8229B20154F06BB2653B779D96C804E042E211",
+        "allowRedirects": false,
+        "archiveMember": "Ocarina of Time Redux.bps",
+        "memberSize": 747694,
+        "memberSha256": "8CD7422732BD817522AB0B7A2E5B296A9E3FE1EA736E81AD3C338D2E7F4F848A"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "FD21C9404F8B9C722986788B867DD8EE2AF68AE32C17DDD1598DE176938C0802"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2122",
+      "name": "The Legend Of Zelda: Ocarina Of Time Redux",
+      "version": "2.2",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-ocarina-of-time-redux-nintendo-64",
+      "filename": "Ocarina of Time Redux.zip",
+      "fileId": "28585087-27d5-45c1-84e2-218c2ad7d291",
+      "member": "Older/v1.0/Ocarina of Time REDUX - 2xText.bps",
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "Unknown",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Ocarina+of+Time+Redux.zip&filepath=romhacks%2F28585087-27d5-45c1-84e2-218c2ad7d291",
+        "size": 4876674,
+        "sha256": "46A76E5D0A9A681AE1BB743A7E8229B20154F06BB2653B779D96C804E042E211",
+        "allowRedirects": false,
+        "archiveMember": "Older/v1.0/Ocarina of Time REDUX - 2xText.bps",
+        "memberSize": 504308,
+        "memberSha256": "A0BCAD0E14D76D3D7E2C3E6CE5EB515633F0F892B8AE13A1934978EE8FF69D9F"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "E6B987C37CB3FED3E1A7076A075F326B8013CAC0FCD70A5777C5DF35998AEF77"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2122",
+      "name": "The Legend Of Zelda: Ocarina Of Time Redux",
+      "version": "2.2",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-ocarina-of-time-redux-nintendo-64",
+      "filename": "Ocarina of Time Redux.zip",
+      "fileId": "28585087-27d5-45c1-84e2-218c2ad7d291",
+      "member": "Older/v1.0/Ocarina of Time REDUX - 3xText.bps",
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "Unknown",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Ocarina+of+Time+Redux.zip&filepath=romhacks%2F28585087-27d5-45c1-84e2-218c2ad7d291",
+        "size": 4876674,
+        "sha256": "46A76E5D0A9A681AE1BB743A7E8229B20154F06BB2653B779D96C804E042E211",
+        "allowRedirects": false,
+        "archiveMember": "Older/v1.0/Ocarina of Time REDUX - 3xText.bps",
+        "memberSize": 504395,
+        "memberSha256": "9CDF44984284AA7F9C78F2DD784C9CEC2E9F27B02D3B7DE8D95ECCFF46EA7D25"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "2253FE9BC47155893AEFAA24A0E582FCB745F5459853E0861DE3514089688444"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2122",
+      "name": "The Legend Of Zelda: Ocarina Of Time Redux",
+      "version": "2.2",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-ocarina-of-time-redux-nintendo-64",
+      "filename": "Ocarina of Time Redux.zip",
+      "fileId": "28585087-27d5-45c1-84e2-218c2ad7d291",
+      "member": "Older/v2.0/Master Quest Redux.bps",
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "Unknown",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Ocarina+of+Time+Redux.zip&filepath=romhacks%2F28585087-27d5-45c1-84e2-218c2ad7d291",
+        "size": 4876674,
+        "sha256": "46A76E5D0A9A681AE1BB743A7E8229B20154F06BB2653B779D96C804E042E211",
+        "allowRedirects": false,
+        "archiveMember": "Older/v2.0/Master Quest Redux.bps",
+        "memberSize": 2207946,
+        "memberSha256": "D6326135DB5754E41F67FA7AD3AC758F0F9F1A893E4B4B8C571A8AA0BDCC36D0"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "353827BC691D41AD89AFADE74DCBCF43DA184661F5C3FD9E9512CDE7071774AA"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    },
+    {
+      "sourceId": "plaza-2122",
+      "name": "The Legend Of Zelda: Ocarina Of Time Redux",
+      "version": "2.2",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-ocarina-of-time-redux-nintendo-64",
+      "filename": "Ocarina of Time Redux.zip",
+      "fileId": "28585087-27d5-45c1-84e2-218c2ad7d291",
+      "member": "Older/v2.0/Ocarina of Time Redux.bps",
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "Unknown",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Ocarina+of+Time+Redux.zip&filepath=romhacks%2F28585087-27d5-45c1-84e2-218c2ad7d291",
+        "size": 4876674,
+        "sha256": "46A76E5D0A9A681AE1BB743A7E8229B20154F06BB2653B779D96C804E042E211",
+        "allowRedirects": false,
+        "archiveMember": "Older/v2.0/Ocarina of Time Redux.bps",
+        "memberSize": 701685,
+        "memberSha256": "26EBA705B1E9A1C2454447587E092B6ED33D1D30500D03E3EC7BF401EEF45EB9"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "043AEE2F089A50913443BF3E5811745D05622D8AD7260603B8546D24579303E6"
+      },
+      "reproducibility": "two-identical-client-decoder-runs"
+    }
+  ],
+  "failures": [
+    {
+      "id": "plaza-4003",
+      "file": "Costume Corrections for Virtual Pro Wrestling 64.zip",
+      "member": "Costume Corrections for Virtual Pro Wrestling 64.ips",
+      "reason": "Unsupported patch format"
+    },
+    {
+      "id": "plaza-4003",
+      "file": "Costume Corrections for Virtual Pro Wrestling 64.zip",
+      "member": "__MACOSX/._Costume Corrections for Virtual Pro Wrestling 64.ips",
+      "reason": "Unsupported patch format"
+    },
+    {
+      "id": "plaza-3192",
+      "file": "Multiplayer Mod Mega Pack.zip",
+      "member": "Player 2 as Player 1.ppf",
+      "reason": "Unsupported patch format"
+    },
+    {
+      "id": "plaza-3192",
+      "file": "Multiplayer Mod Mega Pack.zip",
+      "member": "SM64 Multiplayer Cjes Luigi.ppf",
+      "reason": "Unsupported patch format"
+    },
+    {
+      "id": "plaza-3192",
+      "file": "Multiplayer Mod Mega Pack.zip",
+      "member": "SM64 Multiplayer Classic N64 Colors.ppf",
+      "reason": "Unsupported patch format"
+    },
+    {
+      "id": "plaza-3192",
+      "file": "Multiplayer Mod Mega Pack.zip",
+      "member": "SM64 Multiplayer Green Mario.ppf",
+      "reason": "Unsupported patch format"
+    },
+    {
+      "id": "plaza-3192",
+      "file": "Multiplayer Mod Mega Pack.zip",
+      "member": "SM64 Multiplayer SMG4.ppf",
+      "reason": "Unsupported patch format"
+    },
+    {
+      "id": "plaza-3192",
+      "file": "Multiplayer Mod Mega Pack.zip",
+      "member": "Luigi Dialog (SM64).ppf",
+      "reason": "Unsupported patch format"
+    },
+    {
+      "id": "plaza-3192",
+      "file": "Multiplayer Mod Mega Pack.zip",
+      "member": "Luigi Dialog (SMSR).ppf",
+      "reason": "Unsupported patch format"
+    },
+    {
+      "id": "plaza-3192",
+      "file": "Multiplayer Mod Mega Pack.zip",
+      "member": "Star Road Colors.ppf",
+      "reason": "Unsupported patch format"
+    },
+    {
+      "id": "plaza-3113",
+      "file": "GoldenEye All Multiplayer Chars.zip",
+      "member": "GoldenEye All Multiplayer Chars.ips",
+      "reason": "Unsupported patch format"
+    },
+    {
+      "id": "plaza-3060",
+      "file": "Junuary Project.7z",
+      "reason": "7z archive unsupported by current client"
+    },
+    {
+      "id": "plaza-3032",
+      "reason": "No matching local base ROM"
+    },
+    {
+      "id": "plaza-3029",
+      "reason": "No matching local base ROM"
+    },
+    {
+      "id": "plaza-3007",
+      "file": "sf64_better_cockpit_view_v1.0.7z",
+      "reason": "7z archive unsupported by current client"
+    },
+    {
+      "id": "plaza-2803",
+      "reason": "No matching local base ROM"
+    },
+    {
+      "id": "plaza-2645",
+      "file": "Legend of Zelda - Time Lost.zip",
+      "member": "Legend of Zelda - Time Lost/Time Lost WiiVC 1.02.bps",
+      "reason": "error: SourceChecksumMismatch"
+    },
+    {
+      "id": "plaza-2592",
+      "file": "sm64_monika_mode_v3.7z",
+      "reason": "7z archive unsupported by current client"
+    },
+    {
+      "id": "plaza-2290",
+      "file": "Rocket Robot on Wheels - Rocket Shuts the Hell Up_v.420.69a.7z",
+      "reason": "7z archive unsupported by current client"
+    },
+    {
+      "id": "plaza-2287",
+      "reason": "No matching local base ROM"
+    },
+    {
+      "id": "plaza-2135",
+      "reason": "No matching local base ROM"
+    }
+  ],
+  "downloads": [
+    {
+      "fileId": "078f57ba-1397-49da-95d0-cf55efb4d522",
+      "size": 1679,
+      "sha256": "012CCB4C337D6811D9A23BB5E251D8700FA0D549F2078545726C41A749CEFD78",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Costume+Corrections+for+Virtual+Pro+Wrestling+64.zip&filepath=romhacks%2F078f57ba-1397-49da-95d0-cf55efb4d522"
+    },
+    {
+      "fileId": "974bf792-1123-44f9-ae7d-4ed39be6ffd2",
+      "size": 2987630,
+      "sha256": "BE3E8633AFFBF2AC5926D10F26E42098AC2864DDCDA6E9525DBF7167C5FEF384",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=BisexualWokeBill.bps&filepath=romhacks%2F974bf792-1123-44f9-ae7d-4ed39be6ffd2"
+    },
+    {
+      "fileId": "07acd169-e93b-4f32-a149-16dd39a3a066",
+      "size": 25571371,
+      "sha256": "642D0EAB2FA697DFD96BDB4CEF46DC73DD713CDC29DD5C49D2A3A1795C90BDE1",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Ultimate+Trial+1.2.3.zip&filepath=romhacks%2F07acd169-e93b-4f32-a149-16dd39a3a066"
+    },
+    {
+      "fileId": "6c6b7e41-034c-4e2f-8c70-00bc94b5a477",
+      "size": 61518522,
+      "sha256": "0A2B6F94DFDA10BFDA67A84DCB644883129680E1E6797A41DDAB8B6425BB6154",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Multiplayer+Mod+Mega+Pack.zip&filepath=romhacks%2F6c6b7e41-034c-4e2f-8c70-00bc94b5a477"
+    },
+    {
+      "fileId": "be13f2c9-5b12-4a29-9885-a134f6e26db4",
+      "size": 2885301,
+      "sha256": "3A40E2CBA2C58D87CA21988C83A8764011A667AB4A3084FB32C7015F9ED13BE6",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=SM64+Multiplayer+%28v1.4.2%29+%28Dynamic%29.zip&filepath=romhacks%2Fbe13f2c9-5b12-4a29-9885-a134f6e26db4"
+    },
+    {
+      "fileId": "fcd4490f-4d7c-47f3-8019-7edad33adcd4",
+      "size": 190096,
+      "sha256": "8439659ABA8177E7C1A03C74BF36BB6B852110953763D4DE2C793CAD273B60FB",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=SM64+Multiplayer+%28v1.4%29.zip&filepath=romhacks%2Ffcd4490f-4d7c-47f3-8019-7edad33adcd4"
+    },
+    {
+      "fileId": "0162cef3-5007-44cd-9a3a-519dc69f55ab",
+      "size": 5672884,
+      "sha256": "20F57E82B9417C982F107C8728F3EFDF01EF151DB4D1222B8F6D69E23ED1E14E",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Super+Mario+Star+Road+%28Deluxe%29.zip&filepath=romhacks%2F0162cef3-5007-44cd-9a3a-519dc69f55ab"
+    },
+    {
+      "fileId": "bda80a67-4d3b-43fe-9aa8-39e6f8b45457",
+      "size": 5065364,
+      "sha256": "008D565626925DAF1F382C4348B85C2D58C5D4002D73A55EF95B73D3D0E8E64F",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Super+Mario+Star+Road+%28Optimized+for+N64%29.zip&filepath=romhacks%2Fbda80a67-4d3b-43fe-9aa8-39e6f8b45457"
+    },
+    {
+      "fileId": "21606ca7-6ee9-48e0-a15f-cbe90d72b1af",
+      "size": 5559945,
+      "sha256": "A83464817901CFCAE1877C7845D6616418B696A8B6A011F08EDC8950188DCBEC",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Super+Mario+Star+Road+%28v1.01%29.zip&filepath=romhacks%2F21606ca7-6ee9-48e0-a15f-cbe90d72b1af"
+    },
+    {
+      "fileId": "0ac9a531-48ad-41f3-9f28-1eb20c2359ca",
+      "size": 6788133,
+      "sha256": "4BF3BC71D9B6D54998B254CFDA3930B8DC9E12C4EA8CC33E2A08ED1132C671D2",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Super+Mario+Star+Road+Final+-+Deluxe+Edition.bps&filepath=romhacks%2F0ac9a531-48ad-41f3-9f28-1eb20c2359ca"
+    },
+    {
+      "fileId": "355764d1-9be5-46b2-916f-2c62132f6670",
+      "size": 5559138,
+      "sha256": "9970E5DD4627085C495876C9F73115BCC28DD96C148539F0537F0F1DF0282141",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Super+Mario+Star+Road+Light+Edition+%28v0.1%29.zip&filepath=romhacks%2F355764d1-9be5-46b2-916f-2c62132f6670"
+    },
+    {
+      "fileId": "cf0376a2-ba81-458b-9050-3f2005c42436",
+      "size": 5670216,
+      "sha256": "A3F9DBA3639E3447306306B64DCD23E18518279094D406BDBA5EA8336439D87D",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Super+Mario+Star+Road+Multiplayer+%28v1.2.1%29.zip&filepath=romhacks%2Fcf0376a2-ba81-458b-9050-3f2005c42436"
+    },
+    {
+      "fileId": "5e4c1f34-cd32-4507-9a33-02c417969fc9",
+      "size": 66808,
+      "sha256": "9BE26B8E2CCCF72E43A607FB9A01FBFA07378AA5F51332BCA36C560FF59DAE0E",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=GoldenEye+All+Multiplayer+Chars.zip&filepath=romhacks%2F5e4c1f34-cd32-4507-9a33-02c417969fc9"
+    },
+    {
+      "fileId": "cd6e7887-33fc-42eb-a70a-02bd0d9f7598",
+      "size": 2683574,
+      "sha256": "C99BE2F98FE7A45C8190D74FBD30DCE3EE608307490FAFEF12F1E91F23770F35",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Christmas+64+Multiplayer.zip&filepath=romhacks%2Fcd6e7887-33fc-42eb-a70a-02bd0d9f7598"
+    },
+    {
+      "fileId": "8d595bb4-eac9-4cb1-8792-032bcd06cdb3",
+      "size": 2655400,
+      "sha256": "5D883EF231D6406C63EB8CEF3689FC81B2623A5230924406DF2354292E2E666F",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Christmas+64+Singleplayer.zip&filepath=romhacks%2F8d595bb4-eac9-4cb1-8792-032bcd06cdb3"
+    },
+    {
+      "fileId": "6ef0488f-dbc1-4467-8f99-7583be3f5485",
+      "size": 3403611,
+      "sha256": "338B96D0C2EE869642E52B1EE878BB2D6DD20AD3FF0C0C6A1CAA2D9D6C50C1CA",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=SM64+Multiplayer+ft+SMG3.bps&filepath=romhacks%2F6ef0488f-dbc1-4467-8f99-7583be3f5485"
+    },
+    {
+      "fileId": "41113a4a-b281-42fd-8f95-70881a58600b",
+      "size": 3401234,
+      "sha256": "5BB3302B359D9E132CCB88ED9E7A025F646E5A7E14724D75F1FD63DE3840D665",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=SM64+Multiplayer+ft+SMG4.bps&filepath=romhacks%2F41113a4a-b281-42fd-8f95-70881a58600b"
+    },
+    {
+      "fileId": "786c44ae-cbd6-4013-a5b3-fbc34db52979",
+      "size": 1328108,
+      "sha256": "8859588AC878FACABD908164A32AECA4992D4AC12F9FE1087C7D52DBDDE3B336",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Junuary+Project.7z&filepath=romhacks%2F786c44ae-cbd6-4013-a5b3-fbc34db52979"
+    },
+    {
+      "fileId": "9b271833-9846-4b1f-8e80-11bf0f22f239",
+      "size": 33279615,
+      "sha256": "CC578A95D67F4E710508691E616985669B0F8CAE6B48AA1F1717F9553B1FB2F1",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=The+Legend+of+Zelda+-+Sands+of+Time.zip&filepath=romhacks%2F9b271833-9846-4b1f-8e80-11bf0f22f239"
+    },
+    {
+      "fileId": "b28ef4b0-ca71-45f3-807a-aae319b6bf03",
+      "size": 202052,
+      "sha256": "F49C3D784B2AF57D1CCB0B721F50BD88470A0FB4E34B983F072C80D2DEA02C2F",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=sf64_better_cockpit_view_v1.0.7z&filepath=romhacks%2Fb28ef4b0-ca71-45f3-807a-aae319b6bf03"
+    },
+    {
+      "fileId": "c7d8134f-0282-424f-b705-a48ff48707e8",
+      "size": 73077451,
+      "sha256": "C1E7A307AE01328074BE9990EA227045479EF44DDA7CF011381A219432D2BD00",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Legend+of+Zelda+-+Time+Lost.zip&filepath=romhacks%2Fc7d8134f-0282-424f-b705-a48ff48707e8"
+    },
+    {
+      "fileId": "cbbe0c3f-6c5a-44c5-87d1-547a8dabf34c",
+      "size": 443924,
+      "sha256": "49E85E58BCF6955F38794834CEE173C952837DB2D93252685766474B6C81E2F8",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=sm64_monika_mode_v3.7z&filepath=romhacks%2Fcbbe0c3f-6c5a-44c5-87d1-547a8dabf34c"
+    },
+    {
+      "fileId": "b54ca07c-1316-4dfb-84e4-e4a15b44a7e9",
+      "size": 54342259,
+      "sha256": "0FEEF125339A4FFBCBE5310A23246C5D8009B57CD6AF89888456EC2C58966113",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=PumkinPatch1.1.1.bps&filepath=romhacks%2Fb54ca07c-1316-4dfb-84e4-e4a15b44a7e9"
+    },
+    {
+      "fileId": "504fd15b-4be7-4e01-af01-859e9d14ffb4",
+      "size": 28470217,
+      "sha256": "49EF21BE34CA53F28C95CF6F6F2C9ACC93A8D5FF7ABA05AFFE773617F1AE911F",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=smashremix1.5.0.zip&filepath=romhacks%2F504fd15b-4be7-4e01-af01-859e9d14ffb4"
+    },
+    {
+      "fileId": "188e0b34-8aca-462f-8ccf-dd5db83d789e",
+      "size": 61160,
+      "sha256": "B321D5622CBD31D59215B27F4CCC3E0BB8B2E02164FDDA569CEBBF1E1D9F8746",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Rocket+Robot+on+Wheels+-+Rocket+Shuts+the+Hell+Up_v.420.69a.7z&filepath=romhacks%2F188e0b34-8aca-462f-8ccf-dd5db83d789e"
+    },
+    {
+      "fileId": "0184ac35-a263-4b65-89a2-3941439145be",
+      "size": 1883602,
+      "sha256": "DBB25D0413FD3F8BFE0E3BAC3622D692E3EA8D161740F34112673FFD5366BC45",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Majora%27s+Mask+Redux.zip&filepath=romhacks%2F0184ac35-a263-4b65-89a2-3941439145be"
+    },
+    {
+      "fileId": "28585087-27d5-45c1-84e2-218c2ad7d291",
+      "size": 4876674,
+      "sha256": "46A76E5D0A9A681AE1BB743A7E8229B20154F06BB2653B779D96C804E042E211",
+      "url": "https://gaia.romhackplaza.org/index.php?action=Download&filename=Ocarina+of+Time+Redux.zip&filepath=romhacks%2F28585087-27d5-45c1-84e2-218c2ad7d291"
+    }
+  ]
+}

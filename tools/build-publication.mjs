@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { createHash, createPrivateKey, createPublicKey, sign } from "node:crypto";
-import { mkdir, readFile, writeFile, cp } from "node:fs/promises";
+import { mkdir, readFile, writeFile, cp, rm } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
@@ -22,14 +22,25 @@ export async function buildPublication({ root, output, keyDirectory }) {
   const registries = new Map();
   for (const authority of config.authorities) {
     const path = `sites/${authority.id}/catalog/`;
+    let registryPath = resolve(root, `sources/${authority.id}-registry.json`);
+    // Plaza is curated by the existing root Authority, not a new signing identity.
+    if (authority === config.authorities[0]) {
+      const registry = JSON.parse(await readFile(registryPath));
+      const plaza = JSON.parse(await readFile(resolve(root, "sources/plaza-registry.json")));
+      registry.entries.push(...plaza.entries);
+      registry.generatedAt = config.issuedAt;
+      registryPath = resolve(output, ".root-source.json");
+      await writeFile(registryPath, bytes(registry));
+    }
     const result = execFileSync(process.execPath, [
       resolve(root, "tools/build-base-rom-catalog.mjs"),
-      resolve(root, `sources/${authority.id}-registry.json`),
+      registryPath,
       resolve(output, path), new URL(path, config.baseUrl).href,
       resolve(root, "sources/canonical-picks.json"), authority.id,
     ], { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
     // Builder returns its generated index pin on stdout.
     const pin = JSON.parse(result);
+    if (authority === config.authorities[0]) await rm(registryPath);
     registries.set(authority.id, {
       documentType: "mod-registry-index", url: new URL(`${path}${pin.index}`, config.baseUrl).href,
       sha256: pin.sha256, size: pin.size, gameCount: pin.gameCount, allowRedirects: false,
