@@ -1,0 +1,13 @@
+{
+  "rhdn-hacks-5122-6000c3875a9e": { "projectId": "mm-redux", "releaseId": "mm-redux-2.0", "releaseOrder": 20000 },
+  "rhdn-hacks-5122-cb445ba58fdc": { "projectId": "mm-redux-dpad-left", "releaseId": "mm-redux-left-1.1.1", "releaseOrder": 10101 },
+  "rhdn-hacks-5122-8289b0e886b1": { "projectId": "mm-redux-dpad-right", "releaseId": "mm-redux-right-1.1.1", "releaseOrder": 10101 },
+  "rhdn-hacks-5122-667934702d2d": { "projectId": "mm-redux-dpad-left", "releaseId": "mm-redux-left-1.1", "releaseOrder": 10100 },
+  "rhdn-hacks-5122-db1b97ad8ca6": { "projectId": "mm-redux-dpad-right", "releaseId": "mm-redux-right-1.1", "releaseOrder": 10100 },
+  "rhdn-hacks-5138-34176f88df6f": { "projectId": "master-quest-redux", "releaseId": "mq-redux-2.2", "releaseOrder": 20200 },
+  "rhdn-hacks-5138-b265bfe7408c": { "projectId": "oot-redux", "releaseId": "oot-redux-2.2", "releaseOrder": 20200 },
+  "rhdn-hacks-5138-ed37c137759a": { "projectId": "oot-redux-2x-text", "releaseId": "oot-redux-2x-1.0", "releaseOrder": 10000 },
+  "rhdn-hacks-5138-f5c234090b40": { "projectId": "oot-redux-3x-text", "releaseId": "oot-redux-3x-1.0", "releaseOrder": 10000 },
+  "rhdn-hacks-5138-974fa98ee2dc": { "projectId": "master-quest-redux", "releaseId": "mq-redux-2.0", "releaseOrder": 20000 },
+  "rhdn-hacks-5138-252b85b6639e": { "projectId": "oot-redux", "releaseId": "oot-redux-2.0", "releaseOrder": 20000 }
+}

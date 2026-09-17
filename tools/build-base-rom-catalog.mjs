@@ -12,6 +12,7 @@ const authorityId = process.argv[6] || basename(dirname(outputDirectory));
 const source = JSON.parse(await readFile(sourcePath, "utf8"));
 const outputSizes = JSON.parse(await readFile(new URL("../sources/output-sizes.json", import.meta.url)));
 const exclusions = JSON.parse(await readFile(new URL("../sources/publication-exclusions.json", import.meta.url)));
+const releaseGroups = JSON.parse(await readFile(new URL("../sources/release-groups.json", import.meta.url)));
 const curation = JSON.parse(await readFile(picksPath, "utf8"));
 const indexSchema = "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index.schema.json";
 const canonicalCategories = new Set(["the-sequel", "the-dlc", "the-replacement", "the-experiment"]);
@@ -23,6 +24,7 @@ const groups = new Map();
 for (const original of source.entries || []) {
   if (exclusions[original.id]) continue;
   const entry = structuredClone(original);
+  if (releaseGroups[entry.id]) Object.assign(entry, releaseGroups[entry.id]);
   entry.base.normalizedSha256 = entry.base.normalizedSha256.toLowerCase();
   for (const key of ["sha256", "memberSha256"]) if (entry.patch[key]) entry.patch[key] = entry.patch[key].toLowerCase();
   entry.output.sha256 = entry.output.sha256.toLowerCase();
