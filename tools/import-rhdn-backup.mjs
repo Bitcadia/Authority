@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 const saveTypes = {
   NDOE: "eeprom16k", NDME: "none", NDZE: "none", NGEE: "eeprom4k",
   NKTE: "eeprom4k", NPDE: "eeprom16k", NP3E: "flashram", NSVE: "eeprom4k",
+  CZLE: "sram",
 };
 export function importBackup(report, existing) {
   const bases = new Map(existing.map(entry => [entry.base.normalizedSha256.toLowerCase(), entry.base]));
@@ -38,8 +39,9 @@ export function importBackup(report, existing) {
     const url = new URL(record.patch.url);
     if (url.protocol !== "https:" || !url.hostname.endsWith(".archive.org")) throw Error("Unexpected archive URL");
     const suffix = record.patch.archiveMember.split("/").pop().replace(/\.(bps|xdelta|vcdiff)$/i, "");
-    const name = `${record.name} - ${suffix}`.replace(/[,\r\n]/g, " ").slice(0, 128).trim();
-    const version = record.version.replace(/[^a-zA-Z0-9._-]/g, "-").replace(/^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$/g, "");
+    const historicalVersion = /^(?:Old|Older)\/v([0-9.]+)\//i.exec(record.patch.archiveMember)?.[1];
+    const name = `${record.name}${historicalVersion ? ` v${historicalVersion}` : ""} - ${suffix}`.replace(/[,\r\n]/g, " ").slice(0, 128).trim();
+    const version = (historicalVersion || record.version).replace(/[^a-zA-Z0-9._-]/g, "-").replace(/^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$/g, "");
     if (!version || version.length > 64) throw Error(`Invalid archive version: ${record.id}`);
     entries.push({
       id: record.id, name, version, authors: [...new Set(record.authors.filter(Boolean))],

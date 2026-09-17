@@ -7,8 +7,8 @@ const load = async name => JSON.parse(await readFile(new URL(`../sources/${name}
 test("archived RHDN entries preserve exact artifact, member, base and output evidence", async () => {
   const registry = await load("rhdn-registry.json");
   const report = await load("rhdn-backup-verification.json");
-  assert.equal(registry.entries.length, 45);
-  assert.equal(new Set(registry.entries.map(e => e.id)).size, 45);
+  assert.equal(registry.entries.length, 57);
+  assert.equal(new Set(registry.entries.map(e => e.id)).size, 57);
   for (const entry of registry.entries) {
     const evidence = report.verified.find(record => record.id === entry.id);
     assert.ok(evidence, entry.id);
@@ -27,7 +27,7 @@ test("backup import preserves shared outputs and rejects conflicting source IDs"
   const report = await load("rhdn-backup-verification.json");
   const existing = (await Promise.all(["rhdc", "hylian", "sm64", "smashremix", "plaza"].map(name => load(`${name}-registry.json`)))).flatMap(d => d.entries);
   const result = importBackup(report, existing);
-  assert.equal(result.registry.entries.length, 45);
+  assert.equal(result.registry.entries.length, 57);
   assert.equal(result.duplicates.length, 14);
   assert.deepEqual(importBackup(report, [...existing, ...result.registry.entries]).registry.entries, result.registry.entries);
   for (const duplicate of result.duplicates) assert.ok(result.registry.entries.some(entry => entry.id === duplicate.id));
@@ -37,4 +37,18 @@ test("backup import preserves shared outputs and rejects conflicting source IDs"
   const invalid = structuredClone(report);
   invalid.artifacts = {};
   assert.throws(() => importBackup(invalid, existing), /Missing public archive identity/);
+});
+
+test("archived subdirectory versions remain distinct from the enclosing release", async () => {
+  const registry = await load("rhdn-registry.json");
+  const historical = registry.entries.filter(entry => /^(Old|Older)\//.test(entry.patch.archiveMember));
+  assert.equal(historical.length, 8);
+  for (const entry of historical) {
+    const version = /\/v([0-9.]+)\//.exec(entry.patch.archiveMember)[1];
+    assert.equal(entry.version, version);
+    assert.ok(entry.name.includes(`v${version}`));
+  }
+  const dawn = registry.entries.filter(entry => entry.id.startsWith("rhdn-hacks-5816-"));
+  assert.equal(dawn.length, 3);
+  assert.equal(new Set(dawn.map(entry => entry.base.normalizedSha256)).size, 3);
 });
