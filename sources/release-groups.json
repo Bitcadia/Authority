@@ -1,13 +1,317 @@
 {
-  "rhdn-hacks-5122-6000c3875a9e": { "projectId": "mm-redux", "releaseId": "mm-redux-2.0", "releaseOrder": 20000 },
-  "rhdn-hacks-5122-cb445ba58fdc": { "projectId": "mm-redux-dpad-left", "releaseId": "mm-redux-left-1.1.1", "releaseOrder": 10101 },
-  "rhdn-hacks-5122-8289b0e886b1": { "projectId": "mm-redux-dpad-right", "releaseId": "mm-redux-right-1.1.1", "releaseOrder": 10101 },
-  "rhdn-hacks-5122-667934702d2d": { "projectId": "mm-redux-dpad-left", "releaseId": "mm-redux-left-1.1", "releaseOrder": 10100 },
-  "rhdn-hacks-5122-db1b97ad8ca6": { "projectId": "mm-redux-dpad-right", "releaseId": "mm-redux-right-1.1", "releaseOrder": 10100 },
-  "rhdn-hacks-5138-34176f88df6f": { "projectId": "master-quest-redux", "releaseId": "mq-redux-2.2", "releaseOrder": 20200 },
-  "rhdn-hacks-5138-b265bfe7408c": { "projectId": "oot-redux", "releaseId": "oot-redux-2.2", "releaseOrder": 20200 },
-  "rhdn-hacks-5138-ed37c137759a": { "projectId": "oot-redux-2x-text", "releaseId": "oot-redux-2x-1.0", "releaseOrder": 10000 },
-  "rhdn-hacks-5138-f5c234090b40": { "projectId": "oot-redux-3x-text", "releaseId": "oot-redux-3x-1.0", "releaseOrder": 10000 },
-  "rhdn-hacks-5138-974fa98ee2dc": { "projectId": "master-quest-redux", "releaseId": "mq-redux-2.0", "releaseOrder": 20000 },
-  "rhdn-hacks-5138-252b85b6639e": { "projectId": "oot-redux", "releaseId": "oot-redux-2.0", "releaseOrder": 20000 }
+  "rhdn-hacks-5122-6000c3875a9e": {
+    "projectId": "mm-redux",
+    "releaseId": "mm-redux-2.0",
+    "releaseOrder": 20000
+  },
+  "rhdn-hacks-5122-cb445ba58fdc": {
+    "projectId": "mm-redux-dpad-left",
+    "releaseId": "mm-redux-left-1.1.1",
+    "releaseOrder": 10101
+  },
+  "rhdn-hacks-5122-8289b0e886b1": {
+    "projectId": "mm-redux-dpad-right",
+    "releaseId": "mm-redux-right-1.1.1",
+    "releaseOrder": 10101
+  },
+  "rhdn-hacks-5122-667934702d2d": {
+    "projectId": "mm-redux-dpad-left",
+    "releaseId": "mm-redux-left-1.1",
+    "releaseOrder": 10100
+  },
+  "rhdn-hacks-5122-db1b97ad8ca6": {
+    "projectId": "mm-redux-dpad-right",
+    "releaseId": "mm-redux-right-1.1",
+    "releaseOrder": 10100
+  },
+  "rhdn-hacks-5138-34176f88df6f": {
+    "projectId": "master-quest-redux",
+    "releaseId": "mq-redux-2.2",
+    "releaseOrder": 20200
+  },
+  "rhdn-hacks-5138-b265bfe7408c": {
+    "projectId": "oot-redux",
+    "releaseId": "oot-redux-2.2",
+    "releaseOrder": 20200
+  },
+  "rhdn-hacks-5138-ed37c137759a": {
+    "projectId": "oot-redux-2x-text",
+    "releaseId": "oot-redux-2x-1.0",
+    "releaseOrder": 10000
+  },
+  "rhdn-hacks-5138-f5c234090b40": {
+    "projectId": "oot-redux-3x-text",
+    "releaseId": "oot-redux-3x-1.0",
+    "releaseOrder": 10000
+  },
+  "rhdn-hacks-5138-974fa98ee2dc": {
+    "projectId": "master-quest-redux",
+    "releaseId": "mq-redux-2.0",
+    "releaseOrder": 20000
+  },
+  "rhdn-hacks-5138-252b85b6639e": {
+    "projectId": "oot-redux",
+    "releaseId": "oot-redux-2.0",
+    "releaseOrder": 20000
+  },
+  "rhdc-6342676617316e22c431f6f9-1.3.3": {
+    "projectId": "project-da406e7b5226fcc2",
+    "releaseId": "release-bbc245e2b5ca732fc1f9",
+    "releaseOrder": 1030300
+  },
+  "rhdc-serene-fusion-1.3.3": {
+    "projectId": "project-da406e7b5226fcc2",
+    "releaseId": "release-bbc245e2b5ca732fc1f9",
+    "releaseOrder": 1030300
+  },
+  "rhdc-660695d12f0650df5f8c3d71-1.1h2": {
+    "projectId": "project-f45cb1d180d70955",
+    "releaseId": "release-5b2d15d7ec2a6afcb005",
+    "releaseOrder": 1010002
+  },
+  "sm64romhacks-sm64-decades-later-1.1": {
+    "projectId": "project-f45cb1d180d70955",
+    "releaseId": "release-b8e004022312a42f37ff",
+    "releaseOrder": 1010000
+  },
+  "rhdc-6466ea92e952a72a24c2aa53-1.3.1": {
+    "projectId": "project-e8d1616d754cb8e7",
+    "releaseId": "release-585b6e5d5e723bfdbffb",
+    "releaseOrder": 1030100
+  },
+  "sm64romhacks-sm64-beyond-the-cursed-mirror-1.3": {
+    "projectId": "project-e8d1616d754cb8e7",
+    "releaseId": "release-0341dfd526960b6967e9",
+    "releaseOrder": 1030000
+  },
+  "rhdc-5e209f90ea2543645dc04071-3.4": {
+    "projectId": "project-f02cc3c22d8e8164",
+    "releaseId": "release-6936194133fb308ccde7",
+    "releaseOrder": 3040000
+  },
+  "rhdc-sm64-the-green-stars-3.4": {
+    "projectId": "project-f02cc3c22d8e8164",
+    "releaseId": "release-6936194133fb308ccde7",
+    "releaseOrder": 3040000
+  },
+  "rhdc-5e209f50ea2543645dc03ebf-sha1-3a352b203ebda06a3559a273d13ebbbb133d71a4": {
+    "projectId": "project-ac9eb5fb8fd641fd",
+    "releaseId": "release-d8cdd2b7cc91241dfe1f",
+    "releaseOrder": 0
+  },
+  "rhdc-kaizo-mario-64-1.0": {
+    "projectId": "project-ac9eb5fb8fd641fd",
+    "releaseId": "release-d8cdd2b7cc91241dfe1f",
+    "releaseOrder": 1000000
+  },
+  "rhdc-6314bc8312841ee6b57cf0c1-sha1-3199334c5f973af34b6d94d58f9fbe5efa5f4461": {
+    "projectId": "project-18d6d36aa5564271",
+    "releaseId": "release-7f2399cd0d65be9704fe",
+    "releaseOrder": 0
+  },
+  "rhdn-hacks-5429-5c5f76a7de43": {
+    "projectId": "project-18d6d36aa5564271",
+    "releaseId": "release-7f2399cd0d65be9704fe",
+    "releaseOrder": 1000000
+  },
+  "hylian-nimpize_adventure": {
+    "projectId": "project-1062c071da0287a7",
+    "releaseId": "release-d6fa5f180c92e9825639",
+    "releaseOrder": 1000000
+  },
+  "rhdn-hacks-5810-7d0defb31ec7": {
+    "projectId": "project-1062c071da0287a7",
+    "releaseId": "release-d6fa5f180c92e9825639",
+    "releaseOrder": 1000000
+  },
+  "hylian-pumkin_tower": {
+    "projectId": "project-e00906560a6bc1a0",
+    "releaseId": "release-31fd5b46a8f615d6c445",
+    "releaseOrder": 1010100
+  },
+  "plaza-2508-2d4d96be8f39": {
+    "projectId": "project-e00906560a6bc1a0",
+    "releaseId": "release-31fd5b46a8f615d6c445",
+    "releaseOrder": 1010100
+  },
+  "hylian-star_fox_64_survival": {
+    "projectId": "project-1ef64e47b148fe93",
+    "releaseId": "release-507b5062ae27771b89ba",
+    "releaseOrder": 1040000
+  },
+  "rhdn-hacks-5566-727dd8515ddd": {
+    "projectId": "project-1ef64e47b148fe93",
+    "releaseId": "release-507b5062ae27771b89ba",
+    "releaseOrder": 1040000
+  },
+  "hylian-zelda64_dawn_and_dusk": {
+    "projectId": "zelda64-dawn-and-dusk",
+    "releaseId": "dawn-dusk-v2",
+    "releaseOrder": 2000000
+  },
+  "rhdn-hacks-5816-beee8813fc94": {
+    "projectId": "zelda64-dawn-and-dusk",
+    "releaseId": "dawn-dusk-v2",
+    "releaseOrder": 2000000
+  },
+  "rhdn-hacks-5816-96dad672227b": {
+    "projectId": "zelda64-dawn-and-dusk",
+    "releaseId": "dawn-dusk-v2",
+    "releaseOrder": 2000000
+  },
+  "rhdn-hacks-5816-b2c53feafe04": {
+    "projectId": "zelda64-dawn-and-dusk",
+    "releaseId": "dawn-dusk-v2",
+    "releaseOrder": 2000000
+  },
+  "sm64romhacks-sm64-last-impact-1.2": {
+    "projectId": "project-9c681fe1c3572b2c",
+    "releaseId": "release-8214ab28dbc7e6c6014b",
+    "releaseOrder": 1020000
+  },
+  "rhdn-hacks-5964-55ce6c298141": {
+    "projectId": "project-9c681fe1c3572b2c",
+    "releaseId": "release-8214ab28dbc7e6c6014b",
+    "releaseOrder": 1020000
+  },
+  "smashremix-2.0.1-ntsc": {
+    "projectId": "project-c5a7a677579fb721",
+    "releaseId": "release-7efec9e0983656bb0219",
+    "releaseOrder": 2000100
+  },
+  "plaza-2323-b4b24fdc4c6e": {
+    "projectId": "project-c5a7a677579fb721",
+    "releaseId": "release-1dfd93240b4ae9e222e5",
+    "releaseOrder": 1050000
+  },
+  "plaza-2122-3689fd825633": {
+    "projectId": "master-quest-redux",
+    "releaseId": "mq-redux-2.2",
+    "releaseOrder": 20200
+  },
+  "plaza-2122-96147957f1d1": {
+    "projectId": "oot-redux",
+    "releaseId": "oot-redux-2.2",
+    "releaseOrder": 20200
+  },
+  "rhdc-5e209fb7ea2543645dc04264-1.02": {
+    "projectId": "star-road",
+    "releaseId": "release-02c761750e58a412b6b6",
+    "releaseOrder": 10200
+  },
+  "rhdc-super-mario-star-road-1.02": {
+    "projectId": "star-road",
+    "releaseId": "release-02c761750e58a412b6b6",
+    "releaseOrder": 10200
+  },
+  "plaza-3192-30f6c999e5a9": {
+    "projectId": "sm64-multiplayer-dynamic",
+    "releaseId": "release-5df79268b7be95a8c789",
+    "releaseOrder": 0
+  },
+  "plaza-3192-6d4318d4d709": {
+    "projectId": "sm64-multiplayer-classic",
+    "releaseId": "release-78c679a081375dc6c9f1",
+    "releaseOrder": 0
+  },
+  "plaza-3190-882129c697cf": {
+    "projectId": "star-road-deluxe",
+    "releaseId": "release-4deb887f2eb8404d29dc",
+    "releaseOrder": 0
+  },
+  "plaza-3190-2f666bb6070b": {
+    "projectId": "star-road-console",
+    "releaseId": "release-a1c76f6b13d414387676",
+    "releaseOrder": 0
+  },
+  "plaza-3190-5de8da06abb1": {
+    "projectId": "star-road",
+    "releaseId": "release-e7796f8ce1024b5500ff",
+    "releaseOrder": 10100
+  },
+  "plaza-3190-dbb54d14198a": {
+    "projectId": "star-road-deluxe",
+    "releaseId": "release-b3d247175e841821bc11",
+    "releaseOrder": 0
+  },
+  "plaza-3190-bb8e6e65066c": {
+    "projectId": "star-road-light",
+    "releaseId": "release-9e594cd4333ebf9f99be",
+    "releaseOrder": 0
+  },
+  "plaza-3190-ee01eeb04473": {
+    "projectId": "star-road-multiplayer",
+    "releaseId": "release-9da1f226f775100ff644",
+    "releaseOrder": 0
+  },
+  "plaza-2123-c52e8f440d70": {
+    "projectId": "mm-redux",
+    "releaseId": "mm-redux-2.0",
+    "releaseOrder": 20000
+  },
+  "rhdn-hacks-4467-3081be6a4420": {
+    "projectId": "goldeneye-mord-weapons-x",
+    "releaseId": "release-8bd7cdcd691d9584c716",
+    "releaseOrder": 10100
+  },
+  "rhdn-hacks-4467-1a2151c084fa": {
+    "projectId": "goldeneye-mord-weapons",
+    "releaseId": "release-dbb0bb16555a80bebb8e",
+    "releaseOrder": 10100
+  },
+  "rhdn-hacks-4467-340cffa5e978": {
+    "projectId": "goldeneye-mord-weapons-x",
+    "releaseId": "release-8bd7cdcd691d9584c716",
+    "releaseOrder": 10100
+  },
+  "rhdn-hacks-4467-f307407aaa99": {
+    "projectId": "goldeneye-mord-weapons",
+    "releaseId": "release-dbb0bb16555a80bebb8e",
+    "releaseOrder": 10100
+  },
+  "rhdn-hacks-5541-68c90703aaba": {
+    "projectId": "goldeneye-unlock-all",
+    "releaseId": "release-34237bb0824a19716e24",
+    "releaseOrder": 0
+  },
+  "rhdn-hacks-5541-0bf66869f216": {
+    "projectId": "goldeneye-unlock-light",
+    "releaseId": "release-c7185651ae456ea621df",
+    "releaseOrder": 0
+  },
+  "rhdn-hacks-6148-99d02d014eef": {
+    "projectId": "hooting-hud-1",
+    "releaseId": "release-edb8980dbb921e3197c2",
+    "releaseOrder": 0
+  },
+  "rhdn-hacks-6148-1adfda0d98d7": {
+    "projectId": "hooting-hud-2",
+    "releaseId": "release-eab29ac66f01a21e0d1f",
+    "releaseOrder": 0
+  },
+  "rhdn-hacks-6148-9362c08c5498": {
+    "projectId": "hooting-hud-3",
+    "releaseId": "release-f4aca6fb9730e74d28f8",
+    "releaseOrder": 0
+  },
+  "rhdn-hacks-6148-5070abd2d4d6": {
+    "projectId": "hooting-hud-4",
+    "releaseId": "release-69aa14f6aaebf4441add",
+    "releaseOrder": 0
+  },
+  "rhdn-hacks-5671-fee055f94e46": {
+    "projectId": "low-poly-luigi",
+    "releaseId": "release-e2cb8a576e01983f7e25",
+    "releaseOrder": 0
+  },
+  "rhdn-hacks-5671-1b7b8419f4e5": {
+    "projectId": "low-poly-mario",
+    "releaseId": "release-e4df96cc77f989dc73c3",
+    "releaseOrder": 0
+  },
+  "rhdn-hacks-5959-3253fca96e85": {
+    "projectId": "star-road-console",
+    "releaseId": "release-a1c76f6b13d414387676",
+    "releaseOrder": 0
+  }
 }
