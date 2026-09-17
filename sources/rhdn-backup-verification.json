@@ -1557,6 +1557,501 @@
         "gameCode": "CZLE"
       },
       "verification": "two-client-decoder-runs-and-client-zip-extraction"
+    },
+    {
+      "id": "rhdn-hacks-5634-6604f243b453",
+      "projectUrl": "https://www.romhacking.net/hacks/5634/",
+      "name": "Doom 64: Merciless Edition",
+      "version": "1.1",
+      "authors": [
+        "Erick194",
+        "CrashOveride"
+      ],
+      "game": "Doom 64",
+      "archiveMember": "hacks/N64/Doom 64/Doom 64_ Merciless Edition___1_1/Immorpher - Merciless Edition 1.1.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Doom%2064/Doom%2064_%20Merciless%20Edition___1_1/Immorpher%20-%20Merciless%20Edition%201.1.zip",
+        "size": 366107,
+        "sha256": "6ef2056be592912ebcdeb92ad6003f64d7933fdf68ccb27d8c26b5c4df7919f1",
+        "allowRedirects": false,
+        "archiveMember": "Doom 64 Merciless Edition for 1.1 or Rev A.bps",
+        "memberSize": 206616,
+        "memberSha256": "9f4946fd89cd2da239a26d518f57be6f90484be9e7a3d7dbe1f781eb4af8822a"
+      },
+      "output": {
+        "size": 8388608,
+        "sha256": "c8c8ff43434a4112cd1243b1502961221713901bdcc0ff9c6aa857fe31b76701"
+      },
+      "base": {
+        "filename": "Doom 64 (USA) (Rev 1).z64",
+        "sha1": "6FB0CE9C75BBE54B6E1EDE337652B0221E5F2AAD",
+        "normalizedSha256": "c28eaac9a8a8cc1d30c1b50fbb04622c2ddeb9b14ddcecc6edbaad4a6d067f3f",
+        "normalizedCrc32": "1D3A17B5",
+        "gameCode": "NDME"
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "baseEvidence": "BPS declared source size/CRC32, local SHA-256, and successful decoder checks"
+    },
+    {
+      "id": "rhdn-hacks-5065-b8cc3a08e380",
+      "projectUrl": "https://www.romhacking.net/hacks/5065/",
+      "name": "Amagami Mario Kart",
+      "version": "1.0",
+      "authors": [
+        "Tsukasa Plays Games"
+      ],
+      "game": "Mario Kart 64",
+      "archiveMember": "hacks/N64/Mario Kart 64/Amagami Mario Kart___1_0/Amagami Mario Kart.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Mario%20Kart%2064/Amagami%20Mario%20Kart___1_0/Amagami%20Mario%20Kart.zip",
+        "size": 11671265,
+        "sha256": "bfffc713844b7f13a6bf79e61eccfd8dd58f40f3ee3c6151f5d01c58d2519982",
+        "allowRedirects": false,
+        "archiveMember": "Amagami Mario Kart/Amagami Mario Kart z64.bps",
+        "memberSize": 3600703,
+        "memberSha256": "4d251a9caaa473becdef20256e25bf6c8d2b39276be98d46234213f17b7f33ba"
+      },
+      "output": {
+        "size": 13369204,
+        "sha256": "84d5b0100e15f86c1879a835a39ed452a3ab88df752488708b6909a1b2e89c1e"
+      },
+      "base": {
+        "filename": "Mario Kart 64 (USA).z64",
+        "sha1": "579C48E211AE952530FFC8738709F078D5DD215E",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da",
+        "normalizedCrc32": "434389C1",
+        "gameCode": "NKTE"
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "baseEvidence": "BPS declared source size/CRC32, local SHA-256, and successful decoder checks"
+    },
+    {
+      "id": "rhdn-hacks-5122-cb445ba58fdc",
+      "projectUrl": "https://www.romhacking.net/hacks/5122/",
+      "name": "Majora's Mask Redux",
+      "version": "2.0",
+      "authors": [
+        "Saneki",
+        "Maroc",
+        "ShadowOne333",
+        "GhostlyDark",
+        "darklord92",
+        "fkualol",
+        "ozidual",
+        "Admentus"
+      ],
+      "game": "The Legend of Zelda: Majora's Mask",
+      "archiveMember": "hacks/N64/The Legend of Zelda_ Majora's Mask/Majora's Mask Redux___2_0/Majora's Mask Redux.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Majora%27s%20Mask/Majora%27s%20Mask%20Redux___2_0/Majora%27s%20Mask%20Redux.zip",
+        "size": 1883602,
+        "sha256": "dbb25d0413fd3f8bfe0e3bac3622d692e3ea8d161740f34112673ffd5366bc45",
+        "allowRedirects": false,
+        "archiveMember": "Old/v1.1.1/Majora's Mask REDUX - DpadLeft.bps",
+        "memberSize": 527984,
+        "memberSha256": "7f6d7b3d737d0d734f8fa99a2ef61509381498d3e2d3a02b048667dd21900a93"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "58f4135d297b30b4d71dff1a24400bad0ed1fcd942e733bc3346b019ceeb9184"
+      },
+      "base": {
+        "filename": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "sha1": "D6133ACE5AFAA0882CF214CF88DABA39E266C078",
+        "normalizedSha256": "efb1365b3ae362604514c0f9a1a2d11f5dc8688ba5be660a37debf5e3be43f2b",
+        "normalizedCrc32": "B428D8A7",
+        "gameCode": "NZSE"
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "baseEvidence": "BPS declared source size/CRC32, local SHA-256, and successful decoder checks"
+    },
+    {
+      "id": "rhdn-hacks-5122-8289b0e886b1",
+      "projectUrl": "https://www.romhacking.net/hacks/5122/",
+      "name": "Majora's Mask Redux",
+      "version": "2.0",
+      "authors": [
+        "Saneki",
+        "Maroc",
+        "ShadowOne333",
+        "GhostlyDark",
+        "darklord92",
+        "fkualol",
+        "ozidual",
+        "Admentus"
+      ],
+      "game": "The Legend of Zelda: Majora's Mask",
+      "archiveMember": "hacks/N64/The Legend of Zelda_ Majora's Mask/Majora's Mask Redux___2_0/Majora's Mask Redux.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Majora%27s%20Mask/Majora%27s%20Mask%20Redux___2_0/Majora%27s%20Mask%20Redux.zip",
+        "size": 1883602,
+        "sha256": "dbb25d0413fd3f8bfe0e3bac3622d692e3ea8d161740f34112673ffd5366bc45",
+        "allowRedirects": false,
+        "archiveMember": "Old/v1.1.1/Majora's Mask REDUX - DpadRight.bps",
+        "memberSize": 527984,
+        "memberSha256": "cddfdb871aff3a42a71b40d3af1ab80bc302d28d637e046ab6983a989d61df71"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "46c3d72b2a7f4058dfc96a01036adc4530755081edf8495085b4c5f4bd1220c2"
+      },
+      "base": {
+        "filename": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "sha1": "D6133ACE5AFAA0882CF214CF88DABA39E266C078",
+        "normalizedSha256": "efb1365b3ae362604514c0f9a1a2d11f5dc8688ba5be660a37debf5e3be43f2b",
+        "normalizedCrc32": "B428D8A7",
+        "gameCode": "NZSE"
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "baseEvidence": "BPS declared source size/CRC32, local SHA-256, and successful decoder checks"
+    },
+    {
+      "id": "rhdn-hacks-5122-667934702d2d",
+      "projectUrl": "https://www.romhacking.net/hacks/5122/",
+      "name": "Majora's Mask Redux",
+      "version": "2.0",
+      "authors": [
+        "Saneki",
+        "Maroc",
+        "ShadowOne333",
+        "GhostlyDark",
+        "darklord92",
+        "fkualol",
+        "ozidual",
+        "Admentus"
+      ],
+      "game": "The Legend of Zelda: Majora's Mask",
+      "archiveMember": "hacks/N64/The Legend of Zelda_ Majora's Mask/Majora's Mask Redux___2_0/Majora's Mask Redux.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Majora%27s%20Mask/Majora%27s%20Mask%20Redux___2_0/Majora%27s%20Mask%20Redux.zip",
+        "size": 1883602,
+        "sha256": "dbb25d0413fd3f8bfe0e3bac3622d692e3ea8d161740f34112673ffd5366bc45",
+        "allowRedirects": false,
+        "archiveMember": "Old/v1.1/Majora's Mask REDUX - DpadLeft.bps",
+        "memberSize": 533131,
+        "memberSha256": "9eece5a75fce3d809d7b5424079fc4e4eea76b8bd3aabd503dc4cd485f9ec509"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "85ae62aa660a4d4c18b0533ec9afccc1f4a812235d16b1f3248cee60f09929d6"
+      },
+      "base": {
+        "filename": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "sha1": "D6133ACE5AFAA0882CF214CF88DABA39E266C078",
+        "normalizedSha256": "efb1365b3ae362604514c0f9a1a2d11f5dc8688ba5be660a37debf5e3be43f2b",
+        "normalizedCrc32": "B428D8A7",
+        "gameCode": "NZSE"
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "baseEvidence": "BPS declared source size/CRC32, local SHA-256, and successful decoder checks"
+    },
+    {
+      "id": "rhdn-hacks-5122-db1b97ad8ca6",
+      "projectUrl": "https://www.romhacking.net/hacks/5122/",
+      "name": "Majora's Mask Redux",
+      "version": "2.0",
+      "authors": [
+        "Saneki",
+        "Maroc",
+        "ShadowOne333",
+        "GhostlyDark",
+        "darklord92",
+        "fkualol",
+        "ozidual",
+        "Admentus"
+      ],
+      "game": "The Legend of Zelda: Majora's Mask",
+      "archiveMember": "hacks/N64/The Legend of Zelda_ Majora's Mask/Majora's Mask Redux___2_0/Majora's Mask Redux.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Majora%27s%20Mask/Majora%27s%20Mask%20Redux___2_0/Majora%27s%20Mask%20Redux.zip",
+        "size": 1883602,
+        "sha256": "dbb25d0413fd3f8bfe0e3bac3622d692e3ea8d161740f34112673ffd5366bc45",
+        "allowRedirects": false,
+        "archiveMember": "Old/v1.1/Majora's Mask REDUX - DpadRight.bps",
+        "memberSize": 533131,
+        "memberSha256": "857cb2d75be2d51d741285f9ab1a9f48c7c85f1c9925e2d9f8b6a3ff331fc219"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "2a6fd39bd0215c6b121baaaf203b22efe3e8134923ec76bb1acc46dd63a7ff7a"
+      },
+      "base": {
+        "filename": "Legend of Zelda, The - Majora's Mask (USA).z64",
+        "sha1": "D6133ACE5AFAA0882CF214CF88DABA39E266C078",
+        "normalizedSha256": "efb1365b3ae362604514c0f9a1a2d11f5dc8688ba5be660a37debf5e3be43f2b",
+        "normalizedCrc32": "B428D8A7",
+        "gameCode": "NZSE"
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "baseEvidence": "BPS declared source size/CRC32, local SHA-256, and successful decoder checks"
+    },
+    {
+      "id": "rhdn-hacks-5138-ed37c137759a",
+      "projectUrl": "https://www.romhacking.net/hacks/5138/",
+      "name": "Ocarina of Time Redux",
+      "version": "2.2",
+      "authors": [
+        "Maroc",
+        "ShadowOne333",
+        "MattKimura",
+        "Roman971",
+        "TestRunnerSRL",
+        "AmazingAmpharos",
+        "Krimtonz",
+        "Fig",
+        "rlbond86",
+        "KevinPal",
+        "junglechief",
+        "mzxrules",
+        "Zel",
+        "SkilarBabcock",
+        "Admentus"
+      ],
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "archiveMember": "hacks/N64/The Legend of Zelda_ Ocarina of Time/Ocarina of Time Redux___2_2/Ocarina of Time Redux.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Ocarina%20of%20Time%20Redux___2_2/Ocarina%20of%20Time%20Redux.zip",
+        "size": 4876674,
+        "sha256": "46a76e5d0a9a681ae1bb743a7e8229b20154f06bb2653b779d96c804e042e211",
+        "allowRedirects": false,
+        "archiveMember": "Older/v1.0/Ocarina of Time REDUX - 2xText.bps",
+        "memberSize": 504308,
+        "memberSha256": "a0bcad0e14d76d3d7e2c3e6ce5eb515633f0f892b8ae13a1934978ee8ff69d9f"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "e6b987c37cb3fed3e1a7076a075f326b8013cac0fcd70a5777c5df35998aef77"
+      },
+      "base": {
+        "filename": "Legend of Zelda, The - Ocarina of Time (USA).z64",
+        "sha1": "AD69C91157F6705E8AB06C79FE08AAD47BB57BA7",
+        "normalizedSha256": "c916ab315fbe82a22169bff13d6b866e9fddc907461eb6b0a227b82acdf5b506",
+        "normalizedCrc32": "CD16C529",
+        "gameCode": "CZLE"
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "baseEvidence": "BPS declared source size/CRC32, local SHA-256, and successful decoder checks"
+    },
+    {
+      "id": "rhdn-hacks-5138-f5c234090b40",
+      "projectUrl": "https://www.romhacking.net/hacks/5138/",
+      "name": "Ocarina of Time Redux",
+      "version": "2.2",
+      "authors": [
+        "Maroc",
+        "ShadowOne333",
+        "MattKimura",
+        "Roman971",
+        "TestRunnerSRL",
+        "AmazingAmpharos",
+        "Krimtonz",
+        "Fig",
+        "rlbond86",
+        "KevinPal",
+        "junglechief",
+        "mzxrules",
+        "Zel",
+        "SkilarBabcock",
+        "Admentus"
+      ],
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "archiveMember": "hacks/N64/The Legend of Zelda_ Ocarina of Time/Ocarina of Time Redux___2_2/Ocarina of Time Redux.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Ocarina%20of%20Time%20Redux___2_2/Ocarina%20of%20Time%20Redux.zip",
+        "size": 4876674,
+        "sha256": "46a76e5d0a9a681ae1bb743a7e8229b20154f06bb2653b779d96c804e042e211",
+        "allowRedirects": false,
+        "archiveMember": "Older/v1.0/Ocarina of Time REDUX - 3xText.bps",
+        "memberSize": 504395,
+        "memberSha256": "9cdf44984284aa7f9c78f2dd784c9cec2e9f27b02d3b7de8d95eccff46ea7d25"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "2253fe9bc47155893aefaa24a0e582fcb745f5459853e0861de3514089688444"
+      },
+      "base": {
+        "filename": "Legend of Zelda, The - Ocarina of Time (USA).z64",
+        "sha1": "AD69C91157F6705E8AB06C79FE08AAD47BB57BA7",
+        "normalizedSha256": "c916ab315fbe82a22169bff13d6b866e9fddc907461eb6b0a227b82acdf5b506",
+        "normalizedCrc32": "CD16C529",
+        "gameCode": "CZLE"
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "baseEvidence": "BPS declared source size/CRC32, local SHA-256, and successful decoder checks"
+    },
+    {
+      "id": "rhdn-hacks-5138-974fa98ee2dc",
+      "projectUrl": "https://www.romhacking.net/hacks/5138/",
+      "name": "Ocarina of Time Redux",
+      "version": "2.2",
+      "authors": [
+        "Maroc",
+        "ShadowOne333",
+        "MattKimura",
+        "Roman971",
+        "TestRunnerSRL",
+        "AmazingAmpharos",
+        "Krimtonz",
+        "Fig",
+        "rlbond86",
+        "KevinPal",
+        "junglechief",
+        "mzxrules",
+        "Zel",
+        "SkilarBabcock",
+        "Admentus"
+      ],
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "archiveMember": "hacks/N64/The Legend of Zelda_ Ocarina of Time/Ocarina of Time Redux___2_2/Ocarina of Time Redux.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Ocarina%20of%20Time%20Redux___2_2/Ocarina%20of%20Time%20Redux.zip",
+        "size": 4876674,
+        "sha256": "46a76e5d0a9a681ae1bb743a7e8229b20154f06bb2653b779d96c804e042e211",
+        "allowRedirects": false,
+        "archiveMember": "Older/v2.0/Master Quest Redux.bps",
+        "memberSize": 2207946,
+        "memberSha256": "d6326135db5754e41f67fa7ad3ac758f0f9f1a893e4b4b8c571a8aa0bdcc36d0"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "353827bc691d41ad89afade74dcbcf43da184661f5c3fd9e9512cde7071774aa"
+      },
+      "base": {
+        "filename": "Legend of Zelda, The - Ocarina of Time (USA).z64",
+        "sha1": "AD69C91157F6705E8AB06C79FE08AAD47BB57BA7",
+        "normalizedSha256": "c916ab315fbe82a22169bff13d6b866e9fddc907461eb6b0a227b82acdf5b506",
+        "normalizedCrc32": "CD16C529",
+        "gameCode": "CZLE"
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "baseEvidence": "BPS declared source size/CRC32, local SHA-256, and successful decoder checks"
+    },
+    {
+      "id": "rhdn-hacks-5138-252b85b6639e",
+      "projectUrl": "https://www.romhacking.net/hacks/5138/",
+      "name": "Ocarina of Time Redux",
+      "version": "2.2",
+      "authors": [
+        "Maroc",
+        "ShadowOne333",
+        "MattKimura",
+        "Roman971",
+        "TestRunnerSRL",
+        "AmazingAmpharos",
+        "Krimtonz",
+        "Fig",
+        "rlbond86",
+        "KevinPal",
+        "junglechief",
+        "mzxrules",
+        "Zel",
+        "SkilarBabcock",
+        "Admentus"
+      ],
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "archiveMember": "hacks/N64/The Legend of Zelda_ Ocarina of Time/Ocarina of Time Redux___2_2/Ocarina of Time Redux.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Ocarina%20of%20Time%20Redux___2_2/Ocarina%20of%20Time%20Redux.zip",
+        "size": 4876674,
+        "sha256": "46a76e5d0a9a681ae1bb743a7e8229b20154f06bb2653b779d96c804e042e211",
+        "allowRedirects": false,
+        "archiveMember": "Older/v2.0/Ocarina of Time Redux.bps",
+        "memberSize": 701685,
+        "memberSha256": "26eba705b1e9a1c2454447587e092b6ed33d1d30500d03e3ec7bf401eef45eb9"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "043aee2f089a50913443bf3e5811745d05622d8ad7260603b8546d24579303e6"
+      },
+      "base": {
+        "filename": "Legend of Zelda, The - Ocarina of Time (USA).z64",
+        "sha1": "AD69C91157F6705E8AB06C79FE08AAD47BB57BA7",
+        "normalizedSha256": "c916ab315fbe82a22169bff13d6b866e9fddc907461eb6b0a227b82acdf5b506",
+        "normalizedCrc32": "CD16C529",
+        "gameCode": "CZLE"
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "baseEvidence": "BPS declared source size/CRC32, local SHA-256, and successful decoder checks"
+    },
+    {
+      "id": "rhdn-hacks-5816-96dad672227b",
+      "projectUrl": "https://www.romhacking.net/hacks/5816/",
+      "name": "Zelda 64: Dawn & Dusk",
+      "version": "2.0",
+      "authors": [
+        "LuigiBlood",
+        "Captain Seedy-Eye"
+      ],
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "archiveMember": "hacks/N64/The Legend of Zelda_ Ocarina of Time/Zelda 64_ Dawn & Dusk___2_0/Zelda64DawnDusk_v2_ROM_Patches.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Zelda%2064_%20Dawn%20%26%20Dusk___2_0/Zelda64DawnDusk_v2_ROM_Patches.zip",
+        "size": 6957582,
+        "sha256": "d0c7106e3532a6f781802fcc21a57004339c630e3f0f9f7e2f0ad31afde50595",
+        "allowRedirects": false,
+        "archiveMember": "DawnDusk_v2_U_1.1.bps",
+        "memberSize": 1346969,
+        "memberSha256": "335aab9f98d5605dbcaf4ff75e8c1966858370c21ae0f4b83b3e79b824b12ef4"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "a9a7cd0ff83b889a818d9329a7554576f9aa596c146427c738feae0dcd724dd8"
+      },
+      "base": {
+        "filename": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 1).z64",
+        "sha1": "D3ECB253776CD847A5AA63D859D8C89A2F37B364",
+        "normalizedSha256": "fb87a0dac188f9292c679da7ac6f772acebe6f68e27293cfc281fc8636008db0",
+        "normalizedCrc32": "3FD2151E",
+        "gameCode": "CZLE"
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "baseEvidence": "BPS declared source size/CRC32, local SHA-256, and successful decoder checks"
+    },
+    {
+      "id": "rhdn-hacks-5816-b2c53feafe04",
+      "projectUrl": "https://www.romhacking.net/hacks/5816/",
+      "name": "Zelda 64: Dawn & Dusk",
+      "version": "2.0",
+      "authors": [
+        "LuigiBlood",
+        "Captain Seedy-Eye"
+      ],
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "archiveMember": "hacks/N64/The Legend of Zelda_ Ocarina of Time/Zelda 64_ Dawn & Dusk___2_0/Zelda64DawnDusk_v2_ROM_Patches.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Zelda%2064_%20Dawn%20%26%20Dusk___2_0/Zelda64DawnDusk_v2_ROM_Patches.zip",
+        "size": 6957582,
+        "sha256": "d0c7106e3532a6f781802fcc21a57004339c630e3f0f9f7e2f0ad31afde50595",
+        "allowRedirects": false,
+        "archiveMember": "DawnDusk_v2_U_1.2.bps",
+        "memberSize": 1364057,
+        "memberSha256": "b1373167a4e4c6434e402700aff281bfc75b7c7cc3840e6f71884e5b7dd4006e"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "2d7b173f845402f5e8c4af1c8d610c52dd211d3a9604ae2334824c5d07be8316"
+      },
+      "base": {
+        "filename": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2).z64",
+        "sha1": "41B3BDC48D98C48529219919015A1AF22F5057C2",
+        "normalizedSha256": "49acd3885f13b0730119b78fb970911cc8aba614fe383368015c21565983368d",
+        "normalizedCrc32": "32120C23",
+        "gameCode": "CZLE"
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "baseEvidence": "BPS declared source size/CRC32, local SHA-256, and successful decoder checks"
     }
   ],
   "pending": [
@@ -2455,6 +2950,18 @@
       "archiveMember": "hacks/N64/The Legend of Zelda_ Ocarina of Time/Zelda 64_ Dawn & Dusk___2_0/Zelda64DawnDusk_v2_ROM_Patches.zip",
       "size": 6957582,
       "sha256": "d0c7106e3532a6f781802fcc21a57004339c630e3f0f9f7e2f0ad31afde50595"
+    },
+    "6ef2056be592912ebcdeb92ad6003f64d7933fdf68ccb27d8c26b5c4df7919f1": {
+      "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Doom%2064/Doom%2064_%20Merciless%20Edition___1_1/Immorpher%20-%20Merciless%20Edition%201.1.zip",
+      "archiveMember": "hacks/N64/Doom 64/Doom 64_ Merciless Edition___1_1/Immorpher - Merciless Edition 1.1.zip",
+      "size": 366107,
+      "sha256": "6ef2056be592912ebcdeb92ad6003f64d7933fdf68ccb27d8c26b5c4df7919f1"
+    },
+    "bfffc713844b7f13a6bf79e61eccfd8dd58f40f3ee3c6151f5d01c58d2519982": {
+      "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Mario%20Kart%2064/Amagami%20Mario%20Kart___1_0/Amagami%20Mario%20Kart.zip",
+      "archiveMember": "hacks/N64/Mario Kart 64/Amagami Mario Kart___1_0/Amagami Mario Kart.zip",
+      "size": 11671265,
+      "sha256": "bfffc713844b7f13a6bf79e61eccfd8dd58f40f3ee3c6151f5d01c58d2519982"
     }
   },
   "projectCount": 111,
@@ -2516,5 +3023,103 @@
       "outputSha256": "41daacad3d2ea3ed316323645a8b8d62ff261ad16a581c3f482833408290b2d9"
     }
   ],
-  "publishedEntries": 45
+  "publishedEntries": 57,
+  "expansionAttempts": [
+    {
+      "id": "rhdn-hacks-5544-bfd9466e442b",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5544-7355b21d345d",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5850-cd6058a0272d",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5850-c8cafbc1e9c5",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5850-6a5953fbeb02",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5634-251e5372f641",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5065-a4dd03bb7d22",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-3907-396dd78fa543",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-3907-407ae914da56",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-3719-b31c0b2519da",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-3719-7c652f3038b4",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-3719-dde729231155",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-2328-de1d8e8c0d9a",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5008-76661a06988b",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5008-f4f42b1ac9b5",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-4905-05f46dc49bb3",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5755-8ba69c442e0f",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-2962-a4c604458ec3",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-2962-1a9513e7fc23",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-2962-8521aca8efc5",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5334-c38858e3dc8c",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5816-186a6c246e84",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5816-089002ac91a9",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    },
+    {
+      "id": "rhdn-hacks-5816-90d906a28d39",
+      "reason": "No local game candidate matches BPS source size and CRC32"
+    }
+  ]
 }

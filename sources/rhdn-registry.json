@@ -1915,6 +1915,585 @@
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
       }
+    },
+    {
+      "id": "rhdn-hacks-5634-6604f243b453",
+      "name": "Doom 64: Merciless Edition - Doom 64 Merciless Edition for 1.1 or Rev A",
+      "version": "1.1",
+      "authors": [
+        "Erick194",
+        "CrashOveride"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5634/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Doom 64",
+        "variant": "Doom 64 (USA) (Rev 1)",
+        "gameCode": "NDME",
+        "normalizedCrc32": "1D3A17B5",
+        "normalizedSha256": "c28eaac9a8a8cc1d30c1b50fbb04622c2ddeb9b14ddcecc6edbaad4a6d067f3f"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Doom%2064/Doom%2064_%20Merciless%20Edition___1_1/Immorpher%20-%20Merciless%20Edition%201.1.zip",
+        "size": 366107,
+        "sha256": "6ef2056be592912ebcdeb92ad6003f64d7933fdf68ccb27d8c26b5c4df7919f1",
+        "allowRedirects": false,
+        "archiveMember": "Doom 64 Merciless Edition for 1.1 or Rev A.bps",
+        "memberSize": 206616,
+        "memberSha256": "9f4946fd89cd2da239a26d518f57be6f90484be9e7a3d7dbe1f781eb4af8822a"
+      },
+      "output": {
+        "size": 8388608,
+        "sha256": "c8c8ff43434a4112cd1243b1502961221713901bdcc0ff9c6aa857fe31b76701"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "none",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5065-b8cc3a08e380",
+      "name": "Amagami Mario Kart - Amagami Mario Kart z64",
+      "version": "1.0",
+      "authors": [
+        "Tsukasa Plays Games"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5065/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Mario%20Kart%2064/Amagami%20Mario%20Kart___1_0/Amagami%20Mario%20Kart.zip",
+        "size": 11671265,
+        "sha256": "bfffc713844b7f13a6bf79e61eccfd8dd58f40f3ee3c6151f5d01c58d2519982",
+        "allowRedirects": false,
+        "archiveMember": "Amagami Mario Kart/Amagami Mario Kart z64.bps",
+        "memberSize": 3600703,
+        "memberSha256": "4d251a9caaa473becdef20256e25bf6c8d2b39276be98d46234213f17b7f33ba"
+      },
+      "output": {
+        "size": 13369204,
+        "sha256": "84d5b0100e15f86c1879a835a39ed452a3ab88df752488708b6909a1b2e89c1e"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5122-cb445ba58fdc",
+      "name": "Majora's Mask Redux v1.1.1 - Majora's Mask REDUX - DpadLeft",
+      "version": "1.1.1",
+      "authors": [
+        "Saneki",
+        "Maroc",
+        "ShadowOne333",
+        "GhostlyDark",
+        "darklord92",
+        "fkualol",
+        "ozidual",
+        "Admentus"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5122/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "USA",
+        "gameCode": "NZSE",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Majora%27s%20Mask/Majora%27s%20Mask%20Redux___2_0/Majora%27s%20Mask%20Redux.zip",
+        "size": 1883602,
+        "sha256": "dbb25d0413fd3f8bfe0e3bac3622d692e3ea8d161740f34112673ffd5366bc45",
+        "allowRedirects": false,
+        "archiveMember": "Old/v1.1.1/Majora's Mask REDUX - DpadLeft.bps",
+        "memberSize": 527984,
+        "memberSha256": "7f6d7b3d737d0d734f8fa99a2ef61509381498d3e2d3a02b048667dd21900a93"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "58f4135d297b30b4d71dff1a24400bad0ed1fcd942e733bc3346b019ceeb9184"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5122-8289b0e886b1",
+      "name": "Majora's Mask Redux v1.1.1 - Majora's Mask REDUX - DpadRight",
+      "version": "1.1.1",
+      "authors": [
+        "Saneki",
+        "Maroc",
+        "ShadowOne333",
+        "GhostlyDark",
+        "darklord92",
+        "fkualol",
+        "ozidual",
+        "Admentus"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5122/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "USA",
+        "gameCode": "NZSE",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Majora%27s%20Mask/Majora%27s%20Mask%20Redux___2_0/Majora%27s%20Mask%20Redux.zip",
+        "size": 1883602,
+        "sha256": "dbb25d0413fd3f8bfe0e3bac3622d692e3ea8d161740f34112673ffd5366bc45",
+        "allowRedirects": false,
+        "archiveMember": "Old/v1.1.1/Majora's Mask REDUX - DpadRight.bps",
+        "memberSize": 527984,
+        "memberSha256": "cddfdb871aff3a42a71b40d3af1ab80bc302d28d637e046ab6983a989d61df71"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "46c3d72b2a7f4058dfc96a01036adc4530755081edf8495085b4c5f4bd1220c2"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5122-667934702d2d",
+      "name": "Majora's Mask Redux v1.1 - Majora's Mask REDUX - DpadLeft",
+      "version": "1.1",
+      "authors": [
+        "Saneki",
+        "Maroc",
+        "ShadowOne333",
+        "GhostlyDark",
+        "darklord92",
+        "fkualol",
+        "ozidual",
+        "Admentus"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5122/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "USA",
+        "gameCode": "NZSE",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Majora%27s%20Mask/Majora%27s%20Mask%20Redux___2_0/Majora%27s%20Mask%20Redux.zip",
+        "size": 1883602,
+        "sha256": "dbb25d0413fd3f8bfe0e3bac3622d692e3ea8d161740f34112673ffd5366bc45",
+        "allowRedirects": false,
+        "archiveMember": "Old/v1.1/Majora's Mask REDUX - DpadLeft.bps",
+        "memberSize": 533131,
+        "memberSha256": "9eece5a75fce3d809d7b5424079fc4e4eea76b8bd3aabd503dc4cd485f9ec509"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "85ae62aa660a4d4c18b0533ec9afccc1f4a812235d16b1f3248cee60f09929d6"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5122-db1b97ad8ca6",
+      "name": "Majora's Mask Redux v1.1 - Majora's Mask REDUX - DpadRight",
+      "version": "1.1",
+      "authors": [
+        "Saneki",
+        "Maroc",
+        "ShadowOne333",
+        "GhostlyDark",
+        "darklord92",
+        "fkualol",
+        "ozidual",
+        "Admentus"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5122/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "USA",
+        "gameCode": "NZSE",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Majora%27s%20Mask/Majora%27s%20Mask%20Redux___2_0/Majora%27s%20Mask%20Redux.zip",
+        "size": 1883602,
+        "sha256": "dbb25d0413fd3f8bfe0e3bac3622d692e3ea8d161740f34112673ffd5366bc45",
+        "allowRedirects": false,
+        "archiveMember": "Old/v1.1/Majora's Mask REDUX - DpadRight.bps",
+        "memberSize": 533131,
+        "memberSha256": "857cb2d75be2d51d741285f9ab1a9f48c7c85f1c9925e2d9f8b6a3ff331fc219"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "2a6fd39bd0215c6b121baaaf203b22efe3e8134923ec76bb1acc46dd63a7ff7a"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5138-ed37c137759a",
+      "name": "Ocarina of Time Redux v1.0 - Ocarina of Time REDUX - 2xText",
+      "version": "1.0",
+      "authors": [
+        "Maroc",
+        "ShadowOne333",
+        "MattKimura",
+        "Roman971",
+        "TestRunnerSRL",
+        "AmazingAmpharos",
+        "Krimtonz",
+        "Fig",
+        "rlbond86",
+        "KevinPal",
+        "junglechief",
+        "mzxrules",
+        "Zel",
+        "SkilarBabcock",
+        "Admentus"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5138/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Ocarina%20of%20Time%20Redux___2_2/Ocarina%20of%20Time%20Redux.zip",
+        "size": 4876674,
+        "sha256": "46a76e5d0a9a681ae1bb743a7e8229b20154f06bb2653b779d96c804e042e211",
+        "allowRedirects": false,
+        "archiveMember": "Older/v1.0/Ocarina of Time REDUX - 2xText.bps",
+        "memberSize": 504308,
+        "memberSha256": "a0bcad0e14d76d3d7e2c3e6ce5eb515633f0f892b8ae13a1934978ee8ff69d9f"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "e6b987c37cb3fed3e1a7076a075f326b8013cac0fcd70a5777c5df35998aef77"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5138-f5c234090b40",
+      "name": "Ocarina of Time Redux v1.0 - Ocarina of Time REDUX - 3xText",
+      "version": "1.0",
+      "authors": [
+        "Maroc",
+        "ShadowOne333",
+        "MattKimura",
+        "Roman971",
+        "TestRunnerSRL",
+        "AmazingAmpharos",
+        "Krimtonz",
+        "Fig",
+        "rlbond86",
+        "KevinPal",
+        "junglechief",
+        "mzxrules",
+        "Zel",
+        "SkilarBabcock",
+        "Admentus"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5138/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Ocarina%20of%20Time%20Redux___2_2/Ocarina%20of%20Time%20Redux.zip",
+        "size": 4876674,
+        "sha256": "46a76e5d0a9a681ae1bb743a7e8229b20154f06bb2653b779d96c804e042e211",
+        "allowRedirects": false,
+        "archiveMember": "Older/v1.0/Ocarina of Time REDUX - 3xText.bps",
+        "memberSize": 504395,
+        "memberSha256": "9cdf44984284aa7f9c78f2dd784c9cec2e9f27b02d3b7de8d95eccff46ea7d25"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "2253fe9bc47155893aefaa24a0e582fcb745f5459853e0861de3514089688444"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5138-974fa98ee2dc",
+      "name": "Ocarina of Time Redux v2.0 - Master Quest Redux",
+      "version": "2.0",
+      "authors": [
+        "Maroc",
+        "ShadowOne333",
+        "MattKimura",
+        "Roman971",
+        "TestRunnerSRL",
+        "AmazingAmpharos",
+        "Krimtonz",
+        "Fig",
+        "rlbond86",
+        "KevinPal",
+        "junglechief",
+        "mzxrules",
+        "Zel",
+        "SkilarBabcock",
+        "Admentus"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5138/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Ocarina%20of%20Time%20Redux___2_2/Ocarina%20of%20Time%20Redux.zip",
+        "size": 4876674,
+        "sha256": "46a76e5d0a9a681ae1bb743a7e8229b20154f06bb2653b779d96c804e042e211",
+        "allowRedirects": false,
+        "archiveMember": "Older/v2.0/Master Quest Redux.bps",
+        "memberSize": 2207946,
+        "memberSha256": "d6326135db5754e41f67fa7ad3ac758f0f9f1a893e4b4b8c571a8aa0bdcc36d0"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "353827bc691d41ad89afade74dcbcf43da184661f5c3fd9e9512cde7071774aa"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5138-252b85b6639e",
+      "name": "Ocarina of Time Redux v2.0 - Ocarina of Time Redux",
+      "version": "2.0",
+      "authors": [
+        "Maroc",
+        "ShadowOne333",
+        "MattKimura",
+        "Roman971",
+        "TestRunnerSRL",
+        "AmazingAmpharos",
+        "Krimtonz",
+        "Fig",
+        "rlbond86",
+        "KevinPal",
+        "junglechief",
+        "mzxrules",
+        "Zel",
+        "SkilarBabcock",
+        "Admentus"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5138/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Ocarina%20of%20Time%20Redux___2_2/Ocarina%20of%20Time%20Redux.zip",
+        "size": 4876674,
+        "sha256": "46a76e5d0a9a681ae1bb743a7e8229b20154f06bb2653b779d96c804e042e211",
+        "allowRedirects": false,
+        "archiveMember": "Older/v2.0/Ocarina of Time Redux.bps",
+        "memberSize": 701685,
+        "memberSha256": "26eba705b1e9a1c2454447587e092b6ed33d1d30500d03e3ec7bf401eef45eb9"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "043aee2f089a50913443bf3e5811745d05622d8ad7260603b8546d24579303e6"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5816-96dad672227b",
+      "name": "Zelda 64: Dawn & Dusk - DawnDusk_v2_U_1.1",
+      "version": "2.0",
+      "authors": [
+        "LuigiBlood",
+        "Captain Seedy-Eye"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5816/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 1)",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "3FD2151E",
+        "normalizedSha256": "fb87a0dac188f9292c679da7ac6f772acebe6f68e27293cfc281fc8636008db0"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Zelda%2064_%20Dawn%20%26%20Dusk___2_0/Zelda64DawnDusk_v2_ROM_Patches.zip",
+        "size": 6957582,
+        "sha256": "d0c7106e3532a6f781802fcc21a57004339c630e3f0f9f7e2f0ad31afde50595",
+        "allowRedirects": false,
+        "archiveMember": "DawnDusk_v2_U_1.1.bps",
+        "memberSize": 1346969,
+        "memberSha256": "335aab9f98d5605dbcaf4ff75e8c1966858370c21ae0f4b83b3e79b824b12ef4"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "a9a7cd0ff83b889a818d9329a7554576f9aa596c146427c738feae0dcd724dd8"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5816-b2c53feafe04",
+      "name": "Zelda 64: Dawn & Dusk - DawnDusk_v2_U_1.2",
+      "version": "2.0",
+      "authors": [
+        "LuigiBlood",
+        "Captain Seedy-Eye"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5816/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2)",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "32120C23",
+        "normalizedSha256": "49acd3885f13b0730119b78fb970911cc8aba614fe383368015c21565983368d"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Zelda%2064_%20Dawn%20%26%20Dusk___2_0/Zelda64DawnDusk_v2_ROM_Patches.zip",
+        "size": 6957582,
+        "sha256": "d0c7106e3532a6f781802fcc21a57004339c630e3f0f9f7e2f0ad31afde50595",
+        "allowRedirects": false,
+        "archiveMember": "DawnDusk_v2_U_1.2.bps",
+        "memberSize": 1364057,
+        "memberSha256": "b1373167a4e4c6434e402700aff281bfc75b7c7cc3840e6f71884e5b7dd4006e"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "2d7b173f845402f5e8c4af1c8d610c52dd211d3a9604ae2334824c5d07be8316"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
     }
   ]
 }
