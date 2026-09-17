@@ -7,8 +7,8 @@ const load = async name => JSON.parse(await readFile(new URL(`../sources/${name}
 test("archived RHDN entries preserve exact artifact, member, base and output evidence", async () => {
   const registry = await load("rhdn-registry.json");
   const report = await load("rhdn-backup-verification.json");
-  assert.equal(registry.entries.length, 31);
-  assert.equal(new Set(registry.entries.map(e => e.id)).size, 31);
+  assert.equal(registry.entries.length, 45);
+  assert.equal(new Set(registry.entries.map(e => e.id)).size, 45);
   for (const entry of registry.entries) {
     const evidence = report.verified.find(record => record.id === entry.id);
     assert.ok(evidence, entry.id);
@@ -23,13 +23,17 @@ test("archived RHDN entries preserve exact artifact, member, base and output evi
   }
 });
 
-test("backup import rejects unbound public downloads and deduplicates existing outputs", async () => {
+test("backup import preserves shared outputs and rejects conflicting source IDs", async () => {
   const report = await load("rhdn-backup-verification.json");
   const existing = (await Promise.all(["rhdc", "hylian", "sm64", "smashremix", "plaza"].map(name => load(`${name}-registry.json`)))).flatMap(d => d.entries);
   const result = importBackup(report, existing);
-  assert.equal(result.registry.entries.length, 31);
+  assert.equal(result.registry.entries.length, 45);
   assert.equal(result.duplicates.length, 14);
-  assert.equal(importBackup(report, [...existing, ...result.registry.entries]).registry.entries.length, 0);
+  assert.deepEqual(importBackup(report, [...existing, ...result.registry.entries]).registry.entries, result.registry.entries);
+  for (const duplicate of result.duplicates) assert.ok(result.registry.entries.some(entry => entry.id === duplicate.id));
+  const repeated = structuredClone(report);
+  repeated.verified.push(repeated.verified[0]);
+  assert.throws(() => importBackup(repeated, existing), /Duplicate source record ID/);
   const invalid = structuredClone(report);
   invalid.artifacts = {};
   assert.throws(() => importBackup(invalid, existing), /Missing public archive identity/);

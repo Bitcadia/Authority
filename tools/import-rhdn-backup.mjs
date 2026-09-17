@@ -13,13 +13,15 @@ export function importBackup(report, existing) {
   const saves = new Map(existing.filter(entry => entry.saveType).map(entry => [entry.base.normalizedSha256.toLowerCase(), entry.saveType]));
   const identity = entry => `${entry.base.normalizedSha256.toLowerCase()}:${entry.output.sha256.toLowerCase()}`;
   const seen = new Set(existing.map(identity));
+  const sourceIds = new Set();
   const entries = [];
   const duplicates = [];
   for (const record of report.verified) {
     if (record.verification !== "two-client-decoder-runs-and-client-zip-extraction") throw Error("Missing client verification evidence");
+    if (sourceIds.has(record.id)) throw Error(`Duplicate source record ID: ${record.id}`);
+    sourceIds.add(record.id);
     if (seen.has(identity(record))) {
       duplicates.push({ id: record.id, outputSha256: record.output.sha256 });
-      continue;
     }
     const digest = record.base.normalizedSha256.toLowerCase();
     const base = bases.get(digest) || {

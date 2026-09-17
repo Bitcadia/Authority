@@ -295,6 +295,90 @@
       }
     },
     {
+      "id": "rhdn-hacks-4467-340cffa5e978",
+      "name": "GoldenEye 007 - Mord's Custom Multiplayer Weapon Set - GoldenEye 007 (U) - Mord's Weapon Set X",
+      "version": "1.01",
+      "authors": [
+        "Mord_Fustang"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/4467/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "GoldenEye 007",
+        "variant": "GoldenEye 007 (USA)",
+        "gameCode": "NGEE",
+        "normalizedCrc32": "B6330846",
+        "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/GoldenEye%20007/GoldenEye%20007%20-%20Mord%27s%20Custom%20Multiplayer%20Weapon%20Set___1_01/GoldenEye%20007%20%28U%29%20-%20Mord%27s%20Weapon%20Set.zip",
+        "size": 169269,
+        "sha256": "966c463c77ff04041ae0168343301ea2a49e13522bc9c1ae146b5633b75e8d64",
+        "allowRedirects": false,
+        "archiveMember": "GoldenEye 007 (U) - Mord's Weapon Set/xdelta/GoldenEye 007 (U) - Mord's Weapon Set X.xdelta",
+        "memberSize": 55543,
+        "memberSha256": "1aaff121c63696f5563b59d7444a8053af7daaecc6ef6b51e214aa0295c1aecf",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 12582912,
+        "sha256": "8bd7cdcd691d9584c716cc090e5989d0792b13f21752369db9ed08976b06c495"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-4467-f307407aaa99",
+      "name": "GoldenEye 007 - Mord's Custom Multiplayer Weapon Set - GoldenEye 007 (U) - Mord's Weapon Set",
+      "version": "1.01",
+      "authors": [
+        "Mord_Fustang"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/4467/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "GoldenEye 007",
+        "variant": "GoldenEye 007 (USA)",
+        "gameCode": "NGEE",
+        "normalizedCrc32": "B6330846",
+        "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/GoldenEye%20007/GoldenEye%20007%20-%20Mord%27s%20Custom%20Multiplayer%20Weapon%20Set___1_01/GoldenEye%20007%20%28U%29%20-%20Mord%27s%20Weapon%20Set.zip",
+        "size": 169269,
+        "sha256": "966c463c77ff04041ae0168343301ea2a49e13522bc9c1ae146b5633b75e8d64",
+        "allowRedirects": false,
+        "archiveMember": "GoldenEye 007 (U) - Mord's Weapon Set/xdelta/GoldenEye 007 (U) - Mord's Weapon Set.xdelta",
+        "memberSize": 28040,
+        "memberSha256": "3438d5ab7e6156e03f5d2f90abcfceeedf8deff9466fc60a83f867f9531490c0",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 12582912,
+        "sha256": "dbb0bb16555a80bebb8e5449ef5cc6ce728636200c846f17dd081beb9520f049"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
       "id": "rhdn-hacks-1338-09d037438648",
       "name": "Goldeneye 007 - Solo Lvl - Infiltration - infilitration[shiftclick]",
       "version": "1.0",
@@ -922,6 +1006,47 @@
       }
     },
     {
+      "id": "rhdn-hacks-5429-5c5f76a7de43",
+      "name": "Better SM64 Non-Stop - better_sm64_nonstop",
+      "version": "1.0",
+      "authors": [
+        "MetalAbaj"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5429/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Super%20Mario%2064/Better%20SM64%20Non-Stop___1_0/Better_SM64_NonStop.zip",
+        "size": 135384,
+        "sha256": "9c4c1fb4ff067be006713fe31a23f59838ba4c351892b05a8945cd07620106ac",
+        "allowRedirects": false,
+        "archiveMember": "Better_SM64_NonStop/better_sm64_nonstop.bps",
+        "memberSize": 157320,
+        "memberSha256": "a44a244ab40fc7b7019773f06bef0c39b77c949de9b205077a44b82b7035a2eb"
+      },
+      "output": {
+        "size": 8388608,
+        "sha256": "7f2399cd0d65be9704fe074be336cb4b27f5ed3a6ee79c834f925feff90410a5"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
       "id": "rhdn-hacks-5671-fee055f94e46",
       "name": "Low Poly Promo Models - lowpoly_promo_rompatch-luigi",
       "version": "1.1",
@@ -1086,6 +1211,130 @@
       }
     },
     {
+      "id": "rhdn-hacks-5964-55ce6c298141",
+      "name": "SM64: Last Impact - SM64 Last Impact V1.2",
+      "version": "1.2",
+      "authors": [
+        "Kaze Emanuar"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5964/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Super%20Mario%2064/SM64_%20Last%20Impact___1_2/SM64%20Last%20Impact.zip",
+        "size": 12382265,
+        "sha256": "d8927e1bcee9f4504ef95b0f6c7d68362ef12950a56a6b6d02fb5906de20b682",
+        "allowRedirects": false,
+        "archiveMember": "SM64 Last Impact V1.2.bps",
+        "memberSize": 14534661,
+        "memberSha256": "cf05c50c05b3f37dedce817d9a21b4e2686c9be3a4dcf36433c7e14c866b27fb"
+      },
+      "output": {
+        "size": 67108864,
+        "sha256": "8214ab28dbc7e6c6014b2188828b987de043c57d6beacdcde18a4b50fda0853a"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-4905-35a4c69fc97f",
+      "name": "Super Mario 64 Reduced Lag - Super Mario 64 O2 Reduced Lag (U)",
+      "version": "1.0",
+      "authors": [
+        "Nintendo 64 Wizard"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/4905/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Super%20Mario%2064/Super%20Mario%2064%20Reduced%20Lag___1_0/Super%20Mario%2064%20O2%20Reduced%20Lag.zip",
+        "size": 1756666,
+        "sha256": "9622cf444c4243074c335fe619ceb1736dd6378e90a615e372a6bb3ce64b6c89",
+        "allowRedirects": false,
+        "archiveMember": "Super Mario 64 O2 Reduced Lag/Super Mario 64 O2 Reduced Lag (U).bps",
+        "memberSize": 505187,
+        "memberSha256": "b25bfc0fb09340a92b2d2c5fdedff75674a2c91e0306ca239454164b5a5b719d"
+      },
+      "output": {
+        "size": 8388608,
+        "sha256": "2a74b9264dde4b99b4f7ee0287985732c2be9f0a5d7bff06b5e75f54dddf934d"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5959-3253fca96e85",
+      "name": "Super Mario Star Road (EverDrive Edition) - Super Mario Star Road N64",
+      "version": "1.0",
+      "authors": [
+        "Kaze Emanuar",
+        "Skelux Core"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5959/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Super%20Mario%2064/Super%20Mario%20Star%20Road%20%28EverDrive%20Edition%29___1_0/Super%20Mario%20Star%20Road%20N64.zip",
+        "size": 5229745,
+        "sha256": "88ce2f464234866fa3ce9400cdd6c068f97521ada72401b334788078f094bfe3",
+        "allowRedirects": false,
+        "archiveMember": "Super Mario Star Road N64.bps",
+        "memberSize": 6111381,
+        "memberSha256": "b0982249d11af18129622fb873879fe32302ecbcdbc8facd92857a7847a81570"
+      },
+      "output": {
+        "size": 47185920,
+        "sha256": "a1c76f6b13d414387676abcd7b713c160e3687d525b36281dc5a5f952174faa1"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
       "id": "rhdn-hacks-4233-4da6b24e275e",
       "name": "Super Yeezus 64 - Super Yeezus 64",
       "version": "1.0",
@@ -1213,6 +1462,335 @@
       }
     },
     {
+      "id": "rhdn-hacks-5122-6000c3875a9e",
+      "name": "Majora's Mask Redux - Majora's Mask Redux",
+      "version": "2.0",
+      "authors": [
+        "Saneki",
+        "Maroc",
+        "ShadowOne333",
+        "GhostlyDark",
+        "darklord92",
+        "fkualol",
+        "ozidual",
+        "Admentus"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5122/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "USA",
+        "gameCode": "NZSE",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Majora%27s%20Mask/Majora%27s%20Mask%20Redux___2_0/Majora%27s%20Mask%20Redux.zip",
+        "size": 1883602,
+        "sha256": "dbb25d0413fd3f8bfe0e3bac3622d692e3ea8d161740f34112673ffd5366bc45",
+        "allowRedirects": false,
+        "archiveMember": "Majora's Mask Redux.bps",
+        "memberSize": 748141,
+        "memberSha256": "a0fcaf1086a60ea8e70a260449a1e36100a401e559d8f24d0b6ddc9d02d7c128"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "df2db16007517e2af00346f462390eea8d125ac796da0093c6ed3c34cb394d4f"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-3959-90f48c79af16",
+      "name": "The Legend of Zelda - Majora's Mask - Masked Quest - MajoraP",
+      "version": "4.3.0",
+      "authors": [
+        "Aroenai",
+        "CloudMax",
+        "fkualol",
+        "VictorHale",
+        "Ideka"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/3959/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Majora's Mask",
+        "variant": "USA",
+        "gameCode": "NZSE",
+        "normalizedCrc32": "B428D8A7",
+        "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Majora%27s%20Mask/The%20Legend%20of%20Zelda%20-%20Majora%27s%20Mask%20-%20Masked%20Quest___4_3_0/MajoraMQ.zip",
+        "size": 13838244,
+        "sha256": "49f0b2cd81fea1eccf04ef37ac0ab5685376491f44f62f2af663078102307e88",
+        "allowRedirects": false,
+        "archiveMember": "MajoraP.bps",
+        "memberSize": 3119087,
+        "memberSha256": "811570287d2237113553e691e0624888aedc2a7b84378ee9fd776e79ac554b9b"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "e893ec6084706cdb6a6553e614cf10b5dcbfe5c04f68ef3c8d683f25fdf0779e"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5810-7d0defb31ec7",
+      "name": "Nimpize Adventure - nimpize_adventure",
+      "version": "1.0",
+      "authors": [
+        "Ostrealava02"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5810/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Nimpize%20Adventure___1_0/Nimpize%20Adventure.zip",
+        "size": 5921568,
+        "sha256": "d64f90325af2557ab507b6c2fab67ea09dec1e2f833aa6125a565a9a0eb6ce0e",
+        "allowRedirects": false,
+        "archiveMember": "nimpize_adventure.xdelta",
+        "memberSize": 6428046,
+        "memberSha256": "bf0644eb8f48e463d890c87c13480d644b64db8acac8578ea7e901cd68b5902c",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "d6fa5f180c92e9825639c8cba9f13dad241eee91aec468578558d6344203860b"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5138-34176f88df6f",
+      "name": "Ocarina of Time Redux - Master Quest Redux",
+      "version": "2.2",
+      "authors": [
+        "Maroc",
+        "ShadowOne333",
+        "MattKimura",
+        "Roman971",
+        "TestRunnerSRL",
+        "AmazingAmpharos",
+        "Krimtonz",
+        "Fig",
+        "rlbond86",
+        "KevinPal",
+        "junglechief",
+        "mzxrules",
+        "Zel",
+        "SkilarBabcock",
+        "Admentus"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5138/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Ocarina%20of%20Time%20Redux___2_2/Ocarina%20of%20Time%20Redux.zip",
+        "size": 4876674,
+        "sha256": "46a76e5d0a9a681ae1bb743a7e8229b20154f06bb2653b779d96c804e042e211",
+        "allowRedirects": false,
+        "archiveMember": "Master Quest Redux.bps",
+        "memberSize": 2231435,
+        "memberSha256": "e4a5711c8efaf9c813cd8004e3e5404b9f42b4cd8f3091ad63d3f8044a431c42"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "2674f02f089c952d078337b8da503ad00993f01b8f1d18e1bf1b0f3385e92a5b"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5138-b265bfe7408c",
+      "name": "Ocarina of Time Redux - Ocarina of Time Redux",
+      "version": "2.2",
+      "authors": [
+        "Maroc",
+        "ShadowOne333",
+        "MattKimura",
+        "Roman971",
+        "TestRunnerSRL",
+        "AmazingAmpharos",
+        "Krimtonz",
+        "Fig",
+        "rlbond86",
+        "KevinPal",
+        "junglechief",
+        "mzxrules",
+        "Zel",
+        "SkilarBabcock",
+        "Admentus"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5138/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Ocarina%20of%20Time%20Redux___2_2/Ocarina%20of%20Time%20Redux.zip",
+        "size": 4876674,
+        "sha256": "46a76e5d0a9a681ae1bb743a7e8229b20154f06bb2653b779d96c804e042e211",
+        "allowRedirects": false,
+        "archiveMember": "Ocarina of Time Redux.bps",
+        "memberSize": 747694,
+        "memberSha256": "8cd7422732bd817522ab0b7a2e5b296a9e3fe1ea736e81ad3c338d2e7f4f848a"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "fd21c9404f8b9c722986788b867dd8ee2af68ae32c17ddd1598de176938c0802"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5566-727dd8515ddd",
+      "name": "Star Fox 64: Survival - StarFox64SurvivalV14",
+      "version": "1.4",
+      "authors": [
+        "/Zel/",
+        "Kaze Emanuar"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5566/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Star%20Fox%2064_%20Survival___1_4/StarFox64SurvivalV14.zip",
+        "size": 27254155,
+        "sha256": "f0972578a52fc5b344ec5be36a86e5a4e5c15317772de891e9a3516d2ff1205f",
+        "allowRedirects": false,
+        "archiveMember": "StarFox64SurvivalV14.bps",
+        "memberSize": 31704357,
+        "memberSha256": "9bb28c67a58fb438f25f9c5ec13dc140d9f02d40ec20c1ee64b5a6cb70df0528"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "507b5062ae27771b89ba93f7b3ac403db8805daaa2595df21b47d320ae36aca8"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5811-c132303f9131",
+      "name": "The Fate of the Bombiwa - The Fate of the Bombiwa",
+      "version": "1.03",
+      "authors": [
+        "DezZival"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5811/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/The%20Fate%20of%20the%20Bombiwa___1_03/The%20Fate%20of%20the%20Bombiwa.zip",
+        "size": 1047354,
+        "sha256": "bd90534e839f3cbe4d2f740bb3fa8020c69efd1514fd627971311fca88c9fda2",
+        "allowRedirects": false,
+        "archiveMember": "The Fate of the Bombiwa.xdelta",
+        "memberSize": 1145186,
+        "memberSha256": "9ea657d7b971b508493f317443a7d391af28347498c942625e18afa9412ffbff",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "8becbff2f80cf64679bcdc072156511853cbd317a711a2e1aeafb9ba1a9c886a"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
       "id": "rhdn-hacks-5801-85d9564e536c",
       "name": "The Legend of Zelda: Master of Time - The Legend of Zelda - Master of Time",
       "version": "1.0",
@@ -1288,6 +1866,48 @@
       "output": {
         "size": 16777216,
         "sha256": "66e5d601f558f72651a41ca899ec9fa812f46886383a6e11ef9736bded85255f"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5816-beee8813fc94",
+      "name": "Zelda 64: Dawn & Dusk - DawnDusk_v2_U_1.0",
+      "version": "2.0",
+      "authors": [
+        "LuigiBlood",
+        "Captain Seedy-Eye"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5816/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/Zelda%2064_%20Dawn%20%26%20Dusk___2_0/Zelda64DawnDusk_v2_ROM_Patches.zip",
+        "size": 6957582,
+        "sha256": "d0c7106e3532a6f781802fcc21a57004339c630e3f0f9f7e2f0ad31afde50595",
+        "allowRedirects": false,
+        "archiveMember": "DawnDusk_v2_U_1.0.bps",
+        "memberSize": 1370831,
+        "memberSha256": "59c31fe6b7fd2695c2955dc6ca2da9f7affbbea34740823289b1609e034f8aaf"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "41daacad3d2ea3ed316323645a8b8d62ff261ad16a581c3f482833408290b2d9"
       },
       "compatibility": "patch-applied-not-playtested",
       "saveType": "sram",
