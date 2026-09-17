@@ -1,0 +1,1300 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry.schema.json",
+  "generatedAt": "2021-09-14T00:00:00Z",
+  "notice": "Archived RHDN patch releases, reproduced with Bitcadia64 decoders. Public archive bytes and ZIP members are pinned. No ROM or patch bytes redistributed by Authority; gameplay not tested.",
+  "entries": [
+    {
+      "id": "rhdn-hacks-6003-49f613b91bd9",
+      "name": "DK64 KongQuest - DK64 KongQuest",
+      "version": "1.0",
+      "authors": [
+        "Isotarge"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/6003/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Donkey Kong 64",
+        "variant": "Donkey Kong 64 (USA)",
+        "gameCode": "NDOE",
+        "normalizedCrc32": "D44B4FC6",
+        "normalizedSha256": "b6347d9f1f75d38a88d829b4f80b1acf0d93344170a5fbe9546c484dae416ce3"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Donkey%20Kong%2064/DK64%20KongQuest___1_0/DK64%20KongQuest.zip",
+        "size": 594088,
+        "sha256": "302e129a7e2aaf15852ed0d4ce98899a3a579785a020631e6acfe91737a580fc",
+        "allowRedirects": false,
+        "archiveMember": "DK64 KongQuest.bps",
+        "memberSize": 593848,
+        "memberSha256": "0a2626381a655e74745bb23ad4481fee509f8b79ca1ddd71776570c18db50ee1"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "2fbb672740dc90d25b9472d88ff61efaf36db8f6f82ace75454e59ab20344c61"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom16k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5544-e2cc2921ba32",
+      "name": "Doom 64 Brightness + Features Menu - Doom 64 (USA) (Rev A) max brightness with features menu",
+      "version": "1.1",
+      "authors": [
+        "Elfor"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5544/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Doom 64",
+        "variant": "Doom 64 (USA) (Rev 1)",
+        "gameCode": "NDME",
+        "normalizedCrc32": "1D3A17B5",
+        "normalizedSha256": "c28eaac9a8a8cc1d30c1b50fbb04622c2ddeb9b14ddcecc6edbaad4a6d067f3f"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Doom%2064/Doom%2064%20Brightness%20%2B%20Features%20Menu___1_1/doom%2064%20max%20brightness%20with%20features%20menu%20fix.zip",
+        "size": 83985,
+        "sha256": "3599b41f5457def8b249376d6d7c74d8b332608737386de4a46540483eabfa7e",
+        "allowRedirects": false,
+        "archiveMember": "Doom 64 (USA) (Rev A) max brightness with features menu.bps",
+        "memberSize": 48,
+        "memberSha256": "4592a7ebf17a69f37dd67550192dd8741126d4ccf1e53952469e83339caf4b8d"
+      },
+      "output": {
+        "size": 8388608,
+        "sha256": "1b2d4a2e23246b10705299a5a07d9f0ce0bb7a7058d65caa6cb383145e8b0f8e"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "none",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5850-efe0d41e0132",
+      "name": "Doom 64: Merciless Edition II - Doom 64 (U) (V1.1 or Rev A) [!] Patch",
+      "version": "1.0",
+      "authors": [
+        "Erick194",
+        "CrashOveride"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5850/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Doom 64",
+        "variant": "Doom 64 (USA) (Rev 1)",
+        "gameCode": "NDME",
+        "normalizedCrc32": "1D3A17B5",
+        "normalizedSha256": "c28eaac9a8a8cc1d30c1b50fbb04622c2ddeb9b14ddcecc6edbaad4a6d067f3f"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Doom%2064/Doom%2064_%20Merciless%20Edition%20II___1_0/Doom%2064%20Merciless%20Edition%20II.zip",
+        "size": 818776,
+        "sha256": "0556dec8468ca47a2c4c3a74314a7e41403778ab05ebf64527a21dbe224f7e2c",
+        "allowRedirects": false,
+        "archiveMember": "Doom 64 (U) (V1.1 or Rev A) [!] Patch.bps",
+        "memberSize": 222074,
+        "memberSha256": "e068499970d2180687a5f4b0faa76f76c7428937d7a1416a647069ab96f8cfd7"
+      },
+      "output": {
+        "size": 8388608,
+        "sha256": "cd57a182a31f9891e3f80f4bd30a499bd389ccfef965db5dc8cb7e4c1191d443"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "none",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5064-5658bf6e5a64",
+      "name": "Duke Nukem: Zero Hour uncut hack - Duke Nukem - Zero Hour (USA)UC",
+      "version": "0.1",
+      "authors": [
+        "Zoinkity",
+        "LuigiBlood"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5064/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Duke Nukem: Zero Hour",
+        "variant": "Duke Nukem - Zero Hour (USA)",
+        "gameCode": "NDZE",
+        "normalizedCrc32": "9A3258D7",
+        "normalizedSha256": "5ba016567c53b0d111eb175347c6eee603c31783cd2bb3fea97f31b5ff74190f"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Duke%20Nukem_%20Zero%20Hour/Duke%20Nukem_%20Zero%20Hour%20uncut%20hack___0_1/DukeNukemZeroHourUnCut.zip",
+        "size": 2518,
+        "sha256": "809c8c71493df305be7edcf45d68c97736567dff23a9d58fc26422390caa23ab",
+        "allowRedirects": false,
+        "archiveMember": "Duke Nukem - Zero Hour (USA)UC.xdelta",
+        "memberSize": 1035,
+        "memberSha256": "e8949ad32d46a4c3dae6a715dbb9bf201b7c7a5c4240414626831b959ed8816d",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "ca0b1ffa472e7852d4fae1c674c3e5eb451715a9b9bb3fca147b90751f0660cf"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "none",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-1325-89dea1b80fdf",
+      "name": "Goldeneye - Kakariko Village Multiplayer Map - GE_Kakariko",
+      "version": "1.0",
+      "authors": [
+        "Sogun"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/1325/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "GoldenEye 007",
+        "variant": "GoldenEye 007 (USA)",
+        "gameCode": "NGEE",
+        "normalizedCrc32": "B6330846",
+        "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/GoldenEye%20007/Goldeneye%20-%20Kakariko%20Village%20Multiplayer%20Map___1_0/kakariko11%5Bsogun%5D.zip",
+        "size": 1651986,
+        "sha256": "548c7708f77b18aff2d2b431116f5be7041297ae7ee45352c03c1bc0148fc7f1",
+        "allowRedirects": false,
+        "archiveMember": "GE_Kakariko.xdelta",
+        "memberSize": 234431,
+        "memberSha256": "e0834f38f8fa47504831b4a10fd49ad371c0a22087f58561fa2aeb8af7144bc9",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 12582912,
+        "sha256": "40cefc121fa56c58d6a5e832958a44811355371d7531bbcf97902226fb8b6e56"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-4467-3081be6a4420",
+      "name": "GoldenEye 007 - Mord's Custom Multiplayer Weapon Set - GoldenEye 007 (U) - Mord's Weapon Set X",
+      "version": "1.01",
+      "authors": [
+        "Mord_Fustang"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/4467/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "GoldenEye 007",
+        "variant": "GoldenEye 007 (USA)",
+        "gameCode": "NGEE",
+        "normalizedCrc32": "B6330846",
+        "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/GoldenEye%20007/GoldenEye%20007%20-%20Mord%27s%20Custom%20Multiplayer%20Weapon%20Set___1_01/GoldenEye%20007%20%28U%29%20-%20Mord%27s%20Weapon%20Set.zip",
+        "size": 169269,
+        "sha256": "966c463c77ff04041ae0168343301ea2a49e13522bc9c1ae146b5633b75e8d64",
+        "allowRedirects": false,
+        "archiveMember": "GoldenEye 007 (U) - Mord's Weapon Set/bps/GoldenEye 007 (U) - Mord's Weapon Set X.bps",
+        "memberSize": 56472,
+        "memberSha256": "cb3d8e0ced58e1e333139356ed78c5d326117c44996287562fbb20951609ddc0"
+      },
+      "output": {
+        "size": 12582912,
+        "sha256": "8bd7cdcd691d9584c716cc090e5989d0792b13f21752369db9ed08976b06c495"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-4467-1a2151c084fa",
+      "name": "GoldenEye 007 - Mord's Custom Multiplayer Weapon Set - GoldenEye 007 (U) - Mord's Weapon Set",
+      "version": "1.01",
+      "authors": [
+        "Mord_Fustang"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/4467/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "GoldenEye 007",
+        "variant": "GoldenEye 007 (USA)",
+        "gameCode": "NGEE",
+        "normalizedCrc32": "B6330846",
+        "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/GoldenEye%20007/GoldenEye%20007%20-%20Mord%27s%20Custom%20Multiplayer%20Weapon%20Set___1_01/GoldenEye%20007%20%28U%29%20-%20Mord%27s%20Weapon%20Set.zip",
+        "size": 169269,
+        "sha256": "966c463c77ff04041ae0168343301ea2a49e13522bc9c1ae146b5633b75e8d64",
+        "allowRedirects": false,
+        "archiveMember": "GoldenEye 007 (U) - Mord's Weapon Set/bps/GoldenEye 007 (U) - Mord's Weapon Set.bps",
+        "memberSize": 28357,
+        "memberSha256": "274f49362fe7d457585b808ac0b1b8c42b0840c4f28568601d626beebfd98b33"
+      },
+      "output": {
+        "size": 12582912,
+        "sha256": "dbb0bb16555a80bebb8e5449ef5cc6ce728636200c846f17dd081beb9520f049"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-1338-09d037438648",
+      "name": "Goldeneye 007 - Solo Lvl - Infiltration - infilitration[shiftclick]",
+      "version": "1.0",
+      "authors": [
+        "Shiftclick"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/1338/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "GoldenEye 007",
+        "variant": "GoldenEye 007 (USA)",
+        "gameCode": "NGEE",
+        "normalizedCrc32": "B6330846",
+        "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/GoldenEye%20007/Goldeneye%20007%20-%20Solo%20Lvl%20-%20Infiltration___1_0/infiltration%5Bshiftclick%5D.zip",
+        "size": 13730,
+        "sha256": "d854d6ebb3583dbe0e45977d0a1643ff6b55a8e5be32747eddf92de67fc2cb26",
+        "allowRedirects": false,
+        "archiveMember": "infilitration[shiftclick].xdelta",
+        "memberSize": 6247,
+        "memberSha256": "88bc923d7cd8b8c16178c391f00ca28511ae14abbe79e7631acc85983eb08abb",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 12582912,
+        "sha256": "897096bf0ae56a085d54dcadc6a5a2d06811042f14fdfa6b7547469c231b9d09"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-1324-c1968d75cf9a",
+      "name": "Goldeneye Multiplayer Level - Peach's Castle - GE_PeachCastle",
+      "version": "1.0",
+      "authors": [
+        "Sogun"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/1324/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "GoldenEye 007",
+        "variant": "GoldenEye 007 (USA)",
+        "gameCode": "NGEE",
+        "normalizedCrc32": "B6330846",
+        "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/GoldenEye%20007/Goldeneye%20Multiplayer%20Level%20-%20Peach%27s%20Castle___1_0/peachsastle%5Bsogun%5D.zip",
+        "size": 654863,
+        "sha256": "0ea7d0455f8a60ac90cb4a7869af0c253222cdec28abccdb8cab6c22eef4b4b0",
+        "allowRedirects": false,
+        "archiveMember": "GE_PeachCastle.xdelta",
+        "memberSize": 657290,
+        "memberSha256": "c78e6252de064f8f816ca262ad4899f604256d155f29b30faf3c5075dd7deff7",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 16777216,
+        "sha256": "b6fdda1bde6cd1de641fca9bd0dd5ef68ca12e03c33b40b29e4de7d6271e9f2a"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-911-d88aa9409855",
+      "name": "GoldenEye Spectrum Emulation Unlocked - Spectrum",
+      "version": "1.0",
+      "authors": [
+        "Zoinkity"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/911/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "GoldenEye 007",
+        "variant": "GoldenEye 007 (USA)",
+        "gameCode": "NGEE",
+        "normalizedCrc32": "B6330846",
+        "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/GoldenEye%20007/GoldenEye%20Spectrum%20Emulation%20Unlocked___1_0/Spectrum.zip",
+        "size": 258629,
+        "sha256": "5e9027c2f92e4293cf52ba9e0d5c3130d327e50cf94071fbf749d713f768c488",
+        "allowRedirects": false,
+        "archiveMember": "Spectrum.xdelta",
+        "memberSize": 265655,
+        "memberSha256": "968852e8ee84db980b5afff6c89d30dcb86167e8b93ff52e16c0a0f6efab7246",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 12801336,
+        "sha256": "1ffcb2c10eb3b45ad8caa66703df4d826a1579108c21202b61b85b488a0117d5"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5541-68c90703aaba",
+      "name": "GoldenEye Unlock Everything - GoldenEye 007 (U) [!] Everything Unlocked",
+      "version": "1.1",
+      "authors": [
+        "Elfor"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5541/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "GoldenEye 007",
+        "variant": "GoldenEye 007 (USA)",
+        "gameCode": "NGEE",
+        "normalizedCrc32": "B6330846",
+        "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/GoldenEye%20007/GoldenEye%20Unlock%20Everything___1_1/GoldenEye%20007%20Everything%20Unlocked.zip",
+        "size": 279234,
+        "sha256": "2011941c79ad58d0724b29c7e72651e02d8a8fbc31afe043ef23c24d48af7ade",
+        "allowRedirects": false,
+        "archiveMember": "GoldenEye 007 (U) [!] Everything Unlocked.bps",
+        "memberSize": 59449,
+        "memberSha256": "3730d6c74f0ca04b3e087c24064f39e32862b3d9df8b9c0661952adb39c5da40"
+      },
+      "output": {
+        "size": 12582912,
+        "sha256": "34237bb0824a19716e243ec7060ed17e7ea1da2e0920c323cf50c3f8c4ebbb25"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5541-0bf66869f216",
+      "name": "GoldenEye Unlock Everything - GoldenEye 007 (U) [!] Unlock Light Version",
+      "version": "1.1",
+      "authors": [
+        "Elfor"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5541/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "GoldenEye 007",
+        "variant": "GoldenEye 007 (USA)",
+        "gameCode": "NGEE",
+        "normalizedCrc32": "B6330846",
+        "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/GoldenEye%20007/GoldenEye%20Unlock%20Everything___1_1/GoldenEye%20007%20Everything%20Unlocked.zip",
+        "size": 279234,
+        "sha256": "2011941c79ad58d0724b29c7e72651e02d8a8fbc31afe043ef23c24d48af7ade",
+        "allowRedirects": false,
+        "archiveMember": "GoldenEye 007 (U) [!] Unlock Light Version.bps",
+        "memberSize": 55,
+        "memberSha256": "d798c71dae5746ebe4fd3347c81d815b611ae1e8468e2d33ebc0816ad4ef53e0"
+      },
+      "output": {
+        "size": 12582912,
+        "sha256": "c7185651ae456ea621df50dafe5a24a04c99c98bff1d3f559af6b6dc9c681b8f"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5618-a32eec92035a",
+      "name": "Battle Kart 64 - Battle_Kart_64_v1.0",
+      "version": "1.0",
+      "authors": [
+        "triclon"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5618/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Mario%20Kart%2064/Battle%20Kart%2064___1_0/battle_kart_v1.0.zip",
+        "size": 11150,
+        "sha256": "b6e0ac8a5cc530b4dd6dc42f6fca48ca647b17d08dc67c7dd829ad9bc1deaa9a",
+        "allowRedirects": false,
+        "archiveMember": "battle_kart_v1.0/Battle_Kart_64_v1.0.bps",
+        "memberSize": 14128,
+        "memberSha256": "0feed18cb0253f52d7fa12ab4d68b7c9322cabeef00f87921ea954baecd46b37"
+      },
+      "output": {
+        "size": 12596156,
+        "sha256": "a571d61bd0b8d3206a8077623660b1ed882b69bef9536fd8933ced96fdd6c1ee"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-4802-527f91a01186",
+      "name": "Mario Kart 64 CPUs use human items including shells - Mario_Kart_64_CPUs_use_human_items_v2.5",
+      "version": "2.5",
+      "authors": [
+        "triclon"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/4802/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Mario%20Kart%2064/Mario%20Kart%2064%20CPUs%20use%20human%20items%20including%20shells___2_5/Mario_Kart_64_CPUs_use_human_items.zip",
+        "size": 9150,
+        "sha256": "82e33c05b3cb43164f652f0237fece75f5f3e6fdc2b6e0b6e04a26cddd6d1514",
+        "allowRedirects": false,
+        "archiveMember": "Mario_Kart_64_CPUs_use_human_items/Mario_Kart_64_CPUs_use_human_items_v2.5.bps",
+        "memberSize": 289,
+        "memberSha256": "1b248cd2af3c4355509c1920f58a3d31a976b8d4cd059d8dba57456276cd73cc"
+      },
+      "output": {
+        "size": 12582912,
+        "sha256": "3bcb0948c63a2108b05545bdc268d540be0cb0e4c3234aa7a64064ce931f5014"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5042-7c3e601e6e43",
+      "name": "Mario Kart 64 Hot Potato Battle - MK64_Hot_Potato_Battle_v1.1",
+      "version": "1.1",
+      "authors": [
+        "triclon"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5042/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Mario%20Kart%2064/Mario%20Kart%2064%20Hot%20Potato%20Battle___1_1/MK64_Hot_Potato_Battle_v1.1.zip",
+        "size": 25057,
+        "sha256": "4f45da811d219e626e0cfc495e13961d485d0d9ac0a311fab61229c07116d122",
+        "allowRedirects": false,
+        "archiveMember": "MK64_Hot_Potato_Battle/MK64_Hot_Potato_Battle_v1.1.bps",
+        "memberSize": 4122,
+        "memberSha256": "206d43b761e7dae37c5b8b90c739ebb13312689b431b33505567ebceba98aacb"
+      },
+      "output": {
+        "size": 12582912,
+        "sha256": "5f3da4bfe74b83a88e67d92e84a0d3935a0a3dafb301fe5bda39ddbcc6350516"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-6148-99d02d014eef",
+      "name": "Hooting HUD - MK64-HootingHUD-P1",
+      "version": "0.1",
+      "authors": [
+        "DeadHamster",
+        "Litronom",
+        "triclon"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/6148/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Mario%20Kart%2064/Hooting%20HUD___0_1/MK64-HootingHUD%28Full%20Package%29.zip",
+        "size": 4864636,
+        "sha256": "9c8ea17b9525e1b92eb8237e38b152036e0d1c7e3c9a1c5516883bc6c15d9209",
+        "allowRedirects": false,
+        "archiveMember": "MK64-HootingHUD-P1.bps",
+        "memberSize": 411894,
+        "memberSha256": "4e839a683cc772b07037baad9cdb353eed0c78e07e588e8ece1976ff1b3440d7"
+      },
+      "output": {
+        "size": 13631492,
+        "sha256": "edb8980dbb921e3197c25c72d1e46ae67b9017a0ce371c6624dc7e41302e4461"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-6148-1adfda0d98d7",
+      "name": "Hooting HUD - MK64-HootingHUD-P2",
+      "version": "0.1",
+      "authors": [
+        "DeadHamster",
+        "Litronom",
+        "triclon"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/6148/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Mario%20Kart%2064/Hooting%20HUD___0_1/MK64-HootingHUD%28Full%20Package%29.zip",
+        "size": 4864636,
+        "sha256": "9c8ea17b9525e1b92eb8237e38b152036e0d1c7e3c9a1c5516883bc6c15d9209",
+        "allowRedirects": false,
+        "archiveMember": "MK64-HootingHUD-P2.bps",
+        "memberSize": 411870,
+        "memberSha256": "55fbb0beb9265bcd685fb776d16388275579d99795267780a0444a5711d8730d"
+      },
+      "output": {
+        "size": 13631492,
+        "sha256": "eab29ac66f01a21e0d1fc73cc7c03a21b4362c7205e333b316bcc4dcb4daf071"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-6148-9362c08c5498",
+      "name": "Hooting HUD - MK64-HootingHUD-P3",
+      "version": "0.1",
+      "authors": [
+        "DeadHamster",
+        "Litronom",
+        "triclon"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/6148/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Mario%20Kart%2064/Hooting%20HUD___0_1/MK64-HootingHUD%28Full%20Package%29.zip",
+        "size": 4864636,
+        "sha256": "9c8ea17b9525e1b92eb8237e38b152036e0d1c7e3c9a1c5516883bc6c15d9209",
+        "allowRedirects": false,
+        "archiveMember": "MK64-HootingHUD-P3.bps",
+        "memberSize": 411710,
+        "memberSha256": "f26cb567073f606cd9d566c689cfeed5d65ebd59305d57b4b0db91f28c1caa3c"
+      },
+      "output": {
+        "size": 13631492,
+        "sha256": "f4aca6fb9730e74d28f8034612124e638c8aa298225db42d8853b9bfe7d09ec2"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-6148-5070abd2d4d6",
+      "name": "Hooting HUD - MK64-HootingHUD-P4",
+      "version": "0.1",
+      "authors": [
+        "DeadHamster",
+        "Litronom",
+        "triclon"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/6148/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Mario%20Kart%2064/Hooting%20HUD___0_1/MK64-HootingHUD%28Full%20Package%29.zip",
+        "size": 4864636,
+        "sha256": "9c8ea17b9525e1b92eb8237e38b152036e0d1c7e3c9a1c5516883bc6c15d9209",
+        "allowRedirects": false,
+        "archiveMember": "MK64-HootingHUD-P4.bps",
+        "memberSize": 411746,
+        "memberSha256": "aecfe8ae2565fcfad5759190e39dbe68091ce3f4af7dfb7885856a31350b7cbb"
+      },
+      "output": {
+        "size": 13631492,
+        "sha256": "69aa14f6aaebf4441addb14a0a4b1755b838cd5e423733ec0e49d2525fca8040"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-557-2d9e9f9b932f",
+      "name": "CI Firing Range GoldenEye Gun Name Display - GE Gun Name Display",
+      "version": "1.0",
+      "authors": [
+        "Dragonsbrethren"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/557/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Perfect Dark",
+        "variant": "Perfect Dark (USA) (Rev 1)",
+        "gameCode": "NPDE",
+        "normalizedCrc32": "4C1677F7",
+        "normalizedSha256": "4e51142acac686d96861cecc58cf7cb7c3b06b21733b7f8ed609a709dc039a21"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Perfect%20Dark/CI%20Firing%20Range%20GoldenEye%20Gun%20Name%20Display___1_0/gegunnamedisplay.zip",
+        "size": 82295,
+        "sha256": "94fd045e73c5e11f1bdd6f706b7c6e207b12230af0354ce188bb37b6bfb47335",
+        "allowRedirects": false,
+        "archiveMember": "GE Gun Name Display.xdelta",
+        "memberSize": 76830,
+        "memberSha256": "020da026bc198f721d5acd7a0844dfb96b37fa685a7a11fd6f3a65caac5f4fb6",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "9e2670dc29bb9264c520f1ad23ccb09495bf11b79a0693f4bdd66590a309e8a0"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom16k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-4600-61c31fb1c7e1",
+      "name": "Pokemon Stadium 2 - Mord's Moveset Hack - Pokemon Stadium 2 - Mord's Moveset",
+      "version": "1.01",
+      "authors": [
+        "Mord_Fustang"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/4600/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Pokemon Stadium 2",
+        "variant": "Pokemon Stadium 2 (USA)",
+        "gameCode": "NP3E",
+        "normalizedCrc32": "A9998E09",
+        "normalizedSha256": "8160abe7d4b9734317000c44e9f882efefe4cc6359eacded98be62f2811e40a9"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Pokemon%20Stadium%202/Pokemon%20Stadium%202%20-%20Mord%27s%20Moveset%20Hack___1_01/Pokemon%20Stadium%202%20-%20Mord%27s%20Moveset.zip",
+        "size": 3505,
+        "sha256": "51c919f8477269ae1a8e688a29e0449a982705b97fb131f42883fa969acaa11c",
+        "allowRedirects": false,
+        "archiveMember": "Pokemon Stadium 2 - Mord's Moveset.bps",
+        "memberSize": 6525,
+        "memberSha256": "37c9ac27fa8b42810832f1a2df74a71ece058fda6d5fcffe9b45244508ac143a"
+      },
+      "output": {
+        "size": 67108864,
+        "sha256": "e86a4c85c045f4bd4c4f29a210d5f9e5ffd558a79c3a43065aab9b37b8cd46d3"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "flashram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-3719-c149767bce55",
+      "name": "Space Station Silicon Valley - Bug Fixes - SpaceStation Silicon Valley (USA) (Rev A) [FBMLSelect Fix v1.2][oz]",
+      "version": "1.2",
+      "authors": [
+        "ozidual"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/3719/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Space Station Silicon Valley",
+        "variant": "SpaceStation Silicon Valley (USA) (Rev 1)",
+        "gameCode": "NSVE",
+        "normalizedCrc32": "E32D9E7B",
+        "normalizedSha256": "ea3ea86e4012e878151bfdaa519afe5eee6f9388ec1cc2ae26baf0048f0a9abc"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Space%20Station%20Silicon%20Valley/Space%20Station%20Silicon%20Valley%20-%20Bug%20Fixes___1_2/SpaceStation%20Silicon%20Valley%20%28USA%2C%20Europe%2C%20Japan%29%20%5Boz%5D.zip",
+        "size": 1494,
+        "sha256": "80958b5fce1c3ae90d0e66599f9e92fdd5eba0548b4bb7c7fd638dc9ad69ae63",
+        "allowRedirects": false,
+        "archiveMember": "SpaceStation Silicon Valley (USA) (Rev A) [FBMLSelect Fix v1.2][oz].bps",
+        "memberSize": 78,
+        "memberSha256": "fed0fc3570881bf02f6676e2b9e0cef7cf18edc681363003b7ebd09cf4ed688d"
+      },
+      "output": {
+        "size": 8388608,
+        "sha256": "148fa57a64c5916ac99aa1e26a90654e71014d5eb607253595462b65021de1e1"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5671-fee055f94e46",
+      "name": "Low Poly Promo Models - lowpoly_promo_rompatch-luigi",
+      "version": "1.1",
+      "authors": [
+        "fznmeatpopsicle"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5671/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Super%20Mario%2064/Low%20Poly%20Promo%20Models___1_1/lowpoly_promo_rompatch_1.1.zip",
+        "size": 129769,
+        "sha256": "3a37e3dba7b26b0a1529427402db252b1d833ff9abed3ff1880c55b118dfa4b6",
+        "allowRedirects": false,
+        "archiveMember": "lowpoly_promo_rompatch-luigi.bps",
+        "memberSize": 69926,
+        "memberSha256": "f3e87d43da7bfef889d51cb144011bf5e661a65f4dfdf05a4886c6b566fd9b43"
+      },
+      "output": {
+        "size": 8388608,
+        "sha256": "e2cb8a576e01983f7e256a5564ae0f236c711b6e41276b023b810d5dc29c56b0"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5671-1b7b8419f4e5",
+      "name": "Low Poly Promo Models - lowpoly_promo_rompatch-mario",
+      "version": "1.1",
+      "authors": [
+        "fznmeatpopsicle"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5671/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Super%20Mario%2064/Low%20Poly%20Promo%20Models___1_1/lowpoly_promo_rompatch_1.1.zip",
+        "size": 129769,
+        "sha256": "3a37e3dba7b26b0a1529427402db252b1d833ff9abed3ff1880c55b118dfa4b6",
+        "allowRedirects": false,
+        "archiveMember": "lowpoly_promo_rompatch-mario.bps",
+        "memberSize": 69654,
+        "memberSha256": "265ff344e03db75300b7eba97aa001f7c41d1026268e1a6851d6efcedc9e393f"
+      },
+      "output": {
+        "size": 8388608,
+        "sha256": "e4df96cc77f989dc73c35319e47dcc93537817ea1a67c87d3a349c5a93c3727a"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5306-b1c56d8e417a",
+      "name": "Luigi's Meme Mayhem - Luigi's Meme Mayhem",
+      "version": "1.0",
+      "authors": [
+        "SupremoMemeo"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5306/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Super%20Mario%2064/Luigi%27s%20Meme%20Mayhem___1_0/Luigi%27s%20Meme%20Mayhem.zip",
+        "size": 4662715,
+        "sha256": "672943f49cd3b439e988fe323e3f26cffc58d1def030a1d3ae9c03cd28fb0ad4",
+        "allowRedirects": false,
+        "archiveMember": "Luigi's Meme Mayhem/Luigi's Meme Mayhem.bps",
+        "memberSize": 9772365,
+        "memberSha256": "6f9f8f828171bee44df1a052ae49b829a246fe26a52804446a964ede62ff433e"
+      },
+      "output": {
+        "size": 67108864,
+        "sha256": "fd87bffcb68f00196122f48f5106743eb2a504ea670724cc3c01dabd90d3f987"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5008-d942ddb023b7",
+      "name": "Mario Smoke Fix - SM64-SmokeFix-US",
+      "version": "2.0",
+      "authors": [
+        "zoinknoise"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5008/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Super%20Mario%2064/Mario%20Smoke%20Fix___2_0/SM64-SmokeFix.zip",
+        "size": 911872,
+        "sha256": "3a3394d091445ebb6d73ab0bc4bdb3971f9dbb32302b6fe80c8a3c8469550b49",
+        "allowRedirects": false,
+        "archiveMember": "SM64-SmokeFix/SM64-SmokeFix-US.bps",
+        "memberSize": 506640,
+        "memberSha256": "5b83199127e3f27277d6919ea1c16997623766d08b22cb7c6b260b2c7871d4a5"
+      },
+      "output": {
+        "size": 8388608,
+        "sha256": "c38032ddab325ec7b25b658665425359fdbf733f4d477df1907fc79deb3f8f05"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-4233-4da6b24e275e",
+      "name": "Super Yeezus 64 - Super Yeezus 64",
+      "version": "1.0",
+      "authors": [
+        "deatg"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/4233/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Super%20Mario%2064/Super%20Yeezus%2064___1_0/Super%20Yeezus%2064.zip",
+        "size": 2326875,
+        "sha256": "f65f779018029ebc7bc92fbe4a9c4b95017e58547d262ad38dc33d58a7ec91ac",
+        "allowRedirects": false,
+        "archiveMember": "Super Yeezus 64/Super Yeezus 64.bps",
+        "memberSize": 2693727,
+        "memberSha256": "d9f7ad224fb38c2313426a5e20b1703fe1311974c21667355848acca21f7a625"
+      },
+      "output": {
+        "size": 67108864,
+        "sha256": "30af9553d1a94d66a2699d93e1188350e1afcffc30a96e9da79e561d229bc93a"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5534-1e6629a4816f",
+      "name": "Super Smash Bros. Sonic 2 Mod - ssbmod_sonic2",
+      "version": "1.0",
+      "authors": [
+        "ownsoldier",
+        "SubDrag"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5534/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Super Smash Bros.",
+        "variant": "USA",
+        "gameCode": "NALE",
+        "normalizedCrc32": "EB97929E",
+        "normalizedSha256": "15592E79D3C5295CEF4371D4992F0BD25BEC2102FC29644C93E682F7EA99EF3D"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Super%20Smash%20Bros_/Super%20Smash%20Bros_%20Sonic%202%20Mod___1_0/SSBMod_SONIC2.zip",
+        "size": 2798826,
+        "sha256": "40c712246aeba6620b7e7e5c8485df89f06847318f0fe6616ec77a7df1d1a3c5",
+        "allowRedirects": false,
+        "archiveMember": "ssbmod_sonic2.xdelta",
+        "memberSize": 412474,
+        "memberSha256": "1bf166373e01c20842554529edd50e14df3702995d4578d719dfc8c240dc83b5",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 16777216,
+        "sha256": "a71dc50baff54743abfd8ac42db9f55ede5debf196df684c7a863abdc87d55f6"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5101-ce51b03a4e79",
+      "name": "Super Smash Bros. Sonic Mod - ssbmod_sonic1_v2",
+      "version": "2.0",
+      "authors": [
+        "ownsoldier",
+        "SubDrag"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5101/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "Super Smash Bros.",
+        "variant": "USA",
+        "gameCode": "NALE",
+        "normalizedCrc32": "EB97929E",
+        "normalizedSha256": "15592E79D3C5295CEF4371D4992F0BD25BEC2102FC29644C93E682F7EA99EF3D"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/Super%20Smash%20Bros_/Super%20Smash%20Bros_%20Sonic%20Mod___2_0/ssbmod_sonic1_v2.zip",
+        "size": 9034249,
+        "sha256": "2ddd542702c7c87c23e250901ab19edfe6d7aba0681a5a4a53f67753855fab03",
+        "allowRedirects": false,
+        "archiveMember": "ssbmod_sonic1_v2.xdelta",
+        "memberSize": 360542,
+        "memberSha256": "36a50dbc53202dccd3856e2ab9b74c8aa7ce6c6b8ea789a2bc47f362fbcebd1e",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 16777216,
+        "sha256": "62bfc4fc41835fb93eb9b5098e4a3a9754f081d3406bf316f102b11b6eee4a88"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5801-85d9564e536c",
+      "name": "The Legend of Zelda: Master of Time - The Legend of Zelda - Master of Time",
+      "version": "1.0",
+      "authors": [
+        "Don Camilo"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5801/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/The%20Legend%20of%20Zelda_%20Master%20of%20Time___1_0/Master%20of%20Time.zip",
+        "size": 5613520,
+        "sha256": "52cc5584dbed13c4150c652347b434bac56bcb9669f53acb5ba332a971e2d760",
+        "allowRedirects": false,
+        "archiveMember": "The Legend of Zelda - Master of Time.xdelta",
+        "memberSize": 6116977,
+        "memberSha256": "3bce08a0e085c88b7b53e3daa06b62e218d1ee942938e04ef888c47b0fd31b42",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "738f3854611f9e0fe7ee056ebb2d7f241723569131aacecd3951dce3e2772e4a"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "rhdn-hacks-5334-abec82a55319",
+      "name": "The Legend of Zelda: The Missing Link - tml_n64_1_5_big_endian",
+      "version": "1.5",
+      "authors": [
+        "Kaze Emanuar",
+        "/Zel/"
+      ],
+      "projectUrl": "https://www.romhacking.net/hacks/5334/",
+      "source": {
+        "provider": "romhacking.net (2021-09-14 archive)",
+        "metadataUrl": "https://archive.org/details/rhdn-20210914",
+        "retrievedAt": "2021-09-14T00:00:00Z"
+      },
+      "base": {
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "variant": "USA",
+        "gameCode": "CZLE",
+        "normalizedCrc32": "CD16C529",
+        "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://ia800803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/The%20Legend%20of%20Zelda_%20Ocarina%20of%20Time/The%20Legend%20of%20Zelda_%20The%20Missing%20Link___1_5/The%20Missing%20Link.zip",
+        "size": 15932766,
+        "sha256": "f08f766966a60f272a6a1324a77b121bc3fa5a05ee93b57c6208513eba8662b6",
+        "allowRedirects": false,
+        "archiveMember": "tml_n64_1_5_big_endian.bps",
+        "memberSize": 4672417,
+        "memberSha256": "26dd22c5d780b28950982df656a6eb1c60eafebd7381f69220bb53118cdc1041"
+      },
+      "output": {
+        "size": 16777216,
+        "sha256": "66e5d601f558f72651a41ca899ec9fa812f46886383a6e11ef9736bded85255f"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "sram",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    }
+  ]
+}
