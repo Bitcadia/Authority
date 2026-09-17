@@ -54,6 +54,9 @@ jobs:
   verify:
     needs: sign
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -64,6 +67,10 @@ jobs:
           name: authority-signed-${{ github.sha }}
           path: dist/
       - run: node tools/validate-publication.mjs . dist --require-signed
+      - name: Retain signed manifest history for offline-client catch-up
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node tools/build-manifest-history.mjs . dist
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist/

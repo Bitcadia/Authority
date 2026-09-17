@@ -1,0 +1,52 @@
+name: Retain deployed Authority history
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: authority-pages-publication
+  cancel-in-progress: false
+jobs:
+  history:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Recover currently deployed signed artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 35246316943 --repo Bitcadia/Authority --name authority-signed-9c627662ba7fba37caa7859be2630ff6f2dc8210 --dir dist
+      - name: Verify it still matches the live signed heads and retain history
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFile } from 'node:fs/promises';
+          const config = JSON.parse(await readFile('sources/publication.json'));
+          for (const a of config.authorities) {
+            const path = `${a.directory ? a.directory + '/' : ''}authority-manifest.json`;
+            const response = await fetch(new URL(path, config.baseUrl), { redirect: 'error' });
+            if (!response.ok) throw Error('Live manifest unavailable');
+            if (!Buffer.from(await response.arrayBuffer()).equals(await readFile(`dist/${path}`))) throw Error('Live publication changed; refusing to redeploy older artifact');
+          }
+          NODE
+          node tools/build-manifest-history.mjs . dist
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
+  deploy:
+    needs: history
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
