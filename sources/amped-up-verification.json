@@ -1,0 +1,89 @@
+{
+  "auditedAt": "2026-09-18",
+  "purpose": "artifact-verification",
+  "notice": "Source-level coverage only; signed publication pending. Older 3.00 remains distinct from 3.21. No gameplay test or artifact redistribution.",
+  "publishedCandidate": {
+    "entryId": "patcher64plus-amped-up-3.00",
+    "version": "3.00",
+    "source": {
+      "provider": "Patcher64Plus-Tool (community mirror)",
+      "metadataUrl": "https://github.com/Admentus64/Patcher64Plus-Tool/blob/848109a4ffe727acfaf00f617507a4b3379c3841/Files/Games/Mario%20Kart%2064/Patches.json",
+      "retrievedAt": "2026-09-18T00:00:00Z"
+    },
+    "patch": {
+      "format": "bps",
+      "url": "https://raw.githubusercontent.com/Admentus64/Patcher64Plus-Tool/848109a4ffe727acfaf00f617507a4b3379c3841/Files/Games/Mario%20Kart%2064/Compressed/amped_up.bps",
+      "size": 4073511,
+      "sha256": "1f315430759785c3a037c195be23f6cb72c4789304a40855b764b4d727e275a3",
+      "allowRedirects": false
+    },
+    "base": {
+      "name": "Mario Kart 64",
+      "variant": "Mario Kart 64 (USA)",
+      "gameCode": "NKTE",
+      "normalizedCrc32": "434389C1",
+      "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+    },
+    "output": {
+      "size": 22020096,
+      "sha256": "19817284ee1e50864c1a877d05b87a329204e7feb3a6bd41fe4e7fd02c27a65b"
+    },
+    "verification": "two-identical-Bitcadia64-BPS-decoder-runs-with-source-target-and-patch-CRC-validation"
+  },
+  "latestRelease": {
+    "name": "Mario Kart 64 - Amped Up",
+    "version": "3.21",
+    "authors": [
+      "Litronom"
+    ],
+    "projectUrl": "https://gamebanana.com/mods/613207",
+    "metadataUrl": "https://gamebanana.com/apiv11/Mod/613207/ProfilePage",
+    "auditedAt": "2026-09-18",
+    "status": "verified-patch-blocked-container",
+    "reason": "Original release is RAR; current Bitcadia64 archive extractor supports ZIP only. Do not publish a ZIP descriptor or direct BPS URL for these RAR bytes.",
+    "artifact": {
+      "requested": "https://gamebanana.com/dl/1584378",
+      "url": "https://filecache47.gamebanana.com/mods/mario_kart_64_-_amped_up_-_v321.rar",
+      "size": 3775079,
+      "sha256": "ac457e7606dd618e7f53a25d1bef5230e85777a093aabc7597ff074d7d6e2d8f"
+    },
+    "member": {
+      "name": "Amped_Up_v3.21.bps",
+      "format": "bps",
+      "size": 4215902,
+      "sha256": "5de554345e9d5566cda2b1ef5ea0d7b390e2f8c282bd876f2312bb331ce0a49a",
+      "extraction": "node-unrar-js; not the client extractor"
+    },
+    "base": {
+      "name": "Mario Kart 64",
+      "variant": "USA",
+      "normalizedCrc32": "434389C1",
+      "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+    },
+    "output": {
+      "size": 23068672,
+      "sha256": "b41470704489b3741e09e430e08c5153e750c14852aab77fe657de9d1a630a5a",
+      "md5": "a11c1237683ea3a36788ae10ff2fde33"
+    },
+    "verification": "two-identical-Bitcadia64-BPS-decoder-runs-with-source-target-and-patch-CRC-validation",
+    "saveType": "eeprom16k",
+    "sourceReportedRequirements": [
+      "Expansion Pak / 8 MiB RDRAM",
+      "EEPROM 16k",
+      "60 FPS mode is experimental and requires emulator-specific timing settings"
+    ],
+    "gameplayTested": false,
+    "rights": {
+      "patchRedistributionAllowed": false,
+      "artworkRedistributionAllowed": false
+    },
+    "creatorArchiveUrl": "https://mega.nz/folder/9BB32Cib#ISfFcu6hrF7CCl-2FTHaAA",
+    "readmeMd5": "3d1415bd936961312f6f04f8d928130c",
+    "readmeMd5Matches": false,
+    "alternateSource": {
+      "projectUrl": "https://patch.wedarobi.com/mk64_amped_up",
+      "newestListedVersion": "3.02",
+      "result": "Public browser patcher works with local USA base; uses POST API and produces a browser blob download, not a stable direct patch URL."
+    }
+  }
+}

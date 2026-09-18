@@ -30,7 +30,9 @@ export async function buildPublication({ root, output, keyDirectory }) {
       registry.entries.push(...plaza.entries);
       const rhdn = JSON.parse(await readFile(resolve(root, "sources/rhdn-registry.json")));
       registry.entries.push(...rhdn.entries);
-      registry.notice = "Bitcadia Authority index of RHDC, Romhack Plaza and archived RHDN releases. Original publishers and archive hosts supply patch bytes; Authority contains metadata only.";
+      const community = JSON.parse(await readFile(resolve(root, "sources/community-registry.json")));
+      registry.entries.push(...community.entries);
+      registry.notice = "Bitcadia Authority index of RHDC, Romhack Plaza, archived RHDN, N64 Vault, GameBanana and Patcher64Plus releases. Publishers and attributed community hosts supply patch bytes; Authority contains metadata only.";
       registry.generatedAt = config.issuedAt;
       registryPath = resolve(output, ".root-source.json");
       await writeFile(registryPath, bytes(registry));

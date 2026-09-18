@@ -1,0 +1,304 @@
+{
+  "auditedAt": "2026-09-18",
+  "notice": "No ROM or patch bytes included. Original patch archives and extracted members were checked with Bitcadia64; outputs reproduced twice.",
+  "verified": [
+    {
+      "id": "gamebanana-378082-800696",
+      "projectUrl": "https://gamebanana.com/mods/378082",
+      "originalDownloadUrl": "https://gamebanana.com/dl/800696",
+      "resolvedDownloadUrl": "https://filecache42.gamebanana.com/mods/mk64_4pgp_v10_.zip",
+      "patch": {
+        "format": "bps",
+        "url": "https://filecache42.gamebanana.com/mods/mk64_4pgp_v10_.zip",
+        "size": 366708,
+        "sha256": "f5418c966c5ac650b691f5bb3b6c1bc4e85516465e16fe1693c8d6a9c94ebb58",
+        "allowRedirects": false,
+        "archiveMember": "MK64_4pGP(v1.0).bps",
+        "memberSize": 743536,
+        "memberSha256": "361a1c098b072986ed1e1f1f10301cb763a1573e03455f96115db8c96652d1e6"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "output": {
+        "size": 16777216,
+        "sha256": "42f555540e79e8b66b91a0c053168b65be659712d60f10c873727b3b545831e6"
+      },
+      "reproducibilityResult": "two-client-decoder-runs-and-client-zip-extraction",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "gameplayTested": false
+    },
+    {
+      "id": "sm64romhacks-f7921e9e-62c3-4221-b1d9-14dd77d22166",
+      "projectUrl": "https://sm64romhacks.com/hacks/super-mario-bros-64/",
+      "originalDownloadUrl": "https://sm64romhacks.com/hacks/download/f7921e9e-62c3-4221-b1d9-14dd77d22166",
+      "resolvedDownloadUrl": "https://sm64romhacks.com/hacks/download/f7921e9e-62c3-4221-b1d9-14dd77d22166",
+      "patch": {
+        "format": "bps",
+        "url": "https://sm64romhacks.com/hacks/download/f7921e9e-62c3-4221-b1d9-14dd77d22166",
+        "size": 2947363,
+        "sha256": "13ffcd1f978994c1c9dfaffde9f5e021084fd4e45b7c0c53fbb23d288f002cc5",
+        "allowRedirects": false,
+        "archiveMember": "SMB64.bps",
+        "memberSize": 3470218,
+        "memberSha256": "ef3a7ae0cfc2e2be0c1b64554cdb677003c7654c1555aaceca2c8dfec79710e5"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+      },
+      "output": {
+        "size": 25165824,
+        "sha256": "82c3ab1d2520d0056fea72306deec3365a029c1b985773256ff204be70d35c67"
+      },
+      "reproducibilityResult": "two-client-decoder-runs-and-client-zip-extraction",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "gameplayTested": false
+    },
+    {
+      "id": "sm64romhacks-07d20efd-ac96-4612-a8a1-0463c71c4691",
+      "projectUrl": "https://sm64romhacks.com/hacks/super-donkey-kong-64/",
+      "originalDownloadUrl": "https://sm64romhacks.com/hacks/download/07d20efd-ac96-4612-a8a1-0463c71c4691",
+      "resolvedDownloadUrl": "https://sm64romhacks.com/hacks/download/07d20efd-ac96-4612-a8a1-0463c71c4691",
+      "patch": {
+        "format": "bps",
+        "url": "https://sm64romhacks.com/hacks/download/07d20efd-ac96-4612-a8a1-0463c71c4691",
+        "size": 7139927,
+        "sha256": "04317bb6a9d4657ff67e069613527639a006f9db55acf116286d9c996e29def8",
+        "allowRedirects": false,
+        "archiveMember": "Super dk64.bps",
+        "memberSize": 8527888,
+        "memberSha256": "57e2aa873962e307220a1bc5c61ccad5077d09ef1ad41adbfb93deb00b1e61d7"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+      },
+      "output": {
+        "size": 67108864,
+        "sha256": "4eafcf86bbc5fe918321caad1fecb0c6aa3bb9590aae1b89ee00649b93dbf8a0"
+      },
+      "reproducibilityResult": "two-client-decoder-runs-and-client-zip-extraction",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "gameplayTested": false
+    },
+    {
+      "id": "sm64romhacks-55a9278f-62fe-4543-b765-251141c43f2e",
+      "projectUrl": "https://sm64romhacks.com/hacks/super-mario-64-the-missing-stars/",
+      "originalDownloadUrl": "https://sm64romhacks.com/hacks/download/55a9278f-62fe-4543-b765-251141c43f2e",
+      "resolvedDownloadUrl": "https://sm64romhacks.com/hacks/download/55a9278f-62fe-4543-b765-251141c43f2e",
+      "patch": {
+        "format": "bps",
+        "url": "https://sm64romhacks.com/hacks/download/55a9278f-62fe-4543-b765-251141c43f2e",
+        "size": 3176619,
+        "sha256": "4f1d90c3301403d177e7c4939204ef4c8d82171e9cd2d41be9a0862d97c49c89",
+        "allowRedirects": false,
+        "archiveMember": "SM64 The Missing Stars (console compatible).bps",
+        "memberSize": 6931556,
+        "memberSha256": "4133fc52ac59dae0448c27d7e1f869b926d5c072b03f3481a1efc0e43b66e07e"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+      },
+      "output": {
+        "size": 25165824,
+        "sha256": "e6e5427ef6642dd86bd9f83b4943f6b051d08dde9fba16fadd8f21b566814dee"
+      },
+      "reproducibilityResult": "two-client-decoder-runs-and-client-zip-extraction",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "gameplayTested": false
+    },
+    {
+      "id": "sm64romhacks-3ea804e5-cbb4-4812-b944-52a1b1851c80",
+      "projectUrl": "https://sm64romhacks.com/hacks/star-revenge-15-star-takeover-redone/",
+      "originalDownloadUrl": "https://sm64romhacks.com/hacks/download/3ea804e5-cbb4-4812-b944-52a1b1851c80",
+      "resolvedDownloadUrl": "https://sm64romhacks.com/hacks/download/3ea804e5-cbb4-4812-b944-52a1b1851c80",
+      "patch": {
+        "format": "bps",
+        "url": "https://sm64romhacks.com/hacks/download/3ea804e5-cbb4-4812-b944-52a1b1851c80",
+        "size": 7726678,
+        "sha256": "00516243922a947af18cdd27e0f4b8c0ad58a92fd11691cd7fe8c656ff8f091a",
+        "allowRedirects": false,
+        "archiveMember": "Star Revenge 1.5 - Star Takeover Redone v2.2.1.bps",
+        "memberSize": 9500703,
+        "memberSha256": "c5013478858b3d068c926671636be0b2795122c7b3b6904a927dcc2831eb5226"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+      },
+      "output": {
+        "size": 67108864,
+        "sha256": "81309df61b7967d065842cff3d4a1247ab0ca7d72c739be9418b8db5eea4bf46"
+      },
+      "reproducibilityResult": "two-client-decoder-runs-and-client-zip-extraction",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "gameplayTested": false
+    },
+    {
+      "id": "sm64romhacks-f4636090-f830-425a-b647-aadc69b577e7",
+      "projectUrl": "https://sm64romhacks.com/hacks/super-kirby-64/",
+      "originalDownloadUrl": "https://sm64romhacks.com/hacks/download/f4636090-f830-425a-b647-aadc69b577e7",
+      "resolvedDownloadUrl": "https://sm64romhacks.com/hacks/download/f4636090-f830-425a-b647-aadc69b577e7",
+      "patch": {
+        "format": "bps",
+        "url": "https://sm64romhacks.com/hacks/download/f4636090-f830-425a-b647-aadc69b577e7",
+        "size": 2768989,
+        "sha256": "7e6f539010a1ce8e47d2ae56a8c69f4161d5c209fc405d5b5648377c0adb9274",
+        "allowRedirects": false,
+        "archiveMember": "Super Kirby 64.bps",
+        "memberSize": 3219049,
+        "memberSha256": "4fac1cbf94482e880651f57b07cbcb5fe32a17194d0f11583910ba9fa1a0cbe3"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+      },
+      "output": {
+        "size": 25165824,
+        "sha256": "a8b3bc648c545981535dcd27d3c23a101ded290a6c0775418ada8725d8b22e9e"
+      },
+      "reproducibilityResult": "two-client-decoder-runs-and-client-zip-extraction",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "gameplayTested": false
+    },
+    {
+      "id": "n64vault-goldeneye-x-6a",
+      "projectUrl": "https://n64vault.com/pd-multi-levels:goldeneye-x",
+      "originalDownloadUrl": "https://n64vault.com/local--files/pd-multi-levels:goldeneye-x/GE-X_6a_01-19-25.zip",
+      "resolvedDownloadUrl": "https://n64vault.wdfiles.com/local--files/pd-multi-levels%3Agoldeneye-x/GE-X_6a_01-19-25.zip",
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://n64vault.wdfiles.com/local--files/pd-multi-levels%3Agoldeneye-x/GE-X_6a_01-19-25.zip",
+        "size": 36777541,
+        "sha256": "bb40da33d354fc5298caa95fe3df1f758827e19d1e29436af5ca34f4869448bb",
+        "allowRedirects": false,
+        "archiveMember": "GE-X_6a_01-19-25.xdelta",
+        "memberSize": 11264901,
+        "memberSha256": "85de3d0efc70ca35adf819c1ed20c8af120d8caecfa83190196a6fdf190e05c9",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "base": {
+        "name": "Perfect Dark",
+        "variant": "Perfect Dark (USA) (Rev 1)",
+        "gameCode": "NPDE",
+        "normalizedCrc32": "4C1677F7",
+        "normalizedSha256": "4e51142acac686d96861cecc58cf7cb7c3b06b21733b7f8ed609a709dc039a21"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "0231d5a75fb34b28bb6ddb5561a7b146d0ac0908323374da7d63ff096cbbf9fd"
+      },
+      "reproducibilityResult": "two-client-decoder-runs-and-client-zip-extraction",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "gameplayTested": false
+    },
+    {
+      "id": "sm64romhacks-e6ebbd12-7061-4df3-85fd-1648f3a183d6",
+      "projectUrl": "https://sm64romhacks.com/hacks/super-captain-falcon-64/",
+      "originalDownloadUrl": "https://sm64romhacks.com/hacks/download/e6ebbd12-7061-4df3-85fd-1648f3a183d6",
+      "resolvedDownloadUrl": "https://sm64romhacks.com/hacks/download/e6ebbd12-7061-4df3-85fd-1648f3a183d6",
+      "patch": {
+        "format": "bps",
+        "url": "https://sm64romhacks.com/hacks/download/e6ebbd12-7061-4df3-85fd-1648f3a183d6",
+        "size": 9669213,
+        "sha256": "c90509adde0df9629b46df7b73f7c9dee048f0cf1dd03c15db70e535c98aaf3d",
+        "allowRedirects": false,
+        "archiveMember": "Captain Falcon 64 1.3 (Vanilla).bps",
+        "memberSize": 5779366,
+        "memberSha256": "a4475da36f4e1c9fed94fec9f83186c8adcecf86627cd5359207db7eb0017d43"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+      },
+      "output": {
+        "size": 21780560,
+        "sha256": "91f90764b01a89c33c60d970dab283b11591a384e4d6100006b058ea37ddea58"
+      },
+      "reproducibilityResult": "two-client-decoder-runs-and-client-zip-extraction",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "gameplayTested": false
+    },
+    {
+      "id": "sm64romhacks-e6ebbd12-7061-4df3-85fd-1648f3a183d6-uncompressed",
+      "projectUrl": "https://sm64romhacks.com/hacks/super-captain-falcon-64/",
+      "originalDownloadUrl": "https://sm64romhacks.com/hacks/download/e6ebbd12-7061-4df3-85fd-1648f3a183d6",
+      "resolvedDownloadUrl": "https://sm64romhacks.com/hacks/download/e6ebbd12-7061-4df3-85fd-1648f3a183d6",
+      "patch": {
+        "format": "bps",
+        "url": "https://sm64romhacks.com/hacks/download/e6ebbd12-7061-4df3-85fd-1648f3a183d6",
+        "size": 9669213,
+        "sha256": "c90509adde0df9629b46df7b73f7c9dee048f0cf1dd03c15db70e535c98aaf3d",
+        "allowRedirects": false,
+        "archiveMember": "Captain Falcon 64 1.3 (Vanilla Uncompressed).bps",
+        "memberSize": 3592883,
+        "memberSha256": "705b36194f3426e9d8ee1e7e573f38d1e4422121ae73a6b3ffb4163537aa286b"
+      },
+      "base": {
+        "name": "Super Mario 64",
+        "variant": "USA",
+        "gameCode": "NSME",
+        "normalizedCrc32": "3CE60709",
+        "normalizedSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+      },
+      "output": {
+        "size": 67108864,
+        "sha256": "056abdd44fc49103cf422f32f3e13a196d0da7a9beb2f1a97936fea31cf6cb2a"
+      },
+      "reproducibilityResult": "two-client-decoder-runs-and-client-zip-extraction",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "gameplayTested": false
+    }
+  ]
+}

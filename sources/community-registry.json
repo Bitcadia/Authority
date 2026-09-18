@@ -1,0 +1,146 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry.schema.json",
+  "generatedAt": "2026-09-18T00:00:00Z",
+  "notice": "Community-hosted patch releases reproduced with Bitcadia64 decoders. Metadata only; original hosts supply bytes. Patch application verified; gameplay not tested.",
+  "entries": [
+    {
+      "id": "gamebanana-378082-800696",
+      "name": "Mario Kart 64 - 4 Player Grand Prix",
+      "version": "1.0",
+      "authors": [
+        "HootHootN64"
+      ],
+      "projectUrl": "https://gamebanana.com/mods/378082",
+      "source": {
+        "provider": "GameBanana",
+        "metadataUrl": "https://gamebanana.com/apiv11/Mod/378082/ProfilePage",
+        "retrievedAt": "2026-09-18T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://filecache42.gamebanana.com/mods/mk64_4pgp_v10_.zip",
+        "size": 366708,
+        "sha256": "f5418c966c5ac650b691f5bb3b6c1bc4e85516465e16fe1693c8d6a9c94ebb58",
+        "allowRedirects": false,
+        "archiveMember": "MK64_4pGP(v1.0).bps",
+        "memberSize": 743536,
+        "memberSha256": "361a1c098b072986ed1e1f1f10301cb763a1573e03455f96115db8c96652d1e6"
+      },
+      "output": {
+        "size": 16777216,
+        "sha256": "42f555540e79e8b66b91a0c053168b65be659712d60f10c873727b3b545831e6"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "n64vault-goldeneye-x-6a",
+      "name": "GoldenEye X",
+      "version": "6a",
+      "authors": [
+        "Wreck",
+        "SubDrag",
+        "Carnivorous",
+        "Zoinkity",
+        "00Action",
+        "Sogun",
+        "Trevor",
+        "GERage",
+        "Monkeyface",
+        "Dark Reyn",
+        "Ryan Dwyer",
+        "ZMG88",
+        "Kode-Z",
+        "MRKane",
+        "TH126",
+        "Dragonsbrethren",
+        "Octan Baron",
+        "Jonaeru"
+      ],
+      "projectUrl": "https://n64vault.com/pd-multi-levels:goldeneye-x",
+      "source": {
+        "provider": "N64 Vault",
+        "metadataUrl": "https://n64vault.com/pd-multi-levels:goldeneye-x",
+        "retrievedAt": "2026-09-18T00:00:00Z"
+      },
+      "base": {
+        "name": "Perfect Dark",
+        "variant": "Perfect Dark (USA) (Rev 1)",
+        "gameCode": "NPDE",
+        "normalizedCrc32": "4C1677F7",
+        "normalizedSha256": "4e51142acac686d96861cecc58cf7cb7c3b06b21733b7f8ed609a709dc039a21"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://n64vault.wdfiles.com/local--files/pd-multi-levels%3Agoldeneye-x/GE-X_6a_01-19-25.zip",
+        "size": 36777541,
+        "sha256": "bb40da33d354fc5298caa95fe3df1f758827e19d1e29436af5ca34f4869448bb",
+        "allowRedirects": false,
+        "archiveMember": "GE-X_6a_01-19-25.xdelta",
+        "memberSize": 11264901,
+        "memberSha256": "85de3d0efc70ca35adf819c1ed20c8af120d8caecfa83190196a6fdf190e05c9",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "0231d5a75fb34b28bb6ddb5561a7b146d0ac0908323374da7d63ff096cbbf9fd"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom16k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "releasedAt": "2025-01-19T00:00:00Z"
+    },
+    {
+      "id": "patcher64plus-amped-up-3.00",
+      "name": "Mario Kart 64 - Amped Up",
+      "version": "3.00",
+      "authors": [
+        "Litronom"
+      ],
+      "projectUrl": "https://gamebanana.com/mods/613207",
+      "source": {
+        "provider": "Patcher64Plus-Tool (community mirror)",
+        "metadataUrl": "https://github.com/Admentus64/Patcher64Plus-Tool/blob/848109a4ffe727acfaf00f617507a4b3379c3841/Files/Games/Mario%20Kart%2064/Patches.json",
+        "retrievedAt": "2026-09-18T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://raw.githubusercontent.com/Admentus64/Patcher64Plus-Tool/848109a4ffe727acfaf00f617507a4b3379c3841/Files/Games/Mario%20Kart%2064/Compressed/amped_up.bps",
+        "size": 4073511,
+        "sha256": "1f315430759785c3a037c195be23f6cb72c4789304a40855b764b4d727e275a3",
+        "allowRedirects": false
+      },
+      "output": {
+        "size": 22020096,
+        "sha256": "19817284ee1e50864c1a877d05b87a329204e7feb3a6bd41fe4e7fd02c27a65b"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom16k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    }
+  ]
+}
