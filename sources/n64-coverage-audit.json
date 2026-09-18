@@ -6,9 +6,9 @@
   "requiredProjects": [
     {
       "name": "GoldenEye X",
-      "baseGames": ["GoldenEye 007"],
+      "baseGames": ["Perfect Dark"],
       "status": "pending-source-audit",
-      "reason": "No verified original-site patch artifact, base identity, output hash, and redistribution boundary recorded in current signed Authority publication."
+      "reason": "GoldenEye X 6a is verified in sources/community-registry.json against Perfect Dark USA Rev 1. Signed deployment remains pending; see sources/top-n64-verification.json."
     },
     {
       "name": "Goldfinger 64",

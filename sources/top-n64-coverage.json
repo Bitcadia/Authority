@@ -1,0 +1,664 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-09-18",
+  "purpose": "recommendation-coverage-audit",
+  "selection": "Union of two general N64 recommendation lists and one SM64 list: 33 distinct projects, exceeding the requested 30; not an invented consensus ranking.",
+  "publicationState": "Source changes only. Sequence 8 signing run 35289399823 was waiting for approval during audit; these additions need a later sequence and signed deployment.",
+  "lists": [
+    {
+      "id": "fandomspot-n64",
+      "url": "https://www.fandomspot.com/best-n64-rom-hacks/",
+      "title": "Top 15 Best N64 ROM Hacks Worth Playing"
+    },
+    {
+      "id": "retrododo-n64",
+      "url": "https://retrododo.com/best-n64-rom-hacks/",
+      "title": "18 Best N64 ROM Hacks Of All Time"
+    },
+    {
+      "id": "fandomspot-sm64",
+      "url": "https://www.fandomspot.com/best-sm64-rom-hacks/",
+      "title": "Best Super Mario 64 ROM Hacks Worth Playing"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Jet Force Gemini Trainer and Co-Op",
+      "baseGame": "Jet Force Gemini",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 15
+        }
+      ],
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Archived release is a 7z trainer distribution; current client accepts BPS/VCDIFF and ZIP, not trainer executables.",
+      "sourceUrls": [
+        "https://www.romhacking.net/hacks/711/"
+      ]
+    },
+    {
+      "name": "Pokemon Stadium Kaizo",
+      "baseGame": "Pokemon Stadium",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 14
+        },
+        {
+          "listId": "retrododo-n64",
+          "rank": 12
+        }
+      ],
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Both archived BPS variants reject locally available USA Rev 2 and Japan bases with SourceChecksumMismatch. Need matching USA revision.",
+      "sourceUrls": [
+        "https://www.romhacking.net/hacks/3907/"
+      ]
+    },
+    {
+      "name": "40 Winks Crack",
+      "baseGame": "40 Winks",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 13
+        },
+        {
+          "listId": "retrododo-n64",
+          "rank": 15
+        }
+      ],
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Archived release contains 40WinksCrack.ips; IPS unsupported by current client.",
+      "sourceUrls": [
+        "https://www.romhacking.net/hacks/539/"
+      ]
+    },
+    {
+      "name": "Mario Kart 64 CPUs use human items",
+      "baseGame": "Mario Kart 64",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 12
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-4802-527f91a01186"
+        }
+      ]
+    },
+    {
+      "name": "Amagami Mario Kart",
+      "baseGame": "Mario Kart 64",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 11
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5065-b8cc3a08e380"
+        }
+      ]
+    },
+    {
+      "name": "Majora's Mask Redux",
+      "baseGame": "The Legend of Zelda: Majora's Mask",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 10
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5122-6000c3875a9e"
+        },
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5122-cb445ba58fdc"
+        },
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5122-8289b0e886b1"
+        },
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5122-667934702d2d"
+        },
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5122-db1b97ad8ca6"
+        }
+      ]
+    },
+    {
+      "name": "Ocarina of Time Redux",
+      "baseGame": "The Legend of Zelda: Ocarina of Time",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 9
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5138-34176f88df6f"
+        },
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5138-b265bfe7408c"
+        },
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5138-ed37c137759a"
+        },
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5138-f5c234090b40"
+        },
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5138-974fa98ee2dc"
+        },
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5138-252b85b6639e"
+        }
+      ]
+    },
+    {
+      "name": "Masked Quest",
+      "baseGame": "The Legend of Zelda: Majora's Mask",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 8
+        },
+        {
+          "listId": "retrododo-n64",
+          "rank": 16
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-3959-90f48c79af16"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario Star Road",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 7
+        },
+        {
+          "listId": "retrododo-n64",
+          "rank": 17
+        },
+        {
+          "listId": "fandomspot-sm64",
+          "rank": 3
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "rhdc-super-mario-star-road-1.02"
+        },
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-5e209fb7ea2543645dc04264-1.02"
+        }
+      ]
+    },
+    {
+      "name": "F-Zero DXP",
+      "baseGame": "F-Zero X",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 6
+        },
+        {
+          "listId": "retrododo-n64",
+          "rank": 10
+        }
+      ],
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Archived distribution is fzerodxp.7z; 7z unsupported by current client. Need supported original-host patch packaging.",
+      "sourceUrls": [
+        "https://www.romhacking.net/hacks/235/"
+      ]
+    },
+    {
+      "name": "F-Zero X Climax",
+      "baseGame": "F-Zero X",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 5
+        }
+      ],
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Archived ZIP contains USA/Japan IPS patches; IPS unsupported by current client.",
+      "sourceUrls": [
+        "https://www.romhacking.net/hacks/1487/"
+      ]
+    },
+    {
+      "name": "Zelda's Birthday",
+      "baseGame": "The Legend of Zelda: Ocarina of Time",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 4
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "hylian-registry.json",
+          "entryId": "hylian-zeldas_birthday"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario 64: The Missing Stars",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 3
+        },
+        {
+          "listId": "retrododo-n64",
+          "rank": 9
+        },
+        {
+          "listId": "fandomspot-sm64",
+          "rank": 2
+        }
+      ],
+      "status": "added-source",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-55a9278f-62fe-4543-b765-251141c43f2e"
+        }
+      ]
+    },
+    {
+      "name": "GoldenEye X",
+      "baseGame": "Perfect Dark",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 2
+        }
+      ],
+      "status": "added-source",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "n64vault-goldeneye-x-6a"
+        }
+      ]
+    },
+    {
+      "name": "SM64: Last Impact",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "fandomspot-n64",
+          "rank": 1
+        },
+        {
+          "listId": "retrododo-n64",
+          "rank": 2
+        },
+        {
+          "listId": "fandomspot-sm64",
+          "rank": 1
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-sm64-last-impact-1.2"
+        }
+      ]
+    },
+    {
+      "name": "The Jiggies of Time",
+      "baseGame": "Banjo-Kazooie",
+      "recommendations": [
+        {
+          "listId": "retrododo-n64",
+          "rank": 1
+        }
+      ],
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Public patcher requires Banjo-Kazooie v1.0; local inventory contains USA Rev 1 only. Vimm patch endpoint returned HTTP 400. Creator collection is membership-gated; no gated files acquired.",
+      "sourceUrls": [
+        "https://patch.wedarobi.com/bk_jiggies_of_time"
+      ]
+    },
+    {
+      "name": "Voyager of Time",
+      "baseGame": "The Legend of Zelda: Ocarina of Time",
+      "recommendations": [
+        {
+          "listId": "retrododo-n64",
+          "rank": 3
+        }
+      ],
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Archived readme requires Europe Debug GameCube SHA-1 CEE6BC3C2A634B41728F2AF8DA54D9BF8CC14099, absent locally. Available USA bases fail client checksum checks.",
+      "sourceUrls": [
+        "https://www.romhacking.net/hacks/5797/"
+      ]
+    },
+    {
+      "name": "Ocarina of Time: Four Swords",
+      "baseGame": "The Legend of Zelda: Ocarina of Time",
+      "recommendations": [
+        {
+          "listId": "retrododo-n64",
+          "rank": 4
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "hylian-registry.json",
+          "entryId": "hylian-four_swords_arena_editon"
+        }
+      ],
+      "identityNote": "Existing source title is Four Swords Arena Editon. Recommendation article describes co-op, but this audit does not assert those gameplay claims."
+    },
+    {
+      "name": "Gruntilda's Mask",
+      "baseGame": "Banjo-Kazooie",
+      "recommendations": [
+        {
+          "listId": "retrododo-n64",
+          "rank": 5
+        }
+      ],
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Creator confirms project in collection, but download is membership-gated. No verified publicly retrievable supported patch located in audited sources.",
+      "sourceUrls": [
+        "https://www.patreon.com/Kurko/posts/download-kurko-155098585"
+      ]
+    },
+    {
+      "name": "Mario 64 Sonic Edition",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "retrododo-n64",
+          "rank": 6
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-6094461e9d27773646f1b58e-1.0.2"
+        }
+      ]
+    },
+    {
+      "name": "Banjo-Kazooie: Stay At Home",
+      "baseGame": "Banjo-Kazooie",
+      "recommendations": [
+        {
+          "listId": "retrododo-n64",
+          "rank": 7
+        }
+      ],
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Creator lists Stay At Home v1.9, but collection download is membership-gated. No verified publicly retrievable supported patch located in audited sources.",
+      "sourceUrls": [
+        "https://www.patreon.com/Kurko/posts/download-kurko-155098585"
+      ]
+    },
+    {
+      "name": "Super Donkey Kong 64",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "retrododo-n64",
+          "rank": 8
+        }
+      ],
+      "status": "added-source",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-07d20efd-ac96-4612-a8a1-0463c71c4691"
+        }
+      ]
+    },
+    {
+      "name": "Star Fox 64: Survival",
+      "baseGame": "The Legend of Zelda: Ocarina of Time",
+      "recommendations": [
+        {
+          "listId": "retrododo-n64",
+          "rank": 11
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "hylian-registry.json",
+          "entryId": "hylian-star_fox_64_survival"
+        }
+      ]
+    },
+    {
+      "name": "GoldenEye: Peach's Castle",
+      "baseGame": "GoldenEye 007",
+      "recommendations": [
+        {
+          "listId": "retrododo-n64",
+          "rank": 13
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-1324-c1968d75cf9a"
+        }
+      ]
+    },
+    {
+      "name": "Waluigi of Time",
+      "baseGame": "The Legend of Zelda: Ocarina of Time",
+      "recommendations": [
+        {
+          "listId": "retrododo-n64",
+          "rank": 14
+        }
+      ],
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Archived release contains main and voice PPF patches; PPF unsupported by current client.",
+      "sourceUrls": [
+        "https://www.romhacking.net/hacks/3986/"
+      ]
+    },
+    {
+      "name": "Super Falcon 64",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "retrododo-n64",
+          "rank": 18
+        }
+      ],
+      "status": "added-source",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-e6ebbd12-7061-4df3-85fd-1648f3a183d6"
+        }
+      ],
+      "identityNote": "List cross-check: Retro Dodo SM64 article links SMW Central 25245. SM64 Romhacks calls this Super Captain Falcon 64; downloaded readme credits PastaPower/Blakeoramo and Falcon Punch support."
+    },
+    {
+      "name": "SM64 The Green Stars",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "fandomspot-sm64",
+          "rank": 10
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "rhdc-sm64-the-green-stars-3.4"
+        },
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-5e209f90ea2543645dc04071-3.4"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario 64: Kirby Edition",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "fandomspot-sm64",
+          "rank": 9
+        }
+      ],
+      "status": "added-source",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-f4636090-f830-425a-b647-aadc69b577e7"
+        }
+      ],
+      "identityNote": "SM64 Romhacks lists Dudaw12 as author under Super Kirby 64; archived Kirby Edition is credited to Dudaw. Retained source title and version rather than inventing version equivalence."
+    },
+    {
+      "name": "Super Mario 64 Land",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "fandomspot-sm64",
+          "rank": 8
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-super-mario-64-land-1.1"
+        }
+      ]
+    },
+    {
+      "name": "Star Revenge Redone",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "fandomspot-sm64",
+          "rank": 7
+        }
+      ],
+      "status": "added-source",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-3ea804e5-cbb4-4812-b944-52a1b1851c80"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario Bros. 64",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "fandomspot-sm64",
+          "rank": 6
+        }
+      ],
+      "status": "added-source",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-f7921e9e-62c3-4221-b1d9-14dd77d22166"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario 74",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "fandomspot-sm64",
+          "rank": 5
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "rhdc-super-mario-74-1.12-hotfix-3"
+        }
+      ]
+    },
+    {
+      "name": "SM64 Sapphire",
+      "baseGame": "Super Mario 64",
+      "recommendations": [
+        {
+          "listId": "fandomspot-sm64",
+          "rank": 4
+        }
+      ],
+      "status": "existing-source",
+      "catalogEntries": [
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-5e209f8eea2543645dc04059-1.1"
+        }
+      ]
+    }
+  ]
+}
