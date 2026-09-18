@@ -11,6 +11,7 @@ RUN curl -fsSL "https://download.agent.dev.azure.com/agent/${AGENT_VERSION}/vsts
 COPY tools/sign-publication.mjs tools/validate-publication.mjs tools/devops-sign.mjs /opt/authority/tools/
 COPY tools/devops-hook.py /opt/authority/tools/devops_hook.py
 COPY sources/publication.json /opt/authority/sources/publication.json
+COPY sources/catalog-sources.json /opt/authority/sources/catalog-sources.json
 COPY deploy/omcadia/init-devops.sh /usr/local/bin/init-devops
 RUN chmod 755 /usr/local/bin/init-devops
 USER signer

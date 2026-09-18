@@ -20,23 +20,27 @@ export async function buildPublication({ root, output, keyDirectory }) {
   await mkdir(output); // Fail rather than overwrite an existing artifact.
   await cp(resolve(root, "schemas"), resolve(output, "schemas"), { recursive: true });
   const registries = new Map();
-  for (const authority of config.authorities) {
+  const sources = JSON.parse(await readFile(resolve(root, "sources/catalog-sources.json"))).catalogs;
+  const assigned = new Set();
+  for (const authority of sources) {
     const path = `sites/${authority.id}/catalog/`;
-    let registryPath = resolve(root, `sources/${authority.id}-registry.json`);
-    // Plaza is curated by the existing root Authority, not a new signing identity.
-    if (authority === config.authorities[0]) {
-      const registry = JSON.parse(await readFile(registryPath));
-      const plaza = JSON.parse(await readFile(resolve(root, "sources/plaza-registry.json")));
-      registry.entries.push(...plaza.entries);
-      const rhdn = JSON.parse(await readFile(resolve(root, "sources/rhdn-registry.json")));
-      registry.entries.push(...rhdn.entries);
-      const community = JSON.parse(await readFile(resolve(root, "sources/community-registry.json")));
-      registry.entries.push(...community.entries);
-      registry.notice = "Bitcadia Authority index of RHDC, Romhack Plaza, archived RHDN, N64 Vault, GameBanana and Patcher64Plus releases. Publishers and attributed community hosts supply patch bytes; Authority contains metadata only.";
-      registry.generatedAt = config.issuedAt;
-      registryPath = resolve(output, ".root-source.json");
-      await writeFile(registryPath, bytes(registry));
+    const entries = [];
+    for (const input of authority.inputs) {
+      const document = JSON.parse(await readFile(resolve(root, `sources/${input}-registry.json`)));
+      for (const entry of document.entries) if (authority.providers.includes(entry.source.provider)) {
+        const key = `${input}:${entry.id}`;
+        if (assigned.has(key)) throw Error(`Repeated source assignment: ${key}`);
+        assigned.add(key);
+        entries.push(entry);
+      }
     }
+    const registryPath = resolve(output, ".source.json");
+    await writeFile(registryPath, bytes({
+      $schema: "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry.schema.json",
+      generatedAt: config.issuedAt,
+      notice: `${authority.displayName} source catalog. Backup maintained and hosted by Bitcadia; not a claim of publisher endorsement or publisher-controlled signing. Metadata only; original source and artifact hosts retained per entry.`,
+      entries,
+    }));
     const result = execFileSync(process.execPath, [
       resolve(root, "tools/build-base-rom-catalog.mjs"),
       registryPath,
@@ -45,20 +49,25 @@ export async function buildPublication({ root, output, keyDirectory }) {
     ], { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
     // Builder returns its generated index pin on stdout.
     const pin = JSON.parse(result);
-    if (authority === config.authorities[0]) await rm(registryPath);
+    await rm(registryPath);
     registries.set(authority.id, {
       documentType: "mod-registry-index", url: new URL(`${path}${pin.index}`, config.baseUrl).href,
       sha256: pin.sha256, size: pin.size, gameCount: pin.gameCount, allowRedirects: false,
     });
   }
-  const peers = [];
+  for (const input of new Set(sources.flatMap(source => source.inputs))) {
+    const document = JSON.parse(await readFile(resolve(root, `sources/${input}-registry.json`)));
+    for (const entry of document.entries) if (!assigned.has(`${input}:${entry.id}`)) throw Error(`Unattributed entry: ${input}:${entry.id}`);
+  }
+  const peers = sources.filter(source => source.signer === "root").map(source => ({ displayName: source.displayName, registry: registries.get(source.id) }));
   // Sister manifests must be built before the root binds their payload hashes.
   for (const authority of [...config.authorities.slice(1), config.authorities[0]]) {
     const payload = {
       schemaVersion: 2, authorityId: authority.authorityId, displayName: authority.displayName,
       sequence: config.sequence, issuedAt: config.issuedAt, expiresAt: config.expiresAt,
       previousManifestSha256: authority.previousManifestSha256,
-      registry: registries.get(authority.id), peers: authority === config.authorities[0] ? [...peers] : [],
+      ...(authority === config.authorities[0] ? {} : { registry: registries.get(authority.id) }),
+      peers: authority === config.authorities[0] ? [...peers] : [],
     };
     if (!/^[a-f0-9]{64}$/.test(payload.previousManifestSha256)) throw Error("Invalid previous manifest hash");
     const prefix = authority.directory ? `${authority.directory}/` : "";

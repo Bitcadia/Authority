@@ -9,7 +9,7 @@ const output = resolve(process.argv[3]);
 let checked = 0;
 const outputs = new Map();
 const pairs = [];
-for (const provider of ["rhdc", "hylian", "sm64", "smashremix"]) {
+for (const provider of await readdir(resolve(output, "sites"))) {
   const directory = resolve(output, `sites/${provider}/catalog`);
   for (const name of await readdir(directory)) {
     const path = resolve(directory, name);

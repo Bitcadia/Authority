@@ -12,9 +12,13 @@ sequence, and previous-payload hash for client rollback protection.
 - `sources/publication.json`: public endpoint, dates, sequence, previous hashes,
   and expected authority public-key identities.
 - Coverage audit and active schemas remain source documents.
+- `sources/catalog-sources.json`: source-attribution routing. The Bitcadia root
+  is pointer-only; named source backup catalogs are direct peers or existing
+  sister manifests. See `docs/SOURCE_ATTRIBUTION.md` for counts and rollout.
 
-The current four registries contain 1,555 verified entries. The README's older
-1,568-entry total describes the publication before 13 RHDC entries were excluded.
+The current source split produces nine catalogs with 1,641 entries. Four existing
+signing identities retain their history; catalog names identify source sites,
+not the operator of Bitcadia's backup signing infrastructure.
 
 ## Preview build
 

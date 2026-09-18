@@ -49,6 +49,7 @@ export async function signPublication({ artifact, policyRoot, keyDirectory, stat
     // Use local identities and URL policy; accept release-specific dates and chain values.
     const validationRoot = join(lock, "validation");
     await mkdir(join(validationRoot, "sources"), { recursive: true });
+    await writeFile(join(validationRoot, "sources/catalog-sources.json"), await readFile(resolve(policyRoot, "sources/catalog-sources.json")));
     await writeFile(join(validationRoot, "sources/publication.json"), serialize({
       ...policy, sequence, issuedAt: payloads[0].value.issuedAt, expiresAt: payloads[0].value.expiresAt,
       authorities: policy.authorities.map((a, i) => ({ ...a, previousManifestSha256: payloads[i].value.previousManifestSha256 })),
