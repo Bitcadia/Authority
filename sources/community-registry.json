@@ -141,6 +141,310 @@
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
       }
+    },
+    {
+      "id": "n64vault-goldfinger64-fe66d0b2",
+      "name": "Goldfinger 64",
+      "version": "1.0",
+      "authors": [
+        "SubDrag",
+        "Trevor",
+        "Sogun",
+        "Zoinkity",
+        "Wreck",
+        "Dragonsbrethren",
+        "MRKane",
+        "00action",
+        "Cyberen",
+        "Monkeyface",
+        "Kyle",
+        "Sean Ryan",
+        "Garabuyo",
+        "Comet",
+        "Stolen Textures",
+        "Spinout",
+        "ShiftClick"
+      ],
+      "projectUrl": "https://n64vault.com/ge-campaigns:goldfinger-64",
+      "source": {
+        "provider": "N64 Vault",
+        "metadataUrl": "https://n64vault.com/ge-campaigns:goldfinger-64",
+        "retrievedAt": "2026-09-18T00:00:00Z"
+      },
+      "base": {
+        "name": "GoldenEye 007",
+        "variant": "GoldenEye 007 (USA)",
+        "gameCode": "NGEE",
+        "normalizedCrc32": "B6330846",
+        "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://n64vault.wdfiles.com/local--files/ge-campaigns%3Agoldfinger-64/goldfinger64.zip",
+        "size": 12580844,
+        "sha256": "86d368c0315d220c2e1ed19f553f3104ea941a11ff55153e67eaddae8514e68d",
+        "allowRedirects": false,
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression",
+        "archiveMember": "Goldfinger64_1_0.xdelta",
+        "memberSize": 12818566,
+        "memberSha256": "80b2a517b81c3eafdc0ebba544f984c8417f17099603b11b5d4b44b6810367c5"
+      },
+      "output": {
+        "size": 25165824,
+        "sha256": "3a666d521a90cc3bc45b8163fa1397d1ab62f6f03fe604417fd3ac02b21cd9ca"
+      },
+      "saveType": "eeprom4k",
+      "compatibility": "patch-applied-not-playtested",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://n64vault.wdfiles.com/local--files/ge-campaigns:goldfinger-64/image.jpg",
+        "size": 135137,
+        "sha256": "2c9efa52f6b40c60209f6aa5a8c5e8135e5e3d13bc5107e2b1cef8dc429b7028",
+        "allowRedirects": false,
+        "sourcePage": "https://n64vault.com/ge-campaigns:goldfinger-64"
+      }
+    },
+    {
+      "id": "n64vault-tnd64-expanded-11-24-e3b0c442",
+      "name": "Tomorrow Never Dies 64 - Expanded",
+      "version": "11-24",
+      "authors": [
+        "TiJayFLY",
+        "Wreck",
+        "Johnny Thunder",
+        "MRKane",
+        "SRGn64",
+        "00action",
+        "HackBond",
+        "QueenAllTheWay"
+      ],
+      "projectUrl": "https://n64vault.com/ge-campaigns:tomorrow-never-dies-64",
+      "source": {
+        "provider": "N64 Vault",
+        "metadataUrl": "https://n64vault.com/ge-campaigns:tomorrow-never-dies-64",
+        "retrievedAt": "2026-09-18T00:00:00Z"
+      },
+      "base": {
+        "name": "GoldenEye 007",
+        "variant": "GoldenEye 007 (USA)",
+        "gameCode": "NGEE",
+        "normalizedCrc32": "B6330846",
+        "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://n64vault.wdfiles.com/local--files/ge-campaigns%3Atomorrow-never-dies-64/TND64_Expanded_11-24.xdelta",
+        "size": 6129853,
+        "sha256": "2497df80fd03d12a1935a8041164a197d3577a4db5f4380bfd24138f04527668",
+        "allowRedirects": false,
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 16777216,
+        "sha256": "ba5e040de292d7d192d0f88f12dcf4cbde7eb4d643926830d7d77557bf6df502"
+      },
+      "saveType": "eeprom4k",
+      "compatibility": "patch-applied-not-playtested",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://n64vault.wdfiles.com/local--files/ge-campaigns%3Atomorrow-never-dies-64/tnd-vault.png",
+        "size": 6130540,
+        "sha256": "a0a885624541e49243e457dad28dfe2cfae4bdb5517837a32c44ae6c0ade5a3d",
+        "allowRedirects": false,
+        "sourcePage": "https://n64vault.com/ge-campaigns:tomorrow-never-dies-64"
+      }
+    },
+    {
+      "id": "n64vault-dark-noon-e48d1dba",
+      "name": "Dark Noon",
+      "version": "2025-10-02",
+      "authors": [
+        "MRKane",
+        "Hypatia",
+        "Faye Crawford"
+      ],
+      "projectUrl": "https://n64vault.com/pd-levels:dark-noon",
+      "source": {
+        "provider": "N64 Vault",
+        "metadataUrl": "https://n64vault.com/pd-levels:dark-noon",
+        "retrievedAt": "2026-09-18T00:00:00Z"
+      },
+      "base": {
+        "name": "Perfect Dark",
+        "variant": "Perfect Dark (USA) (Rev 1)",
+        "gameCode": "NPDE",
+        "normalizedCrc32": "4C1677F7",
+        "normalizedSha256": "4e51142acac686d96861cecc58cf7cb7c3b06b21733b7f8ed609a709dc039a21"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://n64vault.wdfiles.com/local--files/pd-levels%3Adark-noon/darknoon_valley%5Bmrkane%5D.zip",
+        "size": 5171837,
+        "sha256": "efb84081383748606b39a64c2eb6ab79707b2d8981837aea1cc0b38f2eae491d",
+        "allowRedirects": false,
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression",
+        "archiveMember": "darknoon_valley[mrkane].xdelta",
+        "memberSize": 2558603,
+        "memberSha256": "b852145a90f7d105a23869b23ecd3477273d9cb913d02b643b4f2d14d3dee46a"
+      },
+      "output": {
+        "size": 37748736,
+        "sha256": "bfca33e5e644c6c0d25b776192c883e7bce0e6a9e4a197ca2f8d0f951c3ddf3c"
+      },
+      "saveType": "eeprom16k",
+      "compatibility": "patch-applied-not-playtested",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://n64vault.wdfiles.com/local--files/pd-levels:dark-noon/image.png",
+        "size": 2669758,
+        "sha256": "31d5e9f2da3f1c22356727e0d6e91534580d542eb6ade493af1e1d9956a6a0ad",
+        "allowRedirects": false,
+        "sourcePage": "https://n64vault.com/pd-levels:dark-noon"
+      }
+    },
+    {
+      "id": "gamebanana-378081-1311739-edfa07f1",
+      "name": "Mario Kart 64 - Hooting Time",
+      "version": "1.44",
+      "authors": [
+        "HootHootN64"
+      ],
+      "projectUrl": "https://gamebanana.com/mods/378081",
+      "source": {
+        "provider": "GameBanana",
+        "metadataUrl": "https://gamebanana.com/apiv11/Mod/378081/ProfilePage",
+        "retrievedAt": "2026-09-18T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://filecache47.gamebanana.com/mods/mk64-hootingtime144.zip",
+        "size": 29845727,
+        "sha256": "5f6901c168c810c9ce17dc7694b1c58e35c3c6a5dd2e2e551e95190d9c8acb75",
+        "allowRedirects": false,
+        "archiveMember": "MK64-HootingTime1.40/MK64-HootingTime1.44.bps",
+        "memberSize": 6606940,
+        "memberSha256": "205d099af3fe250bd4470c48722cd77d2d4aa3e7da80543d7d4f183804b5c021"
+      },
+      "output": {
+        "size": 23068672,
+        "sha256": "dcceeb2a1f8316e81133b261186bd64ff7c4d6a55d6a1a0f0d2f929a268dd273"
+      },
+      "saveType": "eeprom4k",
+      "compatibility": "patch-applied-not-playtested",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://images.gamebanana.com/img/ss/mods/530-90_6314d80321456.jpg",
+        "size": 54659,
+        "sha256": "453042e70a54f65e5ad5629f46e8be3cfb70a3e75e4c0dd2912d0828316fdcba",
+        "allowRedirects": false,
+        "sourcePage": "https://gamebanana.com/mods/378081"
+      }
+    },
+    {
+      "id": "gamebanana-336637-696088-c4ae1088",
+      "name": "Mario Kart 64 Deluxe",
+      "version": "0.8.1",
+      "authors": [
+        "Reset.TV",
+        "Soniceurs"
+      ],
+      "projectUrl": "https://gamebanana.com/mods/336637",
+      "source": {
+        "provider": "GameBanana",
+        "metadataUrl": "https://gamebanana.com/apiv11/Mod/336637/ProfilePage",
+        "retrievedAt": "2026-09-18T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://filecache43.gamebanana.com/mods/mario_kart_64_deluxe_0_8_1.zip",
+        "size": 2209487,
+        "sha256": "0fdf15ce704ac15f87ee3b61717952e7246af636f4285ba361e4160b4c4e445c",
+        "allowRedirects": false,
+        "archiveMember": "Mario Kart 64 Deluxe 0.8.1.bps",
+        "memberSize": 2460434,
+        "memberSha256": "fb9bd843710ea9c12d3c505f418db50a5f14c756db6a91420d2aa6a190b49c00"
+      },
+      "output": {
+        "size": 15534216,
+        "sha256": "195b60e6e8b2039a10972c4260a02a07407051df6067289111df2664cb72aa06"
+      },
+      "saveType": "eeprom4k",
+      "compatibility": "patch-applied-not-playtested",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://images.gamebanana.com/img/ss/mods/530-90_61956c38add51.jpg",
+        "size": 68882,
+        "sha256": "4ac28208755cc69e082d3004bd1ac8458e3f56290e86038b2b35b83b2c981351",
+        "allowRedirects": false,
+        "sourcePage": "https://gamebanana.com/mods/336637"
+      }
+    },
+    {
+      "id": "patcher64plus-battle-kart-2.0",
+      "name": "Battle Kart 64",
+      "version": "2.0",
+      "authors": [
+        "Triclon"
+      ],
+      "projectUrl": "https://github.com/Admentus64/Patcher64Plus-Tool",
+      "source": {
+        "provider": "Patcher64Plus-Tool (community mirror)",
+        "metadataUrl": "https://raw.githubusercontent.com/Admentus64/Patcher64Plus-Tool/848109a4ffe727acfaf00f617507a4b3379c3841/Files/Games/Mario%20Kart%2064/Patches.json",
+        "retrievedAt": "2026-09-18T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://raw.githubusercontent.com/Admentus64/Patcher64Plus-Tool/848109a4ffe727acfaf00f617507a4b3379c3841/Files/Games/Mario%20Kart%2064/Compressed/battle_kart_64.bps",
+        "size": 137725,
+        "sha256": "a162b4b5e47bd02f66cd309c617c68c0128695aec83b071aebaa0c90c61231ca",
+        "allowRedirects": false
+      },
+      "output": {
+        "size": 12795912,
+        "sha256": "f2b03e208d6ec4a898449b3b1ec719b769ab823651dcb8a932386856bf830c2c"
+      },
+      "saveType": "eeprom4k",
+      "compatibility": "patch-applied-not-playtested",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
     }
   ]
 }

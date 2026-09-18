@@ -1,0 +1,14 @@
+{
+  "notice": "Source attribution, not publisher endorsement. Bitcadia maintains these backup catalogs until source operators publish their own signed manifests. Existing sister keys are Bitcadia-operated backup identities.",
+  "catalogs": [
+    { "id": "rhdc", "displayName": "Romhacking.com", "inputs": ["rhdc", "sm64"], "providers": ["rhdc"], "signer": "root" },
+    { "id": "smashremix", "displayName": "Smash Remix", "inputs": ["smashremix"], "providers": ["smashremix.net"], "signer": "smashremix" },
+    { "id": "hylian", "displayName": "Hylian Modding", "inputs": ["hylian"], "providers": ["hylianmodding.com"], "signer": "hylian" },
+    { "id": "sm64", "displayName": "SM64 Romhacks", "inputs": ["sm64"], "providers": ["sm64romhacks.com"], "signer": "sm64" },
+    { "id": "plaza", "displayName": "Romhack Plaza", "inputs": ["plaza"], "providers": ["romhackplaza.org"], "signer": "root" },
+    { "id": "rhdn", "displayName": "Romhacking.net (archive)", "inputs": ["rhdn"], "providers": ["romhacking.net (2021-09-14 archive)"], "signer": "root" },
+    { "id": "gamebanana", "displayName": "GameBanana", "inputs": ["community"], "providers": ["GameBanana"], "signer": "root" },
+    { "id": "n64vault", "displayName": "N64 Vault", "inputs": ["community"], "providers": ["N64 Vault"], "signer": "root" },
+    { "id": "patcher64plus", "displayName": "Patcher64Plus (mirror)", "inputs": ["community"], "providers": ["Patcher64Plus-Tool (community mirror)"], "signer": "root" }
+  ]
+}
