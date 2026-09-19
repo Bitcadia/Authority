@@ -16,7 +16,7 @@ sequence, and previous-payload hash for client rollback protection.
   is pointer-only; named source backup catalogs are direct peers or existing
   sister manifests. See `docs/SOURCE_ATTRIBUTION.md` for counts and rollout.
 
-The current source split produces eleven catalogs with 1,644 entries. Four existing
+The current source split produces eleven catalogs with 1,662 entries. Four existing
 signing identities retain their history; catalog names identify source sites,
 not the operator of Bitcadia's backup signing infrastructure.
 

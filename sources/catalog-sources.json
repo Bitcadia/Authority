@@ -61,7 +61,8 @@
       "id": "rhdn",
       "displayName": "Romhacking.net (archive)",
       "inputs": [
-        "rhdn"
+        "rhdn",
+        "community"
       ],
       "providers": [
         "romhacking.net (2021-09-14 archive)"

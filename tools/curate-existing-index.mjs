@@ -13,7 +13,7 @@ const canonicalBytes = (bytes) => Buffer.from(bytes.toString("utf8").replaceAll(
 const digest = (bytes) => createHash("sha256").update(bytes).digest("hex");
 const index = JSON.parse(await readFile(indexPath, "utf8"));
 const curation = JSON.parse(await readFile(picksPath, "utf8"));
-const canonicalCategories = new Set(["the-sequel", "the-dlc", "the-replacement", "the-experiment"]);
+const canonicalCategories = new Set(["the-sequel", "the-dlc", "the-replacement", "the-experiment", "the-preserver"]);
 
 for (const game of index.games || []) {
   const listName = basename(new URL(game.list.url).pathname);

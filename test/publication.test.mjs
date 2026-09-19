@@ -23,7 +23,7 @@ test("generated publications preserve entries, pins, signatures and reproducibil
   await writeFile(join(root, "sources/publication.json"), JSON.stringify(config));
   const output = join(root, "output");
   await buildPublication({ root, output, keyDirectory: keys });
-  assert.deepEqual(await validatePublication(root, output, { requireSigned: true }), { entries: 1644, signed: true });
+  assert.deepEqual(await validatePublication(root, output, { requireSigned: true }), { entries: 1662, signed: true });
   const rootPayload = JSON.parse(await readFile(join(output, "authority-payload.json")));
   assert.equal(rootPayload.registry, undefined, "Bitcadia must be discovery-only");
   assert.deepEqual(rootPayload.peers.map(peer => peer.displayName).sort(), [
@@ -32,7 +32,7 @@ test("generated publications preserve entries, pins, signatures and reproducibil
     "Perfect Dark decompilation",
     "FazanaJ",
   ].sort());
-  const expectedCounts = { rhdc: 1511, smashremix: 1, hylian: 26, sm64: 16, plaza: 21, rhdn: 57, gamebanana: 4, n64vault: 4, patcher64plus: 2, "pd-performance": 1, fazanaj: 1 };
+  const expectedCounts = { rhdc: 1511, smashremix: 1, hylian: 26, sm64: 21, plaza: 21, rhdn: 58, gamebanana: 6, n64vault: 14, patcher64plus: 2, "pd-performance": 1, fazanaj: 1 };
   const policy = JSON.parse(await readFile(join(root, "sources/catalog-sources.json")));
   const publishedIds = new Set();
   for (const source of policy.catalogs) {
@@ -61,7 +61,7 @@ test("generated publications preserve entries, pins, signatures and reproducibil
   await assert.rejects(validatePublication(root, output, { requireSigned: true }), /signature/);
   const unsigned = join(root, "unsigned");
   await buildPublication({ root, output: unsigned });
-  assert.equal((await validatePublication(root, unsigned)).entries, 1644);
+  assert.equal((await validatePublication(root, unsigned)).entries, 1662);
   const unsignedRoot = join(unsigned, "authority-payload.json");
   const originalRoot = await readFile(unsignedRoot);
   const mislabeled = JSON.parse(originalRoot);
