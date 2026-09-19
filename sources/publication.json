@@ -1,8 +1,8 @@
 {
   "baseUrl": "https://bitcadia.github.io/Authority/",
   "sequence": 12,
-  "issuedAt": "2026-09-19T21:18:27Z",
-  "expiresAt": "2036-09-16T21:18:27Z",
+  "issuedAt": "2026-09-19T23:36:04Z",
+  "expiresAt": "2036-09-16T23:36:04Z",
   "authorities": [
     {
       "id": "rhdc",

@@ -33,3 +33,26 @@ patch identities are invented, and existing publication exclusions still apply.
 Refresh by checking the site's current page size/defaults, capturing both API
 pages, reviewing explicit entry mappings and gaps, and running the publication
 tests. Publish with a new signed sequence after review.
+
+## Canonical eligibility
+
+SM64 canonical picks must also belong to the union of the top 25 downloaded
+and top 25 highest-rated projects, captured separately in
+`sources/rhdc-canonical-rankings.json`. Refresh with
+`node tools/capture-rhdc-canonical-rankings.mjs`; the regression test checks every
+populated SM64 canonical slot against those project URLs and admission policy.
+This constraint does not apply to other games, which these RHDC lists do not rank.
+
+| Slot | Project | Downloads rank | Rating rank |
+| --- | --- | ---: | ---: |
+| Sequel | SM64: Decades Later | 20 | 5 |
+| DLC | Peach's Fury 1.1 | 16 | 12 |
+| Replacement | Super Mario Star Road | 7 | Outside top 25 |
+| Experiment | BAZR | 23 | 22 |
+| Preserver | Unfilled | — | — |
+
+Peach's Fury replaces Wario's Hint Art, which is outside both lists. Its
+25-star standalone adventure fits the DLC-sized role; it is not a patch
+stacked onto another canonical release. Preserver stays empty until a verified,
+vanilla-preserving candidate satisfies the same eligibility rule. Rank evidence
+is a dated snapshot and requires explicit refresh, not a live ranking promise.
