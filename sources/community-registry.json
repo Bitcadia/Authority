@@ -445,6 +445,128 @@
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
       }
+    },
+    {
+      "id": "perfect-dark-performance-catbox-7vit86",
+      "name": "Perfect Dark - High Performance",
+      "version": "unversioned",
+      "authors": [
+        "Ryan Dwyer"
+      ],
+      "projectUrl": "https://gitlab.com/ryandwyer/perfect-dark/-/tree/mods/performance",
+      "source": {
+        "provider": "Perfect Dark decompilation (user-linked patch)",
+        "metadataUrl": "https://github.com/n64decomp/perfect_dark/tree/mods/performance",
+        "retrievedAt": "2026-09-18T00:00:00Z"
+      },
+      "base": {
+        "name": "Perfect Dark",
+        "variant": "Perfect Dark (USA) (Rev 1)",
+        "gameCode": "NPDE",
+        "normalizedCrc32": "4C1677F7",
+        "normalizedSha256": "4e51142acac686d96861cecc58cf7cb7c3b06b21733b7f8ed609a709dc039a21"
+      },
+      "patch": {
+        "format": "vcdiff",
+        "url": "https://files.catbox.moe/7vit86.zip",
+        "size": 1453430,
+        "sha256": "72ae8f48e17bdaa803364b640799a7cb27090caf4a3d2205f78918ffd7df1ec1",
+        "allowRedirects": false,
+        "archiveMember": "pd-perf.xdelta",
+        "memberSize": 1488551,
+        "memberSha256": "7b44a4b587e30e29bd53908c50c47122a502ae2084617267cf47612f4f2a865e",
+        "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+      },
+      "output": {
+        "size": 33554432,
+        "sha256": "60a98f6238082040890a6075b624866f2d6784e75de6f71e3d5cc668eb469e0c"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom16k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "gamebanana-613207-1584378",
+      "name": "Mario Kart 64 - Amped Up",
+      "version": "3.21",
+      "authors": [
+        "Litronom"
+      ],
+      "projectUrl": "https://gamebanana.com/mods/613207",
+      "source": {
+        "provider": "GameBanana",
+        "metadataUrl": "https://gamebanana.com/apiv11/Mod/613207/ProfilePage",
+        "retrievedAt": "2026-09-18T00:00:00Z"
+      },
+      "base": {
+        "name": "Mario Kart 64",
+        "variant": "Mario Kart 64 (USA)",
+        "gameCode": "NKTE",
+        "normalizedCrc32": "434389C1",
+        "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      },
+      "patch": {
+        "format": "bps",
+        "url": "https://filecache47.gamebanana.com/mods/mario_kart_64_-_amped_up_-_v321.rar",
+        "size": 3775079,
+        "sha256": "ac457e7606dd618e7f53a25d1bef5230e85777a093aabc7597ff074d7d6e2d8f",
+        "allowRedirects": false,
+        "archiveMember": "Amped_Up_v3.21.bps",
+        "memberSize": 4215902,
+        "memberSha256": "5de554345e9d5566cda2b1ef5ea0d7b390e2f8c282bd876f2312bb331ce0a49a"
+      },
+      "output": {
+        "size": 23068672,
+        "sha256": "b41470704489b3741e09e430e08c5153e750c14852aab77fe657de9d1a630a5a"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom16k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
+    },
+    {
+      "id": "fazanaj-dkr-performance-1.1",
+      "name": "Diddy Kong Racing - Performance Patch",
+      "version": "1.1",
+      "releasedAt": "2025-05-13T15:09:58Z",
+      "authors": [
+        "FazanaJ"
+      ],
+      "projectUrl": "https://github.com/FazanaJ/Diddy-Kong-Racing/releases/tag/1.1",
+      "source": {
+        "provider": "FazanaJ (GitHub releases)",
+        "metadataUrl": "https://api.github.com/repos/FazanaJ/Diddy-Kong-Racing/releases/tags/1.1",
+        "retrievedAt": "2026-09-18T00:00:00Z"
+      },
+      "base": {
+        "name": "Diddy Kong Racing",
+        "variant": "Diddy Kong Racing (USA) (En,Fr)",
+        "gameCode": "NDYE",
+        "normalizedCrc32": "EB759206",
+        "normalizedSha256": "dcf54c82a58f6b38603b5865e90c3baabfe553a4d141a1ea2b282170a2e98876"
+      },
+      "patch": {
+        "format": "ips",
+        "url": "https://github.com/FazanaJ/Diddy-Kong-Racing/releases/download/1.1/DKR.Perf.Patch.Ips",
+        "size": 11399734,
+        "sha256": "9dbd18098844e19ee08055fdd39b1c5304972f08c99ec3804431cef84da4baad",
+        "allowRedirects": true
+      },
+      "output": {
+        "size": 11418596,
+        "sha256": "4e2c439c4cf0f524c79c25abe085a9ff92abab167bd5d023e39747bce8d69c97"
+      },
+      "compatibility": "patch-applied-not-playtested",
+      "saveType": "eeprom4k",
+      "rights": {
+        "patchRedistributionAllowed": false,
+        "artworkRedistributionAllowed": false
+      }
     }
   ]
 }

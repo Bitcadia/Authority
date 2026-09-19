@@ -1,0 +1,22 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+const load = async name => JSON.parse(await readFile(new URL(`../sources/${name}`, import.meta.url)));
+test("PDHP and DKR bind verified distinct patch releases", async () => {
+  const report = await load("performance-mod-verification.json");
+  const catalog = await load("community-registry.json");
+  const record = report.verified[0];
+  assert.deepEqual(catalog.entries.find(entry => entry.id === record.entry.id), record.entry);
+  assert.equal(record.entry.version, "unversioned");
+  assert.equal(record.entry.patch.archiveMember, "pd-perf.xdelta");
+  assert.equal(record.entry.saveType, "eeprom16k");
+  assert.equal(record.verification, "two-client-decoder-runs-and-client-zip-extraction");
+  assert.equal(record.gameplayTested, false);
+  const dkr = report.verified.find(record => record.entry.id === "fazanaj-dkr-performance-1.1");
+  assert.deepEqual(catalog.entries.find(entry => entry.id === dkr.entry.id), dkr.entry);
+  assert.equal(dkr.entry.version, "1.1");
+  assert.equal(dkr.entry.patch.format, "ips");
+  assert.equal(dkr.baseSha1, "0cb115d8716dbbc2922fda38e533b9fe63bb9670");
+  assert.equal(dkr.verification, "two-native-Windows-client-IPS-runs-and-independent-IPS-byte-comparison");
+  assert.equal(report.pending.length, 0);
+});
