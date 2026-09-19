@@ -1,8 +1,8 @@
 {
   "baseUrl": "https://bitcadia.github.io/Authority/",
-  "sequence": 9,
-  "issuedAt": "2026-09-19T04:17:23Z",
-  "expiresAt": "2036-09-16T04:17:23Z",
+  "sequence": 10,
+  "issuedAt": "2026-09-19T16:44:58Z",
+  "expiresAt": "2036-09-16T16:44:58Z",
   "authorities": [
     {
       "id": "rhdc",
@@ -10,7 +10,7 @@
       "keyFile": "bitcadia-authority.pem",
       "authorityId": "ed25519:Df--2beY1D0DvraD-y2kGO5m3P6jC1DAOqUIhLkT6ZE",
       "displayName": "Bitcadia Authority",
-      "previousManifestSha256": "0db0d9711c95f96b282ed290afb81537a93cb33a4a21e68b953a7b64faf78ce4"
+      "previousManifestSha256": "23b161ce2125a87a11b125c313eda446e66b22509fc4f087abe541ced2b53983"
     },
     {
       "id": "smashremix",
@@ -18,7 +18,7 @@
       "keyFile": "smashremix.pem",
       "authorityId": "ed25519:GVmN8nDjUdyuaOFr333W9sRbdruOmWdBl2gZRsjY3Js",
       "displayName": "Smash Remix",
-      "previousManifestSha256": "4784224911c7a488edde093a0ce72fd14392832a1313eec488643104495096f6"
+      "previousManifestSha256": "c6e39d4db79959714989ad81786f18206e7e6c1c4c8b99ec2e46f131de340407"
     },
     {
       "id": "hylian",
@@ -26,7 +26,7 @@
       "keyFile": "hylian.pem",
       "authorityId": "ed25519:pO2u4qZEmHlFp2TccUt3vYmc1pVNm-riyBnpwmLVUwg",
       "displayName": "Hylian Modding",
-      "previousManifestSha256": "83be48ecc3a9651cd246ce91a867cf7631677b09431212603663eefee9ecb6f4"
+      "previousManifestSha256": "4a4a8f884b957ad0e3924d8d07fc0ad1ee35bdec9b6fe96e3ee249c47c74b95b"
     },
     {
       "id": "sm64",
@@ -34,7 +34,7 @@
       "keyFile": "sm64.pem",
       "authorityId": "ed25519:A4Am7jdCAqDnq0SBKkBDBKGndSs-1E5avxNbAp43tcc",
       "displayName": "SM64 Romhacks",
-      "previousManifestSha256": "d09c4f54155fa3fe919f2ac756921846906b42c5ffbb954c0e146c464aca361c"
+      "previousManifestSha256": "bf312e47bb329e3dd7f63f1a33139a0aee8a5dc31ff31d12e6f51554b703e948"
     }
   ]
 }

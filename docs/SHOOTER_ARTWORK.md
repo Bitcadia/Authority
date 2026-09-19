@@ -29,11 +29,12 @@ this audit. Its pin is retained; external-host availability is not guaranteed.
 These metadata changes are not live until a new signed publication. Never
 overwrite sequence 9 with changed entry bytes.
 
-Goldfinger's default collage is replaced with the 1051x727 **Box - Front**
-image from LaunchBox's Goldfinger 64 gallery. The image was visually inspected;
-its artwork sourcePage points to LaunchBox while mod provenance stays N64 Vault.
+Goldfinger's default collage is replaced with the 1051x727 front-cover image
+hosted on the GoldenEye Wiki's Fandom CDN. The image was visually inspected;
+its artwork sourcePage points to the wiki while mod provenance stays N64 Vault.
 This changes artwork only, not patch/output pins or redistribution permissions.
-Delivery remains blocked: browser-style downloads returned the pinned JPEG,
-but the native client downloader returned `WriteFailed` from the CDN response.
-Do not publish this replacement as client-verified until that fetch succeeds
-or an attributable directly retrievable cover source replaces it.
+The original LaunchBox candidate failed native-client retrieval. Its replacement
+passed the native Windows client's `downloadArtworkScoped` size/SHA-256 checks
+without redirects. The CDN returns WebP despite the `.jpg` URL; the actual
+Windows client decoder successfully decoded it at 1051x727. New signed
+publication is still required before it goes live.

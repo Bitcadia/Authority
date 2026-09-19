@@ -60,11 +60,11 @@
           "artworkRedistributionAllowed": false
         },
         "artwork": {
-          "url": "https://images.launchbox-app.com/506b1493-4b37-4dc0-a3d8-93104c8a22ba.jpg",
-          "size": 316143,
-          "sha256": "4669f998e9589db5cb842c6190cb3ba573d7e26768eec36269bd8c899f113bdd",
+          "url": "https://static.wikia.nocookie.net/goldeneye/images/f/fd/N64Goldfinger.jpg/revision/latest?cb=20210626182610",
+          "size": 199290,
+          "sha256": "ae03dce240acb9c1867c7ff7813ad8a0cf8cf64bd97e3255334768f8acb28da7",
           "allowRedirects": false,
-          "sourcePage": "https://gamesdb.launchbox-app.com/games/images/88606-goldfinger-64"
+          "sourcePage": "https://goldeneye.fandom.com/wiki/Goldfinger_64"
         }
       },
       "originalDownloadUrl": "https://n64vault.wdfiles.com/local--files/ge-campaigns%3Agoldfinger-64/goldfinger64.zip",
@@ -73,8 +73,9 @@
       "gameplayTested": false,
       "artworkVerification": {
         "dimensions": "1051x727",
-        "decoder": "Windows System.Drawing",
-        "hash": "4669f998e9589db5cb842c6190cb3ba573d7e26768eec36269bd8c899f113bdd"
+        "decoder": "Native Windows Bitcadia64 artwork decoder; WebP bytes despite .jpg URL",
+        "downloadVerification": "Windows Bitcadia64 registry.downloadArtworkScoped accepted Fandom CDN size and SHA-256 without redirects",
+        "hash": "ae03dce240acb9c1867c7ff7813ad8a0cf8cf64bd97e3255334768f8acb28da7"
       },
       "sourceReportedRequirements": [
         "Expansion Pak",

@@ -51,5 +51,5 @@ patch verification are not gameplay certification.
 Updated client, authoring, federation/dispute handling, and validators must ship
 before these picks are signed. Older clients reject `the-preserver` as unknown.
 Use a new publication sequence after live sequence 9. This checkout also contains
-pending EverDrive additions and artwork changes; do not publish the blocked
-Goldfinger CDN cover as if it passed native-client retrieval.
+pending EverDrive additions and artwork changes. Goldfinger's formerly blocked
+LaunchBox cover now uses a Fandom CDN URL verified through the Windows client.
