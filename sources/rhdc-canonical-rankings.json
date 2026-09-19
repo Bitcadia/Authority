@@ -1,0 +1,321 @@
+{
+  "capturedAt": "2026-09-19T23:35:24.923Z",
+  "scope": "Super Mario 64 canonical picks",
+  "policy": "Every populated SM64 canonical slot must match a project in either top-25 list. Empty slots are permitted. Project popularity does not establish release equivalence or hardware compatibility.",
+  "pages": [
+    {
+      "sortBy": "downloads",
+      "apiUrl": "https://api.romhacking.com/v4/hacks?includePrivate=true&includeUnapproved=true&mature=no&sortBy=downloads&sortOrder=desc&pageSize=25",
+      "responseSha256": "db299fd865169aff9bf0a6363c9acf87d543eee41f99695573a2bc736fb4bb60",
+      "projects": [
+        {
+          "rank": 1,
+          "hackId": "6150ce351a4b5263dfebff62",
+          "name": "B3313 (Super Mario 64 Internal Plexus)",
+          "projectUrl": "https://romhacking.com/hack/b3313-super-mario-64-internal-plexus"
+        },
+        {
+          "rank": 2,
+          "hackId": "653572c1b11336a5cdebf6ba",
+          "name": "Shotgun Mario 64",
+          "projectUrl": "https://romhacking.com/hack/shotgun-mario-64"
+        },
+        {
+          "rank": 3,
+          "hackId": "633099a03c6251671e31e990",
+          "name": "Super CAEC 64",
+          "projectUrl": "https://romhacking.com/hack/Super-CAEC-64"
+        },
+        {
+          "rank": 4,
+          "hackId": "66490950139c2f67916c660e",
+          "name": "Mario Builder 64",
+          "projectUrl": "https://romhacking.com/hack/mario-builder-64"
+        },
+        {
+          "rank": 5,
+          "hackId": "620c5528f838b1d071e9099c",
+          "name": "sm64.z64",
+          "projectUrl": "https://romhacking.com/hack/sm64.z64"
+        },
+        {
+          "rank": 6,
+          "hackId": "5ee7cf3ec4af753a556c6d7c",
+          "name": "Super Mario 64 Land",
+          "projectUrl": "https://romhacking.com/hack/super-mario-64-land"
+        },
+        {
+          "rank": 7,
+          "hackId": "5e209fb7ea2543645dc04264",
+          "name": "Super Mario Star Road",
+          "projectUrl": "https://romhacking.com/hack/super-mario-star-road"
+        },
+        {
+          "rank": 8,
+          "hackId": "6094461e9d27773646f1b58e",
+          "name": "Mario 64 Sonic Edition",
+          "projectUrl": "https://romhacking.com/hack/mario-64-sonic-edition"
+        },
+        {
+          "rank": 9,
+          "hackId": "5e209f8eea2543645dc0404a",
+          "name": "SM64 Randomizer",
+          "projectUrl": "https://romhacking.com/hack/sm64-randomizer"
+        },
+        {
+          "rank": 10,
+          "hackId": "6553276ac082cbe51bebfc14",
+          "name": "B3313: Unabandoned",
+          "projectUrl": "https://romhacking.com/hack/b3313-unabandoned"
+        },
+        {
+          "rank": 11,
+          "hackId": "5e209f80ea2543645dc03fe0",
+          "name": "Super Mario 64 - Chaos Edition",
+          "projectUrl": "https://romhacking.com/hack/super-mario-64---chaos-edition"
+        },
+        {
+          "rank": 12,
+          "hackId": "64c52286e8134735b5f521ae",
+          "name": "Only Up 64",
+          "projectUrl": "https://romhacking.com/hack/only-up-64"
+        },
+        {
+          "rank": 13,
+          "hackId": "5ee809f9e86dc40580f117aa",
+          "name": "Super Mario Odyssey 64",
+          "projectUrl": "https://romhacking.com/hack/super-mario-odyssey-64"
+        },
+        {
+          "rank": 14,
+          "hackId": "676a0ec9301bb8106f3b9177",
+          "name": "Mario in the Multiverse",
+          "projectUrl": "https://romhacking.com/hack/mario-in-the-multiverse"
+        },
+        {
+          "rank": 15,
+          "hackId": "626d2afe926b3cde8ba631ed",
+          "name": "Through The Ages",
+          "projectUrl": "https://romhacking.com/hack/Through-The-Ages"
+        },
+        {
+          "rank": 16,
+          "hackId": "61fdc91f6fea33068cc97daa",
+          "name": "Peach's Fury",
+          "projectUrl": "https://romhacking.com/hack/Peach-s-Fury"
+        },
+        {
+          "rank": 17,
+          "hackId": "5e209f8aea2543645dc0400d",
+          "name": "SM64 Last Impact",
+          "projectUrl": "https://romhacking.com/hack/sm64-last-impact"
+        },
+        {
+          "rank": 18,
+          "hackId": "5ee809f8e86dc40580f117a1",
+          "name": "Multiplayer 64 Splitscreen Multiplayer",
+          "projectUrl": "https://romhacking.com/hack/multiplayer-64-splitscreen-multiplayer"
+        },
+        {
+          "rank": 19,
+          "hackId": "6217e01f5865d5cba0d462de",
+          "name": "The Backrooms 64",
+          "projectUrl": "https://romhacking.com/hack/The-Backrooms-64"
+        },
+        {
+          "rank": 20,
+          "hackId": "660695d12f0650df5f8c3d71",
+          "name": "SM64: Decades Later",
+          "projectUrl": "https://romhacking.com/hack/sm64--decades-later"
+        },
+        {
+          "rank": 21,
+          "hackId": "6466ea92e952a72a24c2aa53",
+          "name": "SM64: Beyond the Cursed Mirror",
+          "projectUrl": "https://romhacking.com/hack/sm64--beyond-the-cursed-mirror"
+        },
+        {
+          "rank": 22,
+          "hackId": "6082251eda6b336996b5bd96",
+          "name": "Mario's Vacation Course",
+          "projectUrl": "https://romhacking.com/hack/marios-vacation-course"
+        },
+        {
+          "rank": 23,
+          "hackId": "67abd8d4c8f605fd953ba8f4",
+          "name": "BAZR",
+          "projectUrl": "https://romhacking.com/hack/bazr"
+        },
+        {
+          "rank": 24,
+          "hackId": "5e209f8dea2543645dc0403e",
+          "name": "SM64 Ocarina of Time",
+          "projectUrl": "https://romhacking.com/hack/sm64-ocarina-of-time"
+        },
+        {
+          "rank": 25,
+          "hackId": "6342676617316e22c431f6f9",
+          "name": "Serene Fusion",
+          "projectUrl": "https://romhacking.com/hack/Serene-Fusion"
+        }
+      ]
+    },
+    {
+      "sortBy": "rating",
+      "apiUrl": "https://api.romhacking.com/v4/hacks?includePrivate=true&includeUnapproved=true&mature=no&sortBy=rating&sortOrder=desc&pageSize=25",
+      "responseSha256": "f425f00929fc6638452a48dd73d8262b649992f14e030a9ae3f55f3d773d392f",
+      "projects": [
+        {
+          "rank": 1,
+          "hackId": "66490950139c2f67916c660e",
+          "name": "Mario Builder 64",
+          "projectUrl": "https://romhacking.com/hack/mario-builder-64"
+        },
+        {
+          "rank": 2,
+          "hackId": "634631047c8bdb28b031fa65",
+          "name": "Mystery of the Capsmith Demo",
+          "projectUrl": "https://romhacking.com/hack/Mystery-of-the-Capsmith-Demo"
+        },
+        {
+          "rank": 3,
+          "hackId": "653572c1b11336a5cdebf6ba",
+          "name": "Shotgun Mario 64",
+          "projectUrl": "https://romhacking.com/hack/shotgun-mario-64"
+        },
+        {
+          "rank": 4,
+          "hackId": "6342676617316e22c431f6f9",
+          "name": "Serene Fusion",
+          "projectUrl": "https://romhacking.com/hack/Serene-Fusion"
+        },
+        {
+          "rank": 5,
+          "hackId": "660695d12f0650df5f8c3d71",
+          "name": "SM64: Decades Later",
+          "projectUrl": "https://romhacking.com/hack/sm64--decades-later"
+        },
+        {
+          "rank": 6,
+          "hackId": "69bfc64a4e00bc080536e178",
+          "name": "beauty",
+          "projectUrl": "https://romhacking.com/hack/beauty"
+        },
+        {
+          "rank": 7,
+          "hackId": "6202213b3fc3a663215b60f3",
+          "name": "Mario vs. Wario Ware",
+          "projectUrl": "https://romhacking.com/hack/Mario-vs.-Wario-Ware"
+        },
+        {
+          "rank": 8,
+          "hackId": "5e209f9dea2543645dc04105",
+          "name": "Star Revenge 6.25: Luigi's Adventure DX",
+          "projectUrl": "https://romhacking.com/hack/star-revenge-625-luigis-adventure-dx"
+        },
+        {
+          "rank": 9,
+          "hackId": "65163cf431e6c817d6939502",
+          "name": "Super Mario and the Monstrous Manor",
+          "projectUrl": "https://romhacking.com/hack/super-mario-and-the-monstrous-manor"
+        },
+        {
+          "rank": 10,
+          "hackId": "677939c420d3b48b8e3b99cf",
+          "name": "Return To Yoshi's Island DEMO 2",
+          "projectUrl": "https://romhacking.com/hack/return-to-yoshi-s-island-demo-2"
+        },
+        {
+          "rank": 11,
+          "hackId": "6a1bc2d67bd1f163b3ca5d56",
+          "name": "Mario Teaches Patience",
+          "projectUrl": "https://romhacking.com/hack/mario-teaches-patience"
+        },
+        {
+          "rank": 12,
+          "hackId": "61fdc91f6fea33068cc97daa",
+          "name": "Peach's Fury",
+          "projectUrl": "https://romhacking.com/hack/Peach-s-Fury"
+        },
+        {
+          "rank": 13,
+          "hackId": "683855145b028ccbe2d52369",
+          "name": "The Patchmaker's Workshop",
+          "projectUrl": "https://romhacking.com/hack/the-patchmaker-s-workshop"
+        },
+        {
+          "rank": 14,
+          "hackId": "64b2f6f2f639bdb55d42be31",
+          "name": "Eternal Realm",
+          "projectUrl": "https://romhacking.com/hack/eternal-realm"
+        },
+        {
+          "rank": 15,
+          "hackId": "67948a7e2836a6f46d3ba2fd",
+          "name": "Mario's Modules",
+          "projectUrl": "https://romhacking.com/hack/mario-s-modules"
+        },
+        {
+          "rank": 16,
+          "hackId": "66b8b5c3d7acf0418f4b3fdc",
+          "name": "SM64 Royal Legacy Definitive Edition",
+          "projectUrl": "https://romhacking.com/hack/sm64-royal-legacy-definitive-edition"
+        },
+        {
+          "rank": 17,
+          "hackId": "694d4a8c3db0279a5336cb71",
+          "name": "SM64 Dark Matter",
+          "projectUrl": "https://romhacking.com/hack/sm64-dark-matter"
+        },
+        {
+          "rank": 18,
+          "hackId": "6150ce351a4b5263dfebff62",
+          "name": "B3313 (Super Mario 64 Internal Plexus)",
+          "projectUrl": "https://romhacking.com/hack/b3313-super-mario-64-internal-plexus"
+        },
+        {
+          "rank": 19,
+          "hackId": "607802790cf00e13afda9a6b",
+          "name": "Return to Yoshi's Island 64 Demo",
+          "projectUrl": "https://romhacking.com/hack/return-to-yoshis-island-64-demo"
+        },
+        {
+          "rank": 20,
+          "hackId": "631d1d5fb52b29aca97cf567",
+          "name": "ELISE",
+          "projectUrl": "https://romhacking.com/hack/ELISE"
+        },
+        {
+          "rank": 21,
+          "hackId": "661c805ea241fcebbc86db6c",
+          "name": "Eureka",
+          "projectUrl": "https://romhacking.com/hack/eureka"
+        },
+        {
+          "rank": 22,
+          "hackId": "67abd8d4c8f605fd953ba8f4",
+          "name": "BAZR",
+          "projectUrl": "https://romhacking.com/hack/bazr"
+        },
+        {
+          "rank": 23,
+          "hackId": "660854aeca8d0f1b8e8c3df4",
+          "name": "Slide With You",
+          "projectUrl": "https://romhacking.com/hack/slide-with-you"
+        },
+        {
+          "rank": 24,
+          "hackId": "606f8b0f5ae6dd60d647ab15",
+          "name": "Lucy's Levitation",
+          "projectUrl": "https://romhacking.com/hack/lucys-levitation"
+        },
+        {
+          "rank": 25,
+          "hackId": "6a8e1ad9f7ed54850eca6f48",
+          "name": "SM64 Liminal Dream 1.5 Preview",
+          "projectUrl": "https://romhacking.com/hack/sm64-liminal-dream-1.5-preview"
+        }
+      ]
+    }
+  ]
+}

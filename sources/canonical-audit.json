@@ -426,13 +426,13 @@
           "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
         },
         {
-          "entryId": "rhdc-655d0f251c26adfe7074dba8-sha1-c155a63dde03e2005acf9c71edf2d15f7fe9d341",
+          "entryId": "rhdc-61fdc91f6fea33068cc97daa-1.1",
           "source": "rhdc",
           "game": "Super Mario 64",
           "baseSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91",
           "slot": "the-dlc",
-          "reason": "Retained existing curated pick; established role unchanged.",
-          "evidenceUrl": "https://romhacking.com/hack/wario-s-hint-art",
+          "evidenceUrl": "https://romhacking.com/hack/Peach-s-Fury",
+          "reason": "Compact 25-star standalone adventure fits the DLC-sized slot; RHDC #16 downloaded and #12 highest rated in the 2026-09-19 snapshot. Replaces Wario's Hint Art, which is outside both top-25 lists.",
           "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
         },
         {
