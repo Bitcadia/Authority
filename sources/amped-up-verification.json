@@ -88,6 +88,13 @@
   },
   "rarCandidate": {
     "id": "gamebanana-613207-1584378",
+    "artwork": {
+      "url": "https://images.gamebanana.com/img/ss/mods/530-90_689a648e681e4.jpg",
+      "size": 119714,
+      "sha256": "bee044329b65c6cfede59f1d0481e126570b9f0927d99db24c8975a5c8dce46b",
+      "allowRedirects": false,
+      "sourcePage": "https://gamebanana.com/mods/613207"
+    },
     "name": "Mario Kart 64 - Amped Up",
     "version": "3.21",
     "authors": [

@@ -5,6 +5,13 @@
   "entries": [
     {
       "id": "gamebanana-378082-800696",
+      "artwork": {
+        "url": "https://images.gamebanana.com/img/ss/mods/530-90_62849edfdcc51.jpg",
+        "size": 80133,
+        "sha256": "f7c776d49357d85c7c55dbe0d9b946fc17814ef70b9be95b245a0c10ebf38cc2",
+        "allowRedirects": false,
+        "sourcePage": "https://gamebanana.com/mods/378082"
+      },
       "name": "Mario Kart 64 - 4 Player Grand Prix",
       "version": "1.0",
       "authors": [
@@ -113,6 +120,13 @@
     },
     {
       "id": "patcher64plus-amped-up-3.00",
+      "artwork": {
+        "url": "https://images.gamebanana.com/img/ss/mods/530-90_689a648e681e4.jpg",
+        "size": 119714,
+        "sha256": "bee044329b65c6cfede59f1d0481e126570b9f0927d99db24c8975a5c8dce46b",
+        "allowRedirects": false,
+        "sourcePage": "https://gamebanana.com/mods/613207"
+      },
       "name": "Mario Kart 64 - Amped Up",
       "version": "3.00",
       "authors": [
@@ -497,6 +511,13 @@
     },
     {
       "id": "gamebanana-613207-1584378",
+      "artwork": {
+        "url": "https://images.gamebanana.com/img/ss/mods/530-90_689a648e681e4.jpg",
+        "size": 119714,
+        "sha256": "bee044329b65c6cfede59f1d0481e126570b9f0927d99db24c8975a5c8dce46b",
+        "allowRedirects": false,
+        "sourcePage": "https://gamebanana.com/mods/613207"
+      },
       "name": "Mario Kart 64 - Amped Up",
       "version": "3.21",
       "authors": [
