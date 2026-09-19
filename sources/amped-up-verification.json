@@ -39,8 +39,8 @@
     "projectUrl": "https://gamebanana.com/mods/613207",
     "metadataUrl": "https://gamebanana.com/apiv11/Mod/613207/ProfilePage",
     "auditedAt": "2026-09-18",
-    "status": "verified-patch-blocked-container",
-    "reason": "Original release is RAR; current Bitcadia64 archive extractor supports ZIP only. Do not publish a ZIP descriptor or direct BPS URL for these RAR bytes.",
+    "status": "verified-client-rar",
+    "reason": "Original RAR extracted by native Bitcadia64 unarr integration on Linux and Windows, then BPS applied with matching output. Requires RAR-capable client before publication.",
     "artifact": {
       "requested": "https://gamebanana.com/dl/1584378",
       "url": "https://filecache47.gamebanana.com/mods/mario_kart_64_-_amped_up_-_v321.rar",
@@ -52,7 +52,7 @@
       "format": "bps",
       "size": 4215902,
       "sha256": "5de554345e9d5566cda2b1ef5ea0d7b390e2f8c282bd876f2312bb331ce0a49a",
-      "extraction": "node-unrar-js; not the client extractor"
+      "extraction": "Bitcadia64 bounded RAR extractor (unarr 1.2.0)"
     },
     "base": {
       "name": "Mario Kart 64",
@@ -84,6 +84,47 @@
       "projectUrl": "https://patch.wedarobi.com/mk64_amped_up",
       "newestListedVersion": "3.02",
       "result": "Public browser patcher works with local USA base; uses POST API and produces a browser blob download, not a stable direct patch URL."
+    }
+  },
+  "rarCandidate": {
+    "id": "gamebanana-613207-1584378",
+    "name": "Mario Kart 64 - Amped Up",
+    "version": "3.21",
+    "authors": [
+      "Litronom"
+    ],
+    "projectUrl": "https://gamebanana.com/mods/613207",
+    "source": {
+      "provider": "GameBanana",
+      "metadataUrl": "https://gamebanana.com/apiv11/Mod/613207/ProfilePage",
+      "retrievedAt": "2026-09-18T00:00:00Z"
+    },
+    "base": {
+      "name": "Mario Kart 64",
+      "variant": "Mario Kart 64 (USA)",
+      "gameCode": "NKTE",
+      "normalizedCrc32": "434389C1",
+      "normalizedSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+    },
+    "patch": {
+      "format": "bps",
+      "url": "https://filecache47.gamebanana.com/mods/mario_kart_64_-_amped_up_-_v321.rar",
+      "size": 3775079,
+      "sha256": "ac457e7606dd618e7f53a25d1bef5230e85777a093aabc7597ff074d7d6e2d8f",
+      "allowRedirects": false,
+      "archiveMember": "Amped_Up_v3.21.bps",
+      "memberSize": 4215902,
+      "memberSha256": "5de554345e9d5566cda2b1ef5ea0d7b390e2f8c282bd876f2312bb331ce0a49a"
+    },
+    "output": {
+      "size": 23068672,
+      "sha256": "b41470704489b3741e09e430e08c5153e750c14852aab77fe657de9d1a630a5a"
+    },
+    "compatibility": "patch-applied-not-playtested",
+    "saveType": "eeprom16k",
+    "rights": {
+      "patchRedistributionAllowed": false,
+      "artworkRedistributionAllowed": false
     }
   }
 }

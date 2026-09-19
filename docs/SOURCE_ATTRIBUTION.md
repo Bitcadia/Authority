@@ -5,19 +5,21 @@ Bitcadia's root manifest is a discovery and backup statement. It has no owned
 hosts the backup JSON and signs its attestation; that does not imply the source
 site operates the signing key or endorses this mirror.
 
-## Audit of all 1,641 published-candidate entries
+## Audit of all 1,644 published-candidate entries
 
 | Displayed source | Entries | Backup signing arrangement |
 | --- | ---: | --- |
 | Romhacking.com | 1,511 | Direct peer claim in root manifest |
 | Romhack Plaza | 21 | Direct peer claim in root manifest |
 | Romhacking.net (archive) | 57 | Direct peer claim in root manifest |
-| GameBanana | 3 | Direct peer claim in root manifest |
+| GameBanana | 4 | Direct peer claim in root manifest |
 | N64 Vault | 4 | Direct peer claim in root manifest |
 | Patcher64Plus (mirror) | 2 | Direct peer claim in root manifest |
 | Smash Remix | 1 | Existing Bitcadia-operated sister manifest |
 | Hylian Modding | 26 | Existing Bitcadia-operated sister manifest |
 | SM64 Romhacks | 16 | Existing Bitcadia-operated sister manifest |
+| Perfect Dark decompilation | 1 | Direct peer claim; user-linked PDHP patch |
+| FazanaJ | 1 | Direct peer claim; GitHub release patch |
 
 The audit found six RHDC records in the SM64 source file. Publication now routes
 them to Romhacking.com, retaining their IDs, URLs, and hashes. The eight excluded
@@ -41,9 +43,9 @@ artifact host. Examples:
 
 ## Identities and migration
 
-There are nine source catalogs and four existing signing identities. New
+There are eleven source catalogs and four existing signing identities. New
 separately named backup catalogs do not require inventing publisher identities.
-The root attests to six direct peer registries; the existing three sister
+The root attests to eight direct peer registries; the existing three sister
 manifests keep their keys, paths, and signed history. The internal root signing
 ID `rhdc` is retained for signer-state compatibility; it is not catalog ownership.
 The UI receives each peer's source display name, while attester metadata still
@@ -62,7 +64,7 @@ identity needs an explicit trust migration, not a silent key swap.
 2. Advance `sources/publication.json` from the latest deployed signed heads.
    Existing sequence 8 cannot be reused for changed bytes.
 3. Build, sign, verify retained history, and deploy Pages through the normal flow.
-4. Verify the root has no registry and its nine peers have the names above.
+4. Verify the root has no registry and its eleven peers have the names above.
 5. Refresh the client. Source-scoped confirmations/cache keys can change when
    mixed catalogs split; do not carry old installation grants across new scopes.
 
