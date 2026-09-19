@@ -630,6 +630,13 @@
     },
     {
       "id": "rhdn-hacks-5618-a32eec92035a",
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/5618screenshot1.png",
+        "size": 379418,
+        "sha256": "40e29ea29c82a5df737ae0a2c18b6cf3b880f1fed4e3361eb010b839db3a839a",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/5618/"
+      },
       "name": "Battle Kart 64 - Battle_Kart_64_v1.0",
       "version": "1.0",
       "authors": [
@@ -671,6 +678,13 @@
     },
     {
       "id": "rhdn-hacks-4802-527f91a01186",
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/4802screenshot1.png",
+        "size": 365013,
+        "sha256": "765a4bba492bf0a75fc5797c6b87e709fe01f6402d0e8a9c714c9d9a2e439b65",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/4802/"
+      },
       "name": "Mario Kart 64 CPUs use human items including shells - Mario_Kart_64_CPUs_use_human_items_v2.5",
       "version": "2.5",
       "authors": [
@@ -712,6 +726,13 @@
     },
     {
       "id": "rhdn-hacks-5042-7c3e601e6e43",
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/5042screenshot1.png",
+        "size": 225067,
+        "sha256": "50c345050fc5969cb0bbd9babb8eb8aa923a496bce06ecba2b5bb9d68236c71f",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/5042/"
+      },
       "name": "Mario Kart 64 Hot Potato Battle - MK64_Hot_Potato_Battle_v1.1",
       "version": "1.1",
       "authors": [
@@ -2009,6 +2030,13 @@
     },
     {
       "id": "rhdn-hacks-5065-b8cc3a08e380",
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/5065screenshot1.png",
+        "size": 382923,
+        "sha256": "7adf99049bf1f2d9f5fe6082729fb811f21480264fa2d282dd1c4ca32a2b61c7",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/5065/"
+      },
       "name": "Amagami Mario Kart - Amagami Mario Kart z64",
       "version": "1.0",
       "authors": [
