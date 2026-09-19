@@ -1,0 +1,46 @@
+{
+  "capturedAt": "2026-09-19T21:51:57.936Z",
+  "frontend": "https://romhacking.com/assets/index-DF1gNtGJ.js",
+  "pageSize": 10,
+  "policy": "First page of each public default browse ranking; mature=no, includePrivate=true, includeUnapproved=true. Rank is source position, not hardware compatibility or a canonical-slot assignment. Only explicitly mapped verified catalog releases are promoted.",
+  "pages": [
+    {
+      "category": "rhdc-most-downloaded",
+      "label": "RHDC Most Downloaded",
+      "description": "Romhacking.com first-page Downloads ranking, captured 2026-09-19. Project popularity, not hardware certification or release equivalence.",
+      "url": "https://romhacking.com/?sortBy=downloads&sortOrder=desc",
+      "apiUrl": "https://api.romhacking.com/v4/hacks?includePrivate=true&includeUnapproved=true&mature=no&sortBy=downloads&sortOrder=desc&pageSize=10",
+      "projects": [
+        {"rank":1,"hackId":"6150ce351a4b5263dfebff62","name":"B3313 (Super Mario 64 Internal Plexus)","entries":{},"gap":"Known release rhdc-6150ce351a4b5263dfebff62-0.2 is publication-excluded: 96 MiB output exceeds the client 78 MiB limit."},
+        {"rank":2,"hackId":"653572c1b11336a5cdebf6ba","name":"Shotgun Mario 64","entries":{"sm64":["sm64romhacks-shotgun-mario-64-1.0.5"]}},
+        {"rank":3,"hackId":"633099a03c6251671e31e990","name":"Super CAEC 64","entries":{"rhdc":["rhdc-633099a03c6251671e31e990-sha1-83bb95b7592400445060ae94214211369f7f3e1a"]}},
+        {"rank":4,"hackId":"66490950139c2f67916c660e","name":"Mario Builder 64","entries":{},"gap":"No verified catalog release admitted."},
+        {"rank":5,"hackId":"620c5528f838b1d071e9099c","name":"sm64.z64","entries":{"rhdc":["rhdc-620c5528f838b1d071e9099c-sha1-fe2dbfd094c8da0d35863160c0460a3bb5cbf7a8"]}},
+        {"rank":6,"hackId":"5ee7cf3ec4af753a556c6d7c","name":"Super Mario 64 Land","entries":{"sm64":["sm64romhacks-super-mario-64-land-1.1"]}},
+        {"rank":7,"hackId":"5e209fb7ea2543645dc04264","name":"Super Mario Star Road","entries":{"rhdc":["rhdc-5e209fb7ea2543645dc04264-1.02","rhdc-super-mario-star-road-1.02"]}},
+        {"rank":8,"hackId":"6094461e9d27773646f1b58e","name":"Mario 64 Sonic Edition","entries":{"rhdc":["rhdc-6094461e9d27773646f1b58e-1.0.2"]}},
+        {"rank":9,"hackId":"5e209f8eea2543645dc0404a","name":"SM64 Randomizer","entries":{"rhdc":["rhdc-5e209f8eea2543645dc0404a-1.1.2"]}},
+        {"rank":10,"hackId":"6553276ac082cbe51bebfc14","name":"B3313: Unabandoned","entries":{"rhdc":["rhdc-6553276ac082cbe51bebfc14-sha1-dee03aad9c3beec0e85f8ff855ff1184a662d005"]}}
+      ]
+    },
+    {
+      "category": "rhdc-highest-rated",
+      "label": "RHDC Highest Rated",
+      "description": "Romhacking.com first-page Rating ranking, captured 2026-09-19. Project rating, not hardware certification or release equivalence.",
+      "url": "https://romhacking.com/?sortBy=rating&sortOrder=desc",
+      "apiUrl": "https://api.romhacking.com/v4/hacks?includePrivate=true&includeUnapproved=true&mature=no&sortBy=rating&sortOrder=desc&pageSize=10",
+      "projects": [
+        {"rank":1,"hackId":"66490950139c2f67916c660e","name":"Mario Builder 64","entries":{},"gap":"No verified catalog release admitted."},
+        {"rank":2,"hackId":"634631047c8bdb28b031fa65","name":"Mystery of the Capsmith Demo","entries":{},"gap":"No verified catalog release admitted."},
+        {"rank":3,"hackId":"653572c1b11336a5cdebf6ba","name":"Shotgun Mario 64","entries":{"sm64":["sm64romhacks-shotgun-mario-64-1.0.5"]}},
+        {"rank":4,"hackId":"6342676617316e22c431f6f9","name":"Serene Fusion","entries":{"rhdc":["rhdc-6342676617316e22c431f6f9-1.3.3","rhdc-serene-fusion-1.3.3"]}},
+        {"rank":5,"hackId":"660695d12f0650df5f8c3d71","name":"SM64: Decades Later","entries":{"rhdc":["rhdc-660695d12f0650df5f8c3d71-1.1h2"]}},
+        {"rank":6,"hackId":"69bfc64a4e00bc080536e178","name":"beauty","entries":{"rhdc":["rhdc-69bfc64a4e00bc080536e178-sha1-30961690b475867e55829887e629db2ca2224a6c"]}},
+        {"rank":7,"hackId":"6202213b3fc3a663215b60f3","name":"Mario vs. Wario Ware","entries":{"rhdc":["rhdc-6202213b3fc3a663215b60f3-1.0.1"]}},
+        {"rank":8,"hackId":"5e209f9dea2543645dc04105","name":"Star Revenge 6.25: Luigi's Adventure DX","entries":{},"gap":"No verified catalog release admitted."},
+        {"rank":9,"hackId":"65163cf431e6c817d6939502","name":"Super Mario and the Monstrous Manor","entries":{"rhdc":["rhdc-65163cf431e6c817d6939502-1.1.1"]}},
+        {"rank":10,"hackId":"677939c420d3b48b8e3b99cf","name":"Return To Yoshi's Island DEMO 2","entries":{"rhdc":["rhdc-677939c420d3b48b8e3b99cf-1.06"]}}
+      ]
+    }
+  ]
+}

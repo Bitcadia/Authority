@@ -14,6 +14,8 @@ const outputSizes = JSON.parse(await readFile(new URL("../sources/output-sizes.j
 const exclusions = JSON.parse(await readFile(new URL("../sources/publication-exclusions.json", import.meta.url)));
 const releaseGroups = JSON.parse(await readFile(new URL("../sources/release-groups.json", import.meta.url)));
 const curation = JSON.parse(await readFile(picksPath, "utf8"));
+const recommendations = JSON.parse(await readFile(new URL("../sources/rhdc-recommendations.json", import.meta.url)));
+const recommendationCategories = recommendations.pages.filter(page => page.projects.some(project => project.entries[authorityId]?.length));
 const indexSchema = "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index.schema.json";
 const canonicalCategories = new Set(["the-sequel", "the-dlc", "the-replacement", "the-experiment", "the-preserver"]);
 const canonical = value => Array.isArray(value) ? value.map(canonical) : value && typeof value === "object"
@@ -82,6 +84,18 @@ for (const group of groups.values()) {
     const pick = { category, entryId: entry.id, entrySha256: entry.entrySha256, name: entry.name, version: entry.version, outputSha256: entry.output.sha256 };
     picks.push(pick);
   }
+  for (const page of recommendationCategories) for (const project of page.projects) {
+    for (const entryId of project.entries[authorityId] || []) {
+      const entry = group.entries.find(candidate => candidate.id === entryId);
+      if (!entry) {
+        if (![...groups.values()].some(candidate => candidate.entries.some(value => value.id === entryId)))
+          throw Error(`RHDC recommendation references missing entry ${authorityId}:${entryId}`);
+        continue;
+      }
+      picks.push({ category: page.category, entryId: entry.id, entrySha256: entry.entrySha256,
+        name: entry.name, version: entry.version, outputSha256: entry.output.sha256 });
+    }
+  }
   games.push({
     base: group.base,
     list: {
@@ -102,7 +116,7 @@ const index = {
   schemaVersion: 2,
   generatedAt: source.generatedAt,
   notice: source.notice,
-  categoryDefinitions: [],
+  categoryDefinitions: recommendationCategories.map(page => ({ id: page.category, label: page.label, description: page.description })),
   games,
 };
 const indexBytes = serialized(index);

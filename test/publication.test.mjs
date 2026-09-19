@@ -35,12 +35,27 @@ test("generated publications preserve entries, pins, signatures and reproducibil
   const expectedCounts = { rhdc: 1511, smashremix: 1, hylian: 26, sm64: 21, plaza: 21, rhdn: 58, gamebanana: 6, n64vault: 14, patcher64plus: 2, "pd-performance": 1, fazanaj: 1 };
   const policy = JSON.parse(await readFile(join(root, "sources/catalog-sources.json")));
   const publishedIds = new Set();
+  const recommendations = JSON.parse(await readFile(join(root, "sources/rhdc-recommendations.json")));
+  const promoted = new Set();
   for (const source of policy.catalogs) {
     const peer = rootPayload.peers.find(peer => peer.displayName === source.displayName);
     const index = JSON.parse(await readFile(join(output, peer.registry.url.slice(config.baseUrl.length))));
+    const expectedCategories = recommendations.pages.filter(page => page.projects.some(project => project.entries[source.id]?.length));
+    assert.deepEqual(index.categoryDefinitions.map(category => category.id), expectedCategories.map(page => page.category));
     let count = 0;
     for (const game of index.games) {
       const list = JSON.parse(await readFile(join(output, game.list.url.slice(config.baseUrl.length))));
+      for (const page of expectedCategories) {
+        const expectedIds = page.projects.flatMap(project => project.entries[source.id] || []).filter(id => list.entries.some(entry => entry.id === id));
+        const picks = game.targets.flatMap(target => target.picks).filter(pick => pick.category === page.category);
+        assert.deepEqual(picks.map(pick => pick.entryId), expectedIds);
+        for (const pick of picks) {
+          const entry = list.entries.find(entry => entry.id === pick.entryId);
+          assert.equal(pick.entrySha256, entry.entrySha256);
+          assert.equal(pick.outputSha256, entry.output.sha256);
+          promoted.add(pick.entryId);
+        }
+      }
       for (const entry of list.entries) {
         assert.ok(source.providers.includes(entry.source.provider), entry.id);
         assert.ok(!publishedIds.has(entry.id), `Duplicate source record: ${entry.id}`);
@@ -50,6 +65,7 @@ test("generated publications preserve entries, pins, signatures and reproducibil
     }
     assert.equal(count, expectedCounts[source.id]);
   }
+  assert.equal(promoted.size, 16, "14 eligible projects, including two retained source-record duplicates");
   const second = join(root, "second");
   await buildPublication({ root, output: second, keyDirectory: keys });
   assert.deepEqual(await readFile(join(output, "authority-manifest.json")), await readFile(join(second, "authority-manifest.json")));
