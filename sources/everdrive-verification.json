@@ -3,6 +3,13 @@
     {
       "entry": {
         "id": "everdrive-df562d5e8eef8319e612",
+        "artwork": {
+          "url": "https://n64vault.wdfiles.com/local--files/ge-campaigns:the-janus-alternative/image.jpg",
+          "size": 92400,
+          "sha256": "83db945abc47fea0a21fa7cc0d8a8534a3d9c719283272cdb6075f85621bd17e",
+          "allowRedirects": false,
+          "sourcePage": "https://n64vault.com/ge-campaigns:the-janus-alternative"
+        },
         "name": "The Janus Alternative",
         "version": "unversioned",
         "authors": [
@@ -50,6 +57,13 @@
     {
       "entry": {
         "id": "everdrive-d59d6d6628397b4705ad",
+        "artwork": {
+          "url": "https://n64vault.wdfiles.com/local--files/ge-campaigns:the-k7-assignment/image.jpg",
+          "size": 96025,
+          "sha256": "8c32058f7b294ee0f6aa079ab41a745fcc171493a8c32643df160c75c3880932",
+          "allowRedirects": false,
+          "sourcePage": "https://n64vault.com/ge-campaigns:the-k7-assignment"
+        },
         "name": "K7 Assignment",
         "version": "1.1",
         "authors": [
@@ -97,6 +111,13 @@
     {
       "entry": {
         "id": "everdrive-2e3d845a4544253bf04a",
+        "artwork": {
+          "url": "https://n64vault.wdfiles.com/local--files/ge-for-fun:goldeneye-with-mario-characters/Thumbnail.png",
+          "size": 269891,
+          "sha256": "2cdef52fd337917bbe402763d533d82c0574ceb4df32b43ba0eac17f40d1e922",
+          "allowRedirects": false,
+          "sourcePage": "https://n64vault.com/ge-for-fun:goldeneye-with-mario-characters"
+        },
         "name": "GoldenEye with Mario Characters",
         "version": "3.17",
         "authors": [
@@ -149,6 +170,13 @@
     {
       "entry": {
         "id": "everdrive-35409ce18475dab2bfa2",
+        "artwork": {
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-levels:ssb-bomberman-64/bomberman64A.jpg",
+          "size": 489403,
+          "sha256": "b58ddbee469864b044fd8c3ac9c531bcef211ce38e8deed6d496dcad5a01c79a",
+          "allowRedirects": false,
+          "sourcePage": "https://n64vault.com/ssb-levels:ssb-bomberman-64"
+        },
         "name": "Smash 64 - Bomberman Stages",
         "version": "unversioned",
         "authors": [
@@ -195,6 +223,13 @@
     {
       "entry": {
         "id": "everdrive-bdb8b6941d098d51d15d",
+        "artwork": {
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-levels:three-stage-mod/image.jpg",
+          "size": 219847,
+          "sha256": "c76d10c9ed3055442d938ad0f6aab9147c5d77de8f88740b1d2ab1ef31367aa6",
+          "allowRedirects": false,
+          "sourcePage": "https://n64vault.com/ssb-levels:three-stage-mod"
+        },
         "name": "Three Stage Mod",
         "version": "unversioned",
         "authors": [
@@ -241,6 +276,13 @@
     {
       "entry": {
         "id": "everdrive-c7116d2cb4287aa1918f",
+        "artwork": {
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-levels:ganons-ruin/Capture.PNG",
+          "size": 3256298,
+          "sha256": "54e29b6f3c4f77e7ab8d69275cf4af83fce1fb6244af2b68ec16baa4f93cae28",
+          "allowRedirects": false,
+          "sourcePage": "https://n64vault.com/ssb-levels:ganons-ruin"
+        },
         "name": "Ganon's Ruin Stage",
         "version": "unversioned",
         "authors": [
@@ -287,6 +329,13 @@
     {
       "entry": {
         "id": "everdrive-12677b511d0e79b96e28",
+        "artwork": {
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-levels:houston-triple-pack/screen.png",
+          "size": 364798,
+          "sha256": "af58573b2c3b1eed11611c0a43f473f9b73528797a0dca756d26705f036d0a00",
+          "allowRedirects": false,
+          "sourcePage": "https://n64vault.com/ssb-levels:houston-triple-pack"
+        },
         "name": "Houston Triple Pack Stage",
         "version": "unversioned",
         "authors": [
@@ -333,6 +382,13 @@
     {
       "entry": {
         "id": "everdrive-aa0f7cbd74741080eaa1",
+        "artwork": {
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-levels:dk-world-gex-scream-tv/dkw-stv.jpg",
+          "size": 242787,
+          "sha256": "80e34aaf484b44a21a6a20b9e4c928e07ce8c0ef192af52bd03ec369e236b7ed",
+          "allowRedirects": false,
+          "sourcePage": "https://n64vault.com/ssb-levels:dk-world-gex-scream-tv"
+        },
         "name": "DK World-Gex Scream TV Stage",
         "version": "unversioned",
         "authors": [
@@ -379,6 +435,13 @@
     {
       "entry": {
         "id": "everdrive-04f672756a1d130ea6af",
+        "artwork": {
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-levels:wizard-quad-pack/wizardquadpack.png",
+          "size": 595000,
+          "sha256": "358e77376fe86f4e9a4d51f0e487a7ce6dcfaeafb6220bd5f3c42783b90d3d5b",
+          "allowRedirects": false,
+          "sourcePage": "https://n64vault.com/ssb-levels:wizard-quad-pack"
+        },
         "name": "Wizard Quad Pack",
         "version": "unversioned",
         "authors": [
@@ -562,6 +625,13 @@
     {
       "entry": {
         "id": "everdrive-0b445fbabc385532a68c",
+        "artwork": {
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-characters:cartman/image.png",
+          "size": 183374,
+          "sha256": "1ced2cebcf42c85266ebc9dfb8514a071b335a5262529e32b53041d6476a5c87",
+          "allowRedirects": false,
+          "sourcePage": "https://n64vault.com/ssb-characters:cartman"
+        },
         "name": "Smash 64 - Cartman",
         "version": "unversioned",
         "authors": [
