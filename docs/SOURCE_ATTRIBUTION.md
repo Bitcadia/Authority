@@ -5,19 +5,19 @@ Bitcadia's root manifest is a discovery and backup statement. It has no owned
 hosts the backup JSON and signs its attestation; that does not imply the source
 site operates the signing key or endorses this mirror.
 
-## Audit of all 1,644 published-candidate entries
+## Audit of all 1,662 published-candidate entries
 
 | Displayed source | Entries | Backup signing arrangement |
 | --- | ---: | --- |
 | Romhacking.com | 1,511 | Direct peer claim in root manifest |
 | Romhack Plaza | 21 | Direct peer claim in root manifest |
-| Romhacking.net (archive) | 57 | Direct peer claim in root manifest |
-| GameBanana | 4 | Direct peer claim in root manifest |
-| N64 Vault | 4 | Direct peer claim in root manifest |
+| Romhacking.net (archive) | 58 | Direct peer claim in root manifest |
+| GameBanana | 6 | Direct peer claim in root manifest |
+| N64 Vault | 14 | Direct peer claim in root manifest |
 | Patcher64Plus (mirror) | 2 | Direct peer claim in root manifest |
 | Smash Remix | 1 | Existing Bitcadia-operated sister manifest |
 | Hylian Modding | 26 | Existing Bitcadia-operated sister manifest |
-| SM64 Romhacks | 16 | Existing Bitcadia-operated sister manifest |
+| SM64 Romhacks | 21 | Existing Bitcadia-operated sister manifest |
 | Perfect Dark decompilation | 1 | Direct peer claim; user-linked PDHP patch |
 | FazanaJ | 1 | Direct peer claim; GitHub release patch |
 

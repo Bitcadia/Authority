@@ -1,0 +1,642 @@
+{
+  "purpose": "canonical-recommendation-audit",
+  "auditedAt": "2026-09-19",
+  "preserverPolicy": "Vanilla-preserving bug fixes/performance foundations. Not carte-blanche patch compatibility: derived mods must target exact output or rebase source changes. Preserve controls, saves and game intent where possible; record deviations.",
+  "games": [
+    {
+      "game": "Diddy Kong Racing",
+      "catalogRecords": 1,
+      "baseRevisions": [
+        "dcf54c82a58f6b38603b5865e90c3baabfe553a4d141a1ea2b282170a2e98876"
+      ],
+      "picks": [
+        {
+          "entryId": "fazanaj-dkr-performance-1.1",
+          "source": "fazanaj",
+          "game": "Diddy Kong Racing",
+          "baseSha256": "dcf54c82a58f6b38603b5865e90c3baabfe553a4d141a1ea2b282170a2e98876",
+          "slot": "the-preserver",
+          "reason": "Vanilla-focused performance rebuild capped at 30 FPS for stability.",
+          "evidenceUrl": "https://github.com/FazanaJ/Diddy-Kong-Racing/releases/tag/1.1",
+          "caveat": "Original USA only; rebuilt ROM is not binary-compatible with arbitrary retail patches. Rebase source changes or declare this exact output as dependency."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-sequel",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-dlc",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-replacement",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-experiment",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "Donkey Kong 64",
+      "catalogRecords": 1,
+      "baseRevisions": [
+        "b6347d9f1f75d38a88d829b4f80b1acf0d93344170a5fbe9546c484dae416ce3"
+      ],
+      "picks": [],
+      "unfilled": [
+        {
+          "slot": "the-sequel",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-dlc",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-replacement",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-experiment",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-preserver",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "Doom 64",
+      "catalogRecords": 3,
+      "baseRevisions": [
+        "c28eaac9a8a8cc1d30c1b50fbb04622c2ddeb9b14ddcecc6edbaad4a6d067f3f"
+      ],
+      "picks": [
+        {
+          "entryId": "rhdn-hacks-5634-6604f243b453",
+          "source": "rhdn",
+          "game": "Doom 64",
+          "baseSha256": "c28eaac9a8a8cc1d30c1b50fbb04622c2ddeb9b14ddcecc6edbaad4a6d067f3f",
+          "slot": "the-experiment",
+          "reason": "Merciless gameplay remix, distinct from a bug/performance preservation patch.",
+          "evidenceUrl": "https://www.romhacking.net/hacks/5634/",
+          "caveat": "Patch verified; gameplay and hardware not independently tested."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-sequel",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-dlc",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-replacement",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-preserver",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "Duke Nukem: Zero Hour",
+      "catalogRecords": 1,
+      "baseRevisions": [
+        "5ba016567c53b0d111eb175347c6eee603c31783cd2bb3fea97f31b5ff74190f"
+      ],
+      "picks": [
+        {
+          "entryId": "rhdn-hacks-5064-5658bf6e5a64",
+          "source": "rhdn",
+          "game": "Duke Nukem: Zero Hour",
+          "baseSha256": "5ba016567c53b0d111eb175347c6eee603c31783cd2bb3fea97f31b5ff74190f",
+          "slot": "the-replacement",
+          "reason": "Restores cut content in Zero Hour rather than introducing a new campaign.",
+          "evidenceUrl": "https://www.romhacking.net/hacks/5064/",
+          "caveat": "Restoration changes content; not automatically suitable for The Preserver."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-sequel",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-dlc",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-experiment",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-preserver",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "F-Zero X",
+      "catalogRecords": 1,
+      "baseRevisions": [
+        "2be0f861c30752bbdfa727753a454108bc973c27ad814744f191b1278c1f482d"
+      ],
+      "picks": [
+        {
+          "entryId": "everdrive-1d69fa7fd6d1a0eef376",
+          "source": "rhdn",
+          "game": "F-Zero X",
+          "baseSha256": "2be0f861c30752bbdfa727753a454108bc973c27ad814744f191b1278c1f482d",
+          "slot": "the-sequel",
+          "reason": "Complete 24-track F-Zero Climax-inspired conversion.",
+          "evidenceUrl": "https://www.romhacking.net/hacks/1487/",
+          "caveat": "Patch verified; gameplay and hardware not independently tested."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-dlc",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-replacement",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-experiment",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-preserver",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "GoldenEye 007",
+      "catalogRecords": 15,
+      "baseRevisions": [
+        "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+      ],
+      "picks": [
+        {
+          "entryId": "n64vault-goldfinger64-fe66d0b2",
+          "source": "n64vault",
+          "game": "GoldenEye 007",
+          "baseSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162",
+          "slot": "the-sequel",
+          "reason": "Full new Bond campaign with new levels, weapons and music.",
+          "evidenceUrl": "https://n64vault.com/ge-campaigns:goldfinger-64",
+          "caveat": "Source requires Expansion Pak and EEPROM 4k; not independently playtested."
+        },
+        {
+          "entryId": "n64vault-tnd64-expanded-11-24-e3b0c442",
+          "source": "n64vault",
+          "game": "GoldenEye 007",
+          "baseSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162",
+          "slot": "the-dlc",
+          "reason": "Additional Bond campaign retaining familiar GoldenEye play.",
+          "evidenceUrl": "https://n64vault.com/ge-campaigns:tomorrow-never-dies-64",
+          "caveat": "Expanded edition; Expansion Pak required. Image host intermittently unavailable."
+        },
+        {
+          "entryId": "everdrive-2e3d845a4544253bf04a",
+          "source": "n64vault",
+          "game": "GoldenEye 007",
+          "baseSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162",
+          "slot": "the-experiment",
+          "reason": "Mario-character crossover with campaign and presentation changes.",
+          "evidenceUrl": "https://n64vault.com/ge-for-fun:goldeneye-with-mario-characters",
+          "caveat": "Patch verified; gameplay and hardware not independently tested."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-replacement",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-preserver",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "Mario Kart 64",
+      "catalogRecords": 14,
+      "baseRevisions": [
+        "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da"
+      ],
+      "picks": [
+        {
+          "entryId": "gamebanana-613207-1584378",
+          "source": "gamebanana",
+          "game": "Mario Kart 64",
+          "baseSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da",
+          "slot": "the-sequel",
+          "reason": "Sixteen new courses plus new game modes and presentation.",
+          "evidenceUrl": "https://gamebanana.com/mods/613207",
+          "caveat": "Requires RAR-capable client, Expansion Pak and EEPROM 16k; 60 FPS option experimental."
+        },
+        {
+          "entryId": "gamebanana-378082-800696",
+          "source": "gamebanana",
+          "game": "Mario Kart 64",
+          "baseSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da",
+          "slot": "the-dlc",
+          "reason": "Adds four-player Grand Prix to existing Mario Kart experience.",
+          "evidenceUrl": "https://gamebanana.com/mods/378082",
+          "caveat": "Patch verified; gameplay and hardware not independently tested."
+        },
+        {
+          "entryId": "gamebanana-378081-1311739-edfa07f1",
+          "source": "gamebanana",
+          "game": "Mario Kart 64",
+          "baseSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da",
+          "slot": "the-replacement",
+          "reason": "Expanded roster, options and gameplay systems as an alternate comprehensive MK64 experience.",
+          "evidenceUrl": "https://gamebanana.com/mods/378081",
+          "caveat": "Offline 1.44 edition; not a neutral preservation base."
+        },
+        {
+          "entryId": "patcher64plus-battle-kart-2.0",
+          "source": "patcher64plus",
+          "game": "Mario Kart 64",
+          "baseSha256": "d6b8538dd63f0132ecb2856e7d32816ed3c30e3e479aecd23cf83fb6ba17a5da",
+          "slot": "the-experiment",
+          "reason": "Battle-mode overhaul with new rules and settings.",
+          "evidenceUrl": "https://github.com/Admentus64/Patcher64Plus-Tool",
+          "caveat": "Patch verified; gameplay and hardware not independently tested."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-preserver",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "Perfect Dark",
+      "catalogRecords": 4,
+      "baseRevisions": [
+        "4e51142acac686d96861cecc58cf7cb7c3b06b21733b7f8ed609a709dc039a21"
+      ],
+      "picks": [
+        {
+          "entryId": "perfect-dark-performance-catbox-7vit86",
+          "source": "pd-performance",
+          "game": "Perfect Dark",
+          "baseSha256": "4e51142acac686d96861cecc58cf7cb7c3b06b21733b7f8ed609a709dc039a21",
+          "slot": "the-preserver",
+          "reason": "Performance-oriented Perfect Dark rebuild rather than new campaign or difficulty remix.",
+          "evidenceUrl": "https://gitlab.com/ryandwyer/perfect-dark/-/tree/mods/performance",
+          "caveat": "Provisional: supplied build has no known source commit; Expansion Pak required; debug graph/control changes must be reviewed before other authors base work on it. No automatic stacking."
+        },
+        {
+          "entryId": "n64vault-goldeneye-x-6a",
+          "source": "n64vault",
+          "game": "Perfect Dark",
+          "baseSha256": "4e51142acac686d96861cecc58cf7cb7c3b06b21733b7f8ed609a709dc039a21",
+          "slot": "the-experiment",
+          "reason": "GoldenEye content transplanted into Perfect Dark engine.",
+          "evidenceUrl": "https://n64vault.com/pd-multi-levels:goldeneye-x",
+          "caveat": "Campaign incomplete; this is a crossover, not a preservation base."
+        },
+        {
+          "entryId": "n64vault-dark-noon-e48d1dba",
+          "source": "n64vault",
+          "game": "Perfect Dark",
+          "baseSha256": "4e51142acac686d96861cecc58cf7cb7c3b06b21733b7f8ed609a709dc039a21",
+          "slot": "the-dlc",
+          "reason": "Western-themed additional mission and multiplayer content.",
+          "evidenceUrl": "https://n64vault.com/pd-levels:dark-noon",
+          "caveat": "First-level release, not a completed sequel."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-sequel",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-replacement",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "Pokemon Stadium 2",
+      "catalogRecords": 1,
+      "baseRevisions": [
+        "8160abe7d4b9734317000c44e9f882efefe4cc6359eacded98be62f2811e40a9"
+      ],
+      "picks": [
+        {
+          "entryId": "rhdn-hacks-4600-61c31fb1c7e1",
+          "source": "rhdn",
+          "game": "Pokemon Stadium 2",
+          "baseSha256": "8160abe7d4b9734317000c44e9f882efefe4cc6359eacded98be62f2811e40a9",
+          "slot": "the-experiment",
+          "reason": "Moveset rebalance changes battle rules; not a preservation candidate.",
+          "evidenceUrl": "https://www.romhacking.net/hacks/4600/",
+          "caveat": "Patch verified; gameplay and hardware not independently tested."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-sequel",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-dlc",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-replacement",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-preserver",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "Space Station Silicon Valley",
+      "catalogRecords": 1,
+      "baseRevisions": [
+        "ea3ea86e4012e878151bfdaa519afe5eee6f9388ec1cc2ae26baf0048f0a9abc"
+      ],
+      "picks": [
+        {
+          "entryId": "rhdn-hacks-3719-c149767bce55",
+          "source": "rhdn",
+          "game": "Space Station Silicon Valley",
+          "baseSha256": "ea3ea86e4012e878151bfdaa519afe5eee6f9388ec1cc2ae26baf0048f0a9abc",
+          "slot": "the-preserver",
+          "reason": "Bug-fix release for Space Station Silicon Valley; preserves original game.",
+          "evidenceUrl": "https://www.romhacking.net/hacks/3719/",
+          "caveat": "USA Rev 1 only. Review bundled fixes and exact output before adopting as mod base."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-sequel",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-dlc",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-replacement",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-experiment",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "Super Mario 64",
+      "catalogRecords": 1554,
+      "baseRevisions": [
+        "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+      ],
+      "picks": [
+        {
+          "entryId": "rhdc-660695d12f0650df5f8c3d71-1.1h2",
+          "source": "rhdc",
+          "game": "Super Mario 64",
+          "baseSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91",
+          "slot": "the-sequel",
+          "reason": "Retained existing curated pick; established role unchanged.",
+          "evidenceUrl": "https://romhacking.com/hack/sm64--decades-later",
+          "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
+        },
+        {
+          "entryId": "rhdc-655d0f251c26adfe7074dba8-sha1-c155a63dde03e2005acf9c71edf2d15f7fe9d341",
+          "source": "rhdc",
+          "game": "Super Mario 64",
+          "baseSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91",
+          "slot": "the-dlc",
+          "reason": "Retained existing curated pick; established role unchanged.",
+          "evidenceUrl": "https://romhacking.com/hack/wario-s-hint-art",
+          "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
+        },
+        {
+          "entryId": "rhdc-5e209fb7ea2543645dc04264-1.02",
+          "source": "rhdc",
+          "game": "Super Mario 64",
+          "baseSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91",
+          "slot": "the-replacement",
+          "reason": "Retained existing curated pick; established role unchanged.",
+          "evidenceUrl": "https://romhacking.com/hack/super-mario-star-road",
+          "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
+        },
+        {
+          "entryId": "rhdc-67abd8d4c8f605fd953ba8f4-sha1-1e2678ab53eb67ad36c498f6138f827b5de009a1",
+          "source": "rhdc",
+          "game": "Super Mario 64",
+          "baseSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91",
+          "slot": "the-experiment",
+          "reason": "Retained existing curated pick; established role unchanged.",
+          "evidenceUrl": "https://romhacking.com/hack/bazr",
+          "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-preserver",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "Super Smash Bros.",
+      "catalogRecords": 11,
+      "baseRevisions": [
+        "15592e79d3c5295cef4371d4992f0bd25bec2102fc29644c93e682f7ea99ef3d"
+      ],
+      "picks": [
+        {
+          "entryId": "everdrive-35409ce18475dab2bfa2",
+          "source": "n64vault",
+          "game": "Super Smash Bros.",
+          "baseSha256": "15592e79d3c5295cef4371d4992f0bd25bec2102fc29644c93e682f7ea99ef3d",
+          "slot": "the-dlc",
+          "reason": "Two additional Bomberman-themed Smash stages.",
+          "evidenceUrl": "https://n64vault.com/ssb-levels:ssb-bomberman-64",
+          "caveat": "Stage replacement pack; not additive stacking with Smash Remix."
+        },
+        {
+          "entryId": "everdrive-0b445fbabc385532a68c",
+          "source": "n64vault",
+          "game": "Super Smash Bros.",
+          "baseSha256": "15592e79d3c5295cef4371d4992f0bd25bec2102fc29644c93e682f7ea99ef3d",
+          "slot": "the-experiment",
+          "reason": "Cartman character crossover; distinct from comprehensive Smash Remix.",
+          "evidenceUrl": "https://n64vault.com/ssb-characters:cartman",
+          "caveat": "Patch verified; gameplay and hardware not independently tested."
+        },
+        {
+          "entryId": "smashremix-2.0.1-ntsc",
+          "source": "smashremix",
+          "game": "Super Smash Bros.",
+          "baseSha256": "15592e79d3c5295cef4371d4992f0bd25bec2102fc29644c93e682f7ea99ef3d",
+          "slot": "the-replacement",
+          "reason": "Retained existing curated pick; established role unchanged.",
+          "evidenceUrl": "https://smashremix.net/patcher/",
+          "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-sequel",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-preserver",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "The Legend of Zelda: Majora's Mask",
+      "catalogRecords": 13,
+      "baseRevisions": [
+        "efb1365b3ae362604514c0f9a1a2d11f5dc8688ba5be660a37debf5e3be43f2b"
+      ],
+      "picks": [
+        {
+          "entryId": "plaza-2123-c52e8f440d70",
+          "source": "plaza",
+          "game": "The Legend of Zelda: Majora's Mask",
+          "baseSha256": "efb1365b3ae362604514c0f9a1a2d11f5dc8688ba5be660a37debf5e3be43f2b",
+          "slot": "the-replacement",
+          "reason": "Majoras Mask Redux offers quality-of-life improvements to the original game.",
+          "evidenceUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-majoras-mask-redux-nintendo-64",
+          "caveat": "Alternative to Hylian Master Quest pick, intentionally source-scoped; not declared a pure bug-fix foundation."
+        },
+        {
+          "entryId": "hylian-pumkin_tower",
+          "source": "hylian",
+          "game": "The Legend of Zelda: Majora's Mask",
+          "baseSha256": "efb1365b3ae362604514c0f9a1a2d11f5dc8688ba5be660a37debf5e3be43f2b",
+          "slot": "the-dlc",
+          "reason": "Retained existing curated pick; established role unchanged.",
+          "evidenceUrl": "https://hylianmodding.com/mods/pumkin_tower/",
+          "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
+        },
+        {
+          "entryId": "hylian-majoras_mask_master_quest",
+          "source": "hylian",
+          "game": "The Legend of Zelda: Majora's Mask",
+          "baseSha256": "efb1365b3ae362604514c0f9a1a2d11f5dc8688ba5be660a37debf5e3be43f2b",
+          "slot": "the-replacement",
+          "reason": "Retained existing curated pick; established role unchanged.",
+          "evidenceUrl": "https://hylianmodding.com/mods/majora's_mask_master_quest/",
+          "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
+        },
+        {
+          "entryId": "hylian-majoras_mask_chaos_edition",
+          "source": "hylian",
+          "game": "The Legend of Zelda: Majora's Mask",
+          "baseSha256": "efb1365b3ae362604514c0f9a1a2d11f5dc8688ba5be660a37debf5e3be43f2b",
+          "slot": "the-experiment",
+          "reason": "Retained existing curated pick; established role unchanged.",
+          "evidenceUrl": "https://hylianmodding.com/mods/majora's_mask_chaos_edition/",
+          "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-sequel",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        },
+        {
+          "slot": "the-preserver",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    },
+    {
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "catalogRecords": 42,
+      "baseRevisions": [
+        "49acd3885f13b0730119b78fb970911cc8aba614fe383368015c21565983368d",
+        "c916ab315fbe82a22169bff13d6b866e9fddc907461eb6b0a227b82acdf5b506",
+        "fb87a0dac188f9292c679da7ac6f772acebe6f68e27293cfc281fc8636008db0"
+      ],
+      "picks": [
+        {
+          "entryId": "plaza-2122-96147957f1d1",
+          "source": "plaza",
+          "game": "The Legend of Zelda: Ocarina of Time",
+          "baseSha256": "c916ab315fbe82a22169bff13d6b866e9fddc907461eb6b0a227b82acdf5b506",
+          "slot": "the-replacement",
+          "reason": "Ocarina Redux offers broad quality-of-life changes for replaying the original adventure.",
+          "evidenceUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-ocarina-of-time-redux-nintendo-64",
+          "caveat": "QoL bundle changes controls/behavior; not selected as strict Preserver without a narrower base audit."
+        },
+        {
+          "entryId": "hylian-zelda64_dawn_and_dusk",
+          "source": "hylian",
+          "game": "The Legend of Zelda: Ocarina of Time",
+          "baseSha256": "c916ab315fbe82a22169bff13d6b866e9fddc907461eb6b0a227b82acdf5b506",
+          "slot": "the-sequel",
+          "reason": "Retained existing curated pick; established role unchanged.",
+          "evidenceUrl": "https://hylianmodding.com/mods/zelda64_dawn_and_dusk/",
+          "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
+        },
+        {
+          "entryId": "hylian-the_missing_link",
+          "source": "hylian",
+          "game": "The Legend of Zelda: Ocarina of Time",
+          "baseSha256": "c916ab315fbe82a22169bff13d6b866e9fddc907461eb6b0a227b82acdf5b506",
+          "slot": "the-dlc",
+          "reason": "Retained existing curated pick; established role unchanged.",
+          "evidenceUrl": "https://hylianmodding.com/mods/the_missing_link/",
+          "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
+        },
+        {
+          "entryId": "hylian-new_master_quest",
+          "source": "hylian",
+          "game": "The Legend of Zelda: Ocarina of Time",
+          "baseSha256": "c916ab315fbe82a22169bff13d6b866e9fddc907461eb6b0a227b82acdf5b506",
+          "slot": "the-replacement",
+          "reason": "Retained existing curated pick; established role unchanged.",
+          "evidenceUrl": "https://hylianmodding.com/mods/new_master_quest/",
+          "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
+        },
+        {
+          "entryId": "hylian-hero_of_law",
+          "source": "hylian",
+          "game": "The Legend of Zelda: Ocarina of Time",
+          "baseSha256": "c916ab315fbe82a22169bff13d6b866e9fddc907461eb6b0a227b82acdf5b506",
+          "slot": "the-experiment",
+          "reason": "Retained existing curated pick; established role unchanged.",
+          "evidenceUrl": "https://hylianmodding.com/mods/hero_of_law/",
+          "caveat": "Patch identity verified; curation is recommendation, not a hardware certification."
+        }
+      ],
+      "unfilled": [
+        {
+          "slot": "the-preserver",
+          "reason": "No sufficiently supported candidate selected; do not fill slots merely to complete the row."
+        }
+      ]
+    }
+  ]
+}

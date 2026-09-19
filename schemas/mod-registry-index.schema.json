@@ -13,7 +13,7 @@
     "notice": { "type": "string", "minLength": 1 },
     "categoryDefinitions": {
       "type": "array", "maxItems": 64,
-      "description": "Authority-scoped categories extending the four canonical categories.",
+      "description": "Authority-scoped categories extending the five canonical categories, including the-preserver for vanilla-preserving bug fixes and performance improvements.",
       "items": { "$ref": "#/$defs/categoryDefinition" }
     },
     "games": {

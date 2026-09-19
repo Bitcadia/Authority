@@ -210,6 +210,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/1325screenshot1.jpg",
+        "size": 54056,
+        "sha256": "cd87aa5079ba916187bb789a3bc42f2d6a36453c8614164aea1558bd7b755c10",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/1325/"
       }
     },
     {
@@ -418,6 +425,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/1338screenshot1.jpg",
+        "size": 30974,
+        "sha256": "5cb2ab15278375f2ca0af877025773edaff4909a3e79582c58a50c2739a3781c",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/1338/"
       }
     },
     {
@@ -460,6 +474,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/1324screenshot1.png",
+        "size": 362166,
+        "sha256": "743256a9b4f546d2a076983e2d249e7b884f8cfa10847558fd1fb5654da634e9",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/1324/"
       }
     },
     {
@@ -502,6 +523,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/911screenshot1.png",
+        "size": 280507,
+        "sha256": "5d0b15f729e6a6c0e2765a8d412139810f7de0fc88a5814b639f5f936b4737ef",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/911/"
       }
     },
     {
@@ -543,6 +571,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/5541screenshot1.jpg",
+        "size": 40679,
+        "sha256": "60fcb69764a5b97415a41a591aa4e8d86992d50842c239b91dab4d26512f350e",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/5541/"
       }
     },
     {
@@ -584,6 +619,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/5541screenshot1.jpg",
+        "size": 40679,
+        "sha256": "60fcb69764a5b97415a41a591aa4e8d86992d50842c239b91dab4d26512f350e",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/5541/"
       }
     },
     {
@@ -921,6 +963,13 @@
       "rights": {
         "patchRedistributionAllowed": false,
         "artworkRedistributionAllowed": false
+      },
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/557screenshot1.png",
+        "size": 70578,
+        "sha256": "b0ec2309a035fa04ddf345b2b076d1838e91a4d24aa91dc99e3419945b45a263",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/557/"
       }
     },
     {

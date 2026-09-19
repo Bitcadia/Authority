@@ -60,11 +60,11 @@
           "artworkRedistributionAllowed": false
         },
         "artwork": {
-          "url": "https://n64vault.wdfiles.com/local--files/ge-campaigns:goldfinger-64/image.jpg",
-          "size": 135137,
-          "sha256": "2c9efa52f6b40c60209f6aa5a8c5e8135e5e3d13bc5107e2b1cef8dc429b7028",
+          "url": "https://images.launchbox-app.com/506b1493-4b37-4dc0-a3d8-93104c8a22ba.jpg",
+          "size": 316143,
+          "sha256": "4669f998e9589db5cb842c6190cb3ba573d7e26768eec36269bd8c899f113bdd",
           "allowRedirects": false,
-          "sourcePage": "https://n64vault.com/ge-campaigns:goldfinger-64"
+          "sourcePage": "https://gamesdb.launchbox-app.com/games/images/88606-goldfinger-64"
         }
       },
       "originalDownloadUrl": "https://n64vault.wdfiles.com/local--files/ge-campaigns%3Agoldfinger-64/goldfinger64.zip",
@@ -72,9 +72,9 @@
       "archiveVerification": "client-zip-extractor",
       "gameplayTested": false,
       "artworkVerification": {
-        "dimensions": "640x480",
+        "dimensions": "1051x727",
         "decoder": "Windows System.Drawing",
-        "hash": "2c9efa52f6b40c60209f6aa5a8c5e8135e5e3d13bc5107e2b1cef8dc429b7028"
+        "hash": "4669f998e9589db5cb842c6190cb3ba573d7e26768eec36269bd8c899f113bdd"
       },
       "sourceReportedRequirements": [
         "Expansion Pak",

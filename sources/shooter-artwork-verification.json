@@ -1,0 +1,195 @@
+{
+  "notice": "Source-matched artwork, hashes and decoded image dimensions. No patch or ROM bytes changed.",
+  "verified": [
+    {
+      "id": "n64vault-goldeneye-x-6a",
+      "registry": "community-registry.json",
+      "artwork": {
+        "url": "https://n64vault.wdfiles.com/local--files/pd-multi-levels:goldeneye-x/image.png",
+        "size": 412351,
+        "sha256": "b69e62d05ec09d744401d039e5180940f1586f76f5580032c672ebcb24f05ae8",
+        "allowRedirects": false,
+        "sourcePage": "https://n64vault.com/pd-multi-levels:goldeneye-x"
+      },
+      "dimensions": "640x480",
+      "verification": "download-hash-and-Windows-image-decode",
+      "clientDownloadVerification": "Windows Bitcadia64 registry.downloadArtworkScoped: pinned size/hash accepted"
+    },
+    {
+      "id": "rhdn-hacks-1325-89dea1b80fdf",
+      "registry": "rhdn-registry.json",
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/1325screenshot1.jpg",
+        "size": 54056,
+        "sha256": "cd87aa5079ba916187bb789a3bc42f2d6a36453c8614164aea1558bd7b755c10",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/1325/"
+      },
+      "dimensions": "640x480",
+      "verification": "direct-download-hash-and-Windows-image-decode",
+      "clientDownloadVerification": "Windows Bitcadia64 registry.downloadArtworkScoped: pinned size/hash accepted"
+    },
+    {
+      "id": "rhdn-hacks-1338-09d037438648",
+      "registry": "rhdn-registry.json",
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/1338screenshot1.jpg",
+        "size": 30974,
+        "sha256": "5cb2ab15278375f2ca0af877025773edaff4909a3e79582c58a50c2739a3781c",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/1338/"
+      },
+      "dimensions": "320x240",
+      "verification": "direct-download-hash-and-Windows-image-decode",
+      "clientDownloadVerification": "Windows Bitcadia64 registry.downloadArtworkScoped: pinned size/hash accepted"
+    },
+    {
+      "id": "rhdn-hacks-1324-c1968d75cf9a",
+      "registry": "rhdn-registry.json",
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/1324screenshot1.png",
+        "size": 362166,
+        "sha256": "743256a9b4f546d2a076983e2d249e7b884f8cfa10847558fd1fb5654da634e9",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/1324/"
+      },
+      "dimensions": "640x480",
+      "verification": "direct-download-hash-and-Windows-image-decode",
+      "clientDownloadVerification": "Windows Bitcadia64 registry.downloadArtworkScoped: pinned size/hash accepted"
+    },
+    {
+      "id": "rhdn-hacks-911-d88aa9409855",
+      "registry": "rhdn-registry.json",
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/911screenshot1.png",
+        "size": 280507,
+        "sha256": "5d0b15f729e6a6c0e2765a8d412139810f7de0fc88a5814b639f5f936b4737ef",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/911/"
+      },
+      "dimensions": "640x480",
+      "verification": "direct-download-hash-and-Windows-image-decode",
+      "clientDownloadVerification": "Windows Bitcadia64 registry.downloadArtworkScoped: pinned size/hash accepted"
+    },
+    {
+      "id": "rhdn-hacks-5541-68c90703aaba",
+      "registry": "rhdn-registry.json",
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/5541screenshot1.jpg",
+        "size": 40679,
+        "sha256": "60fcb69764a5b97415a41a591aa4e8d86992d50842c239b91dab4d26512f350e",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/5541/"
+      },
+      "dimensions": "640x480",
+      "verification": "direct-download-hash-and-Windows-image-decode",
+      "clientDownloadVerification": "Windows Bitcadia64 registry.downloadArtworkScoped: pinned size/hash accepted"
+    },
+    {
+      "id": "rhdn-hacks-5541-0bf66869f216",
+      "registry": "rhdn-registry.json",
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/5541screenshot1.jpg",
+        "size": 40679,
+        "sha256": "60fcb69764a5b97415a41a591aa4e8d86992d50842c239b91dab4d26512f350e",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/5541/"
+      },
+      "dimensions": "640x480",
+      "verification": "direct-download-hash-and-Windows-image-decode",
+      "clientDownloadVerification": "Windows Bitcadia64 registry.downloadArtworkScoped: pinned size/hash accepted"
+    },
+    {
+      "id": "rhdn-hacks-557-2d9e9f9b932f",
+      "registry": "rhdn-registry.json",
+      "artwork": {
+        "url": "https://www.romhacking.net/hacks/n64/images/557screenshot1.png",
+        "size": 70578,
+        "sha256": "b0ec2309a035fa04ddf345b2b076d1838e91a4d24aa91dc99e3419945b45a263",
+        "allowRedirects": false,
+        "sourcePage": "https://www.romhacking.net/hacks/557/"
+      },
+      "dimensions": "640x480",
+      "verification": "direct-download-hash-and-Windows-image-decode",
+      "clientDownloadVerification": "Windows Bitcadia64 registry.downloadArtworkScoped: pinned size/hash accepted"
+    }
+  ],
+  "rejectedSources": [
+    {
+      "id": "perfect-dark-performance-catbox-7vit86",
+      "reason": "No mod-specific artwork source verified; keep named placeholder rather than unrelated cover."
+    },
+    {
+      "id": "rhdn-hacks-1325-89dea1b80fdf",
+      "reason": "Image endpoint returns generic Vimm logo, not mod artwork. Rejected after visual inspection."
+    },
+    {
+      "id": "rhdn-hacks-4467-3081be6a4420",
+      "reason": "Image endpoint returns generic Vimm logo, not mod artwork. Rejected after visual inspection."
+    },
+    {
+      "id": "rhdn-hacks-4467-1a2151c084fa",
+      "reason": "Image endpoint returns generic Vimm logo, not mod artwork. Rejected after visual inspection."
+    },
+    {
+      "id": "rhdn-hacks-4467-340cffa5e978",
+      "reason": "Image endpoint returns generic Vimm logo, not mod artwork. Rejected after visual inspection."
+    },
+    {
+      "id": "rhdn-hacks-4467-f307407aaa99",
+      "reason": "Image endpoint returns generic Vimm logo, not mod artwork. Rejected after visual inspection."
+    },
+    {
+      "id": "rhdn-hacks-1338-09d037438648",
+      "reason": "Image endpoint returns generic Vimm logo, not mod artwork. Rejected after visual inspection."
+    },
+    {
+      "id": "rhdn-hacks-1324-c1968d75cf9a",
+      "reason": "Image endpoint returns generic Vimm logo, not mod artwork. Rejected after visual inspection."
+    },
+    {
+      "id": "rhdn-hacks-911-d88aa9409855",
+      "reason": "Image endpoint returns generic Vimm logo, not mod artwork. Rejected after visual inspection."
+    },
+    {
+      "id": "rhdn-hacks-5541-68c90703aaba",
+      "reason": "Image endpoint returns generic Vimm logo, not mod artwork. Rejected after visual inspection."
+    },
+    {
+      "id": "rhdn-hacks-5541-0bf66869f216",
+      "reason": "Image endpoint returns generic Vimm logo, not mod artwork. Rejected after visual inspection."
+    },
+    {
+      "id": "rhdn-hacks-557-2d9e9f9b932f",
+      "reason": "Image endpoint returns generic Vimm logo, not mod artwork. Rejected after visual inspection."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "perfect-dark-performance-catbox-7vit86",
+      "reason": "No directly retrievable mod-specific artwork verified"
+    },
+    {
+      "id": "rhdn-hacks-4467-3081be6a4420",
+      "reason": "No directly retrievable mod-specific artwork verified"
+    },
+    {
+      "id": "rhdn-hacks-4467-1a2151c084fa",
+      "reason": "No directly retrievable mod-specific artwork verified"
+    },
+    {
+      "id": "rhdn-hacks-4467-340cffa5e978",
+      "reason": "No directly retrievable mod-specific artwork verified"
+    },
+    {
+      "id": "rhdn-hacks-4467-f307407aaa99",
+      "reason": "No directly retrievable mod-specific artwork verified"
+    }
+  ],
+  "externalHostFailures": [
+    {
+      "id": "n64vault-tnd64-expanded-11-24-e3b0c442",
+      "reason": "Pinned existing image returned DownloadFailed in Windows client; direct HTTP probes intermittently return 500. Original pin retained, no substitute asserted."
+    }
+  ]
+}

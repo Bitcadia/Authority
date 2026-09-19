@@ -1,0 +1,851 @@
+{
+  "verified": [
+    {
+      "entry": {
+        "id": "everdrive-df562d5e8eef8319e612",
+        "name": "The Janus Alternative",
+        "version": "unversioned",
+        "authors": [
+          "Zka",
+          "Wreck"
+        ],
+        "projectUrl": "https://n64vault.com/ge-campaigns:the-janus-alternative",
+        "source": {
+          "provider": "N64 Vault",
+          "metadataUrl": "https://n64vault.com/ge-campaigns:the-janus-alternative",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "GoldenEye 007",
+          "variant": "GoldenEye 007 (USA)",
+          "gameCode": "NGEE",
+          "normalizedCrc32": "B6330846",
+          "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+        },
+        "patch": {
+          "format": "vcdiff",
+          "url": "https://n64vault.wdfiles.com/local--files/ge-campaigns:the-janus-alternative/Janus_Alternative%5Bzka%5D.zip",
+          "size": 805452,
+          "sha256": "b8a80b87a3096fca22d0dd12de067082994bbf1983b7434ae98a31c2ef193f95",
+          "allowRedirects": false,
+          "archiveMember": "Janus_Alternative.xdelta",
+          "memberSize": 742948,
+          "memberSha256": "ad6e6e6c257c4796356d6b0d27b6f2e074714cc21be4508b4a20bd30ad4b7f0d",
+          "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+        },
+        "output": {
+          "size": 16777216,
+          "sha256": "7eb592841c8e016391f4f340668b65efdc95122f45692bbf7e1f524f3004eb5d"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "everdrive-d59d6d6628397b4705ad",
+        "name": "K7 Assignment",
+        "version": "1.1",
+        "authors": [
+          "Zka",
+          "Wreck"
+        ],
+        "projectUrl": "https://n64vault.com/ge-campaigns:the-k7-assignment",
+        "source": {
+          "provider": "N64 Vault",
+          "metadataUrl": "https://n64vault.com/ge-campaigns:the-k7-assignment",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "GoldenEye 007",
+          "variant": "GoldenEye 007 (USA)",
+          "gameCode": "NGEE",
+          "normalizedCrc32": "B6330846",
+          "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+        },
+        "patch": {
+          "format": "vcdiff",
+          "url": "https://n64vault.wdfiles.com/local--files/ge-campaigns:the-k7-assignment/K7_Assignment%5Bzka%5D.zip",
+          "size": 745282,
+          "sha256": "789cc573da424fd20fe46029f515e5a139a46cfdbc54bb523a7f7ecc692f5b6e",
+          "allowRedirects": false,
+          "archiveMember": "K7_Assignment_v1-1.xdelta",
+          "memberSize": 676716,
+          "memberSha256": "d1c0603bff9df01871539da7af0947a20f81648f8b26c5bd3e56ccc158057c91",
+          "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+        },
+        "output": {
+          "size": 16777216,
+          "sha256": "5010d2e7fca947514d18aa6a80436907906f489ecbb6319d4a74b45089058c44"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "everdrive-2e3d845a4544253bf04a",
+        "name": "GoldenEye with Mario Characters",
+        "version": "3.17",
+        "authors": [
+          "StupidMarioBros1Fan",
+          "Graslu00",
+          "Carnivorous",
+          "Sogun",
+          "SubDrag",
+          "Wreck",
+          "Kode-Z"
+        ],
+        "projectUrl": "https://n64vault.com/ge-for-fun:goldeneye-with-mario-characters",
+        "source": {
+          "provider": "N64 Vault",
+          "metadataUrl": "https://n64vault.com/ge-for-fun:goldeneye-with-mario-characters",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "GoldenEye 007",
+          "variant": "GoldenEye 007 (USA)",
+          "gameCode": "NGEE",
+          "normalizedCrc32": "B6330846",
+          "normalizedSha256": "2cdcec8a9f0cb6e36337f3ee39d8ad105dc8afa6ba1c02d466e8f5b771f9a162"
+        },
+        "patch": {
+          "format": "vcdiff",
+          "url": "https://n64vault.wdfiles.com/local--files/ge-for-fun:goldeneye-with-mario-characters/GE%20with%20Mario%20Characters%20V3.17.zip",
+          "size": 42494437,
+          "sha256": "edb64664b9ff2072626fa3ff663019d215c8978d9722ef9390395fa21d2cf247",
+          "allowRedirects": false,
+          "archiveMember": "GE with Mario Characters V3.17/MarioCharactersV3.17.xdelta",
+          "memberSize": 5082221,
+          "memberSha256": "752b7af2e5d9c6b72e086e3004d05638ba00397185c5db47477e5ddc8a784abd",
+          "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+        },
+        "output": {
+          "size": 16777216,
+          "sha256": "158bd0785c5acec2461bf8bbd438b4f1256bb5322d9eff9ffccd51de89080af4"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "everdrive-35409ce18475dab2bfa2",
+        "name": "Smash 64 - Bomberman Stages",
+        "version": "unversioned",
+        "authors": [
+          "Sixty Four"
+        ],
+        "projectUrl": "https://n64vault.com/ssb-levels:ssb-bomberman-64",
+        "source": {
+          "provider": "N64 Vault",
+          "metadataUrl": "https://n64vault.com/ssb-levels:ssb-bomberman-64",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "Super Smash Bros.",
+          "variant": "USA",
+          "gameCode": "NALE",
+          "normalizedCrc32": "EB97929E",
+          "normalizedSha256": "15592e79d3c5295cef4371d4992f0bd25bec2102fc29644c93e682f7ea99ef3d"
+        },
+        "patch": {
+          "format": "vcdiff",
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-levels:ssb-bomberman-64/SSB-Bomberman64%28sixty-four%29.zip",
+          "size": 646083,
+          "sha256": "cc347f80a15a28b9c2e26c413a628cbe00f93f90d1f96bd3b36a60a301aba76f",
+          "allowRedirects": false,
+          "archiveMember": "SSB-Bomberman64.xdelta",
+          "memberSize": 180563,
+          "memberSha256": "61aa9915496b3d256aaf4fac9872aa1738fbf30b5f8699ccacee6a46f5eb6ea8",
+          "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+        },
+        "output": {
+          "size": 16777216,
+          "sha256": "4c8452f2c9367e29fd8e882112808ffbfe267861a877c172040b6a33d230d0b1"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "everdrive-bdb8b6941d098d51d15d",
+        "name": "Three Stage Mod",
+        "version": "unversioned",
+        "authors": [
+          "Plähni"
+        ],
+        "projectUrl": "https://n64vault.com/ssb-levels:three-stage-mod",
+        "source": {
+          "provider": "N64 Vault",
+          "metadataUrl": "https://n64vault.com/ssb-levels:three-stage-mod",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "Super Smash Bros.",
+          "variant": "USA",
+          "gameCode": "NALE",
+          "normalizedCrc32": "EB97929E",
+          "normalizedSha256": "15592e79d3c5295cef4371d4992f0bd25bec2102fc29644c93e682f7ea99ef3d"
+        },
+        "patch": {
+          "format": "vcdiff",
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-levels:three-stage-mod/Three%20Stage%20Mod.zip",
+          "size": 1533891,
+          "sha256": "4483e3d056c7c50854c90fd9c343fd30cf35dd01347352300eb6edde426f966d",
+          "allowRedirects": false,
+          "archiveMember": "ThreeStageMod.xdelta",
+          "memberSize": 189655,
+          "memberSha256": "2baddbe0dbf51f997273001611304a7599d46e2da5eccb2950512d69f6a68ce2",
+          "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+        },
+        "output": {
+          "size": 16777216,
+          "sha256": "a5196d0e696a4339189a33c6ca47944438591dd25d2227b0b97b8797ed216f7e"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "everdrive-c7116d2cb4287aa1918f",
+        "name": "Ganon's Ruin Stage",
+        "version": "unversioned",
+        "authors": [
+          "BridGurrr"
+        ],
+        "projectUrl": "https://n64vault.com/ssb-levels:ganons-ruin",
+        "source": {
+          "provider": "N64 Vault",
+          "metadataUrl": "https://n64vault.com/ssb-levels:ganons-ruin",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "Super Smash Bros.",
+          "variant": "USA",
+          "gameCode": "NALE",
+          "normalizedCrc32": "EB97929E",
+          "normalizedSha256": "15592e79d3c5295cef4371d4992f0bd25bec2102fc29644c93e682f7ea99ef3d"
+        },
+        "patch": {
+          "format": "vcdiff",
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-levels:ganons-ruin/SSB%20Ganon%27s%20Ruin%28BridGurrr%29.zip",
+          "size": 3362838,
+          "sha256": "446f3b66f17723354a09b6c5c25d0cc319aa7efb70f298d6f6412c20319a7823",
+          "allowRedirects": false,
+          "archiveMember": "Ganon's Ruin(BridGurrr)/SSB Ganon's Ruin(BridGurrr).xdelta",
+          "memberSize": 110455,
+          "memberSha256": "8913b21ae7f3bc8ed029722cc485821e3f4bda80a595f77e08303d7c5efdf119",
+          "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+        },
+        "output": {
+          "size": 16777216,
+          "sha256": "c5456c9834ea2a20678fd1a19bc310098755f4137a2037dbca2994fcef48644a"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "everdrive-12677b511d0e79b96e28",
+        "name": "Houston Triple Pack Stage",
+        "version": "unversioned",
+        "authors": [
+          "JS"
+        ],
+        "projectUrl": "https://n64vault.com/ssb-levels:houston-triple-pack",
+        "source": {
+          "provider": "N64 Vault",
+          "metadataUrl": "https://n64vault.com/ssb-levels:houston-triple-pack",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "Super Smash Bros.",
+          "variant": "USA",
+          "gameCode": "NALE",
+          "normalizedCrc32": "EB97929E",
+          "normalizedSha256": "15592e79d3c5295cef4371d4992f0bd25bec2102fc29644c93e682f7ea99ef3d"
+        },
+        "patch": {
+          "format": "vcdiff",
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-levels:houston-triple-pack/houstontriplepack%28JS%29.zip",
+          "size": 368201,
+          "sha256": "deb4833d3d4d8454e4f4c6d2eca04eaea9780df38f9616bd667d477d50cbed4e",
+          "allowRedirects": false,
+          "archiveMember": "houstontriplepack.xdelta",
+          "memberSize": 374981,
+          "memberSha256": "0df704647fad292c0a2597da70b123fe2d57096c6eb2b16848c45d930faf1781",
+          "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+        },
+        "output": {
+          "size": 33554432,
+          "sha256": "1c953379a3dec1c26b9e4b78e3f53bf767fc6b17af709d3247f0f03ffa54c1b4"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "everdrive-aa0f7cbd74741080eaa1",
+        "name": "DK World-Gex Scream TV Stage",
+        "version": "unversioned",
+        "authors": [
+          "Sixty Four"
+        ],
+        "projectUrl": "https://n64vault.com/ssb-levels:dk-world-gex-scream-tv",
+        "source": {
+          "provider": "N64 Vault",
+          "metadataUrl": "https://n64vault.com/ssb-levels:dk-world-gex-scream-tv",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "Super Smash Bros.",
+          "variant": "USA",
+          "gameCode": "NALE",
+          "normalizedCrc32": "EB97929E",
+          "normalizedSha256": "15592e79d3c5295cef4371d4992f0bd25bec2102fc29644c93e682f7ea99ef3d"
+        },
+        "patch": {
+          "format": "vcdiff",
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-levels:dk-world-gex-scream-tv/dkw-stv%28sixty-four%29.zip",
+          "size": 531291,
+          "sha256": "db991909f882d5ea96cf616d4c22dcb752ead57665fc4743f71971d90c4a684a",
+          "allowRedirects": false,
+          "archiveMember": "SSB-DKW-STV64.xdelta",
+          "memberSize": 318119,
+          "memberSha256": "40c9eb997cd7ccd6cc24ae93e8b385c3d30188dc11df1ac6347302ca0de63ba1",
+          "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+        },
+        "output": {
+          "size": 16777216,
+          "sha256": "2e0697cb7c8c73e9f01f0d626417c7777a124fdff9bf68dffba14c2de17b2ba0"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "everdrive-04f672756a1d130ea6af",
+        "name": "Wizard Quad Pack",
+        "version": "unversioned",
+        "authors": [
+          "Smash 64 Wizard"
+        ],
+        "projectUrl": "https://n64vault.com/ssb-levels:wizard-quad-pack",
+        "source": {
+          "provider": "N64 Vault",
+          "metadataUrl": "https://n64vault.com/ssb-levels:wizard-quad-pack",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "Super Smash Bros.",
+          "variant": "USA",
+          "gameCode": "NALE",
+          "normalizedCrc32": "EB97929E",
+          "normalizedSha256": "15592e79d3c5295cef4371d4992f0bd25bec2102fc29644c93e682f7ea99ef3d"
+        },
+        "patch": {
+          "format": "vcdiff",
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-levels:wizard-quad-pack/Wizard%27s%20Quad%20Pack%201.zip",
+          "size": 1213682,
+          "sha256": "e9db37f95f2130da47c7af6f6c41bd405f342a899eeaa2b22060bd7060d62e4c",
+          "allowRedirects": false,
+          "archiveMember": "Wizard's Quad Pack 1/Wizard's Quad Pack 1.xdelta",
+          "memberSize": 625822,
+          "memberSha256": "32dc741ee0cab965dc415169a9ddf0faaabed25505aa766ab42fd6c7f79ba5ed",
+          "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+        },
+        "output": {
+          "size": 33554432,
+          "sha256": "1c1c65331534e18378d8bdddee8aece516da5f8abc8de45babac3704cf5d41e2"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "everdrive-6f4e6b38984df0fa23f3",
+        "name": "Waluigi in Ocarina of Time - Waluigi Voice",
+        "version": "unversioned",
+        "authors": [
+          "XModxGodX",
+          "russmarrs2"
+        ],
+        "projectUrl": "https://gamebanana.com/mods/253061",
+        "source": {
+          "provider": "GameBanana",
+          "metadataUrl": "https://gamebanana.com/mods/253061",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "The Legend of Zelda: Ocarina of Time",
+          "variant": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2)",
+          "gameCode": "CZLE",
+          "normalizedCrc32": "32120C23",
+          "normalizedSha256": "49acd3885f13b0730119b78fb970911cc8aba614fe383368015c21565983368d"
+        },
+        "patch": {
+          "format": "bps",
+          "url": "https://filecache52.gamebanana.com/mods/waluigi_in_oot12.zip",
+          "size": 253068,
+          "sha256": "c995df2dc47b3d9f10594d98130367fc6c788f9a815bfbf4f29739080caa0a8f",
+          "allowRedirects": false,
+          "archiveMember": "Waluigi in OoT1.2 with Voice.bps",
+          "memberSize": 199721,
+          "memberSha256": "ba904ceee709797ab4b5739dbc2b3c50ecbc6a706c5f47f2d8fa8d0020ee8b45"
+        },
+        "output": {
+          "size": 33554432,
+          "sha256": "3b3246a0e697f446694e43d8ab071ecf917f366895ad5b0a65434c893cc57bea"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "sram",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "everdrive-d20fe5b08c2ba5d21d83",
+        "name": "Waluigi in Ocarina of Time - Original Voice",
+        "version": "unversioned",
+        "authors": [
+          "XModxGodX",
+          "russmarrs2"
+        ],
+        "projectUrl": "https://gamebanana.com/mods/253061",
+        "source": {
+          "provider": "GameBanana",
+          "metadataUrl": "https://gamebanana.com/mods/253061",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "The Legend of Zelda: Ocarina of Time",
+          "variant": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2)",
+          "gameCode": "CZLE",
+          "normalizedCrc32": "32120C23",
+          "normalizedSha256": "49acd3885f13b0730119b78fb970911cc8aba614fe383368015c21565983368d"
+        },
+        "patch": {
+          "format": "bps",
+          "url": "https://filecache52.gamebanana.com/mods/waluigi_in_oot12.zip",
+          "size": 253068,
+          "sha256": "c995df2dc47b3d9f10594d98130367fc6c788f9a815bfbf4f29739080caa0a8f",
+          "allowRedirects": false,
+          "archiveMember": "Waluigi in OoT1.2.bps",
+          "memberSize": 129086,
+          "memberSha256": "4724e8ed67dcbabfef0795a3942602315af93a7042dede92f79f6029177e5062"
+        },
+        "output": {
+          "size": 33554432,
+          "sha256": "d9bf9c56f0db81bd5c97040994e09c6da4f9840387b334606ac2e3521475611b"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "sram",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "everdrive-1d69fa7fd6d1a0eef376",
+        "name": "F-Zero X Climax",
+        "version": "1.1",
+        "authors": [
+          "Philippe Brodier"
+        ],
+        "projectUrl": "https://www.romhacking.net/hacks/1487/",
+        "source": {
+          "provider": "romhacking.net (2021-09-14 archive)",
+          "metadataUrl": "https://www.romhacking.net/hacks/1487/",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "F-Zero X",
+          "variant": "F-Zero X (USA)",
+          "gameCode": "CFZE",
+          "normalizedCrc32": "0B561FBA",
+          "normalizedSha256": "2be0f861c30752bbdfa727753a454108bc973c27ad814744f191b1278c1f482d"
+        },
+        "patch": {
+          "format": "ips",
+          "url": "https://ia600803.us.archive.org/view_archive.php?archive=/24/items/rhdn-20210914/RHDN-20210914.zip&file=hacks/N64/F-Zero%20X/F-Zero%20X%20Climax___1_1/F-Zero%20X%20Climax%20%28Philippe%20Brodier%29.zip",
+          "size": 3268865,
+          "sha256": "94623dc5497dea96a8ca24f838df316543c988b04697ed62cd8639eb8cb6a49a",
+          "allowRedirects": false,
+          "archiveMember": "F-Zero X Climax v1.1/F-Zero X Climax v1.1 (U) [!].ips",
+          "memberSize": 2285230,
+          "memberSha256": "75e94b8712309bd219e62e59a4f053667289a64f234e1dea19887d28eb64189e"
+        },
+        "output": {
+          "size": 16777216,
+          "sha256": "d02d895161408a1ac916b41748ddf38d708571113f8474ce9694d595433d8b6c"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "everdrive-0b445fbabc385532a68c",
+        "name": "Smash 64 - Cartman",
+        "version": "unversioned",
+        "authors": [
+          "Jacob Lenard"
+        ],
+        "projectUrl": "https://n64vault.com/ssb-characters:cartman",
+        "source": {
+          "provider": "N64 Vault",
+          "metadataUrl": "https://n64vault.com/ssb-characters:cartman",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "Super Smash Bros.",
+          "variant": "USA",
+          "gameCode": "NALE",
+          "normalizedCrc32": "EB97929E",
+          "normalizedSha256": "15592e79d3c5295cef4371d4992f0bd25bec2102fc29644c93e682f7ea99ef3d"
+        },
+        "patch": {
+          "format": "vcdiff",
+          "url": "https://n64vault.wdfiles.com/local--files/ssb-characters%3Acartman/Cartman.zip",
+          "size": 301767,
+          "sha256": "ef26c46b75abfcf863ac33553174da3b3481d5af346825abde5e0d2ac170facd",
+          "allowRedirects": false,
+          "archiveMember": "Cartman.xdelta",
+          "memberSize": 129376,
+          "memberSha256": "d442d4e8aabceef719fa2224c308d23b55585a305c941b0647d9d7772682d5f2",
+          "vcdiffProfile": "rfc3284-default-code-table-no-secondary-compression"
+        },
+        "output": {
+          "size": 16777216,
+          "sha256": "cbc6f9b7d94dbab168654dc08722e5a73bb4b1fb69d5cabbe0344259c012e426"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-native-Windows-client-runs-with-archive-extraction",
+      "hardwareEvidence": "User-supplied EverDrive list; not independently hardware-tested."
+    },
+    {
+      "entry": {
+        "id": "sm64romhacks-0b25541a-f7cb-41a0-8163-b3fbf967c7ab",
+        "name": "Waluigi's Taco Stand 64",
+        "version": "1.0",
+        "authors": [
+          "Kaze"
+        ],
+        "projectUrl": "https://sm64romhacks.com/hacks/waluigis-taco-stand-64/",
+        "source": {
+          "provider": "sm64romhacks.com",
+          "metadataUrl": "https://sm64romhacks.com/api/v1/version/0b25541a-f7cb-41a0-8163-b3fbf967c7ab",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "Super Mario 64",
+          "variant": "USA",
+          "gameCode": "NSME",
+          "normalizedCrc32": "3CE60709",
+          "normalizedSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+        },
+        "patch": {
+          "format": "bps",
+          "url": "https://sm64romhacks.com/hacks/download/0b25541a-f7cb-41a0-8163-b3fbf967c7ab",
+          "size": 3241835,
+          "sha256": "3bda4495a8d14463d019b124bda837789bed2668d83afbf72fc8695ea321c841",
+          "allowRedirects": false,
+          "archiveMember": "Waluigi's Taco Stand.bps",
+          "memberSize": 3741237,
+          "memberSha256": "c86a47d0940271c365d568162a7f291f4a19b40c4e69454f138848c0373373d3"
+        },
+        "output": {
+          "size": 20971520,
+          "sha256": "4d07a60e7ca494511241d62d9d01f392f2b85890a6f1278c69487095c45cf4da"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "hardwareEvidence": "Source edition label/user list only; no independent hardware test."
+    },
+    {
+      "entry": {
+        "id": "sm64romhacks-72d880af-c896-4097-89b1-69bace7215b1",
+        "name": "Return to Yoshi's Island 64",
+        "version": "Demo",
+        "authors": [
+          "Kaze"
+        ],
+        "projectUrl": "https://sm64romhacks.com/hacks/return-to-yoshis-island-64/",
+        "source": {
+          "provider": "sm64romhacks.com",
+          "metadataUrl": "https://sm64romhacks.com/api/v1/version/72d880af-c896-4097-89b1-69bace7215b1",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "Super Mario 64",
+          "variant": "USA",
+          "gameCode": "NSME",
+          "normalizedCrc32": "3CE60709",
+          "normalizedSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+        },
+        "patch": {
+          "format": "bps",
+          "url": "https://sm64romhacks.com/hacks/download/72d880af-c896-4097-89b1-69bace7215b1",
+          "size": 9126664,
+          "sha256": "b15e198c312c891731679bc833f11c13f0fdf92e117db35d8bf24d8530d2987e",
+          "allowRedirects": false,
+          "archiveMember": "Return To Yoshi's Island 64 DEMO.bps",
+          "memberSize": 10056854,
+          "memberSha256": "8b1d6342c32007f96a761ad724ec387d802ee5ede9d74abe19559da98d7d9132"
+        },
+        "output": {
+          "size": 16777216,
+          "sha256": "09dcd2586360466673af1d586d62ec07e080d3a1c87e30acf11701c5c985d5b6"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "hardwareEvidence": "Source edition label/user list only; no independent hardware test."
+    },
+    {
+      "entry": {
+        "id": "sm64romhacks-9e60b46e-5873-42d7-a760-621cdc894444",
+        "name": "Super Mario 3D World 64",
+        "version": "3.0",
+        "authors": [
+          "Kaze"
+        ],
+        "projectUrl": "https://sm64romhacks.com/hacks/super-mario-3d-world-64/",
+        "source": {
+          "provider": "sm64romhacks.com",
+          "metadataUrl": "https://sm64romhacks.com/api/v1/version/9e60b46e-5873-42d7-a760-621cdc894444",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "Super Mario 64",
+          "variant": "USA",
+          "gameCode": "NSME",
+          "normalizedCrc32": "3CE60709",
+          "normalizedSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+        },
+        "patch": {
+          "format": "bps",
+          "url": "https://sm64romhacks.com/hacks/download/9e60b46e-5873-42d7-a760-621cdc894444",
+          "size": 337934,
+          "sha256": "a5dbcc4c966221e038d2408a4509708b3e14d14ec976ccb9bb24b80f57d3dfbd",
+          "allowRedirects": false,
+          "archiveMember": "SM3DW64 V3.bps",
+          "memberSize": 367546,
+          "memberSha256": "9273ed50ed8383b58c47aeceba61c8cb614d45438b6a133435d50f88e2cf9fce"
+        },
+        "output": {
+          "size": 9588736,
+          "sha256": "c8740d0b89d67cc2cc448fe05955a79992200543f4a33c13877b4b00f8c5e037"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "hardwareEvidence": "Source edition label/user list only; no independent hardware test."
+    },
+    {
+      "entry": {
+        "id": "sm64romhacks-2c74e9dc-9d4d-4b3b-a756-8e21effae179",
+        "name": "Lug's Delightful Dioramas",
+        "version": "1.02-Console-Compatible",
+        "authors": [
+          "Lugmillord",
+          "aglab2"
+        ],
+        "projectUrl": "https://sm64romhacks.com/hacks/lugs-delightful-dioramas/",
+        "source": {
+          "provider": "sm64romhacks.com",
+          "metadataUrl": "https://sm64romhacks.com/api/v1/version/2c74e9dc-9d4d-4b3b-a756-8e21effae179",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "Super Mario 64",
+          "variant": "USA",
+          "gameCode": "NSME",
+          "normalizedCrc32": "3CE60709",
+          "normalizedSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+        },
+        "patch": {
+          "format": "bps",
+          "url": "https://sm64romhacks.com/hacks/download/2c74e9dc-9d4d-4b3b-a756-8e21effae179",
+          "size": 4449228,
+          "sha256": "9124aae3d0759aef816103ca9b486c86a8b3e24a075da0c158661cffc4f80873",
+          "allowRedirects": false,
+          "archiveMember": "Lug's Delightful Dioramas (Console Compatible version by Aglab2).bps",
+          "memberSize": 4761474,
+          "memberSha256": "0631ccaf5cda22074e75c5347fab93505e9bb192f4508c3e6c6bd12a3e97f4bd"
+        },
+        "output": {
+          "size": 8734336,
+          "sha256": "1af2d94838848a97f8a4a4a25fcb9df572f760c3ea29267d0faff257b19cc77c"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "hardwareEvidence": "Source edition label/user list only; no independent hardware test."
+    },
+    {
+      "entry": {
+        "id": "sm64romhacks-3e55ca9c-fab0-4350-ae21-5f6b5f517d59",
+        "name": "Super Mario Odyssey 64 (Recreation)",
+        "version": "1.0",
+        "authors": [
+          "Kaze"
+        ],
+        "projectUrl": "https://sm64romhacks.com/hacks/super-mario-odyssey-64-recreation/",
+        "source": {
+          "provider": "sm64romhacks.com",
+          "metadataUrl": "https://sm64romhacks.com/api/v1/version/3e55ca9c-fab0-4350-ae21-5f6b5f517d59",
+          "retrievedAt": "2026-09-19T00:00:00Z"
+        },
+        "base": {
+          "name": "Super Mario 64",
+          "variant": "USA",
+          "gameCode": "NSME",
+          "normalizedCrc32": "3CE60709",
+          "normalizedSha256": "17ce077343c6133f8c9f2d6d6d9a4ab62c8cd2aa57c40aea1f490b4c8bb21d91"
+        },
+        "patch": {
+          "format": "bps",
+          "url": "https://sm64romhacks.com/hacks/download/3e55ca9c-fab0-4350-ae21-5f6b5f517d59",
+          "size": 5225751,
+          "sha256": "f367d13a94fc9a7814bffd36d85d5f1bf009f74568b0c1a98094436324fbaa16",
+          "allowRedirects": false,
+          "archiveMember": "Mario Odyssey 64.bps",
+          "memberSize": 6232220,
+          "memberSha256": "baa44f1f4fc8b5893253aeead43932f788c678345e69a5bf7eff86a34e075e1d"
+        },
+        "output": {
+          "size": 67108864,
+          "sha256": "cae8d4f3a3287b4a032977990b3ce11c1b357a50cffc303bc3341e43f8ba16ec"
+        },
+        "compatibility": "patch-applied-not-playtested",
+        "saveType": "eeprom4k",
+        "rights": {
+          "patchRedistributionAllowed": false,
+          "artworkRedistributionAllowed": false
+        }
+      },
+      "verification": "two-client-decoder-runs-and-client-zip-extraction",
+      "hardwareEvidence": "Source edition label/user list only; no independent hardware test."
+    }
+  ],
+  "failedAttempts": [
+    {
+      "project": "GoldenEye 007 - Killer vs Vendetta",
+      "member": "K vs V 4.0 final.xdelta",
+      "reason": "error: ChecksumMismatch\n"
+    },
+    {
+      "project": "Super Smash Bros - Cartman Fighter",
+      "reason": "HTTP Error 500: Internal Server Error"
+    }
+  ],
+  "limitations": [
+    "Three Stage Mod author says N64 compatibility Hopefully.",
+    "Wizard Quad Pack disables single-player due to crashes.",
+    "New images were not added: source screenshots do not automatically qualify as default covers."
+  ]
+}

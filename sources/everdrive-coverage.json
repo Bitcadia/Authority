@@ -1,0 +1,696 @@
+{
+  "purpose": "user-supplied-console-compatibility-audit",
+  "origin": "https://www.reddit.com/r/n64/comments/zsnvrh/here_is_a_list_of_everdrive_compatible_n64_rom/",
+  "notice": "List supplied by user; Reddit body could not be retrieved. Keep per-release compatibility claims separate from patch verification.",
+  "entries": [
+    {
+      "number": 1,
+      "listedName": "Banjo Kazooie - Cut Throat Coast",
+      "sourceUrl": "https://www.patreon.com/Kurko",
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Creator collection link does not identify a freely retrievable exact patch. Earlier check found membership-gated collection; local Banjo USA v1.0 also absent at last inventory."
+    },
+    {
+      "number": 2,
+      "listedName": "Banjo Kazooie - Gruntilda's Mask",
+      "sourceUrl": "https://www.patreon.com/Kurko",
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Creator collection link does not identify a freely retrievable exact patch. Earlier check found membership-gated collection; local Banjo USA v1.0 also absent at last inventory."
+    },
+    {
+      "number": 3,
+      "listedName": "Banjo Kazooie - Kurkoin Quest v0.4",
+      "sourceUrl": "https://www.patreon.com/Kurko",
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Creator collection link does not identify a freely retrievable exact patch. Earlier check found membership-gated collection; local Banjo USA v1.0 also absent at last inventory."
+    },
+    {
+      "number": 4,
+      "listedName": "Banjo Kazooie - NightBear Before Christmas",
+      "sourceUrl": "https://www.patreon.com/Kurko",
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Creator collection link does not identify a freely retrievable exact patch. Earlier check found membership-gated collection; local Banjo USA v1.0 also absent at last inventory."
+    },
+    {
+      "number": 5,
+      "listedName": "Banjo Kazooie - Stay at Home",
+      "sourceUrl": "https://www.patreon.com/Kurko",
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Creator collection link does not identify a freely retrievable exact patch. Earlier check found membership-gated collection; local Banjo USA v1.0 also absent at last inventory."
+    },
+    {
+      "number": 6,
+      "listedName": "Banjo Kazooie - The Bear Waker",
+      "sourceUrl": "https://www.patreon.com/Kurko",
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Creator collection link does not identify a freely retrievable exact patch. Earlier check found membership-gated collection; local Banjo USA v1.0 also absent at last inventory."
+    },
+    {
+      "number": 7,
+      "listedName": "Banjo Kazooie - The Jiggies of Time",
+      "sourceUrl": "https://www.patreon.com/Kurko",
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Creator collection link does not identify a freely retrievable exact patch. Earlier check found membership-gated collection; local Banjo USA v1.0 also absent at last inventory."
+    },
+    {
+      "number": 8,
+      "listedName": "Banjo Kazooie - Worlds Collide",
+      "sourceUrl": "https://www.patreon.com/Kurko",
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Creator collection link does not identify a freely retrievable exact patch. Earlier check found membership-gated collection; local Banjo USA v1.0 also absent at last inventory."
+    },
+    {
+      "number": 9,
+      "listedName": "Banjo Kazooie - x Donkey Kong Country",
+      "sourceUrl": "https://www.patreon.com/Kurko",
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Creator collection link does not identify a freely retrievable exact patch. Earlier check found membership-gated collection; local Banjo USA v1.0 also absent at last inventory."
+    },
+    {
+      "number": 10,
+      "listedName": "Banjo Kazooie - The Gruntch v1.2",
+      "sourceUrl": "https://www.patreon.com/Kurko",
+      "status": "blocked",
+      "catalogEntries": [],
+      "reason": "Creator collection link does not identify a freely retrievable exact patch. Earlier check found membership-gated collection; local Banjo USA v1.0 also absent at last inventory."
+    },
+    {
+      "number": 11,
+      "listedName": "Doom 64 - Mercillus Edition",
+      "sourceUrl": "https://github.com/Immorpher/Doom-64-Merciless-Edition",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5850-efe0d41e0132",
+          "name": "Doom 64: Merciless Edition II - Doom 64 (U) (V1.1 or Rev A) [!] Patch",
+          "version": "1.0"
+        },
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5634-6604f243b453",
+          "name": "Doom 64: Merciless Edition - Doom 64 Merciless Edition for 1.1 or Rev A",
+          "version": "1.1"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 12,
+      "listedName": "F-Zero X - F-Zero X Climax",
+      "sourceUrl": "https://www.romhacking.net/hacks/1487/",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-1d69fa7fd6d1a0eef376",
+          "name": "F-Zero X Climax",
+          "version": "1.1"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 13,
+      "listedName": "GoldenEye 007 - Alfredo Lamberra",
+      "sourceUrl": "https://goldeneye.fandom.com/wiki/Alfredo_Lamberra",
+      "status": "pending-source",
+      "catalogEntries": [],
+      "reason": "Exact linked release not yet acquired and reproduced."
+    },
+    {
+      "number": 14,
+      "listedName": "GoldenEye 007 - Killer vs Vendetta",
+      "sourceUrl": "http://n64vault.com/ge-campaigns:k-i-l-l-e-r-vs-vendetta-version-4-0",
+      "status": "pending-source",
+      "catalogEntries": [],
+      "reason": "Downloaded v4.0 xdelta fails ChecksumMismatch against local GoldenEye USA; not admitted."
+    },
+    {
+      "number": 15,
+      "listedName": "Goldeneye 007 - The Janus Alternative",
+      "sourceUrl": "http://n64vault.com/ge-campaigns:the-janus-alternative",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-df562d5e8eef8319e612",
+          "name": "The Janus Alternative",
+          "version": "unversioned"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 16,
+      "listedName": "GoldenEye 007 - K7 Assignment",
+      "sourceUrl": "http://n64vault.com/ge-campaigns:the-k7-assignment",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-d59d6d6628397b4705ad",
+          "name": "K7 Assignment",
+          "version": "1.1"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 17,
+      "listedName": "GoldenEye 007 - Mario Edition",
+      "sourceUrl": "http://n64vault.com/ge-for-fun:goldeneye-with-mario-characters",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-2e3d845a4544253bf04a",
+          "name": "GoldenEye with Mario Characters",
+          "version": "3.17"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 18,
+      "listedName": "GoldenEye 007 - Tommorow Never Dies 64",
+      "sourceUrl": "http://n64vault.com/ge-campaigns:tomorrow-never-dies-64",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "n64vault-tnd64-expanded-11-24-e3b0c442",
+          "name": "Tomorrow Never Dies 64 - Expanded",
+          "version": "11-24"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 19,
+      "listedName": "Legend of Zelda OOT - Dawn and Dusk",
+      "sourceUrl": "https://archive.org/details/zelda-64-dawn-and-dusk",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "hylian-registry.json",
+          "entryId": "hylian-zelda64_dawn_and_dusk",
+          "name": "Zelda 64: Dawn and Dusk",
+          "version": "2"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 20,
+      "listedName": "Legend of Zelda OOT - Waluigi Edition",
+      "sourceUrl": "https://gamebanana.com/mods/253061",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-6f4e6b38984df0fa23f3",
+          "name": "Waluigi in Ocarina of Time - Waluigi Voice",
+          "version": "unversioned"
+        },
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-d20fe5b08c2ba5d21d83",
+          "name": "Waluigi in Ocarina of Time - Original Voice",
+          "version": "unversioned"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 21,
+      "listedName": "Legend of Zelda OOT - Zelda's Birthday",
+      "sourceUrl": "https://n64squid.com/zeldas-birthday/",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "hylian-registry.json",
+          "entryId": "hylian-zeldas_birthday",
+          "name": "Zelda's Birthday",
+          "version": "1.0"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 22,
+      "listedName": "Legend of Zelda OOT - The Missing Link",
+      "sourceUrl": "https://www.romhacking.net/hacks/5334/",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "hylian-registry.json",
+          "entryId": "hylian-the_missing_link",
+          "name": "The Missing Link",
+          "version": "2.0"
+        },
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5334-abec82a55319",
+          "name": "The Legend of Zelda: The Missing Link - tml_n64_1_5_big_endian",
+          "version": "1.5"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 23,
+      "listedName": "Mario Kart 64 - Amagami",
+      "sourceUrl": "https://www.romhacking.net/hacks/5065/",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5065-b8cc3a08e380",
+          "name": "Amagami Mario Kart - Amagami Mario Kart z64",
+          "version": "1.0"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 24,
+      "listedName": "Mario Kart 64 - Over Kart 64",
+      "sourceUrl": "https://overkart64.com/",
+      "status": "needs-edition",
+      "catalogEntries": [],
+      "reason": "Community site has multiple packs; user previously cancelled OverKart investigation. Exact standalone release not inferred from site URL."
+    },
+    {
+      "number": 25,
+      "listedName": "Mario Kart 64 - Mario Kart Amped Up",
+      "sourceUrl": "https://www.retrorgb.com/mario-kart-64-amped-up-homebrew-hack.html",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "patcher64plus-amped-up-3.00",
+          "name": "Mario Kart 64 - Amped Up",
+          "version": "3.00"
+        },
+        {
+          "registry": "community-registry.json",
+          "entryId": "gamebanana-613207-1584378",
+          "name": "Mario Kart 64 - Amped Up",
+          "version": "3.21"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 26,
+      "listedName": "Mario Kart 64 - San Andreas Kart",
+      "sourceUrl": "https://drive.google.com/file/d/1Jnkb6GVMZlZhnmecUYmVqcyHhBeb_8Pc/view",
+      "status": "pending-source",
+      "catalogEntries": [],
+      "reason": "Located GameBanana 2.0 mirror; download returned HTTP 403; supplied Drive edition not verified."
+    },
+    {
+      "number": 27,
+      "listedName": "NFL Blitz 2000 - NFL Blitz 2023: Signature Edition",
+      "sourceUrl": "https://www.youtube.com/watch?v=4kpp7dgCkQI",
+      "status": "pending-source",
+      "catalogEntries": [],
+      "reason": "Exact linked release not yet acquired and reproduced."
+    },
+    {
+      "number": 28,
+      "listedName": "Perfect Dark - Kakariko Village Multiplayer",
+      "sourceUrl": "https://www.romhacking.net/hacks/1326/",
+      "status": "pending-artifact",
+      "catalogEntries": [],
+      "reason": "Perfect Dark RHDN 1326 is distinct from GoldenEye 1325; archived download is RAR and awaits client extraction/application audit."
+    },
+    {
+      "number": 29,
+      "listedName": "Super Mario 64 - Star Road",
+      "sourceUrl": "https://www.romhacking.net/hacks/5959/",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "rhdc-super-mario-star-road-1.02",
+          "name": "Super Mario Star Road",
+          "version": "1.02"
+        },
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-5fd68f6c68726b56dab1fc61-1.1.1",
+          "name": "Super Mario Star Road Retooled",
+          "version": "1.1.1"
+        },
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-6096c19aebff9f5101c8ac9f-sha1-539f5f035ff2e68ef95965bca3e5ff3af9c64980",
+          "name": "Super Mario Star Road with Parallel Camera",
+          "version": "sha1-539f5f035ff2e68ef95965bca3e5ff3af9c64980"
+        },
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-5e209fb7ea2543645dc04264-1.02",
+          "name": "Super Mario Star Road",
+          "version": "1.02"
+        },
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-69b411c5af3c8318e536dfcb-sha1-f5e0cd58d863ece3bf80d0c2fb8da6e17745c1c7",
+          "name": "Super Mario Star Road Randomizer",
+          "version": "sha1-f5e0cd58d863ece3bf80d0c2fb8da6e17745c1c7"
+        },
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-63c455e426409c856b317184-sha1-c33182ba3613246abba9f2a81d7f1dbe72604dd7",
+          "name": "Super Mario Star Road [VF]",
+          "version": "sha1-c33182ba3613246abba9f2a81d7f1dbe72604dd7"
+        },
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-66af25728fe79d36404b3d09-1.2",
+          "name": "Star Road Hint Arts",
+          "version": "1.2"
+        },
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-6808058b406ab42fde3bbc55-sha1-4c9d1c48b1a1316aeed52fd52fb644fd50882888",
+          "name": "Super Yoshi Star Road",
+          "version": "sha1-4c9d1c48b1a1316aeed52fd52fb644fd50882888"
+        },
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-6472014b85419f052c48694c-1.1",
+          "name": "Super Mayro Star Road",
+          "version": "1.1"
+        },
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-68c61b34848f4ce1c403fb1c-sha1-4519bf98bb309cc1e8553cf136293cbee8b86b2e",
+          "name": "super mario star road minecraft editon demo",
+          "version": "sha1-4519bf98bb309cc1e8553cf136293cbee8b86b2e"
+        },
+        {
+          "registry": "plaza-registry.json",
+          "entryId": "plaza-3190-882129c697cf",
+          "name": "Super Mario Star Road — Super Mario Star Road - Deluxe Edition (SM64 Hack by Skelux)",
+          "version": "All"
+        },
+        {
+          "registry": "plaza-registry.json",
+          "entryId": "plaza-3190-2f666bb6070b",
+          "name": "Super Mario Star Road — Super Mario Star Road N64",
+          "version": "All"
+        },
+        {
+          "registry": "plaza-registry.json",
+          "entryId": "plaza-3190-5de8da06abb1",
+          "name": "Super Mario Star Road — Super Mario Star Road 1.01",
+          "version": "All"
+        },
+        {
+          "registry": "plaza-registry.json",
+          "entryId": "plaza-3190-dbb54d14198a",
+          "name": "Super Mario Star Road — Super Mario Star Road Final - Deluxe Edition",
+          "version": "All"
+        },
+        {
+          "registry": "plaza-registry.json",
+          "entryId": "plaza-3190-bb8e6e65066c",
+          "name": "Super Mario Star Road — Super Mario Star Road - Light Edition (v0.1) (SM64 Hack by Skelux)",
+          "version": "All"
+        },
+        {
+          "registry": "plaza-registry.json",
+          "entryId": "plaza-3190-ee01eeb04473",
+          "name": "Super Mario Star Road — SMSR Multiplayer 1.2.1",
+          "version": "All"
+        },
+        {
+          "registry": "rhdn-registry.json",
+          "entryId": "rhdn-hacks-5959-3253fca96e85",
+          "name": "Super Mario Star Road (EverDrive Edition) - Super Mario Star Road N64",
+          "version": "1.0"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 30,
+      "listedName": "Super Mario 64 - Super Mario 64 3D World",
+      "sourceUrl": "https://www.youtube.com/watch?v=8ePa_FrSNkI",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-9e60b46e-5873-42d7-a760-621cdc894444",
+          "name": "Super Mario 3D World 64",
+          "version": "3.0"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 31,
+      "listedName": "Super Mario 64 - Return to Yoshi's Island",
+      "sourceUrl": "https://mario64hacks.fandom.com/wiki/Return_to_Yoshi%27s_Island_64",
+      "status": "partial-edition",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-72d880af-c896-4097-89b1-69bace7215b1",
+          "name": "Return to Yoshi's Island 64",
+          "version": "Demo"
+        },
+        {
+          "registry": "rhdc-registry.json",
+          "entryId": "rhdc-677939c420d3b48b8e3b99cf-1.06",
+          "name": "Return To Yoshi's Island DEMO 2",
+          "version": "1.06"
+        }
+      ],
+      "reason": "Verified original Demo and existing Demo 2; list does not identify version or final release."
+    },
+    {
+      "number": 32,
+      "listedName": "Super Mario 64 - Odyssey 64",
+      "sourceUrl": "https://archive.org/details/QmX3ar6m4dMJNLtw9s1gVndzoB7HLGN7wE3aUHfsenCEfR",
+      "status": "needs-edition",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-3e55ca9c-fab0-4350-ae21-5f6b5f517d59",
+          "name": "Super Mario Odyssey 64 (Recreation)",
+          "version": "1.0"
+        }
+      ],
+      "reason": "Verified Recreation 1.0, but archive link has not been matched to that edition; Physics Mod is a separate project."
+    },
+    {
+      "number": 33,
+      "listedName": "Super Mario 64 - Lug's Delightful Diorama Console Final",
+      "sourceUrl": "https://www.romhacking.net/hacks/6427/",
+      "status": "partial-edition",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-2c74e9dc-9d4d-4b3b-a756-8e21effae179",
+          "name": "Lug's Delightful Dioramas",
+          "version": "1.02-Console-Compatible"
+        }
+      ],
+      "reason": "Console-compatible 1.02 verified; exact equivalence to unspecified Console Final wording not established."
+    },
+    {
+      "number": 34,
+      "listedName": "Super Mario 64 - Super Mario 74",
+      "sourceUrl": "https://www.romhacking.net/hacks/5114/",
+      "status": "verified-chain-pending-publication",
+      "catalogEntries": [],
+      "reason": "Exact Console 1.0 patch-transform chain reproduced previously; publication builder still emits direct recipes only. Regular SM74 does not satisfy this edition."
+    },
+    {
+      "number": 35,
+      "listedName": "Super Mario 64 - The Missing Stars",
+      "sourceUrl": "https://mario64hacks.fandom.com/wiki/Super_Mario_64:_The_Missing_Stars",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-55a9278f-62fe-4543-b765-251141c43f2e",
+          "name": "Super Mario 64 - The Missing Stars",
+          "version": "2.0-Console-Compatible"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 36,
+      "listedName": "Super Mario 64 - Waluigi's Taco Stand",
+      "sourceUrl": "https://mario64hacks.fandom.com/wiki/Waluigi%27s_Taco_Stand",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "sm64-registry.json",
+          "entryId": "sm64romhacks-0b25541a-f7cb-41a0-8163-b3fbf967c7ab",
+          "name": "Waluigi's Taco Stand 64",
+          "version": "1.0"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 37,
+      "listedName": "Super Smash Bros - Fighter Remix",
+      "sourceUrl": "http://n64vault.com/ssb-characters:smash-remix",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "smashremix-registry.json",
+          "entryId": "smashremix-2.0.1-ntsc",
+          "name": "Smash Remix",
+          "version": "2.0.1"
+        },
+        {
+          "registry": "plaza-registry.json",
+          "entryId": "plaza-2323-b4b24fdc4c6e",
+          "name": "Smash Remix — smashremix1.5.0",
+          "version": "1.5.0"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 38,
+      "listedName": "Super Smash Bros - Cartman Fighter",
+      "sourceUrl": "http://n64vault.com/ssb-characters:cartman",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-0b445fbabc385532a68c",
+          "name": "Smash 64 - Cartman",
+          "version": "unversioned"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 39,
+      "listedName": "Super Smash Bros - Bomberman Stage",
+      "sourceUrl": "http://n64vault.wikidot.com/ssb-levels:ssb-bomberman-64",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-35409ce18475dab2bfa2",
+          "name": "Smash 64 - Bomberman Stages",
+          "version": "unversioned"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 40,
+      "listedName": "Super Smash Bros - Three Stage Mod",
+      "sourceUrl": "http://n64vault.wikidot.com/ssb-levels:three-stage-mod",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-bdb8b6941d098d51d15d",
+          "name": "Three Stage Mod",
+          "version": "unversioned"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 41,
+      "listedName": "Super Smash Bros - Ganon's Ruin Stage",
+      "sourceUrl": "http://n64vault.wikidot.com/ssb-levels:ganons-ruin",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-c7116d2cb4287aa1918f",
+          "name": "Ganon's Ruin Stage",
+          "version": "unversioned"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 42,
+      "listedName": "Super Smash Bros - Houston Triple Pack Stage",
+      "sourceUrl": "http://n64vault.wikidot.com/ssb-levels:houston-triple-pack",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-12677b511d0e79b96e28",
+          "name": "Houston Triple Pack Stage",
+          "version": "unversioned"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 43,
+      "listedName": "Super Smash Bros - DK World-Gex Scream TV Stage",
+      "sourceUrl": "http://n64vault.wikidot.com/ssb-levels:dk-world-gex-scream-tv",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-aa0f7cbd74741080eaa1",
+          "name": "DK World-Gex Scream TV Stage",
+          "version": "unversioned"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 44,
+      "listedName": "Super Smash Bros - Wizard Quad Pack",
+      "sourceUrl": "http://n64vault.wikidot.com/ssb-levels:wizard-quad-pack",
+      "status": "cataloged-project",
+      "catalogEntries": [
+        {
+          "registry": "community-registry.json",
+          "entryId": "everdrive-04f672756a1d130ea6af",
+          "name": "Wizard Quad Pack",
+          "version": "unversioned"
+        }
+      ],
+      "reason": "Project has verified patch records; user-reported hardware compatibility is not an independent test."
+    },
+    {
+      "number": 45,
+      "listedName": "Virtual Pro Wrestling - English Language",
+      "sourceUrl": "https://www.youtube.com/watch?v=t10p2gdH-XI",
+      "status": "pending-source",
+      "catalogEntries": [],
+      "reason": "Exact linked release not yet acquired and reproduced."
+    },
+    {
+      "number": 46,
+      "listedName": "Virtual Pro Wrestling 2 - English Language",
+      "sourceUrl": "https://www.youtube.com/watch?v=-S4mSWXVAL8&t=0s",
+      "status": "pending-source",
+      "catalogEntries": [],
+      "reason": "Exact linked release not yet acquired and reproduced."
+    }
+  ]
+}

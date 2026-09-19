@@ -15,7 +15,7 @@ const exclusions = JSON.parse(await readFile(new URL("../sources/publication-exc
 const releaseGroups = JSON.parse(await readFile(new URL("../sources/release-groups.json", import.meta.url)));
 const curation = JSON.parse(await readFile(picksPath, "utf8"));
 const indexSchema = "https://raw.githubusercontent.com/Bitcadia/Authority/main/schemas/mod-registry-index.schema.json";
-const canonicalCategories = new Set(["the-sequel", "the-dlc", "the-replacement", "the-experiment"]);
+const canonicalCategories = new Set(["the-sequel", "the-dlc", "the-replacement", "the-experiment", "the-preserver"]);
 const canonical = value => Array.isArray(value) ? value.map(canonical) : value && typeof value === "object"
   ? Object.fromEntries(Object.keys(value).sort().map(key => [key, canonical(value[key])])) : value;
 const digestEntry = value => createHash("sha256").update(JSON.stringify(canonical(value))).digest("hex");
