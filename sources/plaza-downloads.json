@@ -1,0 +1,877 @@
+{
+  "purpose": "source-download-index",
+  "source": "https://romhackplaza.org/",
+  "notice": "Site-reported download metadata. Sizes describe downloadable files, which may be archives. Patch and output hashes are not inferred. RHDN candidates do not automatically replace release URLs.",
+  "entryCount": 25,
+  "entries": [
+    {
+      "id": "plaza-4003",
+      "name": "Costume Corrections for Virtual Pro Wrestling 64",
+      "game": "Virtual Pro Wrestling 64",
+      "version": "4.0",
+      "authors": [
+        "SCD"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/costume-corrections-for-virtual-pro-wrestling-64-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "Costume Corrections for Virtual Pro Wrestling 64.zip",
+          "size": 1679,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/4003/078f57ba-1397-49da-95d0-cf55efb4d522",
+          "fileId": "078f57ba-1397-49da-95d0-cf55efb4d522"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Virtual Pro Wrestling 64 (Japan).z64",
+          "sha1": "F9E9FA2ED819C3A39DB5CB6AFECA186F021DB5ED",
+          "crc32": "E6651803",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "8B7191AE5489FC71C7A18C05A0AFBA035A88D8F22A2B047253DD9C524FB88921",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-3910",
+      "name": "Super Billschannel 64",
+      "game": "Super Mario 64",
+      "version": "BillV0.2",
+      "authors": [
+        "M4ximumCheese"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-billschannel-64-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "BisexualWokeBill.bps",
+          "size": 2987630,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3910/974bf792-1123-44f9-ae7d-4ed39be6ffd2",
+          "fileId": "974bf792-1123-44f9-ae7d-4ed39be6ffd2"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Super Mario 64 (USA).z64",
+          "sha1": "9BEF1128717F958171A4AFAC3ED78EE2BB4E86CE",
+          "crc32": "3CE60709",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-3838",
+      "name": "Ultimate Trial",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "version": "1.2.3",
+      "authors": [
+        "Richie",
+        "Syeo",
+        "ZeeRoX",
+        "aegiker",
+        "hiisuya",
+        "Zeraphyr",
+        "Woon",
+        "ShuggyTheBuggy"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/ultimate-trial-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "Ultimate Trial 1.2.3.zip",
+          "size": 25571371,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3838/07acd169-e93b-4f32-a149-16dd39a3a066",
+          "fileId": "07acd169-e93b-4f32-a149-16dd39a3a066"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Legend of Zelda, The - Ocarina of Time (USA).z64",
+          "sha1": "AD69C91157F6705E8AB06C79FE08AAD47BB57BA7",
+          "crc32": "CD16C529",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": [
+        {
+          "id": "rhdn-8640",
+          "projectUrl": "https://www.romhacking.net/hacks/8640/",
+          "version": "1.2.3",
+          "match": "title-game-only-review-required"
+        }
+      ]
+    },
+    {
+      "id": "plaza-3192",
+      "name": "Super Mario 64 Multiplayer",
+      "game": "Super Mario 64",
+      "version": "1.4.2",
+      "authors": [
+        "Skelux",
+        "Team Cornersoft"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-mario-64-multiplayer-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "Multiplayer Mod Mega Pack.zip",
+          "size": 61518522,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3192/6c6b7e41-034c-4e2f-8c70-00bc94b5a477",
+          "fileId": "6c6b7e41-034c-4e2f-8c70-00bc94b5a477"
+        },
+        {
+          "filename": "SM64 Multiplayer (v1.4.2) (Dynamic).zip",
+          "size": 2885301,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3192/be13f2c9-5b12-4a29-9885-a134f6e26db4",
+          "fileId": "be13f2c9-5b12-4a29-9885-a134f6e26db4"
+        },
+        {
+          "filename": "SM64 Multiplayer (v1.4).zip",
+          "size": 190096,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3192/fcd4490f-4d7c-47f3-8019-7edad33adcd4",
+          "fileId": "fcd4490f-4d7c-47f3-8019-7edad33adcd4"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Super Mario 64 (USA).z64",
+          "sha1": "9BEF1128717F958171A4AFAC3ED78EE2BB4E86CE",
+          "crc32": "3CE60709",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-3190",
+      "name": "Super Mario Star Road",
+      "game": "Super Mario 64",
+      "version": "All",
+      "authors": [
+        "Skelux",
+        "Kaze Emanuar"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-mario-star-road-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "Super Mario Star Road (Deluxe).zip",
+          "size": 5672884,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3190/0162cef3-5007-44cd-9a3a-519dc69f55ab",
+          "fileId": "0162cef3-5007-44cd-9a3a-519dc69f55ab"
+        },
+        {
+          "filename": "Super Mario Star Road (Optimized for N64).zip",
+          "size": 5065364,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3190/bda80a67-4d3b-43fe-9aa8-39e6f8b45457",
+          "fileId": "bda80a67-4d3b-43fe-9aa8-39e6f8b45457"
+        },
+        {
+          "filename": "Super Mario Star Road (v1.01).zip",
+          "size": 5559945,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3190/21606ca7-6ee9-48e0-a15f-cbe90d72b1af",
+          "fileId": "21606ca7-6ee9-48e0-a15f-cbe90d72b1af"
+        },
+        {
+          "filename": "Super Mario Star Road Final - Deluxe Edition.bps",
+          "size": 6788133,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3190/0ac9a531-48ad-41f3-9f28-1eb20c2359ca",
+          "fileId": "0ac9a531-48ad-41f3-9f28-1eb20c2359ca"
+        },
+        {
+          "filename": "Super Mario Star Road Light Edition (v0.1).zip",
+          "size": 5559138,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3190/355764d1-9be5-46b2-916f-2c62132f6670",
+          "fileId": "355764d1-9be5-46b2-916f-2c62132f6670"
+        },
+        {
+          "filename": "Super Mario Star Road Multiplayer (v1.2.1).zip",
+          "size": 5670216,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3190/cf0376a2-ba81-458b-9050-3f2005c42436",
+          "fileId": "cf0376a2-ba81-458b-9050-3f2005c42436"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Super Mario 64 (USA).z64",
+          "sha1": "9BEF1128717F958171A4AFAC3ED78EE2BB4E86CE",
+          "crc32": "3CE60709",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": [
+        {
+          "id": "rhdn-873",
+          "projectUrl": "https://www.romhacking.net/hacks/873/",
+          "version": "Final",
+          "match": "title-game-only-review-required"
+        }
+      ]
+    },
+    {
+      "id": "plaza-3113",
+      "name": "Unlock Developers (and Everyone Else)",
+      "game": "GoldenEye 007",
+      "version": "1.00",
+      "authors": [
+        "OEA"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/goldeneye-unlock-developers-and-everyone-else-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "GoldenEye All Multiplayer Chars.zip",
+          "size": 66808,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3113/5e4c1f34-cd32-4507-9a33-02c417969fc9",
+          "fileId": "5e4c1f34-cd32-4507-9a33-02c417969fc9"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "GoldenEye 007 (USA).z64",
+          "sha1": "ABE01E4AEB033B6C0836819F549C791B26CFDE83",
+          "crc32": "B6330846",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "2CDCEC8A9F0CB6E36337F3EE39D8AD105DC8AFA6BA1C02D466E8F5B771F9A162",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-3087",
+      "name": "Christmas Mario 64 Multiplayer",
+      "game": "Super Mario 64",
+      "version": "1",
+      "authors": [
+        "T-Bone"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/christmas-mario-64-multiplayer-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "Christmas 64 Multiplayer.zip",
+          "size": 2683574,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3087/cd6e7887-33fc-42eb-a70a-02bd0d9f7598",
+          "fileId": "cd6e7887-33fc-42eb-a70a-02bd0d9f7598"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Super Mario 64 (USA).z64",
+          "sha1": "9BEF1128717F958171A4AFAC3ED78EE2BB4E86CE",
+          "crc32": "3CE60709",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-3086",
+      "name": "Christmas Mario 64 (for Bloopers)",
+      "game": "Super Mario 64",
+      "version": "1",
+      "authors": [
+        "T-Bone"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/christmas-mario-64-for-bloopers-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "Christmas 64 Singleplayer.zip",
+          "size": 2655400,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3086/8d595bb4-eac9-4cb1-8792-032bcd06cdb3",
+          "fileId": "8d595bb4-eac9-4cb1-8792-032bcd06cdb3"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Super Mario 64 (USA).z64",
+          "sha1": "9BEF1128717F958171A4AFAC3ED78EE2BB4E86CE",
+          "crc32": "3CE60709",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-3080",
+      "name": "SM64 Multiplayer but Player 2 Is SMG3",
+      "game": "Super Mario 64",
+      "version": "1",
+      "authors": [
+        "T-Bone"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/sm64-multiplayer-but-player-2-is-smg3-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "SM64 Multiplayer ft SMG3.bps",
+          "size": 3403611,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3080/6ef0488f-dbc1-4467-8f99-7583be3f5485",
+          "fileId": "6ef0488f-dbc1-4467-8f99-7583be3f5485"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Super Mario 64 (USA).z64",
+          "sha1": "9BEF1128717F958171A4AFAC3ED78EE2BB4E86CE",
+          "crc32": "3CE60709",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-3079",
+      "name": "SM64 Multiplayer but Player 2 Is SMG4",
+      "game": "Super Mario 64",
+      "version": "1",
+      "authors": [
+        "T-Bone"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/sm64-multiplayer-but-player-2-is-smg4-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "SM64 Multiplayer ft SMG4.bps",
+          "size": 3401234,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3079/41113a4a-b281-42fd-8f95-70881a58600b",
+          "fileId": "41113a4a-b281-42fd-8f95-70881a58600b"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Super Mario 64 (USA).z64",
+          "sha1": "9BEF1128717F958171A4AFAC3ED78EE2BB4E86CE",
+          "crc32": "3CE60709",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-3060",
+      "name": "The Junuary Project",
+      "game": "Super Mario 64",
+      "version": "3.4.15",
+      "authors": [
+        "Alieeneer"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-junuary-project-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "Junuary Project.7z",
+          "size": 1328108,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3060/786c44ae-cbd6-4013-a5b3-fbc34db52979",
+          "fileId": "786c44ae-cbd6-4013-a5b3-fbc34db52979"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Super Mario 64 (USA).z64",
+          "sha1": "9BEF1128717F958171A4AFAC3ED78EE2BB4E86CE",
+          "crc32": "3CE60709",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": [
+        {
+          "id": "rhdn-6262",
+          "projectUrl": "https://www.romhacking.net/hacks/6262/",
+          "version": "3.4.14",
+          "match": "title-game-only-review-required"
+        }
+      ]
+    },
+    {
+      "id": "plaza-3032",
+      "name": "Doom 64 1996-12-10 Beta Checksum Fix",
+      "game": "Doom 64",
+      "version": "1.0",
+      "authors": [
+        "Sunlitspace542"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/doom-64-1996-12-10-beta-checksum-fix-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "Doom64Proto-ChecksumFix.7z",
+          "size": 257,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3032/e6de91f2-c4d9-4496-8541-876ff53e2490",
+          "fileId": "e6de91f2-c4d9-4496-8541-876ff53e2490"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Doom 64 (USA) (Beta) (1996-12-10).z64",
+          "sha1": "398C9C1FE34BE41E47AB69C659FD093813692574",
+          "crc32": "68F7655E",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": null,
+          "mapping": "unresolved"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-3029",
+      "name": "Super Mario 64 Smoke Fix",
+      "game": "Super Mario 64",
+      "version": "2.0",
+      "authors": [
+        "zoinknoise"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-mario-64-smoke-fix-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "SM64-SmokeFix.zip",
+          "size": 911872,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3029/94e2b94c-e0a6-41a3-8653-72b23a6cc661",
+          "fileId": "94e2b94c-e0a6-41a3-8653-72b23a6cc661"
+        }
+      ],
+      "reportedBases": [],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-3014",
+      "name": "The Legend of Zelda - Sands of Time",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "version": "1.22",
+      "authors": [
+        "Debug log &amp; Woon"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-sands-of-time-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "The Legend of Zelda - Sands of Time.zip",
+          "size": 33279615,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3014/9b271833-9846-4b1f-8e80-11bf0f22f239",
+          "fileId": "9b271833-9846-4b1f-8e80-11bf0f22f239"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Legend of Zelda, The - Ocarina of Time (USA).z64",
+          "sha1": "AD69C91157F6705E8AB06C79FE08AAD47BB57BA7",
+          "crc32": "CD16C529",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-3007",
+      "name": "Better Cockpit View",
+      "game": "Star Fox 64",
+      "version": "1.0",
+      "authors": [
+        "Sunlitspace542"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/better-cockpit-view-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "sf64_better_cockpit_view_v1.0.7z",
+          "size": 202052,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/3007/b28ef4b0-ca71-45f3-807a-aae319b6bf03",
+          "fileId": "b28ef4b0-ca71-45f3-807a-aae319b6bf03"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Star Fox 64 (USA) (Rev 1).z64",
+          "sha1": "09F0D105F476B00EFA5303A3EBC42E60A7753B7A",
+          "crc32": "B1B5FC46",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "385BCF1901ED12FB1152F3C227D1968CC54AE41E8566DA66695DF71AF40A573F",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-2803",
+      "name": "Music Repair Patch for Donald Duck: Goin' Quackers / Quack Attack N64",
+      "game": "Donald Duck: Goin' Quackers",
+      "version": "v.1.0",
+      "authors": [
+        "Louis Miles"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/music-repair-patch-for-donald-duck-goin-quackers-quack-attack-n64-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "MusicRepair_GoinQuackers-QuackAttack-N64.zip",
+          "size": 142402,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/2803/0f522348-984c-4f23-8743-14b91e84c078",
+          "fileId": "0f522348-984c-4f23-8743-14b91e84c078"
+        },
+        {
+          "filename": "XDELTA__MusicRepair_GoinQuackers-QuackAttack-N64.zip",
+          "size": 150956,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/2803/f5aeef64-3758-481d-a74c-d3e0e0d0517d",
+          "fileId": "f5aeef64-3758-481d-a74c-d3e0e0d0517d"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Donald Duck - Quack Attack (E) (M5) [!].z64",
+          "sha1": "C42FAFB06BE6EB7DE08370D07F19571B7661074B",
+          "crc32": "C4B0D9EA",
+          "database": "OpenN64 v.3.27 (OpenGood)",
+          "normalizedSha256": null,
+          "mapping": "unresolved"
+        },
+        {
+          "filename": "Disney's Donald Duck - Goin' Quackers (U) [!].z64",
+          "sha1": "E31A7567D408C890065029BA537F830765B17D94",
+          "crc32": "7FDEC270",
+          "database": "OpenN64 v.3.27 (OpenGood)",
+          "normalizedSha256": null,
+          "mapping": "unresolved"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-2645",
+      "name": "The Legend of Zelda - Time Lost",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "version": "1.02",
+      "authors": [
+        "Stonee Bad Luck"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-time-lost-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "Legend of Zelda - Time Lost.zip",
+          "size": 73077451,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/2645/c7d8134f-0282-424f-b705-a48ff48707e8",
+          "fileId": "c7d8134f-0282-424f-b705-a48ff48707e8"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Legend of Zelda, The - Ocarina of Time (USA).z64",
+          "sha1": "AD69C91157F6705E8AB06C79FE08AAD47BB57BA7",
+          "crc32": "CD16C529",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-2592",
+      "name": "Super Mario 64 Monika Mode",
+      "game": "Super Mario 64",
+      "version": "3.0",
+      "authors": [
+        "Sunlitspace542"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/super-mario-64-monika-mode-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "sm64_monika_mode_v3.7z",
+          "size": 443924,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/2592/cbbe0c3f-6c5a-44c5-87d1-547a8dabf34c",
+          "fileId": "cbbe0c3f-6c5a-44c5-87d1-547a8dabf34c"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Super Mario 64 (USA).z64",
+          "sha1": "9BEF1128717F958171A4AFAC3ED78EE2BB4E86CE",
+          "crc32": "3CE60709",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "17CE077343C6133F8C9F2D6D6D9A4AB62C8CD2AA57C40AEA1F490B4C8BB21D91",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-2508",
+      "name": "Pumkin Tower",
+      "game": "The Legend of Zelda: Majora's Mask",
+      "version": "1.1.1",
+      "authors": [
+        "Chadlite"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/pumkin-tower-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "PumkinPatch1.1.1.bps",
+          "size": 54342259,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/2508/b54ca07c-1316-4dfb-84e4-e4a15b44a7e9",
+          "fileId": "b54ca07c-1316-4dfb-84e4-e4a15b44a7e9"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Legend of Zelda, The - Majora's Mask (USA).z64",
+          "sha1": "D6133ACE5AFAA0882CF214CF88DABA39E266C078",
+          "crc32": "B428D8A7",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": [
+        {
+          "id": "rhdn-8786",
+          "projectUrl": "https://www.romhacking.net/hacks/8786/",
+          "version": "1.1.1",
+          "match": "title-game-only-review-required"
+        }
+      ]
+    },
+    {
+      "id": "plaza-2323",
+      "name": "Smash Remix",
+      "game": "Super Smash Bros.",
+      "version": "1.5.0",
+      "authors": [
+        "The_Smashfather",
+        "Fray",
+        "MarioReincarnate",
+        "Cyjorg",
+        "halofactory",
+        "Sope!",
+        "Pringles",
+        "Subdrag",
+        "Honey",
+        "goombapatrol",
+        "CMM1215",
+        "CEnnis91"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/smash-remix-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "smashremix1.5.0.zip",
+          "size": 28470217,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/2323/504fd15b-4be7-4e01-af01-859e9d14ffb4",
+          "fileId": "504fd15b-4be7-4e01-af01-859e9d14ffb4"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Super Smash Bros. (USA).z64",
+          "sha1": "E2929E10FCCC0AA84E5776227E798ABC07CEDABF",
+          "crc32": "EB97929E",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "15592E79D3C5295CEF4371D4992F0BD25BEC2102FC29644C93E682F7EA99EF3D",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": [
+        {
+          "id": "rhdn-6385",
+          "projectUrl": "https://www.romhacking.net/hacks/6385/",
+          "version": "1.01",
+          "match": "title-game-only-review-required"
+        }
+      ]
+    },
+    {
+      "id": "plaza-2290",
+      "name": "Rocket Robot on Wheels - Rocket Shuts The Hell Up",
+      "game": "Rocket: Robot on Wheels",
+      "version": "420.69a",
+      "authors": [
+        "Logan Derbin"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/rocket-robot-on-wheels-rocket-shuts-the-hell-up-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "Rocket Robot on Wheels - Rocket Shuts the Hell Up_v.420.69a.7z",
+          "size": 61160,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/2290/188e0b34-8aca-462f-8ccf-dd5db83d789e",
+          "fileId": "188e0b34-8aca-462f-8ccf-dd5db83d789e"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Rocket - Robot on Wheels (USA).z64",
+          "sha1": "622D71A44DA0B81EA68092CAC9198C66154A4F4A",
+          "crc32": "E0399F23",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "50E9A1EB850B766C33626A1A93073492117802955E725D240724716A9213C5D9",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-2287",
+      "name": "B3313 Unabandoned (unofficial 1.0)",
+      "game": "Super Mario 64",
+      "version": "a2 (\"Starstruck\")",
+      "authors": [
+        "TheGreatestRoman",
+        "Benedani",
+        "IProgramInCpp",
+        "ChrisRLillo",
+        "CurlyTheDingus",
+        "wasteofblood",
+        "Floralys",
+        "Phil564",
+        "Hyena_Chan",
+        "Thunder",
+        "Emax64"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/b3313-unabandoned-unofficial-1-0-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "B3313 Unabandoned.zip",
+          "size": 19882164,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/2287/1ed6f72d-73ce-4fbd-982e-94c9a7606fb8",
+          "fileId": "1ed6f72d-73ce-4fbd-982e-94c9a7606fb8"
+        }
+      ],
+      "reportedBases": [],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-2135",
+      "name": "Indigo: Chapter 2 (Demo)",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "version": "0.3.15",
+      "authors": [
+        "kentonm"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/indigo-chapter-2-demo-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "indigo-patch-v0.3.15-fe424834.bps",
+          "size": 10114923,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/2135/6a47af5c-8b81-45e3-8bb7-dfa96108de9a",
+          "fileId": "6a47af5c-8b81-45e3-8bb7-dfa96108de9a"
+        }
+      ],
+      "reportedBases": [],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-2123",
+      "name": "The Legend Of Zelda: Majora's Mask Redux",
+      "game": "The Legend of Zelda: Majora's Mask",
+      "version": "2.0",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-majoras-mask-redux-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "Majora's Mask Redux.zip",
+          "size": 1883602,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/2123/0184ac35-a263-4b65-89a2-3941439145be",
+          "fileId": "0184ac35-a263-4b65-89a2-3941439145be"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Legend of Zelda, The - Majora's Mask (USA).z64",
+          "sha1": "D6133ACE5AFAA0882CF214CF88DABA39E266C078",
+          "crc32": "B428D8A7",
+          "database": "Nintendo - Nintendo 64 (BigEndian) v.20260609-194259 (No-Intro)",
+          "normalizedSha256": "EFB1365B3AE362604514C0F9A1A2D11F5DC8688BA5BE660A37DEBF5E3BE43F2B",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    },
+    {
+      "id": "plaza-2122",
+      "name": "The Legend Of Zelda: Ocarina Of Time Redux",
+      "game": "The Legend of Zelda: Ocarina of Time",
+      "version": "2.2",
+      "authors": [
+        "ShadowOne333"
+      ],
+      "projectUrl": "https://romhackplaza.org/romhacks/the-legend-of-zelda-ocarina-of-time-redux-nintendo-64",
+      "provenance": "source-reported",
+      "capturedAt": "2026-09-16T20:00:00.875955+00:00",
+      "downloads": [
+        {
+          "filename": "Ocarina of Time Redux.zip",
+          "size": 4876674,
+          "downloadUrl": "https://romhackplaza.org/api/fs/download/2122/28585087-27d5-45c1-84e2-218c2ad7d291",
+          "fileId": "28585087-27d5-45c1-84e2-218c2ad7d291"
+        }
+      ],
+      "reportedBases": [
+        {
+          "filename": "Unknown",
+          "sha1": "AD69C91157F6705E8AB06C79FE08AAD47BB57BA7",
+          "crc32": "20180814",
+          "database": "No",
+          "normalizedSha256": "C916AB315FBE82A22169BFF13D6B866E9FDDC907461EB6B0A227B82ACDF5B506",
+          "mapping": "local-rom-sha1-match"
+        }
+      ],
+      "rhdnCandidates": []
+    }
+  ]
+}
